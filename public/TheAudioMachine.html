@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Audio Machine</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Joris Kaufmann">
+		<meta name="description" content="Euclidian Step Sequencer">
+		<meta name="keywords" content="website, music, project, step sequencer, euclidian">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="shortcut icon" type="image/x-icon" href="../Assets/icon.jpg">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+		<script>
+			// for legacy browsers
+			const AudioContext = window.AudioContext || window.webkitAudioContext;
+
+			const audioContext = new AudioContext();
+			
+			//Audiokontext erzeugen
+			let audioCtx = new AudioContext();
+
+			//Audioknoten erzeugen
+			let oscillatorNode = audioCtx.createOscillator();
+			let gainNode = audioCtx.createGain();
+			
+			function instance(){
+				//Audioknoten verbinden
+				gainNode.connect(audioCtx.destination);
+
+				//Audioknoten konfigurieren
+				oscillatorNode.type = document.querySelector('input[name="waves"]:checked').value;
+				oscillatorNode.frequency.value = document.getElementById('freq').value;
+				gainNode.gain.value = document.getElementById('gain').value;
+				
+				oscillatorNode.start();
+				document.getElementById("output").innerHTML = '<canvas id="circle" width="250" height="250"></canvas>';
+				drawCircle();
+			}
+			
+			//Änderung der Frequenz, der Wellenform und der Lautstärke
+			function modulation(){
+				//Audioknoten konfigurieren
+				oscillatorNode.type = document.querySelector('input[name="waves"]:checked').value;
+				oscillatorNode.frequency.value = document.getElementById('freq').value;
+				gainNode.gain.value = document.getElementById('gain').value;
+				
+			}
+			function on(){
+				//Ausgabe starten
+				oscillatorNode.connect(gainNode);
+			}
+			function off(){
+				//Ausgabe stoppen
+				oscillatorNode.disconnect(gainNode);
+			}
+			let bpm;
+			
+			let rythmInt; 	
+			//"rythm" gibt einen Folge von 1 und 0 als Sting aus, die in dieser Variable später als Array vorhanden sind.
+			//Jede Zahl belegt einen Index im Array
+			let iterator= 0;//globaler Iterator, um duch den generierten Array zu laufen.
+			let equal;
+			let circler
+			let activeCircler = 0;
+			function euc() {
+				bpm = document.getElementById('bpm').value * 100;
+				
+				if(iterator == rythmInt.length){
+					iterator = 0;
+				}
+				let c = document.getElementById('circle');
+				if(c.getContext){
+					var ctx = c.getContext('2d');
+					ctx.clearRect(0, 0, c.width, c.height);
+				}
+				drawCircle();	
+				drawPoints(rythmInt);
+				//Wenn 1 -> Ton, Wenn 0 -> Pause
+				if(rythmInt[iterator] == 1){
+					drawPoint(round(activeCircler), 1, '#FF00FF', 8);
+					activeCircler = activeCircler - equal;
+					iterator++;
+					sound();
+				} else if (rythmInt[iterator] == 0){
+					drawPoint(round(activeCircler), 1, '#3333FF', 8);
+					activeCircler = activeCircler - equal;
+					iterator++;
+					soundoff();
+				}
+			}
+			
+					
+			function sound(){
+				oscillatorNode.connect(gainNode);
+				setTimeout(euc, bpm);
+			}
+			function soundoff(){
+				oscillatorNode.connect(gainNode);
+				oscillatorNode.disconnect(gainNode);
+				setTimeout(euc, bpm);
+			}
+			function panic() {
+				oscillatorNode.stop();
+			}
+			let round = Math.round;
+			let rythm;
+			
+			//Berechnung des euklidischen Algorithmus'
+			function alg(){
+				circler = 0;
+				activeCircler = 0;
+				iterator = 0;
+				
+				Array.prototype.insert = function (index, item){
+					this.splice(index,0,item);
+				};
+				//eingegebene Werte werden zu int und gerundet
+				let a = round(document.getElementById("seq1").value);
+				let b = round(document.getElementById("seq2").value);
+				
+				const steps = a;
+				let werte = 1;
+				let werteOld = 0;
+				let helper = "";
+				let i = 0;
+				let c;
+				
+				do{
+					//a>b 	 
+					if(a < b){
+						let h = a;
+						a = b;
+						b = h;
+					}
+					c = a - b;
+					let arr = Array(a);
+					
+					for(let i = 0; i < arr.length; i++){
+						arr[i] = werteOld;
+					}
+					for(let i = 0; i < b; i++){
+						arr[i] = werte;
+					}
+					werteOld = arr[arr.length-b];
+					
+					
+					helper = "" + werte + arr[arr.length-1];
+					
+					werte = round(helper);
+					a = c;
+					i++;
+					
+					let r = arr.join();
+					rythm = r.replace(/,/g, "");
+				}while(c>1)
+				rythmInt = Array.from(String(rythm), Number)
+				drawPoints(rythmInt);
+			}
+			
+			//Define Variables
+			let radius = 80;
+			let point_size = 4;
+			let center_x = 150;
+			let center_y = 150;
+			let font_size = "20px";
+			
+			
+
+			function drawCircle(){
+			let c = document.getElementById('circle');
+				if(c.getContext){
+					var ctx = c.getContext('2d');
+					
+				}
+				ctx.beginPath();
+				ctx.arc(center_x, center_y, radius, 0, 2 * Math.PI);
+				ctx.stroke();
+			}
+
+			function drawPoint(angle,distance,color,point_size){
+			let c = document.getElementById('circle');
+				if(c.getContext){
+					var ctx = c.getContext('2d');
+				}
+				let x = center_x + radius * Math.cos(-angle*Math.PI/180) * distance;
+				let y = center_y + radius * Math.sin(-angle*Math.PI/180) * distance;
+
+				ctx.beginPath();
+				ctx.arc(x, y, point_size, 0, 2 * Math.PI);
+				ctx.fillStyle = color;
+				ctx.fill();
+			}
+
+			
+			
+			function drawPoints(array){
+				equal = 360/array.length;
+				circler = 0;
+				for(let i = 0; i < array.length ; i++){
+					if(array[i] == 0){
+						drawPoint(round(circler), 1, '#000000',5);
+					} else {
+						drawPoint(round(circler), 1, '#FF0000',5);
+					}
+					circler = circler - equal;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>The Audio Machine</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li id="active">
+					Sequencer
+				</li>
+				<li>
+					Infos
+				</li>
+				<li>
+					Contact
+				</li>
+			</ul>
+		</nav>
+		
+		<main>
+			<input type="button" id="instance" value="initiate" onclick="instance()"/>
+			press "initiate" to start the Programm.
+			<br>
+			<input type="button" id="algorithm" value="Algorithmus" onclick="alg()"/> 
+			press "Algorithmus" to calculate an euclidian rythm and applying it to the sequencer.
+			<br>
+			<table>
+				<tr>
+					<td>
+						Anzahl Steps
+					</td>
+					<td>
+						<input type="text" id="seq1" value="13"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Anzahl Schläge
+					</td>
+					<td>
+					<input type="text" id="seq2" value="5"/>
+					</td>
+				</tr>
+			</table>
+			<div id="output"></div>
+			Tonhöhe in Hz
+			<input type="text" value="800" id="freq"/>
+			<br>
+			Lautstärke (0.5 ist schon relativ laut)
+			<input type="text" value="0.3" id="gain"/>
+			<br>
+			Waveform
+			<input type="radio" id="sq" name="waves" value="square">
+			<label for="sq"> Square</label> 
+			<input type="radio" id="sn" name="waves" value="sine" checked="checked">
+			<label for="sn"> Sine</label>
+			<br>
+			<input type="button" id="mod" value="Tonhöhe/ -lautstäke aktualisieren" onclick="modulation()"/> 
+			<br>
+			<input type="button" id="euc" value="sequencer" onclick="euc()"/>
+			press "sequencer" to start the sequencer. Type a value into the Textfield to alter the speed. (You'll need to confirm by pressing "sequencer" again)
+			<br>
+			Speed:<input type="text" id="bpm" value="3"/>
+			<br>
+			<br>
+			<input type="button" id="start" value="start" onclick="on()"/>
+			<input type="button" id="stop" value="stop" onclick="off()"/>
+			press "Start" to start the Oscillator and "Stop" to stop it.
+			<br>
+			<input type="button" id="endAll" value="PANIC" onclick="panic()"/> 
+			"PANIC" stops everything. You'll need to reload the Website by pressing "F5"
+			<br>
+		</main>
+		
+		<footer>
+			<div>
+				<img alt="deutsch" id="de" src="../Assets/de_flag.png" onclick="language('de')"/>
+				<img alt="englisch" id="en" src="../Assets/gb_flag.png" onclick="language('en')"/>
+			</div>
+		</footer>
+	</body>
+</html>
