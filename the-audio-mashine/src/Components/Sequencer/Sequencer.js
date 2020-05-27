@@ -64,7 +64,7 @@ class Sequencer extends React.Component {
         reader.onload = function () {
             new AudioContext().decodeAudioData(reader.result).then(result => {
                 layers = layers.map((item, i) => {
-                    if (i == input.props.layerId - 1) {
+                    if (i === input.props.layerId - 1) {
                         item.sample = result
                         return item
                     } else {
@@ -81,8 +81,8 @@ class Sequencer extends React.Component {
     setTrigger = currentTrigger => {
         let newRhythm = this.state.layers[currentTrigger.props.layerId - 1].rhythm
         newRhythm = newRhythm.map((trigger, i) => {
-            if (currentTrigger.props.trigger.step == trigger.step) {
-                if (trigger.velocity == 0) {
+            if (currentTrigger.props.trigger.step === trigger.step) {
+                if (trigger.velocity === 0) {
                     return {step: trigger.step, velocity: 100, pitch: trigger.pitch}
                 } else {
                     return {
@@ -101,7 +101,7 @@ class Sequencer extends React.Component {
         })
         let newLayers = this.state.layers
         newLayers = newLayers.map(layers => {
-            if (currentTrigger.props.layerId == layers.layerId) {
+            if (currentTrigger.props.layerId === layers.layerId) {
                 layers.rhythm = newRhythm
                 return layers
             } else {

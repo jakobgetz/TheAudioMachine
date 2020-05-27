@@ -9,7 +9,7 @@ class Bpm extends Component {
      * @param event event in which the value of the number field is stored
      */
     update = (event) => {
-        if (event.key == 'Enter') {
+        if (event.key === 'Enter') {
             this.props.setBPM(event)
         }
     }

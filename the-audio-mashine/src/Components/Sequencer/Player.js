@@ -27,7 +27,7 @@ class Player extends Component {
         if (this.isPlaying) {
             this.playHeadPosition %= this.props.layers[0].rhythm.length
             for (let i = 0; i < this.props.layers.length; i++) {
-                if (this.props.layers[i].rhythm[this.playHeadPosition].velocity == 100) {
+                if (this.props.layers[i].rhythm[this.playHeadPosition].velocity === 100) {
                     samplePlayer[i] = this.props.ctx.createBufferSource();
                     samplePlayer[i].connect(this.props.ctx.destination);
                     samplePlayer[i].buffer = this.props.layers[i].sample;
