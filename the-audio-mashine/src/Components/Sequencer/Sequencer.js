@@ -26,7 +26,7 @@ class Sequencer extends React.Component {
         let current = this
         reader.readAsText(file)
         reader.onload = () => {
-            const text = reader.result.replace(/(\w+:)|(\w+ :)/g, function(matchedStr) {
+            const text = reader.result.replace(/(\w+:)|(\w+ :)/g, function (matchedStr) {
                 return '"' + matchedStr.substring(0, matchedStr.length - 1) + '":'
             })
             current.setState(JSON.parse(text))
