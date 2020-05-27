@@ -1,0 +1,62 @@
+@startuml
+class App
+
+class Header extends App {
+title: String
+}
+
+class Sequencer extends App {
+state preset: Object
+initialize(): void
+loadPreset(): void
+setTrigger(): void
+setBPM(): void
+render(): HTML
+}
+
+class PresetBrowser extends Sequencer {
+props loadPreset: function
+}
+
+class BPM extends Sequencer {
+props setBPM: function
+handleChange(): void
+}
+
+class Layer extends Sequencer {
+props key: int
+props layer: Object
+props setTrigger: function
+props loadSample: function
+isChecked(): boolean
+}
+
+class Trigger extends Layer {
+props key: int
+props layerId: int
+props isChecked: function
+props trigger: Object
+props.setTrigger: function
+}
+
+class AudioLoader extends Layer {
+props key: int
+props layerId: int
+props loadSample: function
+}
+
+class Player extends Sequencer {
+playHeadPosition: int
+isPlaying: boolean
+props bpm: int
+props layers: Object
+props ctx: AudioContext
+play(): void
+playSequence(): void
+resetPlayHead: void
+}
+
+class Library extends App
+
+Sequencer ---> Library
+@enduml
