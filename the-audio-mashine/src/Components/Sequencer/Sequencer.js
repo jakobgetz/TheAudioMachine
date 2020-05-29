@@ -132,20 +132,21 @@ class Sequencer extends React.Component {
         return (
             <div>
                 <div>
-                    Load your Presets here: <PresetBrowser loadPreset={this.loadPreset}/>
+                    <PresetBrowser loadPreset={this.loadPreset}/>
                 </div>
                 <br/>
                 <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
                 {/*Creating the Layers*/}
-                {
-                    this.state.layers.map(layer =>
-                        <Layer key={layer.layerId}
-                               layer={layer}
-                               setTrigger={this.setTrigger}
-                               loadSample={this.loadSample}/>)
-                }
-
+                <div className="Layers">
+                    {
+                        this.state.layers.map(layer =>
+                            <Layer key={layer.layerId}
+                                   layer={layer}
+                                   setTrigger={this.setTrigger}
+                                   loadSample={this.loadSample}/>)
+                    }
+                </div>
                 {/*
                 <AddLayer/>
                 <RemoveLayer/>

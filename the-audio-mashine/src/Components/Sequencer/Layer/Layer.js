@@ -19,7 +19,7 @@ class Layer extends Component {
 
     render() {
         return (
-            <div>
+            <div className="Layer">
                 {
                     this.props.layer.rhythm.map((trigger, i) =>
                         <Trigger key={trigger.step}

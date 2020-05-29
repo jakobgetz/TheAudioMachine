@@ -24,7 +24,7 @@ class Bpm extends Component {
 
     render() {
         return (
-            <div>
+            <div className="BPM">
                 <input type='number' value={this.state.displayedBPM} onChange={(e) => this.handleChange(e)}
                        onKeyDown={(e) => this.update(e)}/>bpm
             </div>
