@@ -48,7 +48,7 @@ class Player extends Component {
     }
 
     render() {
-        return (<div>
+        return (<div className="Player">
                 <button onClick={this.resetPlayHead}>Back</button>
                 <button onClick={this.play}>Play</button>
             </div>

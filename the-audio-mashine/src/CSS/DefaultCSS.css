@@ -1,0 +1,57 @@
+* {
+    font-family: "Lucida Grande";
+    padding: 0;
+    margin: 0;
+}
+
+.Header {
+    margin: 20px;
+}
+
+.PresetBrowser {
+    background: #333;
+    color: #fff;
+    padding: 5px 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+.PresetBrowser label {
+    padding: 0px 20px 0px 0px;
+}
+
+.BPM {
+    background: #999;
+    padding: 5px 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+.Layers {
+    border: black 2px solid;
+    margin: 20px;
+    width: 800px
+}
+
+.Layer {
+    background: forestgreen;
+    padding: 5px 0;
+}
+
+.Trigger {
+    border: #999 1px solid;
+    padding: 5px 5px;
+}
+
+.Player {
+    margin: 10px;
+}
+
+.Player button {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Library {
+    margin: 20px;
+}
