@@ -140,9 +140,10 @@ class Sequencer extends React.Component {
                 {/*Creating the Layers*/}
                 <div className="Layers">
                     {
-                        this.state.layers.map(layer =>
+                        this.state.layers.map((layer, i) =>
                             <Layer key={layer.layerId}
                                    layer={layer}
+                                   layerCss={"Layer" + (i + 1)}
                                    setTrigger={this.setTrigger}
                                    loadSample={this.loadSample}/>)
                     }
