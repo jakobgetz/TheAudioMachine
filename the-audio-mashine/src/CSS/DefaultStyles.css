@@ -1,80 +1,73 @@
 * {
-    font-family: "Lucida Grande";
-    padding: 0;
-    margin: 0;
-}
+  font-family: "Lucida Grande";
+  padding: 0;
+  margin: 0; }
 
 .Header {
-    margin: 20px;
-}
+  margin: 20px; }
 
 .PresetBrowser {
-    background: #333;
-    color: #fff;
-    padding: 5px 20px;
-    margin: 20px;
-    width: 60%;
-}
+  background: #333;
+  color: #fff;
+  padding: 5px 20px;
+  margin: 20px;
+  width: 60%; }
 
 .PresetBrowser label {
-    padding: 0px 20px 0px 0px;
-}
+  padding: 0px 20px 0px 0px; }
 
 .BPM {
-    background: #999;
-    padding: 5px 20px;
-    margin: 20px;
-    width: 60%;
-}
+  background: #999;
+  padding: 5px 20px;
+  margin: 20px;
+  width: 60%; }
 
 .Layers {
-    border: black 2px solid;
-    margin: 20px;
-    width: 80%;
-}
+  border: black 2px solid;
+  margin: 20px;
+  width: 80%; }
 
 .Layer1 {
-    background: forestgreen;
-    padding: 5px 0;
-}
+  background: forestgreen;
+  padding: 5px 0; }
 
 .Layer2 {
-    background: blue;
-    padding: 5px 0;
-}
+  background: blue;
+  padding: 5px 0; }
 
 .Layer3 {
-    background: yellow;
-    padding: 5px 0;
-}
+  background: yellow;
+  padding: 5px 0; }
 
 .Layer4 {
-    background: red;
-    padding: 5px 0;
-}
+  background: red;
+  padding: 5px 0; }
 
 .Layer5 {
-    background: sienna;
-    padding: 5px 0;
-}
+  background: sienna;
+  padding: 5px 0; }
 
 .Trigger {
-    border: #999 1px solid;
-    padding: 5px 1%;
-    margin: 0;
-}
+  border: #999 1px solid;
+  padding: 5px 1%;
+  margin: 0; }
 
 .Player {
-    margin: 10px;
-}
+  margin: 10px; }
 
 .Player button {
-    margin: 10px;
-    padding: 10px;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #2196f3;
+  color: #ecf0f1;
 }
 
 .Library {
-    margin: 20px;
-}
+  margin: 20px; }
 
 /*# sourceMappingURL=DefaultStyles.css.map */
