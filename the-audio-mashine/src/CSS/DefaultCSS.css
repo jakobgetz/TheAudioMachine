@@ -13,7 +13,7 @@
     color: #fff;
     padding: 5px 20px;
     margin: 20px;
-    width: 500px;
+    width: 60%;
 }
 
 .PresetBrowser label {
@@ -24,23 +24,44 @@
     background: #999;
     padding: 5px 20px;
     margin: 20px;
-    width: 500px;
+    width: 60%;
 }
 
 .Layers {
     border: black 2px solid;
     margin: 20px;
-    width: 800px
+    width: 80%;
 }
 
-.Layer {
+.Layer1 {
     background: forestgreen;
+    padding: 5px 0;
+}
+
+.Layer2 {
+    background: blue;
+    padding: 5px 0;
+}
+
+.Layer3 {
+    background: yellow;
+    padding: 5px 0;
+}
+
+.Layer4 {
+    background: red;
+    padding: 5px 0;
+}
+
+.Layer5 {
+    background: sienna;
     padding: 5px 0;
 }
 
 .Trigger {
     border: #999 1px solid;
-    padding: 5px 5px;
+    padding: 5px 1%;
+    margin: 0;
 }
 
 .Player {
