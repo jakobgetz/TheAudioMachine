@@ -10,11 +10,7 @@ class Layer extends Component {
      * @returns {boolean} weither the checkbox is checked or not
      */
     isChecked = (i) => {
-        if (this.props.layer.rhythm[i].velocity !== 0) {
-            return true
-        } else {
-            return false
-        }
+        return this.props.layer.rhythm[i].velocity !== 0;
     }
 
     render() {
