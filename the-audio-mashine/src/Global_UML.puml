@@ -2,61 +2,142 @@
 class App
 
 class Header extends App {
-title: String
+    title: String
+    render(): HTML
 }
 
 class Sequencer extends App {
-state preset: Object
-initialize(): void
-loadPreset(): void
-setTrigger(): void
-setBPM(): void
-render(): HTML
+    state preset: Preset
+    initialize(): void
+    loadSample(): void
+    loadWaveFile(): Object
+    loadPreset(): void
+    #savePreset(): void
+    setTrigger(): void
+    #setVelocity(): void
+    +setSequencerGain(): void
+    -setLayerGain(): void
+    -setLayerPanning(): void
+    -loadNeighbourSample(): void
+    -setTriggerPitch(): void
+    -setTriggerReverse(): void
+    -setTriggerPanning(): void
+    -setArticulation(): void
+    -userRecord(): void
+    +exportWav(): void
+    #panic(): void
+    setBPM(): void
+    render(): HTML
+
 }
 
 class PresetBrowser extends Sequencer {
-props loadPreset: function
+    +presets: Preset[]
+    props loadPreset: function
+    #props savePreset: function
+    +choosePresets(): Preset
+    #chooseNeighbourPreset(): Preset
+    render(): HTML
 }
 
 class BPM extends Sequencer {
-props setBPM: function
-handleChange(): void
+    props setBPM: function
+    handleChange(): void
+    render(): HTML
 }
 
 class Layer extends Sequencer {
-props key: int
-props layer: Object
-props setTrigger: function
-props loadSample: function
-isChecked(): boolean
+    props key: int
+    props layer: LayerObj
+    props setTrigger: function
+    props loadSample: function
+    -props setLayerGain: function
+    -props userRecord: function
+    -props setLayerPanning: function
+    -props reverseLayer: function
+    -props pitchLayer: function
+    -props loadNeighbourSample: function
+    isChecked(): boolean
+    render(): HTML
+}
+
+class LayerEdit extends Layer {
+    props layer: LayerObj
+    -props setLayerGain: function
+    -props setLayerPanning: function
+    -props reverseLayer: function
+    -props pitchLayer: function
+    -props loadNeighbourSample: function
+    +selectLayer(): layerId
+    -setEnvelope(): void
 }
 
 class Trigger extends Layer {
-props key: int
-props layerId: int
-props isChecked: function
-props trigger: Object
-props.setTrigger: function
+    props key: int
+    props layerId: int
+    props isChecked: function
+    props trigger: TriggerObj
+    props.setTrigger: function
+    render(): HTML
 }
 
 class AudioLoader extends Layer {
-props key: int
-props layerId: int
-props loadSample: function
+    props key: int
+    props layerId: int
+    props loadSample: function
+    render(): HTML
 }
 
 class Player extends Sequencer {
-playHeadPosition: int
-isPlaying: boolean
-props bpm: int
-props layers: Object
-props ctx: AudioContext
-play(): void
-playSequence(): void
-resetPlayHead: void
+    playHeadPosition: int
+    isPlaying: boolean
+    props bpm: int
+    props layers: LayerObj
+    props ctx: AudioContext
+    play(): void
+    playSequence(): void
+    resetPlayHead: void
+    render(): HTML
 }
 
-class Library extends App
+class Library extends App {
+    +sample: Object[]
+    #searchByTag(): Object[]
+    -searchByName(): Object[]
+    #saveUserSample(): void
+    render(): HTML
+}
+
+class Sideline extends App {
+    #shareOnSocialMedia(): void
+    render(): HTML
+}
+
+class Preset {
+    bpm: int
+    layers: Layer[]
+}
+
+class LayerObj {
+    layerId: int
+    name: String
+    sampleFilePath: String
+    -panning: int
+    rhythm: TriggerObj[]
+}
+
+class TriggerObj {
+    triggerId: int
+    velocity: int
+    pitch: int
+    -isReverse: boolean
+    -panning: int
+    -articulation: String
+}
 
 Sequencer ---> Library
+Preset <--- Sequencer
+Preset <--- PresetBrowser
+LayerObj <--- Preset
+TriggerObj <--- LayerObj
 @enduml
