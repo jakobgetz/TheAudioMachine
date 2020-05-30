@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
-                <h1>Classical Step Sequencer</h1>
+                <h1>The Audio Machine</h1>
             </div>
         );
     }
