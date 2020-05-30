@@ -1,9 +1,17 @@
 import React, {Component} from 'react';
+import Button from 'react-bootstrap/Button';
+import pauseIcon from '../../Assets/pause.svg';
+import playIcon from '../../Assets/play.svg';
+import stepBack from '../../Assets/stepback.svg';
 
 class Player extends Component {
 
     playHeadPosition = 0;
     isPlaying = false
+
+    state = {
+        playingIcon: pauseIcon
+    }
 
     /**
      * Starts/Stops the Playback
@@ -11,9 +19,11 @@ class Player extends Component {
     play = () => {
         if (this.isPlaying) {
             this.isPlaying = false
+            this.setState({playingIcon: playIcon})
             //this.setPlayButtonStyle();
         } else {
             this.isPlaying = true
+            this.setState({playingIcon: pauseIcon})
             this.playSequence()
             //this.setPlayButtonStyle();
         }
@@ -49,8 +59,10 @@ class Player extends Component {
 
     render() {
         return (<div className="Player">
-                <button onClick={this.resetPlayHead}>Back</button>
-                <button onClick={this.play}>Play</button>
+                <Button onClick={this.resetPlayHead}><img src={stepBack}
+                                                          alt="Step Back Icon"/></Button>
+                <Button onClick={this.play}><img src={this.state.playingIcon}
+                                                 alt="Play Icon"/></Button>
             </div>
         );
     }
