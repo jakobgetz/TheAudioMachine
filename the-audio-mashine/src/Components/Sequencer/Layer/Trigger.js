@@ -2,10 +2,14 @@ import React, {Component} from 'react';
 
 class Trigger extends Component {
 
+    getStyle = () => {
+        return this.props.checked ? "Trigger Checked" : "Trigger"
+
+    }
+
     render() {
         return (
-            <span className="Trigger">
-                <input type='checkbox' checked={this.props.checked} onChange={() => this.props.setTrigger(this)}/>
+            <span className={this.getStyle()} onClick={() => this.props.setTrigger(this)}>
             </span>
         );
     }

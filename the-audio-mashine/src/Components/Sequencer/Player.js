@@ -10,7 +10,6 @@ class Player extends Component {
     isPlaying = false
     ctx
     masterGain
-    // audioBuffer in seconds
     audioBuffer = 0.01
     samplePlayer
 
@@ -67,7 +66,6 @@ class Player extends Component {
                 }
             }
             const timeout = 1000 / (this.props.bpm / 60 * 4)
-            console.log(timeout)
             this.playHeadPosition++;
             setTimeout(this.playSequence, timeout)
         }
