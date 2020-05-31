@@ -8,12 +8,14 @@ import DefaultPreset from "../../Presets/DefaultPreset";
 class Sequencer extends React.Component {
 
     state = DefaultPreset
+    ctx
 
     /**
      * Initializes the Sequencer right after the Component did mount
      */
     componentDidMount() {
-        this.setState({ctx: new AudioContext()}, () => this.initLayers())
+        this.ctx = new AudioContext();
+        this.initLayers()
     }
 
     /**
@@ -118,7 +120,7 @@ class Sequencer extends React.Component {
     loadWaveFile = sampleFilePath => {
         return fetch(sampleFilePath)
             .then(response => response.arrayBuffer())
-            .then(arrayBuffer => this.state.ctx.decodeAudioData(arrayBuffer))
+            .then(arrayBuffer => this.ctx.decodeAudioData(arrayBuffer))
     }
 
     /**
@@ -153,7 +155,7 @@ class Sequencer extends React.Component {
                 <RemoveLayer/>
                                 */}
 
-                <Player bpm={this.state.bpm} layers={this.state.layers} ctx={this.state.ctx}/>
+                <Player bpm={this.state.bpm} layers={this.state.layers} ctx={this.ctx}/>
             </div>
         )
     }

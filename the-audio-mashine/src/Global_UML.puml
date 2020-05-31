@@ -8,6 +8,7 @@ class Header extends App {
 
 class Sequencer extends App {
     state preset: Preset
+    ctx: AudioContext
     initialize(): void
     loadSample(): void
     loadWaveFile(): Object
