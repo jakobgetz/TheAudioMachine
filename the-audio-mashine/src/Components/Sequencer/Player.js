@@ -8,9 +8,24 @@ class Player extends Component {
 
     playHeadPosition = 0
     isPlaying = false
+    ctx
+    masterGain
+    // audioBuffer in seconds
+    audioBuffer = 0.01
+    samplePlayer
 
     state = {
+        currentVolume: 0.8,
         playingIcon: pauseIcon
+    }
+
+    /**
+     * Initializes the AudioContext right after the Component did mount
+     */
+    componentDidMount() {
+        this.ctx = new AudioContext();
+        this.masterGain = this.ctx.createGain()
+        this.masterGain.gain.setValueAtTime(this.state.currentVolume, this.ctx.currentTime)
     }
 
     /**
@@ -19,13 +34,13 @@ class Player extends Component {
     play = () => {
         if (this.isPlaying) {
             this.isPlaying = false
+            this.masterGain.disconnect()
             this.setState({playingIcon: playIcon})
-            //this.setPlayButtonStyle();
         } else {
             this.isPlaying = true
             this.setState({playingIcon: pauseIcon})
+            this.masterGain.connect(this.ctx.destination)
             this.playSequence()
-            //this.setPlayButtonStyle();
         }
     }
 
@@ -33,18 +48,26 @@ class Player extends Component {
      * Plays the Sequence
      */
     playSequence = () => {
-        let samplePlayer = Array(this.props.layers.length);
+        let layerLength = this.props.layers.length
+        this.samplePlayer = Array(layerLength);
         if (this.isPlaying) {
             this.playHeadPosition %= this.props.layers[0].rhythm.length
-            for (let i = 0; i < this.props.layers.length; i++) {
+            for (let i = 0; i < layerLength; i++) {
                 if (this.props.layers[i].rhythm[this.playHeadPosition].velocity !== 0) {
-                    samplePlayer[i] = this.props.ctx.createBufferSource();
-                    samplePlayer[i].connect(this.props.ctx.destination);
-                    samplePlayer[i].buffer = this.props.layers[i].sample;
-                    samplePlayer[i].start(this.props.ctx.currentTime);
+                    this.samplePlayer[i] = this.ctx.createBufferSource();
+                    this.samplePlayer[i].connect(this.masterGain);
+                    this.samplePlayer[i].buffer = this.props.layers[i].sample;
+                }
+            }
+
+            let playTime = this.ctx.currentTime + this.audioBuffer
+            for (let i = 0; i < layerLength; i++) {
+                if (this.props.layers[i].rhythm[this.playHeadPosition].velocity !== 0) {
+                    this.samplePlayer[i].start(playTime);
                 }
             }
             const timeout = 1000 / (this.props.bpm / 60 * 4)
+            console.log(timeout)
             this.playHeadPosition++;
             setTimeout(this.playSequence, timeout)
         }
@@ -57,12 +80,22 @@ class Player extends Component {
         this.playHeadPosition = 0
     }
 
+    /**
+     * Sets Master Volume
+     * @param e event in which the input gain is stored
+     */
+    setVolume = (e) => {
+        this.masterGain.gain.setValueAtTime(e.target.value / 100, this.ctx.currentTime)
+        this.setState({currentVolume: e.target.value / 100})
+    }
+
     render() {
         return (<div className="Player">
                 <Button onClick={this.resetPlayHead}><img src={stepBack}
                                                           alt="Step Back Icon"/></Button>
                 <Button onClick={this.play}><img src={this.state.playingIcon}
                                                  alt="Play Icon"/></Button>
+                <input type='range' onChange={e => this.setVolume(e)} value={this.state.currentVolume * 100}/>Volume
             </div>
         );
     }
