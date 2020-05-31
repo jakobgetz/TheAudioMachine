@@ -28,7 +28,6 @@ class Sequencer extends App {
     #panic(): void
     setBPM(): void
     render(): HTML
-
 }
 
 class PresetBrowser extends Sequencer {
