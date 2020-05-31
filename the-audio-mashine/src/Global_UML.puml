@@ -8,7 +8,6 @@ class Header extends App {
 
 class Sequencer extends App {
     state preset: Preset
-    ctx: AudioContext
     initialize(): void
     loadSample(): void
     loadWaveFile(): Object
@@ -61,7 +60,7 @@ class Layer extends Sequencer {
     render(): HTML
 }
 
-class LayerEdit extends Layer {
+#class LayerEdit extends Layer {
     props layer: LayerObj
     -props setLayerGain: function
     -props setLayerPanning: function
@@ -89,8 +88,12 @@ class AudioLoader extends Layer {
 }
 
 class Player extends Sequencer {
+    ctx: AudioContext
     playHeadPosition: int
     isPlaying: boolean
+    masterGain: double
+    audioBuffer: double
+    samplePlayer: BufferSource[]
     props bpm: int
     props layers: LayerObj
     props ctx: AudioContext
