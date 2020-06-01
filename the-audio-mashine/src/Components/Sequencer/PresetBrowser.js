@@ -29,6 +29,7 @@ class PresetBrowser extends Component {
     render() {
         return (
             <div className="PresetBrowser">
+                <input type="file" onChange={(e) => this.props.loadPreset(e)}/>
                 <ul className="PresetDropdown">
                     <label> ^ </label>
                     {
