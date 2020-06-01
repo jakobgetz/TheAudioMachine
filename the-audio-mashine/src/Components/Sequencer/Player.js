@@ -15,6 +15,8 @@ class Player extends Component {
     masterGain
     audioBuffer = 0.01
     samplePlayer
+    sampleGain
+    samplePitch
 
     state = {
         currentVolume: 0.8,
@@ -50,27 +52,62 @@ class Player extends Component {
      * Plays the Sequence
      */
     playSequence = () => {
-        let layerLength = this.props.layers.length
-        this.samplePlayer = Array(layerLength);
+        this.samplePlayer = Array(this.props.layers.length)
+        this.sampleGain = Array(this.props.layers.length)
         if (this.isPlaying) {
             this.playHeadPosition %= this.props.layers[0].rhythm.length
-            for (let i = 0; i < layerLength; i++) {
-                if (this.props.layers[i].rhythm[this.playHeadPosition].velocity !== 0) {
-                    this.samplePlayer[i] = this.ctx.createBufferSource();
-                    this.samplePlayer[i].connect(this.masterGain);
-                    this.samplePlayer[i].buffer = this.props.layers[i].sample;
-                }
-            }
-
-            let playTime = this.ctx.currentTime + this.audioBuffer
-            for (let i = 0; i < layerLength; i++) {
-                if (this.props.layers[i].rhythm[this.playHeadPosition].velocity !== 0) {
-                    this.samplePlayer[i].start(playTime);
-                }
-            }
+            this.setUpNodes()
+            this.playBackSamples()
             const timeout = 1000 / (this.props.bpm / 60 * 4)
             this.playHeadPosition++;
             setTimeout(this.playSequence, timeout)
+        }
+    }
+
+    /**
+     * Sets up all nodes
+     */
+    setUpNodes = () => {
+        for (let i = 0; i < this.props.layers.length; i++) {
+            if (this.props.layers[i].rhythm[this.playHeadPosition].velocity !== 0) {
+                this.samplePlayer[i] = this.ctx.createBufferSource()
+                this.sampleGain[i] = this.ctx.createGain()
+                this.samplePlayer[i].connect(this.sampleGain[i])
+                this.sampleGain[i].connect(this.masterGain)
+                this.setVelocity(i)
+                this.setPitch(i)
+                this.samplePlayer[i].buffer = this.props.layers[i].sample
+            }
+        }
+
+    }
+
+    /**
+     * Sets the Gain of a played Back sample (Velocity)
+     * @param i index of the current layer
+     */
+    setVelocity = i => {
+        this.sampleGain[i].gain.setValueAtTime(this.props.layers[i].rhythm[this.playHeadPosition].velocity / 127, this.ctx.currentTime)
+    }
+
+    /**
+     * Sets the Pitch of a played Back sample
+     * @param i index of the current layer
+     */
+    setPitch = i => {
+        this.samplePlayer[i].playbackRate.value = this.props.layers[i].rhythm[this.playHeadPosition].pitch
+
+    }
+
+    /**
+     * Plays back the current Samples at the Playhead Position
+     */
+    playBackSamples = () => {
+        let playTime = this.ctx.currentTime + this.audioBuffer
+        for (let i = 0; i < this.props.layers.length; i++) {
+            if (this.props.layers[i].rhythm[this.playHeadPosition].velocity !== 0) {
+                this.samplePlayer[i].start(playTime);
+            }
         }
     }
 
@@ -95,7 +132,7 @@ class Player extends Component {
                 <Button onClick={this.resetPlayHead}><img src={stepBackIcon}
                                                           alt="Step Back Icon"/></Button>
                 <Button onClick={this.props.resetTriggers}><img src={binIcon}
-                                                 alt="Erase triggers "/></Button>
+                                                                alt="Erase triggers "/></Button>
                 <Button onClick={this.play}><img src={this.state.playingIcon}
                                                  alt="Play/Pause Icon"/></Button>
                 <RangeSlider className="CustomRangeSlider" size='sm'

@@ -14,11 +14,50 @@
   padding: 5px 20px;
   margin: 20px;
   width: 60%;
+  height: 30px;
 }
 
 .PresetBrowser label {
-  padding: 0 20px 0 0;
+  padding: 3px 20px;
+  float: right;
 }
+
+$hover-preset-browser: gray;
+
+.PresetDropdown {
+  background: black;
+  width: 30%;
+  padding: 3px;
+  position: relative;
+  display: block;
+  list-style: none;
+  float: left;
+  border-radius: 0px 0px 3px 3px;
+
+  &:hover {
+    li {
+      display: block;
+      float: left;
+      color: white;
+      background: #222;
+      width: 60%;
+      padding: 5px 20px 5px 20px;
+      border-bottom: black 2px solid;
+      &:hover {
+        background: lightgray;
+      }
+    }
+  }
+
+  li {
+    display: none;
+  }
+
+  &:hover {
+    background: $hover-preset-browser
+  }
+}
+
 
 .BPM {
   background: #999;
@@ -64,18 +103,19 @@
   box-sizing: border-box;
   padding: 5px 1%;
   margin: 0;
-  &:hover{
+
+  &:hover {
     background: rgba(0, 0, 0, 0.2);
   }
 }
-
 
 .Checked {
   background: black;
 }
 
 .Player {
-  margin: 10px; }
+  margin: 10px;
+}
 
 .Player button {
   margin: 10px;
@@ -87,6 +127,11 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   background-color: #2196f3;
   color: #ecf0f1;
+}
+
+.CustomRangeSlider {
+  width: 20vw;
+  display: inline;
 }
 
 .Library {
