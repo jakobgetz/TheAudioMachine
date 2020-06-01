@@ -1,5 +1,5 @@
 {
-  "name": "hdm-git",
+  "name": "the-audio-machine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
+    "react-bootstrap-range-slider": "^0.3.8",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "typescript": "^3.9.3"
