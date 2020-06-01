@@ -2,10 +2,8 @@ import * as React from 'react';
 import BPM from "./BPM";
 import Layer from "./Layer/Layer";
 import Player from "./Player";
-import MasterVolume from "./MasterVolume";
 import PresetBrowser from "./PresetBrowser";
 import DefaultPreset from "../../Presets/DefaultPreset";
-import Button from "react-bootstrap/Button";
 
 class Sequencer extends React.Component {
 
@@ -114,6 +112,25 @@ class Sequencer extends React.Component {
     }
 
     /**
+     * Resets all set triggers by the user
+     */
+    resetTriggers = () => {
+        let emptyLayers = this.state.layers.map(layer => {
+                let rhythm = layer.rhythm
+                layer.rhythm = rhythm.map(trigger => {
+                    if (trigger.velocity !== 0) {
+                        return {step: trigger.step, velocity: 0, pitch: trigger.pitch}
+                    } else {
+                        return trigger
+                    }
+                })
+                return layer
+            }
+        )
+        this.setState({layers: emptyLayers})
+    }
+
+    /**
      * Loads .wav Files via Filepath
      * @returns {*} loaded Samples
      */
@@ -155,7 +172,7 @@ class Sequencer extends React.Component {
                 <RemoveLayer/>
                                 */}
 
-                <Player bpm={this.state.bpm} layers={this.state.layers}/>
+                <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
             </div>
         )
     }

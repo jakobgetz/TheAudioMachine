@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import Button from 'react-bootstrap/Button';
 import pauseIcon from '../../Assets/pause.svg';
 import playIcon from '../../Assets/play.svg';
-import stepBack from '../../Assets/stepback.svg';
+import stepBackIcon from '../../Assets/stepback.svg';
+import binIcon from '../../Assets/bin.svg';
 import RangeSlider from "react-bootstrap-range-slider";
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 
@@ -93,8 +94,10 @@ class Player extends Component {
 
     render() {
         return (<div className="Player">
-                <Button onClick={this.resetPlayHead}><img src={stepBack}
+                <Button onClick={this.resetPlayHead}><img src={stepBackIcon}
                                                           alt="Step Back Icon"/></Button>
+                <Button onClick={this.props.resetTriggers}><img src={binIcon}
+                                                 alt="Erase triggers "/></Button>
                 <Button onClick={this.play}><img src={this.state.playingIcon}
                                                  alt="Play/Pause Icon"/></Button>
                 <RangeSlider className="CustomRangeSlider" size='sm'
