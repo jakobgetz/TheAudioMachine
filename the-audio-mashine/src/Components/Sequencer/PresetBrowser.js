@@ -1,27 +1,38 @@
 import React, {Component} from 'react';
+import presets from "../../Presets/presets";
 
 class PresetBrowser extends Component {
 
     state = {
-        presets: ["Preset 1", "Preset 2", "Preset 3", "Preset 4"]
+        presets: presets
     }
 
-    componentDidMount() {
-    }
-
-    choosePreset = (e) => {
-        console.log(e.target.value)
+    /**
+     * chooses a preset
+     * @param preset
+     */
+    choosePreset = (preset) => {
+        this.props.loadPreset(preset)
     }
 
     render() {
         return (
             <div className="PresetBrowser">
-                <input type="file" onChange={(e) => this.props.loadPreset(e)}/>
                 <ul className="PresetDropdown">
                     <label> ^ </label>
                     {
-                        this.state.presets.map((preset, i) =>
-                            <li key={preset} onClick={(e) => this.choosePreset(e)}>{preset}</li>
+                        this.state.presets.map(genre =>
+                            <li key={genre[0]}>
+                                <ul>
+                                    {genre[0]} >
+                                    {
+                                        genre.slice(1).map(preset =>
+                                            <li key={preset}
+                                                onClick={() => this.choosePreset(preset)}>{preset.slice(0, -5)}</li>
+                                        )
+                                    }
+                                </ul>
+                            </li>
                         )
                     }
                 </ul>

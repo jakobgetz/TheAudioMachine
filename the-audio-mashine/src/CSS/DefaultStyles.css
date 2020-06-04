@@ -20,27 +20,34 @@
 
 .PresetDropdown {
   background: black;
+  position: relative;
   width: 30%;
   padding: 3px;
-  position: relative;
   display: block;
   list-style: none;
   float: left;
   border-radius: 0px 0px 3px 3px; }
-  .PresetDropdown:hover li {
-    display: block;
+  .PresetDropdown li {
+    display: none;
     float: left;
     color: white;
     background: #222;
     width: 60%;
     padding: 5px 20px 5px 20px;
     border-bottom: black 2px solid; }
-    .PresetDropdown:hover li:hover {
-      background: lightgray; }
-  .PresetDropdown li {
-    display: none; }
   .PresetDropdown:hover {
-    background: gray; }
+    background: grey; }
+    .PresetDropdown:hover li {
+      display: block; }
+      .PresetDropdown:hover li li {
+        display: none; }
+      .PresetDropdown:hover li:hover {
+        background: #c0c0c0; }
+        .PresetDropdown:hover li:hover li {
+          display: block;
+          position: relative;
+          left: 150px;
+          width: 200px; }
 
 .BPM {
   background: #999;

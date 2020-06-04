@@ -22,42 +22,45 @@
   float: right;
 }
 
-$hover-preset-browser: gray;
-
 .PresetDropdown {
   background: black;
+  position: relative;
   width: 30%;
   padding: 3px;
-  position: relative;
   display: block;
   list-style: none;
   float: left;
   border-radius: 0px 0px 3px 3px;
 
+  li {
+    display: none;
+    float: left;
+    color: white;
+    background: #222;
+    width: 60%;
+    padding: 5px 20px 5px 20px;
+    border-bottom: black 2px solid;
+  }
+
   &:hover {
+    background: grey;
     li {
       display: block;
-      float: left;
-      color: white;
-      background: #222;
-      width: 60%;
-      padding: 5px 20px 5px 20px;
-      border-bottom: black 2px solid;
+      li {
+        display: none;
+      }
       &:hover {
-        background: lightgray;
+        background: #c0c0c0;
+        li {
+          display: block;
+          position: relative;
+          left: 150px;
+          width: 200px;
+        }
       }
     }
   }
-
-  li {
-    display: none;
-  }
-
-  &:hover {
-    background: $hover-preset-browser
-  }
 }
-
 
 .BPM {
   background: #999;
