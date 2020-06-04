@@ -18,20 +18,12 @@ class Sequencer extends React.Component {
 
     /**
      * Loads Presets
-     * @param e event in which the preset is contained
+     * @param preset name of the preset
      */
-    loadPreset = (e) => {
-        const file = e.target.files[0]
-        const reader = new FileReader()
-        let current = this
-        reader.readAsText(file)
-        reader.onload = () => {
-            const text = reader.result.replace(/(\w+:)|(\w+ :)/g, function (matchedStr) {
-                return '"' + matchedStr.substring(0, matchedStr.length - 1) + '":'
-            })
-            current.setState(JSON.parse(text))
-            current.initLayers()
-        }
+    loadPreset = (preset) => {
+        fetch('Presets/' + preset)
+            .then(response => response.json())
+            .then(json => this.setState(json, this.initLayers))
     }
 
     /**

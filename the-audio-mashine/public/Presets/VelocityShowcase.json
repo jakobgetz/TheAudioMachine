@@ -1,0 +1,28 @@
+{
+  "bpm": 100,
+  "layers": [
+    {
+      "layerId": 1,
+      "name": "Kick",
+      "sampleFilePath": "/DefaultSamples/Kick.wav",
+      "rhythm": [
+        {"step": 0, "velocity": 0, "pitch": 1},
+        {"step": 1, "velocity": 10, "pitch": 1},
+        {"step": 2, "velocity": 20, "pitch": 1},
+        {"step": 3, "velocity": 30, "pitch": 1},
+        {"step": 4, "velocity": 40, "pitch": 1},
+        {"step": 5, "velocity": 50, "pitch": 1},
+        {"step": 6, "velocity": 60, "pitch": 1},
+        {"step": 7, "velocity": 70, "pitch": 1},
+        {"step": 8, "velocity": 80, "pitch": 1},
+        {"step": 9, "velocity": 90, "pitch": 1},
+        {"step": 10, "velocity": 100, "pitch": 1},
+        {"step": 11, "velocity": 110, "pitch": 1},
+        {"step": 12, "velocity": 120, "pitch": 1},
+        {"step": 13, "velocity": 127, "pitch": 1},
+        {"step": 14, "velocity": 0, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    }
+  ]
+}
