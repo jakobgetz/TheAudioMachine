@@ -1,7 +1,16 @@
+:root {
+  --layer1Color: forestgreen;
+  --layer2Color: blue;
+  --layer3Color: yellow;
+  --layer4Color: red;
+  --layer5Color: sienna;
+}
+
 * {
   font-family: "Lucida Grande", sans-serif;
   padding: 0;
-  margin: 0; }
+  margin: 0;}
+
 
 .Header {
   margin: 20px; }
@@ -55,29 +64,52 @@
   margin: 20px;
   width: 60%; }
 
+.SampleMenu {
+  padding: 2px;
+  background-color: lightblue;
+}
+.LayerButtons {
+  list-style-type: none;
+}
+
+.LayerButtons > li > button{
+  width: 60px;
+  height: 40px;
+  margin: 5px 3px;
+  border: none;
+}
+.LayerButtons > li > button:active{
+  background-color: ghostwhite;
+  border: none;
+}
+.LayerButtons > li > button:active{
+
+}
+
+
 .Layers {
   border: black 2px solid;
   margin: 20px;
   width: 80%; }
 
 .Layer1 {
-  background: forestgreen;
+  background: var(--layer1Color);
   padding: 5px 0; }
 
 .Layer2 {
-  background: blue;
+  background: var(--layer2Color);
   padding: 5px 0; }
 
 .Layer3 {
-  background: yellow;
+  background: var(--layer3Color);
   padding: 5px 0; }
 
 .Layer4 {
-  background: red;
+  background: var(--layer4Color);
   padding: 5px 0; }
 
 .Layer5 {
-  background: sienna;
+  background: var(--layer5Color);
   padding: 5px 0; }
 
 .Trigger {
