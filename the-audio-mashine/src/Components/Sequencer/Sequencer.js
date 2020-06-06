@@ -4,6 +4,7 @@ import Layer from "./Layer/Layer";
 import Player from "./Player";
 import PresetBrowser from "./PresetBrowser";
 import DefaultPreset from "../../Presets/DefaultPreset";
+import SamplePicker from "../SamplePicker/Menu"
 
 class Sequencer extends React.Component {
 
@@ -147,6 +148,7 @@ class Sequencer extends React.Component {
                 </div>
                 <br/>
                 <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
+                <SamplePicker sample={this.state.layers}/>
 
                 {/*Creating the Layers*/}
                 <div className="Layers">
