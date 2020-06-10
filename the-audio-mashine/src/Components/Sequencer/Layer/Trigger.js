@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Trigger extends Component {
 
     getStyle = () => {
-        return this.props.checked ? "Trigger Checked" : "Trigger"
+        return this.props.checked ? this.props.style : this.props.style
 
     }
 
