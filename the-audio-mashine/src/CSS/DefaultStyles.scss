@@ -126,6 +126,7 @@
 
 .Player {
   margin: 10px;
+  margin-top: 650px;
 }
 
 .Player button {
@@ -149,466 +150,1261 @@
   margin: 20px;
 }
 
-
 // UMUT
-.layer {
-  width: 500px;
-  height: 500px;
-  transform: translate(50%);
-  background: #25255a;
 
+$center: 500px;
+$triggerSize: 30px;
 
-  .layer1 .trigger {
-    width: 40px;
-    height: 40px;
+@mixin l1trigger {
+  top: $center;
+  left: $center;
+  width: $triggerSize;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 7;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute;
+    z-index: 13;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l1trigger-c {
+  top: $center;
+  left: $center;
+  width: $triggerSize;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 7;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
     border-radius: 50%;
     background-color: black;
-    top: 50%;
-    left: 125px;
     position: absolute;
+    z-index: 13;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l2trigger {
+  top: 450px;
+  left: $center;
+  width: $triggerSize;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute;
+    z-index: 12;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l2trigger-c {
+  top: 450px;
+  left: $center;
+  width: $triggerSize;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    z-index: 12;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l3trigger {
+  top: 400px;
+  left: $center;
+  width: $triggerSize;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute;
+    z-index: 11;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l3trigger-c {
+  top: 400px;
+  left: $center;
+  width: $triggerSize;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    z-index: 11;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l4trigger {
+  top: 350px;
+  left: $center;
+  width: $triggerSize;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute;
+    z-index: 10;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l4trigger-c {
+  top: 350px;
+  left: $center;
+  width: $triggerSize;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l5trigger {
+  top: 300px;
+  left: $center;
+  width: $triggerSize;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute;
+    z-index: 9;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l5trigger-c {
+  top: 300px;
+  left: $center;
+  width: $triggerSize;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    z-index: 9;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l6trigger {
+  top: 250px;
+  left: $center;
+  width: $triggerSize;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+
+  span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute;
+    z-index: 8;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+@mixin l6trigger-c {
+  top: 250px;
+  left: $center;
+  width: $triggerSize;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+
+  span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    z-index: 8;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+.layer {
+
+  .layer1 {
 
     .trigger1 {
-      transform: rotate(22.5deg);
+      @include l1trigger;
+      transform: rotateZ(0deg);
+    }
+
+    .trigger1-c {
+      @include l1trigger-c;
+      transform: rotateZ(0deg);
     }
 
     .trigger2 {
+      @include l1trigger;
+      transform: rotateZ(22.5deg);
+    }
 
-      transform: rotate(45deg);
+    .trigger2-c {
+      @include l1trigger-c;
+      transform: rotateZ(22.5deg);
     }
 
     .trigger3 {
-      transform: rotate(66.5deg);
+      @include l1trigger;
+      transform: rotateZ(45deg);
+    }
+
+    .trigger3-c {
+      @include l1trigger-c;
+      transform: rotateZ(45deg);
     }
 
     .trigger4 {
-      transform: rotate(89deg);
+      @include l1trigger;
+      transform: rotateZ(66.5deg);
+    }
+
+    .trigger4-c {
+      @include l1trigger-c;
+      transform: rotateZ(66.5deg);
     }
 
     .trigger5 {
-      transform: rotate(111.5deg);
+      @include l1trigger;
+      transform: rotateZ(89deg);
+    }
+
+    .trigger5-c {
+      @include l1trigger-c;
+      transform: rotateZ(89deg);
     }
 
     .trigger6 {
-      transform: rotate(134deg);
+      @include l1trigger;
+      transform: rotateZ(111.5deg);
+    }
+
+    .trigger6-c {
+      @include l1trigger-c;
+      transform: rotateZ(111.5deg);
     }
 
     .trigger7 {
-      transform: rotate(156.5deg);
+      @include l1trigger;
+      transform: rotateZ(134deg);
+    }
+
+    .trigger7-c {
+      @include l1trigger-c;
+      transform: rotateZ(134deg);
     }
 
     .trigger8 {
-      transform: rotate(179deg);
+      @include l1trigger;
+      transform: rotateZ(156.5deg);
+    }
+
+    .trigger8-c {
+      @include l1trigger-c;
+      transform: rotateZ(156.5deg);
     }
 
     .trigger9 {
-      transform: rotate(201.5deg);
+      @include l1trigger;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger9-c {
+      @include l1trigger-c;
+      transform: rotateZ(179deg);
     }
 
     .trigger10 {
-      transform: rotate(224deg);
+      @include l1trigger;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger10-c {
+      @include l1trigger-c;
+      transform: rotateZ(201.5deg);
     }
 
     .trigger11 {
-      transform: rotate(246deg);
+      @include l1trigger;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger11-c {
+      @include l1trigger-c;
+      transform: rotateZ(224deg);
     }
 
     .trigger12 {
-      transform: rotate(269deg);
+      @include l1trigger;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger12-c {
+      @include l1trigger-c;
+      transform: rotateZ(246deg);
     }
 
     .trigger13 {
-      transform: rotate(291.5deg);
+      @include l1trigger;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger13-c {
+      @include l1trigger-c;
+      transform: rotateZ(269deg);
     }
 
     .trigger14 {
-      transform: rotate(314deg);
+      @include l1trigger;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger14-c {
+      @include l1trigger-c;
+      transform: rotateZ(291.5deg);
     }
 
     .trigger15 {
-      transform: rotate(336.5deg);
+      @include l1trigger;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger15-c {
+      @include l1trigger-c;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger16 {
+      @include l1trigger;
+      transform: rotateZ(336.5deg);
+    }
+
+    .trigger16-c {
+      @include l1trigger-c;
+      transform: rotateZ(336.5deg);
     }
   }
 
-
-  /* Ring 2 */
-
   .layer2 {
+
+    .trigger1 {
+      @include l2trigger;
+      transform: rotateZ(0deg);
+    }
+
+    .trigger1-c {
+      @include l2trigger-c;
+      transform: rotateZ(0deg);
+    }
+
+    .trigger2 {
+      @include l2trigger;
+      transform: rotateZ(22.5deg);
+    }
+
+    .trigger2-c {
+      @include l2trigger-c;
+      transform: rotateZ(22.5deg);
+    }
+
+    .trigger3 {
+      @include l2trigger;
+      transform: rotateZ(45deg);
+    }
+
+    .trigger3-c {
+      @include l2trigger-c;
+      transform: rotateZ(45deg);
+    }
+
+    .trigger4 {
+      @include l2trigger;
+      transform: rotateZ(66.5deg);
+    }
+
+    .trigger4-c {
+      @include l2trigger-c;
+      transform: rotateZ(66.5deg);
+    }
+
+    .trigger5 {
+      @include l2trigger;
+      transform: rotateZ(89deg);
+    }
+
+    .trigger5-c {
+      @include l2trigger-c;
+      transform: rotateZ(89deg);
+    }
+
+    .trigger6 {
+      @include l2trigger;
+      transform: rotateZ(111.5deg);
+    }
+
+    .trigger6-c {
+      @include l2trigger-c;
+      transform: rotateZ(111.5deg);
+    }
+
+    .trigger7 {
+      @include l2trigger;
+      transform: rotateZ(134deg);
+    }
+
+    .trigger7-c {
+      @include l2trigger-c;
+      transform: rotateZ(134deg);
+    }
+
+    .trigger8 {
+      @include l2trigger;
+      transform: rotateZ(156.5deg);
+    }
+
+    .trigger8-c {
+      @include l2trigger-c;
+      transform: rotateZ(156.5deg);
+    }
+
+    .trigger9 {
+      @include l2trigger;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger9-c {
+      @include l2trigger-c;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger10 {
+      @include l2trigger;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger10-c {
+      @include l2trigger-c;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger11 {
+      @include l2trigger;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger11-c {
+      @include l2trigger-c;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger12 {
+      @include l2trigger;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger12-c {
+      @include l2trigger-c;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger13 {
+      @include l2trigger;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger13-c {
+      @include l2trigger-c;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger14 {
+      @include l2trigger;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger14-c {
+      @include l2trigger-c;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger15 {
+      @include l2trigger;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger15-c {
+      @include l2trigger-c;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger16 {
+      @include l2trigger;
+      transform: rotateZ(336.5deg);
+    }
+
+    .trigger16-c {
+      @include l2trigger-c;
+      transform: rotateZ(336.5deg);
+    }
   }
-
-
-  .layer2 .trigger {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #f7941d;
-    top: 50%;
-    left: 180px;
-    position: absolute;
-  }
-
-  .layer2 .trigger1 {
-    transform: rotate(22.5deg);
-  }
-
-  .layer2 .trigger2 {
-    transform: rotate(45deg);
-  }
-
-  .layer2 .trigger3 {
-    transform: rotate(66.5deg);
-  }
-
-  .layer2 .trigger4 {
-    transform: rotate(89deg);
-  }
-
-  .layer2 .trigger5 {
-    transform: rotate(111.5deg);
-  }
-
-  .layer2 .trigger6 {
-    transform: rotate(134deg);
-  }
-
-  .layer2 .trigger7 {
-    transform: rotate(156.5deg);
-  }
-
-  .layer2 .trigger8 {
-    transform: rotate(179deg);
-  }
-
-  .layer2 .trigger9 {
-    transform: rotate(201.5deg);
-  }
-
-  .layer2 .trigger10 {
-    transform: rotate(224deg);
-  }
-
-  .layer2 .trigger11 {
-    transform: rotate(246deg);
-  }
-
-  .layer2 .trigger12 {
-    transform: rotate(269deg);
-  }
-
-  .layer2 .trigger13 {
-    transform: rotate(291.5deg);
-  }
-
-  .layer2 .trigger14 {
-    transform: rotate(314deg);
-  }
-
-  .layer2 .trigger15 {
-    transform: rotate(336.5deg);
-  }
-
-  /* Ring 3 */
 
   .layer3 {
+    .trigger1 {
+      @include l3trigger;
+      transform: rotateZ(0deg);
+    }
+
+    .trigger1-c {
+      @include l3trigger-c;
+      transform: rotateZ(0deg);
+    }
+
+    .trigger2 {
+      @include l3trigger;
+      transform: rotateZ(22.5deg);
+    }
+
+    .trigger2-c {
+      @include l3trigger-c;
+      transform: rotateZ(22.5deg);
+    }
+
+    .trigger3 {
+      @include l3trigger;
+      transform: rotateZ(45deg);
+    }
+
+    .trigger3-c {
+      @include l3trigger-c;
+      transform: rotateZ(45deg);
+    }
+
+    .trigger4 {
+      @include l3trigger;
+      transform: rotateZ(66.5deg);
+    }
+
+    .trigger4-c {
+      @include l3trigger-c;
+      transform: rotateZ(66.5deg);
+    }
+
+    .trigger5 {
+      @include l3trigger;
+      transform: rotateZ(89deg);
+    }
+
+    .trigger5-c {
+      @include l3trigger-c;
+      transform: rotateZ(89deg);
+    }
+
+    .trigger6 {
+      @include l3trigger;
+      transform: rotateZ(111.5deg);
+    }
+
+    .trigger6-c {
+      @include l3trigger-c;
+      transform: rotateZ(111.5deg);
+    }
+
+    .trigger7 {
+      @include l3trigger;
+      transform: rotateZ(134deg);
+    }
+
+    .trigger7-c {
+      @include l3trigger-c;
+      transform: rotateZ(134deg);
+    }
+
+    .trigger8 {
+      @include l3trigger;
+      transform: rotateZ(156.5deg);
+    }
+
+    .trigger8-c {
+      @include l3trigger-c;
+      transform: rotateZ(156.5deg);
+    }
+
+    .trigger9 {
+      @include l3trigger;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger9-c {
+      @include l3trigger-c;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger10 {
+      @include l3trigger;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger10-c {
+      @include l3trigger-c;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger11 {
+      @include l3trigger;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger11-c {
+      @include l3trigger-c;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger12 {
+      @include l3trigger;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger12-c {
+      @include l3trigger-c;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger13 {
+      @include l3trigger;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger13-c {
+      @include l3trigger-c;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger14 {
+      @include l3trigger;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger14-c {
+      @include l3trigger-c;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger15 {
+      @include l3trigger;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger15-c {
+      @include l3trigger-c;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger16 {
+      @include l3trigger;
+      transform: rotateZ(336.5deg);
+    }
+
+    .trigger16-c {
+      @include l3trigger-c;
+      transform: rotateZ(336.5deg);
+    }
   }
 
-  .layer3 .trigger {
-    list-style: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-  }
-
-  .layer3 .trigger {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #ed145b;
-    top: 50%;
-    left: 235px;
-    position: absolute;
-  }
-
-  .layer3 .trigger1 {
-    transform: rotate(22.5deg);
-  }
-
-  .layer3 .trigger2 {
-    transform: rotate(45deg);
-  }
-
-  .layer3 .trigger3 {
-    transform: rotate(66.5deg);
-  }
-
-  .layer3 .trigger4 {
-    transform: rotate(89deg);
-  }
-
-  .layer3 .trigger5 {
-    transform: rotate(111.5deg);
-  }
-
-  .layer3 .trigger6 {
-    transform: rotate(134deg);
-  }
-
-  .layer3 .trigger7 {
-    transform: rotate(156.5deg);
-  }
-
-  .layer3 .trigger8 {
-    transform: rotate(179deg);
-  }
-
-  .layer3 .trigger9 {
-    transform: rotate(201.5deg);
-  }
-
-  .layer3 .trigger10 {
-    transform: rotate(224deg);
-  }
-
-  .layer3 .trigger11 {
-    transform: rotate(246deg);
-  }
-
-  .layer3 .trigger12 {
-    transform: rotate(269deg);
-  }
-
-  .layer3 .trigger13 {
-    transform: rotate(291.5deg);
-  }
-
-  .layer3 .trigger14 {
-    transform: rotate(314deg);
-  }
-
-  .layer3 .trigger15 {
-    transform: rotate(336.5deg);
-  }
-
-  /* Ring 4 */
   .layer4 {
-  }
+    .trigger1 {
+      @include l4trigger;
+      transform: rotateZ(0deg);
+    }
 
-  .layer4 .trigger {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #2587ac;
-    top: 50%;
-    left: 290px;
-    position: absolute;
-  }
+    .trigger1-c {
+      @include l4trigger-c;
+      transform: rotateZ(0deg);
+    }
 
-  .layer4 .trigger1 {
-    transform: rotate(22.5deg);
-  }
+    .trigger2 {
+      @include l4trigger;
+      transform: rotateZ(22.5deg);
+    }
 
-  .layer4 .trigger2 {
-    transform: rotate(45deg);
-  }
+    .trigger2-c {
+      @include l4trigger-c;
+      transform: rotateZ(22.5deg);
+    }
 
-  .layer4 .trigger3 {
-    transform: rotate(66.5deg);
-  }
+    .trigger3 {
+      @include l4trigger;
+      transform: rotateZ(45deg);
+    }
 
-  .layer4 .trigger4 {
-    transform: rotate(89deg);
-  }
+    .trigger3-c {
+      @include l4trigger-c;
+      transform: rotateZ(45deg);
+    }
 
-  .layer4 .trigger5 {
-    transform: rotate(111.5deg);
-  }
+    .trigger4 {
+      @include l4trigger;
+      transform: rotateZ(66.5deg);
+    }
 
-  .layer4 .trigger6 {
-    transform: rotate(134deg);
-  }
+    .trigger4-c {
+      @include l4trigger-c;
+      transform: rotateZ(66.5deg);
+    }
 
-  .layer4 .trigger7 {
-    transform: rotate(156.5deg);
-  }
+    .trigger5 {
+      @include l4trigger;
+      transform: rotateZ(89deg);
+    }
 
-  .layer4 .trigger8 {
-    transform: rotate(179deg);
-  }
+    .trigger5-c {
+      @include l4trigger-c;
+      transform: rotateZ(89deg);
+    }
 
-  .layer4 .trigger9 {
-    transform: rotate(201.5deg);
-  }
+    .trigger6 {
+      @include l4trigger;
+      transform: rotateZ(111.5deg);
+    }
 
-  .layer4 .trigger10 {
-    transform: rotate(224deg);
-  }
+    .trigger6-c {
+      @include l4trigger-c;
+      transform: rotateZ(111.5deg);
+    }
 
-  .layer4 .trigger11 {
-    transform: rotate(246deg);
-  }
+    .trigger7 {
+      @include l4trigger;
+      transform: rotateZ(134deg);
+    }
 
-  .layer4 .trigger12 {
-    transform: rotate(269deg);
-  }
+    .trigger7-c {
+      @include l4trigger-c;
+      transform: rotateZ(134deg);
+    }
 
-  .layer4 .trigger13 {
-    transform: rotate(291.5deg);
-  }
+    .trigger8 {
+      @include l4trigger;
+      transform: rotateZ(156.5deg);
+    }
 
-  .layer4 .trigger14 {
-    transform: rotate(314deg);
-  }
+    .trigger8-c {
+      @include l4trigger-c;
+      transform: rotateZ(156.5deg);
+    }
 
-  .layer4 .trigger15 {
-    transform: rotate(336.5deg);
-  }
+    .trigger9 {
+      @include l4trigger;
+      transform: rotateZ(179deg);
+    }
 
-  /* Ring 5 */
+    .trigger9-c {
+      @include l4trigger-c;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger10 {
+      @include l4trigger;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger10-c {
+      @include l4trigger-c;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger11 {
+      @include l4trigger;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger11-c {
+      @include l4trigger-c;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger12 {
+      @include l4trigger;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger12-c {
+      @include l4trigger-c;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger13 {
+      @include l4trigger;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger13-c {
+      @include l4trigger-c;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger14 {
+      @include l4trigger;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger14-c {
+      @include l4trigger-c;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger15 {
+      @include l4trigger;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger15-c {
+      @include l4trigger-c;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger16 {
+      @include l4trigger;
+      transform: rotateZ(336.5deg);
+    }
+
+    .trigger16-c {
+      @include l4trigger-c;
+      transform: rotateZ(336.5deg);
+    }
+  }
 
   .layer5 {
-  }
 
-  .layer5 .trigger {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #39b54a;
-    top: 50%;
-    left: 345px;
-    position: absolute;
-  }
+    .trigger1 {
+      @include l5trigger;
+      transform: rotateZ(0deg);
+    }
 
-  .layer5 .trigger1 {
-    transform: rotate(22.5deg);
-  }
+    .trigger1-c {
+      @include l5trigger-c;
+      transform: rotateZ(0deg);
+    }
 
-  .layer5 .trigger2 {
-    transform: rotate(45deg);
-  }
+    .trigger2 {
+      @include l5trigger;
+      transform: rotateZ(22.5deg);
+    }
 
-  .layer5 .trigger3 {
-    transform: rotate(66.5deg);
-  }
+    .trigger2-c {
+      @include l5trigger-c;
+      transform: rotateZ(22.5deg);
+    }
 
-  .layer5 .trigger4 {
-    transform: rotate(89deg);
-  }
+    .trigger3 {
+      @include l5trigger;
+      transform: rotateZ(45deg);
+    }
 
-  .layer5 .trigger5 {
-    transform: rotate(111.5deg);
-  }
+    .trigger3-c {
+      @include l5trigger-c;
+      transform: rotateZ(45deg);
+    }
 
-  .layer5 .trigger6 {
-    transform: rotate(134deg);
-  }
+    .trigger4 {
+      @include l5trigger;
+      transform: rotateZ(66.5deg);
+    }
 
-  .layer5 .trigger7 {
-    transform: rotate(156.5deg);
-  }
+    .trigger4-c {
+      @include l5trigger-c;
+      transform: rotateZ(66.5deg);
+    }
 
-  .layer5 .trigger8 {
-    transform: rotate(179deg);
-  }
+    .trigger5 {
+      @include l5trigger;
+      transform: rotateZ(89deg);
+    }
 
-  .layer5 .trigger9 {
-    transform: rotate(201.5deg);
-  }
+    .trigger5-c {
+      @include l5trigger-c;
+      transform: rotateZ(89deg);
+    }
 
-  .layer5 .trigger10 {
-    transform: rotate(224deg);
-  }
+    .trigger6 {
+      @include l5trigger;
+      transform: rotateZ(111.5deg);
+    }
 
-  .layer5 .trigger11 {
-    transform: rotate(246deg);
-  }
+    .trigger6-c {
+      @include l5trigger-c;
+      transform: rotateZ(111.5deg);
+    }
 
-  .layer5 .trigger12 {
-    transform: rotate(269deg);
-  }
+    .trigger7 {
+      @include l5trigger;
+      transform: rotateZ(134deg);
+    }
 
-  .layer5 .trigger13 {
-    transform: rotate(291.5deg);
-  }
+    .trigger7-c {
+      @include l5trigger-c;
+      transform: rotateZ(134deg);
+    }
 
-  .layer5 .trigger14 {
-    transform: rotate(314deg);
-  }
+    .trigger8 {
+      @include l5trigger;
+      transform: rotateZ(156.5deg);
+    }
 
-  .layer5 .trigger15 {
-    transform: rotate(336.5deg);
-  }
+    .trigger8-c {
+      @include l5trigger-c;
+      transform: rotateZ(156.5deg);
+    }
 
-  /* Ring 6 */
+    .trigger9 {
+      @include l5trigger;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger9-c {
+      @include l5trigger-c;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger10 {
+      @include l5trigger;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger10-c {
+      @include l5trigger-c;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger11 {
+      @include l5trigger;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger11-c {
+      @include l5trigger-c;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger12 {
+      @include l5trigger;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger12-c {
+      @include l5trigger-c;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger13 {
+      @include l5trigger;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger13-c {
+      @include l5trigger-c;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger14 {
+      @include l5trigger;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger14-c {
+      @include l5trigger-c;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger15 {
+      @include l5trigger;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger15-c {
+      @include l5trigger-c;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger16 {
+      @include l5trigger;
+      transform: rotateZ(336.5deg);
+    }
+
+    .trigger16-c {
+      @include l5trigger-c;
+      transform: rotateZ(336.5deg);
+    }
+  }
 
   .layer6 {
-  }
+    .trigger1 {
+      @include l6trigger;
+      transform: rotateZ(0deg);
+    }
 
-  .layer6 .trigger {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #8560a8;
-    top: 50%;
-    left: 400px;
-    position: absolute;
-  }
+    .trigger1-c {
+      @include l6trigger-c;
+      transform: rotateZ(0deg);
+    }
 
-  .layer6 .trigger1 {
-    transform: rotate(22.5deg);
-  }
+    .trigger2 {
+      @include l6trigger;
+      transform: rotateZ(22.5deg);
+    }
 
-  .layer6 .trigger2 {
-    transform: rotate(45deg);
-  }
+    .trigger2-c {
+      @include l6trigger-c;
+      transform: rotateZ(22.5deg);
+    }
 
-  .layer6 .trigger3 {
-    transform: rotate(66.5deg);
-  }
+    .trigger3 {
+      @include l6trigger;
+      transform: rotateZ(45deg);
+    }
 
-  .layer6 .trigger4 {
-    transform: rotate(89deg);
-  }
+    .trigger3-c {
+      @include l6trigger-c;
+      transform: rotateZ(45deg);
+    }
 
-  .layer6 .trigger5 {
-    transform: rotate(111.5deg);
-  }
+    .trigger4 {
+      @include l6trigger;
+      transform: rotateZ(66.5deg);
+    }
 
-  .layer6 .trigger6 {
-    transform: rotate(134deg);
-  }
+    .trigger4-c {
+      @include l6trigger-c;
+      transform: rotateZ(66.5deg);
+    }
 
-  .layer6 .trigger7 {
-    transform: rotate(156.5deg);
-  }
+    .trigger5 {
+      @include l6trigger;
+      transform: rotateZ(89deg);
+    }
 
-  .layer6 .trigger8 {
-    transform: rotate(179deg);
-  }
+    .trigger5-c {
+      @include l6trigger-c;
+      transform: rotateZ(89deg);
+    }
 
-  .layer6 .trigger9 {
-    transform: rotate(201.5deg);
-  }
+    .trigger6 {
+      @include l6trigger;
+      transform: rotateZ(111.5deg);
+    }
 
-  .layer6 .trigger10 {
-    transform: rotate(224deg);
-  }
+    .trigger6-c {
+      @include l6trigger-c;
+      transform: rotateZ(111.5deg);
+    }
 
-  .layer6 .trigger11 {
-    transform: rotate(246deg);
-  }
+    .trigger7 {
+      @include l6trigger;
+      transform: rotateZ(134deg);
+    }
 
-  .layer6 .trigger12 {
-    transform: rotate(269deg);
-  }
+    .trigger7-c {
+      @include l6trigger-c;
+      transform: rotateZ(134deg);
+    }
 
-  .layer6 .trigger13 {
-    transform: rotate(291.5deg);
-  }
+    .trigger8 {
+      @include l6trigger;
+      transform: rotateZ(156.5deg);
+    }
 
-  .layer6 .trigger14 {
-    transform: rotate(314deg);
-  }
+    .trigger8-c {
+      @include l6trigger-c;
+      transform: rotateZ(156.5deg);
+    }
 
-  .layer6 .trigger15 {
-    transform: rotate(336.5deg);
+    .trigger9 {
+      @include l6trigger;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger9-c {
+      @include l6trigger-c;
+      transform: rotateZ(179deg);
+    }
+
+    .trigger10 {
+      @include l6trigger;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger10-c {
+      @include l6trigger-c;
+      transform: rotateZ(201.5deg);
+    }
+
+    .trigger11 {
+      @include l6trigger;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger11-c {
+      @include l6trigger-c;
+      transform: rotateZ(224deg);
+    }
+
+    .trigger12 {
+      @include l6trigger;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger12-c {
+      @include l6trigger-c;
+      transform: rotateZ(246deg);
+    }
+
+    .trigger13 {
+      @include l6trigger;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger13-c {
+      @include l6trigger-c;
+      transform: rotateZ(269deg);
+    }
+
+    .trigger14 {
+      @include l6trigger;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger14-c {
+      @include l6trigger-c;
+      transform: rotateZ(291.5deg);
+    }
+
+    .trigger15 {
+      @include l6trigger;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger15-c {
+      @include l6trigger-c;
+      transform: rotateZ(314deg);
+    }
+
+    .trigger16 {
+      @include l6trigger;
+      transform: rotateZ(336.5deg);
+    }
+
+    .trigger16-c {
+      @include l6trigger-c;
+      transform: rotateZ(336.5deg);
+    }
   }
 }
