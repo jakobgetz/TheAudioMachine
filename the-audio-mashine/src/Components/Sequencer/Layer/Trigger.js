@@ -3,14 +3,16 @@ import React, {Component} from 'react';
 class Trigger extends Component {
 
     getStyle = () => {
-        return this.props.checked ? this.props.styleChecked : this.props.styleUnchecked
+        return this.props.checked ? "checked" : "unchecked"
 
     }
 
     render() {
         return (
-            <span className={this.getStyle()}>
-                <span onClick={() => this.props.setTrigger(this)}>
+            <span>
+                <span className={this.getStyle()}>
+                    <span onClick={() => this.props.setTrigger(this)}>
+                    </span>
                 </span>
             </span>
         );

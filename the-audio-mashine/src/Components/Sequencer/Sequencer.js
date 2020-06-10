@@ -154,12 +154,12 @@ class Sequencer extends React.Component {
                 {/*<SamplePicker sample={this.state.layers}/>*/}
 
                 {/*Creating the Layers*/}
+                Playhead starts at the top of the circle
                 <div className="layer">
                     {
                         this.state.layers.map((layer, i) =>
                             <Layer key={layer.layerId}
                                    layer={layer}
-                                   style={"layer" + (i + 1)}
                                    setTrigger={this.setTrigger}
                                    loadSample={this.loadSample}/>)
                     }

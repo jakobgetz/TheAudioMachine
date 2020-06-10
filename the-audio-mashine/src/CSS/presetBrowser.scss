@@ -1,0 +1,58 @@
+
+.PresetBrowser {
+  background: #333;
+  color: #fff;
+  padding: 5px 20px;
+  margin: 20px;
+  width: 60%;
+  height: 30px;
+}
+
+.PresetBrowser label {
+  padding: 3px 20px;
+  float: right;
+}
+
+.PresetDropdown {
+  background: black;
+  position: relative;
+  width: 30%;
+  padding: 3px;
+  display: block;
+  list-style: none;
+  float: left;
+  border-radius: 0px 0px 3px 3px;
+
+  li {
+    display: none;
+    float: left;
+    color: white;
+    background: #222;
+    width: 60%;
+    padding: 5px 20px 5px 20px;
+    border-bottom: black 2px solid;
+  }
+
+  &:hover {
+    background: grey;
+
+    li {
+      display: block;
+
+      li {
+        display: none;
+      }
+
+      &:hover {
+        background: #c0c0c0;
+
+        li {
+          display: block;
+          position: relative;
+          left: 100px;
+          width: 200px;
+        }
+      }
+    }
+  }
+}

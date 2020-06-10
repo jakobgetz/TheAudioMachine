@@ -1,0 +1,45 @@
+$sequencerSize: 500px;
+$triggerSize: 30px;
+$colors: #f26c4f, #f7941d, #ed145b, #2587ac, #39b54a, #8560a8;
+
+@mixin trigger($color, $layer) {
+  top: ($sequencerSize / 2 - 50 + 50 * $layer);
+  left: $sequencerSize;
+  width: $triggerSize;
+  height: ($sequencerSize - (($sequencerSize / 10) * $layer) - 100);
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: $layer;
+
+  span {
+    width: $triggerSize;
+    height: $triggerSize;
+    border-radius: 50%;
+    background-color: $color;
+    position: absolute;
+
+    &:hover {
+      border: 1px black solid;
+    }
+  }
+}
+
+
+.layer {
+  @for $layerId from 1 through 6 {
+    @for $triggerId from 1 through 16 {
+      div:nth-of-type(#{$layerId}) {
+        span:nth-of-type(#{$triggerId}) {
+          .unchecked {
+            @include trigger(nth($colors, $layerId), $layerId);
+            transform: rotate((($triggerId - 1) * 22.5deg));
+          }
+          .checked {
+            @include trigger(darken(nth($colors, $layerId), 50), $layerId);
+            transform: rotate((($triggerId - 1) * 22.5deg));
+          }
+        }
+      }
+    }
+  }
+}
