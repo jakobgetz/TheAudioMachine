@@ -15,13 +15,11 @@ class Layer extends Component {
 
     render() {
         return (
-            <div className={this.props.style}>
+            <div>
                 {
                     this.props.layer.rhythm.map((trigger, i) =>
                         <Trigger key={trigger.step}
                                  layerId={this.props.layer.layerId}
-                                 styleUnchecked={"trigger" + (i + 1)}
-                                 styleChecked={"trigger" + (i + 1)+"-c"}
                                  checked={this.isChecked(i)}
                                  trigger={trigger}
                                  setTrigger={this.props.setTrigger}/>

@@ -39,6 +39,7 @@ class Player extends Component {
         if (this.isPlaying) {
             this.isPlaying = false
             this.masterGain.disconnect()
+            this.playHeadPosition = 0
             this.setState({playingIcon: playIcon})
         } else {
             this.isPlaying = true
@@ -46,6 +47,14 @@ class Player extends Component {
             this.masterGain.connect(this.ctx.destination)
             this.playSequence()
         }
+    }
+
+    /**
+     * returns the style of the playbutton
+     * @returns css classname
+     */
+    getPlayButtonStyle = () => {
+        return this.isPlaying ? "playButtonChecked" : "playButton";
     }
 
     /**
@@ -112,13 +121,6 @@ class Player extends Component {
     }
 
     /**
-     * Resets the playHeadPosition to 0
-     */
-    resetPlayHead = () => {
-        this.playHeadPosition = 0
-    }
-
-    /**
      * Sets Master Volume
      * @param e event in which the input gain is stored
      */
@@ -129,12 +131,10 @@ class Player extends Component {
 
     render() {
         return (<div className="Player">
-                <Button onClick={this.resetPlayHead}><img src={stepBackIcon}
-                                                          alt="Step Back Icon"/></Button>
                 <Button onClick={this.props.resetTriggers}><img src={binIcon}
                                                                 alt="Erase triggers "/></Button>
-                <Button onClick={this.play}><img src={this.state.playingIcon}
-                                                 alt="Play/Pause Icon"/></Button>
+                <span className={this.getPlayButtonStyle()} onClick={this.play}><img src={this.state.playingIcon}
+                                                 alt="Play/Pause Icon"/></span>
                 <RangeSlider className="CustomRangeSlider" size='sm'
                              value={Math.round(this.state.currentVolume * 100)}
                              onChange={changeEvent => this.setVolume(changeEvent)}/>

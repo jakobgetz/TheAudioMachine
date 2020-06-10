@@ -3,8 +3,8 @@
   "layers": [
     {
       "layerId": 1,
-      "name": "Kick",
-      "sampleFilePath": "/DefaultSamples/Kick.wav",
+      "name": "Voc",
+      "sampleFilePath": "/DefaultSamples/Ayy.wav",
       "rhythm": [
         {"step": 0, "velocity": 100, "pitch": 0.125},
         {"step": 1, "velocity": 100, "pitch": 0.25},

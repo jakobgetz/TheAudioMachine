@@ -1,0 +1,3366 @@
+.layer div:nth-of-type(1) span:nth-of-type(1) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(1) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(1) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(1) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(1) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(1) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(2) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(2) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(2) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(2) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(3) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(3) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(3) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(3) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(4) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(4) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(4) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(4) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(5) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(5) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(5) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(5) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(6) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(6) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(6) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(6) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(7) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(7) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(7) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(7) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(8) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(8) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(8) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(8) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(9) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(9) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(9) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(9) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(10) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(10) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(10) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(10) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(11) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(11) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(11) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(11) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(12) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(12) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(12) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(12) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(13) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(13) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(13) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(13) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(14) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(14) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(14) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(14) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(15) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(15) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(15) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(15) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(16) .unchecked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26c4f;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(1) span:nth-of-type(16) .checked {
+  top: 250px;
+  left: 500px;
+  width: 30px;
+  height: 350px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(1) span:nth-of-type(16) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3d0f05;
+    position: absolute; }
+    .layer div:nth-of-type(1) span:nth-of-type(16) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(1) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(1) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(1) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(1) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(2) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(2) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(2) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(2) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(3) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(3) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(3) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(3) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(4) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(4) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(4) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(4) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(5) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(5) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(5) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(5) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(6) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(6) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(6) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(6) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(7) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(7) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(7) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(7) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(8) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(8) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(8) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(8) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(9) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(9) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(9) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(9) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(10) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(10) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(10) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(10) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(11) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(11) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(11) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(11) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(12) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(12) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(12) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(12) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(13) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(13) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(13) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(13) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(14) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(14) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(14) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(14) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(15) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(15) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(15) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(15) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(16) .unchecked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(2) span:nth-of-type(16) .checked {
+  top: 300px;
+  left: 500px;
+  width: 30px;
+  height: 300px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(2) span:nth-of-type(16) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #140b01;
+    position: absolute; }
+    .layer div:nth-of-type(2) span:nth-of-type(16) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(1) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(1) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(1) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(1) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(2) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(2) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(2) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(2) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(3) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(3) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(3) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(3) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(4) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(4) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(4) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(4) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(5) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(5) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(5) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(5) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(6) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(6) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(6) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(6) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(7) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(7) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(7) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(7) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(8) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(8) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(8) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(8) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(9) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(9) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(9) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(9) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(10) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(10) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(10) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(10) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(11) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(11) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(11) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(11) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(12) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(12) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(12) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(12) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(13) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(13) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(13) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(13) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(14) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(14) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(14) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(14) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(15) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(15) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(15) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(15) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(16) .unchecked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(3) span:nth-of-type(16) .checked {
+  top: 350px;
+  left: 500px;
+  width: 30px;
+  height: 250px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 3;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(3) span:nth-of-type(16) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #020001;
+    position: absolute; }
+    .layer div:nth-of-type(3) span:nth-of-type(16) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(1) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(1) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(1) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(1) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(2) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(2) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(2) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(2) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(3) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(3) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(3) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(3) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(4) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(4) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(4) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(4) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(5) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(5) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(5) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(5) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(6) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(6) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(6) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(6) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(7) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(7) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(7) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(7) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(8) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(8) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(8) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(8) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(9) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(9) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(9) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(9) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(10) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(10) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(10) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(10) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(11) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(11) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(11) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(11) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(12) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(12) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(12) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(12) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(13) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(13) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(13) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(13) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(14) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(14) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(14) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(14) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(15) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(15) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(15) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(15) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(16) .unchecked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(4) span:nth-of-type(16) .checked {
+  top: 400px;
+  left: 500px;
+  width: 30px;
+  height: 200px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(4) span:nth-of-type(16) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(4) span:nth-of-type(16) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(1) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(1) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(1) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(1) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(2) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(2) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(2) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(2) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(3) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(3) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(3) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(3) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(4) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(4) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(4) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(4) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(5) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(5) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(5) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(5) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(6) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(6) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(6) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(6) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(7) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(7) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(7) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(7) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(8) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(8) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(8) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(8) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(9) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(9) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(9) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(9) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(10) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(10) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(10) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(10) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(11) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(11) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(11) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(11) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(12) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(12) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(12) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(12) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(13) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(13) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(13) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(13) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(14) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(14) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(14) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(14) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(15) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(15) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(15) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(15) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(16) .unchecked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(5) span:nth-of-type(16) .checked {
+  top: 450px;
+  left: 500px;
+  width: 30px;
+  height: 150px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(5) span:nth-of-type(16) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute; }
+    .layer div:nth-of-type(5) span:nth-of-type(16) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(1) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(1) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(0deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(1) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(1) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(2) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(2) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(22.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(2) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(2) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(3) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(3) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(45deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(3) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(3) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(4) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(4) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(67.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(4) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(4) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(5) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(5) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(90deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(5) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(5) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(6) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(6) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(112.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(6) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(6) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(7) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(7) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(135deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(7) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(7) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(8) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(8) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(157.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(8) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(8) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(9) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(9) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(180deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(9) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(9) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(10) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(10) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(202.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(10) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(10) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(11) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(11) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(225deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(11) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(11) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(12) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(12) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(247.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(12) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(12) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(13) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(13) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(270deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(13) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(13) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(14) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(14) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(292.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(14) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(14) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(15) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(15) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(315deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(15) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(15) .checked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(16) .unchecked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked span:hover {
+      border: 1px black solid; }
+.layer div:nth-of-type(6) span:nth-of-type(16) .checked {
+  top: 500px;
+  left: 500px;
+  width: 30px;
+  height: 100px;
+  transform-origin: bottom center;
+  position: absolute;
+  z-index: 6;
+  transform: rotate(337.5deg); }
+  .layer div:nth-of-type(6) span:nth-of-type(16) .checked span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #050306;
+    position: absolute; }
+    .layer div:nth-of-type(6) span:nth-of-type(16) .checked span:hover {
+      border: 1px black solid; }
+
+.PresetBrowser {
+  background: #333;
+  color: #fff;
+  padding: 5px 20px;
+  margin: 20px;
+  width: 60%;
+  height: 30px; }
+
+.PresetBrowser label {
+  padding: 3px 20px;
+  float: right; }
+
+.PresetDropdown {
+  background: black;
+  position: relative;
+  width: 30%;
+  padding: 3px;
+  display: block;
+  list-style: none;
+  float: left;
+  border-radius: 0px 0px 3px 3px; }
+  .PresetDropdown li {
+    display: none;
+    float: left;
+    color: white;
+    background: #222;
+    width: 60%;
+    padding: 5px 20px 5px 20px;
+    border-bottom: black 2px solid; }
+  .PresetDropdown:hover {
+    background: grey; }
+    .PresetDropdown:hover li {
+      display: block; }
+      .PresetDropdown:hover li li {
+        display: none; }
+      .PresetDropdown:hover li:hover {
+        background: #c0c0c0; }
+        .PresetDropdown:hover li:hover li {
+          display: block;
+          position: relative;
+          left: 100px;
+          width: 200px; }
+
+.Player .playButton {
+  top: 550px;
+  left: 460px;
+  position: absolute;
+  z-index: 8;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: gray; }
+  .Player .playButton:hover {
+    border: 3px black solid; }
+.Player .playButtonChecked {
+  top: 550px;
+  left: 460px;
+  position: absolute;
+  z-index: 8;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: #138925; }
+  .Player .playButtonChecked:hover {
+    border: 3px black solid; }
+
+/*
+.Player button {
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #2196f3;
+  color: #ecf0f1;
+}
+ */
+* {
+  font-family: "Lucida Grande", sans-serif;
+  padding: 0;
+  margin: 0; }
+
+.Header {
+  margin: 20px; }
+
+.BPM {
+  background: #999;
+  padding: 5px 20px;
+  margin: 20px;
+  width: 60%; }
+
+.CustomRangeSlider {
+  width: 20vw;
+  display: inline; }
+
+.Library {
+  margin: 20px; }
+
+/*# sourceMappingURL=mainStyles.css.map */
