@@ -44,13 +44,17 @@
 
   &:hover {
     background: grey;
+
     li {
       display: block;
+
       li {
         display: none;
       }
+
       &:hover {
         background: #c0c0c0;
+
         li {
           display: block;
           position: relative;
@@ -69,6 +73,7 @@
   width: 60%;
 }
 
+/*
 .Layers {
   border: black 2px solid;
   margin: 20px;
@@ -100,6 +105,7 @@
   padding: 5px 0;
 }
 
+
 .Trigger {
   border: black 1px solid;
   border-radius: 15px;
@@ -115,6 +121,8 @@
 .Checked {
   background: black;
 }
+
+ */
 
 .Player {
   margin: 10px;
@@ -139,4 +147,468 @@
 
 .Library {
   margin: 20px;
+}
+
+
+// UMUT
+.layer {
+  width: 500px;
+  height: 500px;
+  transform: translate(50%);
+  background: #25255a;
+
+
+  .layer1 .trigger {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    top: 50%;
+    left: 125px;
+    position: absolute;
+
+    .trigger1 {
+      transform: rotate(22.5deg);
+    }
+
+    .trigger2 {
+
+      transform: rotate(45deg);
+    }
+
+    .trigger3 {
+      transform: rotate(66.5deg);
+    }
+
+    .trigger4 {
+      transform: rotate(89deg);
+    }
+
+    .trigger5 {
+      transform: rotate(111.5deg);
+    }
+
+    .trigger6 {
+      transform: rotate(134deg);
+    }
+
+    .trigger7 {
+      transform: rotate(156.5deg);
+    }
+
+    .trigger8 {
+      transform: rotate(179deg);
+    }
+
+    .trigger9 {
+      transform: rotate(201.5deg);
+    }
+
+    .trigger10 {
+      transform: rotate(224deg);
+    }
+
+    .trigger11 {
+      transform: rotate(246deg);
+    }
+
+    .trigger12 {
+      transform: rotate(269deg);
+    }
+
+    .trigger13 {
+      transform: rotate(291.5deg);
+    }
+
+    .trigger14 {
+      transform: rotate(314deg);
+    }
+
+    .trigger15 {
+      transform: rotate(336.5deg);
+    }
+  }
+
+
+  /* Ring 2 */
+
+  .layer2 {
+  }
+
+
+  .layer2 .trigger {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f7941d;
+    top: 50%;
+    left: 180px;
+    position: absolute;
+  }
+
+  .layer2 .trigger1 {
+    transform: rotate(22.5deg);
+  }
+
+  .layer2 .trigger2 {
+    transform: rotate(45deg);
+  }
+
+  .layer2 .trigger3 {
+    transform: rotate(66.5deg);
+  }
+
+  .layer2 .trigger4 {
+    transform: rotate(89deg);
+  }
+
+  .layer2 .trigger5 {
+    transform: rotate(111.5deg);
+  }
+
+  .layer2 .trigger6 {
+    transform: rotate(134deg);
+  }
+
+  .layer2 .trigger7 {
+    transform: rotate(156.5deg);
+  }
+
+  .layer2 .trigger8 {
+    transform: rotate(179deg);
+  }
+
+  .layer2 .trigger9 {
+    transform: rotate(201.5deg);
+  }
+
+  .layer2 .trigger10 {
+    transform: rotate(224deg);
+  }
+
+  .layer2 .trigger11 {
+    transform: rotate(246deg);
+  }
+
+  .layer2 .trigger12 {
+    transform: rotate(269deg);
+  }
+
+  .layer2 .trigger13 {
+    transform: rotate(291.5deg);
+  }
+
+  .layer2 .trigger14 {
+    transform: rotate(314deg);
+  }
+
+  .layer2 .trigger15 {
+    transform: rotate(336.5deg);
+  }
+
+  /* Ring 3 */
+
+  .layer3 {
+  }
+
+  .layer3 .trigger {
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .layer3 .trigger {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ed145b;
+    top: 50%;
+    left: 235px;
+    position: absolute;
+  }
+
+  .layer3 .trigger1 {
+    transform: rotate(22.5deg);
+  }
+
+  .layer3 .trigger2 {
+    transform: rotate(45deg);
+  }
+
+  .layer3 .trigger3 {
+    transform: rotate(66.5deg);
+  }
+
+  .layer3 .trigger4 {
+    transform: rotate(89deg);
+  }
+
+  .layer3 .trigger5 {
+    transform: rotate(111.5deg);
+  }
+
+  .layer3 .trigger6 {
+    transform: rotate(134deg);
+  }
+
+  .layer3 .trigger7 {
+    transform: rotate(156.5deg);
+  }
+
+  .layer3 .trigger8 {
+    transform: rotate(179deg);
+  }
+
+  .layer3 .trigger9 {
+    transform: rotate(201.5deg);
+  }
+
+  .layer3 .trigger10 {
+    transform: rotate(224deg);
+  }
+
+  .layer3 .trigger11 {
+    transform: rotate(246deg);
+  }
+
+  .layer3 .trigger12 {
+    transform: rotate(269deg);
+  }
+
+  .layer3 .trigger13 {
+    transform: rotate(291.5deg);
+  }
+
+  .layer3 .trigger14 {
+    transform: rotate(314deg);
+  }
+
+  .layer3 .trigger15 {
+    transform: rotate(336.5deg);
+  }
+
+  /* Ring 4 */
+  .layer4 {
+  }
+
+  .layer4 .trigger {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2587ac;
+    top: 50%;
+    left: 290px;
+    position: absolute;
+  }
+
+  .layer4 .trigger1 {
+    transform: rotate(22.5deg);
+  }
+
+  .layer4 .trigger2 {
+    transform: rotate(45deg);
+  }
+
+  .layer4 .trigger3 {
+    transform: rotate(66.5deg);
+  }
+
+  .layer4 .trigger4 {
+    transform: rotate(89deg);
+  }
+
+  .layer4 .trigger5 {
+    transform: rotate(111.5deg);
+  }
+
+  .layer4 .trigger6 {
+    transform: rotate(134deg);
+  }
+
+  .layer4 .trigger7 {
+    transform: rotate(156.5deg);
+  }
+
+  .layer4 .trigger8 {
+    transform: rotate(179deg);
+  }
+
+  .layer4 .trigger9 {
+    transform: rotate(201.5deg);
+  }
+
+  .layer4 .trigger10 {
+    transform: rotate(224deg);
+  }
+
+  .layer4 .trigger11 {
+    transform: rotate(246deg);
+  }
+
+  .layer4 .trigger12 {
+    transform: rotate(269deg);
+  }
+
+  .layer4 .trigger13 {
+    transform: rotate(291.5deg);
+  }
+
+  .layer4 .trigger14 {
+    transform: rotate(314deg);
+  }
+
+  .layer4 .trigger15 {
+    transform: rotate(336.5deg);
+  }
+
+  /* Ring 5 */
+
+  .layer5 {
+  }
+
+  .layer5 .trigger {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #39b54a;
+    top: 50%;
+    left: 345px;
+    position: absolute;
+  }
+
+  .layer5 .trigger1 {
+    transform: rotate(22.5deg);
+  }
+
+  .layer5 .trigger2 {
+    transform: rotate(45deg);
+  }
+
+  .layer5 .trigger3 {
+    transform: rotate(66.5deg);
+  }
+
+  .layer5 .trigger4 {
+    transform: rotate(89deg);
+  }
+
+  .layer5 .trigger5 {
+    transform: rotate(111.5deg);
+  }
+
+  .layer5 .trigger6 {
+    transform: rotate(134deg);
+  }
+
+  .layer5 .trigger7 {
+    transform: rotate(156.5deg);
+  }
+
+  .layer5 .trigger8 {
+    transform: rotate(179deg);
+  }
+
+  .layer5 .trigger9 {
+    transform: rotate(201.5deg);
+  }
+
+  .layer5 .trigger10 {
+    transform: rotate(224deg);
+  }
+
+  .layer5 .trigger11 {
+    transform: rotate(246deg);
+  }
+
+  .layer5 .trigger12 {
+    transform: rotate(269deg);
+  }
+
+  .layer5 .trigger13 {
+    transform: rotate(291.5deg);
+  }
+
+  .layer5 .trigger14 {
+    transform: rotate(314deg);
+  }
+
+  .layer5 .trigger15 {
+    transform: rotate(336.5deg);
+  }
+
+  /* Ring 6 */
+
+  .layer6 {
+  }
+
+  .layer6 .trigger {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #8560a8;
+    top: 50%;
+    left: 400px;
+    position: absolute;
+  }
+
+  .layer6 .trigger1 {
+    transform: rotate(22.5deg);
+  }
+
+  .layer6 .trigger2 {
+    transform: rotate(45deg);
+  }
+
+  .layer6 .trigger3 {
+    transform: rotate(66.5deg);
+  }
+
+  .layer6 .trigger4 {
+    transform: rotate(89deg);
+  }
+
+  .layer6 .trigger5 {
+    transform: rotate(111.5deg);
+  }
+
+  .layer6 .trigger6 {
+    transform: rotate(134deg);
+  }
+
+  .layer6 .trigger7 {
+    transform: rotate(156.5deg);
+  }
+
+  .layer6 .trigger8 {
+    transform: rotate(179deg);
+  }
+
+  .layer6 .trigger9 {
+    transform: rotate(201.5deg);
+  }
+
+  .layer6 .trigger10 {
+    transform: rotate(224deg);
+  }
+
+  .layer6 .trigger11 {
+    transform: rotate(246deg);
+  }
+
+  .layer6 .trigger12 {
+    transform: rotate(269deg);
+  }
+
+  .layer6 .trigger13 {
+    transform: rotate(291.5deg);
+  }
+
+  .layer6 .trigger14 {
+    transform: rotate(314deg);
+  }
+
+  .layer6 .trigger15 {
+    transform: rotate(336.5deg);
+  }
 }

@@ -15,16 +15,19 @@ class Layer extends Component {
 
     render() {
         return (
-            <div className={this.props.layerCss}>
+            <div className={this.props.style}>
+                <span className={"trigger"}>
                 {
                     this.props.layer.rhythm.map((trigger, i) =>
                         <Trigger key={trigger.step}
                                  layerId={this.props.layer.layerId}
+                                 style={"trigger" + (i + 1)}
                                  checked={this.isChecked(i)}
                                  trigger={trigger}
                                  setTrigger={this.props.setTrigger}/>
                     )
                 }
+                </span>
                 <AudioLoader key={this.props.layer.layerId}
                              layerId={this.props.layer.layerId}
                              loadSample={this.props.loadSample}/>

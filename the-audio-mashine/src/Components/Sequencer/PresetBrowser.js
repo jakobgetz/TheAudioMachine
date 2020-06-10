@@ -15,6 +15,22 @@ class PresetBrowser extends Component {
         this.props.loadPreset(preset)
     }
 
+    /**
+     * Saves a preset to /Presets/User
+     * @param e event in which the current Preset is contained
+     */
+    savePreset = () => {
+        let name = prompt("Name your preset")
+        presets[4].push(name)
+        this.setState({presets: presets})
+        let json = JSON.stringify(this.props.setting);
+        /*
+        let fs = require('browserify-fs');
+        fs.writeFile(presets[4][presets[4].length - 1] + ".json", json)
+         */
+
+    }
+
     render() {
         return (
             <div className="PresetBrowser">
@@ -36,6 +52,7 @@ class PresetBrowser extends Component {
                         )
                     }
                 </ul>
+                <button onClick={() => this.savePreset()}>Save</button>
             </div>
         );
     }

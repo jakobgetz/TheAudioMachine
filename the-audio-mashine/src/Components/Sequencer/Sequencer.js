@@ -5,6 +5,7 @@ import Player from "./Player";
 import PresetBrowser from "./PresetBrowser";
 import DefaultPreset from "../../Presets/DefaultPreset";
 import SamplePicker from "../SamplePicker/Menu"
+import presets from "../../Presets/presets";
 
 class Sequencer extends React.Component {
 
@@ -26,6 +27,8 @@ class Sequencer extends React.Component {
             .then(response => response.json())
             .then(json => this.setState(json, this.initLayers))
     }
+
+
 
     /**
      * initializes all Layers
@@ -144,19 +147,19 @@ class Sequencer extends React.Component {
         return (
             <div>
                 <div>
-                    <PresetBrowser loadPreset={this.loadPreset}/>
+                    <PresetBrowser setting={this.state} loadPreset={this.loadPreset} savePreset={this.savePreset}/>
                 </div>
                 <br/>
                 <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
-                <SamplePicker sample={this.state.layers}/>
+                {/*<SamplePicker sample={this.state.layers}/>*/}
 
                 {/*Creating the Layers*/}
-                <div className="Layers">
+                <div className="layer">
                     {
                         this.state.layers.map((layer, i) =>
                             <Layer key={layer.layerId}
                                    layer={layer}
-                                   layerCss={"Layer" + (i + 1)}
+                                   style={"layer" + (i + 1)}
                                    setTrigger={this.setTrigger}
                                    loadSample={this.loadSample}/>)
                     }
