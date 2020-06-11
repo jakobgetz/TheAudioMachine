@@ -35,7 +35,8 @@ class PresetBrowser extends Component {
         return (
             <div className="PresetBrowser">
                 <ul className="PresetDropdown">
-                    <label> ^ </label>
+                    <label>Presets</label>
+
                     {
                         this.state.presets.map(genre =>
                             <li key={genre[0]}>

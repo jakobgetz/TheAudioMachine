@@ -3264,34 +3264,52 @@
       border: 1px black solid; }
 
 .PresetBrowser {
+  top: 30px;
+  left: 30px;
   background: #333;
   color: #fff;
-  padding: 5px 20px;
-  margin: 20px;
   width: 20%;
-  height: 30px; }
-
-.PresetBrowser label {
-  padding: 3px 20px;
-  float: right; }
+  height: 30px;
+  border-radius: 3px;
+  position: relative; }
+  .PresetBrowser button {
+    height: 80%;
+    background: #111;
+    color: #aaa; }
+    .PresetBrowser button:hover {
+      background: #444; }
+    .PresetBrowser button:nth-of-type(1) {
+      margin-top: 1%;
+      margin-left: 75%; }
+    .PresetBrowser button:nth-of-type(2) {
+      margin-top: 1%; }
+    .PresetBrowser button:nth-of-type(3) {
+      margin-top: 1%;
+      margin-left: 5px; }
 
 .PresetDropdown {
-  background: black;
-  position: relative;
+  background: #111;
+  top: 10%;
+  left: 3%;
+  position: absolute;
   width: 70%;
-  padding: 3px;
+  height: calc(30px - 20%);
   display: block;
   list-style: none;
   float: left;
-  border-radius: 0px 0px 3px 3px; }
+  border-radius: 0px 0px 3px 3px;
+  z-index: 1;
+  color: #aaa; }
+  .PresetDropdown label {
+    margin: 5px; }
   .PresetDropdown li {
     display: none;
     float: left;
-    color: white;
     background: #222;
-    width: 60%;
+    width: 100%;
     padding: 5px 20px 5px 20px;
-    border-bottom: black 2px solid; }
+    border-bottom: black 2px solid;
+    position: relative; }
   .PresetDropdown:hover {
     background: grey; }
     .PresetDropdown:hover li {
@@ -3325,7 +3343,8 @@
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  background: #138925; }
+  background: #138925;
+  background-image: "pause Icon"; }
   .Player .playButtonChecked:hover {
     border: 3px black solid; }
 .Player .trashButton {
@@ -3369,11 +3388,26 @@
   background: #67bb74; }
 
 .BPM {
-  background: #999;
-  padding: 5px 20px;
-  margin: 20px;
+  background: #333;
+  top: 80px;
+  left: 30px;
+  height: 30px;
   width: 20%;
-  position: absolute; }
+  position: absolute;
+  border-radius: 3px;
+  color: #aaa; }
+  .BPM input {
+    poisition: absolute;
+    background: #222;
+    margin: 5px;
+    color: #aaa; }
+    .BPM input:hover {
+      background: #555; }
+  .BPM label {
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    margin-left: 5px; }
 
 .Library {
   margin: 20px; }

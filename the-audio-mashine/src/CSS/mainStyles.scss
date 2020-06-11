@@ -20,11 +20,30 @@
 }
 
 .BPM {
-  background: #999;
-  padding: 5px 20px;
-  margin: 20px;
+  background: #333;
+  top: 80px;
+  left: 30px;
+  height: 30px;
   width: 20%;
   position: absolute;
+  border-radius: 3px;
+  color: #aaa;
+
+  input {
+    poisition: absolute;
+    background: #222;
+    margin: 5px;
+    color: #aaa;
+    &:hover {
+      background: #555;
+    }
+  }
+  label {
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    margin-left: 5px;
+  }
 }
 
 

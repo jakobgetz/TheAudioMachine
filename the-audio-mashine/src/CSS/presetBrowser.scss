@@ -1,36 +1,67 @@
+$height: 30px;
 
 .PresetBrowser {
+  top: 30px;
+  left: 30px;
   background: #333;
   color: #fff;
-  padding: 5px 20px;
-  margin: 20px;
   width: 20%;
-  height: 30px;
-}
+  height: $height;
+  border-radius: 3px;
+  position: relative;
 
-.PresetBrowser label {
-  padding: 3px 20px;
-  float: right;
+  button {
+    height: 80%;
+    background: #111;
+    color: #aaa;
+
+    &:hover {
+      background: #444;
+    }
+
+    &:nth-of-type(1) {
+      margin-top: 1%;
+      margin-left: 75%;
+    }
+
+    &:nth-of-type(2) {
+      margin-top: 1%;
+    }
+
+    &:nth-of-type(3) {
+      margin-top: 1%;
+      margin-left: 5px;
+    }
+  }
+
 }
 
 .PresetDropdown {
-  background: black;
-  position: relative;
+  background: #111;
+  top: 10%;
+  left: 3%;
+  position: absolute;
   width: 70%;
-  padding: 3px;
+  height: calc(#{$height} - 20%);
   display: block;
   list-style: none;
   float: left;
   border-radius: 0px 0px 3px 3px;
+  z-index: 1;
+  color: #aaa;
+
+  label {
+    margin: 5px;
+  }
 
   li {
     display: none;
     float: left;
-    color: white;
     background: #222;
-    width: 60%;
+    width: 100%;
     padding: 5px 20px 5px 20px;
     border-bottom: black 2px solid;
+    position: relative;
   }
 
   &:hover {
