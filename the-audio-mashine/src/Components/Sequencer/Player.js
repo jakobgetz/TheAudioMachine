@@ -16,7 +16,6 @@ class Player extends Component {
     audioBuffer = 0.01
     samplePlayer
     sampleGain
-    samplePitch
 
     state = {
         currentVolume: 0.8,
@@ -131,11 +130,11 @@ class Player extends Component {
 
     render() {
         return (<div className="Player">
-                <Button onClick={this.props.resetTriggers}><img src={binIcon}
+                <Button className="trashButton" onClick={this.props.resetTriggers}><img src={binIcon}
                                                                 alt="Erase triggers "/></Button>
                 <span className={this.getPlayButtonStyle()} onClick={this.play}><img src={this.state.playingIcon}
                                                  alt="Play/Pause Icon"/></span>
-                <RangeSlider className="CustomRangeSlider" size='sm'
+                <input type='range' className="volumeSlider"
                              value={Math.round(this.state.currentVolume * 100)}
                              onChange={changeEvent => this.setVolume(changeEvent)}/>
             </div>

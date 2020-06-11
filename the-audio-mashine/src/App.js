@@ -9,9 +9,9 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                {/*<Header/>*/}
                 <Sequencer/>
-                <Library/>
+                {/*<Library/>*/}
             </div>
         );
     }
