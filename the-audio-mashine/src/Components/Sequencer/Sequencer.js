@@ -145,7 +145,7 @@ class Sequencer extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="sequencer">
                 <div>
                     <PresetBrowser setting={this.state} loadPreset={this.loadPreset} savePreset={this.savePreset}/>
                 </div>
@@ -154,7 +154,6 @@ class Sequencer extends React.Component {
                 {/*<SamplePicker sample={this.state.layers}/>*/}
 
                 {/*Creating the Layers*/}
-                Playhead starts at the top of the circle
                 <div className="layer">
                     {
                         this.state.layers.map((layer, i) =>

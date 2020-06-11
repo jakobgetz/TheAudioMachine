@@ -52,6 +52,8 @@ class PresetBrowser extends Component {
                         )
                     }
                 </ul>
+                <button>-</button>
+                <button>+</button>
                 <button onClick={() => this.savePreset()}>Save</button>
             </div>
         );

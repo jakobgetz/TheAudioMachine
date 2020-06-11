@@ -1,8 +1,8 @@
 .layer div:nth-of-type(1) span:nth-of-type(1) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -16,10 +16,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(1) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(1) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -33,10 +33,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(1) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -50,10 +50,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(2) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -67,10 +67,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(2) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -84,10 +84,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(3) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -101,10 +101,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(3) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -118,10 +118,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(4) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -135,10 +135,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(4) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -152,10 +152,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(5) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -169,10 +169,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(5) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -186,10 +186,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(6) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -203,10 +203,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(6) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -220,10 +220,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(7) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -237,10 +237,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(7) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -254,10 +254,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(8) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -271,10 +271,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(8) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -288,10 +288,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(9) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -305,10 +305,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(9) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -322,10 +322,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(10) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -339,10 +339,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(10) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -356,10 +356,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(11) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -373,10 +373,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(11) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -390,10 +390,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(12) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -407,10 +407,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(12) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -424,10 +424,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(13) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -441,10 +441,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(13) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -458,10 +458,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(14) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -475,10 +475,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(14) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -492,10 +492,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(15) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -509,10 +509,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(15) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -526,10 +526,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(16) .checked {
-  top: 250px;
-  left: 500px;
+  top: 5%;
+  left: 49%;
   width: 30px;
-  height: 350px;
+  height: 45%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 1;
@@ -543,10 +543,10 @@
     .layer div:nth-of-type(1) span:nth-of-type(16) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -560,10 +560,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(1) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -577,10 +577,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(1) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -594,10 +594,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(2) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -611,10 +611,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(2) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -628,10 +628,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(3) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -645,10 +645,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(3) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -662,10 +662,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(4) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -679,10 +679,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(4) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -696,10 +696,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(5) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -713,10 +713,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(5) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -730,10 +730,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(6) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -747,10 +747,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(6) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -764,10 +764,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(7) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -781,10 +781,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(7) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -798,10 +798,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(8) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -815,10 +815,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(8) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -832,10 +832,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(9) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -849,10 +849,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(9) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -866,10 +866,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(10) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -883,10 +883,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(10) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -900,10 +900,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(11) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -917,10 +917,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(11) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -934,10 +934,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(12) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -951,10 +951,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(12) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -968,10 +968,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(13) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -985,10 +985,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(13) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -1002,10 +1002,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(14) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -1019,10 +1019,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(14) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -1036,10 +1036,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(15) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -1053,10 +1053,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(15) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -1070,10 +1070,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(16) .checked {
-  top: 300px;
-  left: 500px;
+  top: 10%;
+  left: 49%;
   width: 30px;
-  height: 300px;
+  height: 40%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 2;
@@ -1087,10 +1087,10 @@
     .layer div:nth-of-type(2) span:nth-of-type(16) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1104,10 +1104,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(1) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1121,10 +1121,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(1) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1138,10 +1138,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(2) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1155,10 +1155,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(2) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1172,10 +1172,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(3) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1189,10 +1189,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(3) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1206,10 +1206,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(4) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1223,10 +1223,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(4) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1240,10 +1240,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(5) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1257,10 +1257,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(5) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1274,10 +1274,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(6) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1291,10 +1291,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(6) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1308,10 +1308,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(7) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1325,10 +1325,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(7) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1342,10 +1342,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(8) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1359,10 +1359,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(8) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1376,10 +1376,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(9) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1393,10 +1393,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(9) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1410,10 +1410,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(10) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1427,10 +1427,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(10) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1444,10 +1444,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(11) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1461,10 +1461,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(11) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1478,10 +1478,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(12) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1495,10 +1495,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(12) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1512,10 +1512,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(13) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1529,10 +1529,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(13) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1546,10 +1546,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(14) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1563,10 +1563,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(14) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1580,10 +1580,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(15) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1597,10 +1597,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(15) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1614,10 +1614,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(16) .checked {
-  top: 350px;
-  left: 500px;
+  top: 15%;
+  left: 49%;
   width: 30px;
-  height: 250px;
+  height: 35%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 3;
@@ -1631,10 +1631,10 @@
     .layer div:nth-of-type(3) span:nth-of-type(16) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1648,10 +1648,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(1) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1665,10 +1665,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(1) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1682,10 +1682,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(2) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1699,10 +1699,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(2) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1716,10 +1716,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(3) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1733,10 +1733,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(3) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1750,10 +1750,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(4) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1767,10 +1767,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(4) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1784,10 +1784,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(5) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1801,10 +1801,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(5) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1818,10 +1818,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(6) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1835,10 +1835,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(6) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1852,10 +1852,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(7) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1869,10 +1869,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(7) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1886,10 +1886,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(8) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1903,10 +1903,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(8) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1920,10 +1920,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(9) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1937,10 +1937,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(9) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1954,10 +1954,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(10) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1971,10 +1971,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(10) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -1988,10 +1988,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(11) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2005,10 +2005,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(11) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2022,10 +2022,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(12) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2039,10 +2039,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(12) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2056,10 +2056,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(13) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2073,10 +2073,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(13) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2090,10 +2090,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(14) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2107,10 +2107,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(14) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2124,10 +2124,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(15) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2141,10 +2141,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(15) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2158,10 +2158,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(16) .checked {
-  top: 400px;
-  left: 500px;
+  top: 20%;
+  left: 49%;
   width: 30px;
-  height: 200px;
+  height: 30%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 4;
@@ -2175,10 +2175,10 @@
     .layer div:nth-of-type(4) span:nth-of-type(16) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2192,10 +2192,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(1) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2209,10 +2209,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(1) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2226,10 +2226,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(2) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2243,10 +2243,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(2) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2260,10 +2260,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(3) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2277,10 +2277,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(3) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2294,10 +2294,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(4) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2311,10 +2311,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(4) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2328,10 +2328,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(5) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2345,10 +2345,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(5) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2362,10 +2362,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(6) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2379,10 +2379,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(6) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2396,10 +2396,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(7) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2413,10 +2413,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(7) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2430,10 +2430,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(8) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2447,10 +2447,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(8) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2464,10 +2464,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(9) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2481,10 +2481,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(9) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2498,10 +2498,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(10) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2515,10 +2515,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(10) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2532,10 +2532,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(11) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2549,10 +2549,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(11) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2566,10 +2566,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(12) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2583,10 +2583,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(12) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2600,10 +2600,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(13) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2617,10 +2617,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(13) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2634,10 +2634,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(14) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2651,10 +2651,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(14) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2668,10 +2668,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(15) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2685,10 +2685,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(15) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2702,10 +2702,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(16) .checked {
-  top: 450px;
-  left: 500px;
+  top: 25%;
+  left: 49%;
   width: 30px;
-  height: 150px;
+  height: 25%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 5;
@@ -2719,10 +2719,10 @@
     .layer div:nth-of-type(5) span:nth-of-type(16) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2736,10 +2736,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(1) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2753,10 +2753,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(1) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2770,10 +2770,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(2) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2787,10 +2787,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(2) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2804,10 +2804,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(3) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2821,10 +2821,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(3) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2838,10 +2838,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(4) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2855,10 +2855,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(4) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2872,10 +2872,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(5) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2889,10 +2889,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(5) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2906,10 +2906,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(6) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2923,10 +2923,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(6) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2940,10 +2940,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(7) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2957,10 +2957,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(7) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2974,10 +2974,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(8) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -2991,10 +2991,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(8) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3008,10 +3008,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(9) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3025,10 +3025,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(9) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3042,10 +3042,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(10) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3059,10 +3059,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(10) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3076,10 +3076,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(11) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3093,10 +3093,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(11) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3110,10 +3110,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(12) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3127,10 +3127,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(12) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3144,10 +3144,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(13) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3161,10 +3161,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(13) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3178,10 +3178,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(14) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3195,10 +3195,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(14) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3212,10 +3212,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(15) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3229,10 +3229,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(15) .checked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3246,10 +3246,10 @@
     .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked span:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(16) .checked {
-  top: 500px;
-  left: 500px;
+  top: 30%;
+  left: 49%;
   width: 30px;
-  height: 100px;
+  height: 20%;
   transform-origin: bottom center;
   position: absolute;
   z-index: 6;
@@ -3268,7 +3268,7 @@
   color: #fff;
   padding: 5px 20px;
   margin: 20px;
-  width: 60%;
+  width: 20%;
   height: 30px; }
 
 .PresetBrowser label {
@@ -3278,7 +3278,7 @@
 .PresetDropdown {
   background: black;
   position: relative;
-  width: 30%;
+  width: 70%;
   padding: 3px;
   display: block;
   list-style: none;
@@ -3307,8 +3307,8 @@
           width: 200px; }
 
 .Player .playButton {
-  top: 550px;
-  left: 460px;
+  top: calc(50% - 100px / 2);
+  left: calc(50% - 100px / 2);
   position: absolute;
   z-index: 8;
   border-radius: 50%;
@@ -3318,8 +3318,8 @@
   .Player .playButton:hover {
     border: 3px black solid; }
 .Player .playButtonChecked {
-  top: 550px;
-  left: 460px;
+  top: calc(50% - 100px / 2);
+  left: calc(50% - 100px / 2);
   position: absolute;
   z-index: 8;
   border-radius: 50%;
@@ -3328,6 +3328,18 @@
   background: #138925; }
   .Player .playButtonChecked:hover {
     border: 3px black solid; }
+.Player .trashButton {
+  top: 80%;
+  margin-left: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: #333; }
+.Player .volumeSlider {
+  top: 80%;
+  left: 110px;
+  length: 20px;
+  position: absolute; }
 
 /*
 .Player button {
@@ -3350,15 +3362,18 @@
 .Header {
   margin: 20px; }
 
+.sequencer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #67bb74; }
+
 .BPM {
   background: #999;
   padding: 5px 20px;
   margin: 20px;
-  width: 60%; }
-
-.CustomRangeSlider {
-  width: 20vw;
-  display: inline; }
+  width: 20%;
+  position: absolute; }
 
 .Library {
   margin: 20px; }

@@ -1,12 +1,12 @@
-$sequencerSize: 500px;
+$sequencerSize: 50%;
 $triggerSize: 30px;
 $colors: #f26c4f, #f7941d, #ed145b, #2587ac, #39b54a, #8560a8;
 
 @mixin trigger($color, $layer) {
-  top: ($sequencerSize / 2 - 50 + 50 * $layer);
-  left: $sequencerSize;
+  top: ($layer * 5%);
+  left: ($sequencerSize - 1%);
   width: $triggerSize;
-  height: ($sequencerSize - (($sequencerSize / 10) * $layer) - 100);
+  height: ($sequencerSize - 5% - ($layer - 1) * 5%);
   transform-origin: bottom center;
   position: absolute;
   z-index: $layer;
@@ -34,6 +34,7 @@ $colors: #f26c4f, #f7941d, #ed145b, #2587ac, #39b54a, #8560a8;
             @include trigger(nth($colors, $layerId), $layerId);
             transform: rotate((($triggerId - 1) * 22.5deg));
           }
+
           .checked {
             @include trigger(darken(nth($colors, $layerId), 50), $layerId);
             transform: rotate((($triggerId - 1) * 22.5deg));

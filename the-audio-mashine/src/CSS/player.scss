@@ -1,21 +1,24 @@
+$center: 50%;
+$playButtonSize: 100px;
+$trashButtonSize: 50px;
 
 .Player {
   .playButton {
-    top: 550px;
-    left: 460px;
+    top: calc(#{$center} - #{$playButtonSize} / 2);
+    left: calc(#{$center} - #{$playButtonSize} / 2);
     position: absolute;
     z-index: 8;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: $playButtonSize;
+    width: $playButtonSize;
     background: gray;
     &:hover {
       border: 3px black solid;
     }
   }
   .playButtonChecked {
-    top: 550px;
-    left: 460px;
+    top: calc(#{$center} - #{$playButtonSize} / 2);
+    left: calc(#{$center} - #{$playButtonSize} / 2);
     position: absolute;
     z-index: 8;
     border-radius: 50%;
@@ -25,6 +28,21 @@
     &:hover {
       border: 3px black solid;
     }
+  }
+  .trashButton {
+    top: 80%;
+    margin-left: $trashButtonSize;
+    width: $trashButtonSize;
+    height: $trashButtonSize;
+    position: absolute;
+    background: #333;
+  }
+
+  .volumeSlider{
+    top: 80%;
+    left: $trashButtonSize * 2 + 10px;
+    length: 20px;
+    position: absolute;
   }
 }
 
