@@ -115,6 +115,29 @@
         {"step": 14, "velocity": 0, "pitch": 0},
         {"step": 15, "velocity": 0, "pitch": 0}
       ]
+    },
+    {
+      "layerId": 5,
+      "name": "Voc",
+      "sampleFilePath": "/DefaultSamples/ayy.wav",
+      "rhythm": [
+        {"step": 0, "velocity": 0, "pitch": 0},
+        {"step": 1, "velocity": 0, "pitch": 0},
+        {"step": 2, "velocity": 0, "pitch": 0},
+        {"step": 3, "velocity": 0, "pitch": 0},
+        {"step": 4, "velocity": 0, "pitch": 0},
+        {"step": 5, "velocity": 0, "pitch": 0},
+        {"step": 6, "velocity": 0, "pitch": 0},
+        {"step": 7, "velocity": 0, "pitch": 0},
+        {"step": 8, "velocity": 0, "pitch": 0},
+        {"step": 9, "velocity": 0, "pitch": 0},
+        {"step": 10, "velocity": 0, "pitch": 0},
+        {"step": 11, "velocity": 0, "pitch": 0},
+        {"step": 12, "velocity": 0, "pitch": 0},
+        {"step": 13, "velocity": 0, "pitch": 0},
+        {"step": 14, "velocity": 0, "pitch": 0},
+        {"step": 15, "velocity": 0, "pitch": 0}
+      ]
     }
   ]
 }
