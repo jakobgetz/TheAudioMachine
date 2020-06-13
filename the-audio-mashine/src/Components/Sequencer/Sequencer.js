@@ -3,19 +3,14 @@ import BPM from "./BPM";
 import Layer from "./Layer/Layer";
 import Player from "./Player";
 import PresetBrowser from "./PresetBrowser";
-import DefaultPreset from "../../Presets/DefaultPreset";
-import SamplePicker from "../SamplePicker/Menu"
-import presets from "../../Presets/presets";
 
 class Sequencer extends React.Component {
-
-    state = DefaultPreset
 
     /**
      * Initializes the Sequencer right after the Component did mount
      */
     componentDidMount() {
-        this.initLayers()
+        this.setState(this.loadPreset('init.json'), () => this.initLayers)
     }
 
     /**
@@ -27,8 +22,6 @@ class Sequencer extends React.Component {
             .then(response => response.json())
             .then(json => this.setState(json, this.initLayers))
     }
-
-
 
     /**
      * initializes all Layers
@@ -145,6 +138,7 @@ class Sequencer extends React.Component {
 
     render() {
         return (
+            this.state ?
             <div className="sequencer">
                 <div>
                     <PresetBrowser setting={this.state} loadPreset={this.loadPreset} savePreset={this.savePreset}/>
@@ -163,13 +157,9 @@ class Sequencer extends React.Component {
                                    loadSample={this.loadSample}/>)
                     }
                 </div>
-                {/*
-                <AddLayer/>
-                <RemoveLayer/>
-                                */}
-
                 <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
             </div>
+                : null
         )
     }
 }

@@ -1,7 +1,9 @@
 {
-  "house": [],
-  "techno": [],
-  "hipHop": [],
-  "dubstep": [],
-  "user": ["VelocityShowcase.json","PitchShowcase.json"]
+  "presets": [
+      ["house"],
+      ["techno"],
+      ["hipHop"],
+      ["dubstep"],
+      ["user", "Init.json", "HouseBeat.json", "VelocityShowcase.json", "PitchShowcase.json"]
+    ]
 }
