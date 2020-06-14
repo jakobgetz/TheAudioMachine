@@ -16,10 +16,6 @@ class Layer extends Component {
     render() {
         return (
             <div>
-                {/*<SamplePicker
-                    layer={this.props.layer}
-                    loadSample={this.props.loadSample}/>
-*/}
                 {
                     this.props.layer.rhythm.map((trigger, i) =>
                         <Trigger key={trigger.step}
@@ -29,10 +25,6 @@ class Layer extends Component {
                                  setTrigger={this.props.setTrigger}/>
                     )
                 }
-                {/*<AudioLoader key={this.props.layer.layerId}
-                             layerId={this.props.layer.layerId}
-                             loadSample={this.props.loadSample}/>
-                {this.props.layer.name}*/}
             </div>
         )
     }

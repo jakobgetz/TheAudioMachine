@@ -3,7 +3,8 @@ import BPM from "./BPM";
 import Layer from "./Layer/Layer";
 import Player from "./Player";
 import PresetBrowser from "./PresetBrowser";
-import SampleMenu from "./SampleMenu";
+import SampleMenu from "./SampleMenu/SampleMenu";
+import Sequence from "./Layer/Sequence";
 
 class Sequencer extends React.Component {
 
@@ -46,18 +47,15 @@ class Sequencer extends React.Component {
      * @param e event in which the sample is contained
      * @param input the file input which contains the id of the layer to which the sample should be loaded
      */
-    loadSample = (e, layerID) => {
-        console.log(e);
-        console.log(layerID);
+    loadSample = (e, layerId) => {
         let layers = this.state.layers
         const file = e.target.files[0]
-        console.log(file);
         const reader = new FileReader();
         reader.readAsArrayBuffer(file);
         reader.onload = function () {
             new AudioContext().decodeAudioData(reader.result).then(result => {
                 layers = layers.map((item, i) => {
-                    if (i === layerID - 1) {
+                    if (i === layerId - 1) {
                         item.sample = result
                         return item
                     } else {
@@ -72,7 +70,8 @@ class Sequencer extends React.Component {
      * changes the rhythm of a layer to mach the displayed pattern of the website
      */
     setTrigger = currentTrigger => {
-        let newRhythm = this.state.layers[currentTrigger.props.layerId - 1].rhythm
+        const layers = this.state.layers
+        let newRhythm = layers[currentTrigger.props.layerId - 1].rhythm
         newRhythm = newRhythm.map((trigger, i) => {
             if (currentTrigger.props.trigger.step === trigger.step) {
                 if (trigger.velocity === 0) {
@@ -92,7 +91,7 @@ class Sequencer extends React.Component {
                 }
             }
         })
-        let newLayers = this.state.layers
+        let newLayers = layers
         newLayers = newLayers.map(layers => {
             if (currentTrigger.props.layerId === layers.layerId) {
                 layers.rhythm = newRhythm
@@ -143,30 +142,17 @@ class Sequencer extends React.Component {
     render() {
         return (
             this.state ?
-            <div className="sequencer">
-                <div>
+                <div className="sequencer">
                     <PresetBrowser setting={this.state} loadPreset={this.loadPreset} savePreset={this.savePreset}/>
+
+                    <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
+
+                    <SampleMenu layers={this.state.layers} loadSample={this.loadSample}/>
+
+                    <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
+
+                    <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
                 </div>
-
-
-                <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
-
-                <SampleMenu
-                    layers={this.state.layers}
-                    loadSample={this.loadSample}/>
-
-                {/*Creating the Layers*/}
-                <div className="layer">
-                    {
-                        this.state.layers.map(layer =>
-                            <Layer key={layer.layerId}
-                                   layer={layer}
-                                   setTrigger={this.setTrigger}
-                                   loadSample={this.loadSample}/>)
-                    }
-                </div>
-                <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
-            </div>
                 : null
         )
     }
