@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import Sequencer from "./Components/Sequencer/Sequencer";
 import Header from "./Components/Header";
-import Library from "./Components/Library/Library";
-import "./CSS/mainStyles.css"
+import "./CSS/mainStyles.scss"
 
 class App extends Component {
     render() {

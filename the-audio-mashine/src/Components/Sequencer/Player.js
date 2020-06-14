@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import Button from 'react-bootstrap/Button';
 import pauseIcon from '../../Assets/pause.svg';
 import playIcon from '../../Assets/play.svg';
-import stepBackIcon from '../../Assets/stepback.svg';
 import binIcon from '../../Assets/bin.svg';
-import RangeSlider from "react-bootstrap-range-slider";
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 
 class Player extends Component {
@@ -46,14 +44,6 @@ class Player extends Component {
             this.masterGain.connect(this.ctx.destination)
             this.playSequence()
         }
-    }
-
-    /**
-     * returns the style of the playbutton
-     * @returns css classname
-     */
-    getPlayButtonStyle = () => {
-        return this.isPlaying ? "playButtonChecked" : "playButton";
     }
 
     /**
@@ -108,7 +98,7 @@ class Player extends Component {
     }
 
     /**
-     * Plays back the current Samples at the Playhead Position
+     * Plays back the current samples at the Playhead Position
      */
     playBackSamples = () => {
         let playTime = this.ctx.currentTime + this.audioBuffer
@@ -131,12 +121,13 @@ class Player extends Component {
     render() {
         return (<div className="Player">
                 <Button className="trashButton" onClick={this.props.resetTriggers}><img src={binIcon}
-                                                                alt="Erase triggers "/></Button>
-                <span className={this.getPlayButtonStyle()} onClick={this.play}><img src={this.state.playingIcon}
-                                                 alt="Erase triggers"/></span>
+                                                                                        alt="Erase triggers "/></Button>
+                <span className="playButton" onClick={this.play}><img src={this.state.playingIcon}
+                                                                                     className="playIcon"
+                                                                                     alt="Play/Pause-Button"/></span>
                 <input type='range' className="volumeSlider"
-                             value={Math.round(this.state.currentVolume * 100)}
-                             onChange={changeEvent => this.setVolume(changeEvent)}/>
+                       value={Math.round(this.state.currentVolume * 100)}
+                       onChange={changeEvent => this.setVolume(changeEvent)}/>
             </div>
         );
     }
