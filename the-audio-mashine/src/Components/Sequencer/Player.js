@@ -122,8 +122,8 @@ class Player extends Component {
                 <Button className="trashButton" onClick={this.props.resetTriggers}><img src={binIcon}
                                                                                         alt="Erase triggers "/></Button>
                 <span className="playButton" onClick={this.play}><img src={this.state.playingIcon}
-                                                                                     className="playIcon"
-                                                                                     alt="Play/Pause-Button"/></span>
+                                                                      className="playIcon"
+                                                                      alt="Play/Pause-Button"/></span>
                 <input type='range' className="volumeSlider"
                        value={Math.round(this.state.currentVolume * 100)}
                        onChange={changeEvent => this.setVolume(changeEvent)}/>
