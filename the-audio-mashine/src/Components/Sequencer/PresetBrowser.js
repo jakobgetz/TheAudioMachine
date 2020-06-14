@@ -1,15 +1,20 @@
 import React, {Component} from 'react';
-//import presets from "../../Presets/presets";
 
 class PresetBrowser extends Component {
+    static userTag = 'user';
+    presetName = 'CustomPresets.json';
 
     /**
      * sets up the PresetBrowser
      */
     componentDidMount() {
-        fetch('Presets/presets.json')
-            .then(response => response.json())
-            .then(presets => this.setState(presets))
+        this.initPresets().catch();
+    }
+
+    initPresets = async () => {
+        const response = await fetch('Presets/presets.json');
+        const preset = await response.json();
+        await this.setState(preset);
     }
 
     /**
@@ -25,22 +30,67 @@ class PresetBrowser extends Component {
     /**
      * chooses a preset
      * @param preset
+     * @param categoryName
      */
-    choosePreset = (preset) => {
-        this.props.loadPreset(preset)
+    choosePreset = (preset, categoryName) => {
+        this.loadPreset(preset, categoryName);
     }
 
     /**
      * Saves a preset to /Presets/User
-     * @param e event in which the current Preset is contained
      */
     savePreset = () => {
-        /*
-        let name = prompt("Name your preset")
-        presets[4].push(name)
-        this.setState({presets: presets})
-        let json = JSON.stringify(this.props.setting);
-         */
+        let name = prompt("Name your preset");
+        let presets = this.state.presets;
+        presets = presets.map(category => {
+                if (category[0] === PresetBrowser.userTag) {
+                    category.push(name);
+                }
+                return category;
+            }
+        )
+        this.setState({presets: presets}, () => this.savePresetToLocalStorage(this.props.setting));
+    }
+
+    /**
+     * Saves a json file to local storage
+     * @param data
+     */
+    savePresetToLocalStorage = (data) => {
+        let stringData = JSON.stringify(data)
+        const fs = require('localstorage-fs');
+        fs.writeFile(this.presetName, stringData, (err) => {
+            if (err) return console.log(err);
+            console.log('Preset saved to local storage');
+        });
+    }
+
+    /**
+     *
+     * @param presetName
+     * @param categoryName
+     */
+    loadPreset = async (presetName, categoryName) => {
+        let preset;
+        if (categoryName === PresetBrowser.userTag) {
+            preset = await this.loadPresetFromLocalStorage(presetName);
+        } else {
+            const response = await fetch('Presets/' + presetName)
+            preset = await response.json();
+        }
+        this.props.setPreset(preset)
+    }
+
+    /**
+     *
+     */
+    loadPresetFromLocalStorage = async () => {
+        const fs = require('localstorage-fs');
+        let result = await fs.readFile(this.presetName, err => {
+            if (err) return console.log(err);
+            console.log('Error while reading preset from localstorage');
+        });
+        return await result.json();
     }
 
     render() {
@@ -50,14 +100,14 @@ class PresetBrowser extends Component {
                     <ul className="PresetDropdown">
                         <label>Presets</label>
                         {
-                            this.state.presets.map(genre =>
-                                <li key={genre[0]}>
+                            this.state.presets.map(category =>
+                                <li key={category[0]}>
                                     <ul>
-                                        {genre[0]} >
+                                        {category[0]} >
                                         {
-                                            genre.slice(1).map(preset =>
+                                            category.slice(1).map(preset =>
                                                 <li key={preset}
-                                                    onClick={() => this.choosePreset(preset)}>{preset.slice(0, -5)}</li>
+                                                    onClick={() => this.choosePreset(preset, category[0])}>{preset.slice(0, -5)}</li>
                                             )
                                         }
                                     </ul>
