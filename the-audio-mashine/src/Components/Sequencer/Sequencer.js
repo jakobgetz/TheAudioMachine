@@ -3,6 +3,7 @@ import BPM from "./BPM";
 import Layer from "./Layer/Layer";
 import Player from "./Player";
 import PresetBrowser from "./PresetBrowser";
+import SampleMenu from "./SampleMenu";
 
 class Sequencer extends React.Component {
 
@@ -45,15 +46,18 @@ class Sequencer extends React.Component {
      * @param e event in which the sample is contained
      * @param input the file input which contains the id of the layer to which the sample should be loaded
      */
-    loadSample = (e, input) => {
+    loadSample = (e, layerID) => {
+        console.log(e);
+        console.log(layerID);
         let layers = this.state.layers
         const file = e.target.files[0]
+        console.log(file);
         const reader = new FileReader();
         reader.readAsArrayBuffer(file);
         reader.onload = function () {
             new AudioContext().decodeAudioData(reader.result).then(result => {
                 layers = layers.map((item, i) => {
-                    if (i === input.props.layerId - 1) {
+                    if (i === layerID - 1) {
                         item.sample = result
                         return item
                     } else {
@@ -143,14 +147,18 @@ class Sequencer extends React.Component {
                 <div>
                     <PresetBrowser setting={this.state} loadPreset={this.loadPreset} savePreset={this.savePreset}/>
                 </div>
-                <br/>
+
+
                 <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
-                {/*<SamplePicker sample={this.state.layers}/>*/}
+
+                <SampleMenu
+                    layers={this.state.layers}
+                    loadSample={this.loadSample}/>
 
                 {/*Creating the Layers*/}
                 <div className="layer">
                     {
-                        this.state.layers.map((layer, i) =>
+                        this.state.layers.map(layer =>
                             <Layer key={layer.layerId}
                                    layer={layer}
                                    setTrigger={this.setTrigger}
