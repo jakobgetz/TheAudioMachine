@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Trigger from "./Trigger";
-import AudioLoader from "./AudioLoader";
 
 class Layer extends Component {
 
