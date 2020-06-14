@@ -1,6 +1,5 @@
 import * as React from 'react';
 import BPM from "./BPM";
-import Layer from "./Layer/Layer";
 import Player from "./Player";
 import PresetBrowser from "./PresetBrowser";
 import SampleMenu from "./SampleMenu/SampleMenu";
@@ -8,21 +7,156 @@ import Sequence from "./Layer/Sequence";
 
 class Sequencer extends React.Component {
 
-    /**
-     * Initializes the Sequencer right after the Component did mount
-     */
-    componentDidMount() {
-        this.setState(this.loadPreset('init.json'), () => this.initLayers)
+    state = {
+        bpm: 127,
+        layers: [
+            {
+                layerId: 1,
+                name: 'Kick',
+                sampleFilePath: '/DefaultSamples/Kick.wav',
+                rhythm: [
+                    {step: 0, velocity: 0, pitch: 1},
+                    {step: 1, velocity: 0, pitch: 1},
+                    {step: 2, velocity: 0, pitch: 1},
+                    {step: 3, velocity: 0, pitch: 1},
+                    {step: 4, velocity: 0, pitch: 1},
+                    {step: 5, velocity: 0, pitch: 1},
+                    {step: 6, velocity: 0, pitch: 1},
+                    {step: 7, velocity: 0, pitch: 1},
+                    {step: 8, velocity: 0, pitch: 1},
+                    {step: 9, velocity: 0, pitch: 1},
+                    {step: 10, velocity: 0, pitch: 1},
+                    {step: 11, velocity: 0, pitch: 1},
+                    {step: 12, velocity: 0, pitch: 1},
+                    {step: 13, velocity: 0, pitch: 1},
+                    {step: 14, velocity: 0, pitch: 1},
+                    {step: 15, velocity: 0, pitch: 1}
+                ]
+            },
+            {
+                layerId: 2,
+                name: "Snare",
+                sampleFilePath: "/DefaultSamples/Snare.wav",
+                rhythm: [
+                    {step: 0, velocity: 0, pitch: 1},
+                    {step: 1, velocity: 0, pitch: 1},
+                    {step: 2, velocity: 0, pitch: 1},
+                    {step: 3, velocity: 0, pitch: 1},
+                    {step: 4, velocity: 0, pitch: 1},
+                    {step: 5, velocity: 0, pitch: 1},
+                    {step: 6, velocity: 0, pitch: 1},
+                    {step: 7, velocity: 0, pitch: 1},
+                    {step: 8, velocity: 0, pitch: 1},
+                    {step: 9, velocity: 0, pitch: 1},
+                    {step: 10, velocity: 0, pitch: 1},
+                    {step: 11, velocity: 0, pitch: 1},
+                    {step: 12, velocity: 0, pitch: 1},
+                    {step: 13, velocity: 0, pitch: 1},
+                    {step: 14, velocity: 0, pitch: 1},
+                    {step: 15, velocity: 0, pitch: 1}
+                ]
+            },
+            {
+                layerId: 3,
+                name: "Clap",
+                sampleFilePath: "/DefaultSamples/Clap.wav",
+                rhythm: [
+                    {step: 0, velocity: 0, pitch: 1},
+                    {step: 1, velocity: 0, pitch: 1},
+                    {step: 2, velocity: 0, pitch: 1},
+                    {step: 3, velocity: 0, pitch: 1},
+                    {step: 4, velocity: 0, pitch: 1},
+                    {step: 5, velocity: 0, pitch: 1},
+                    {step: 6, velocity: 0, pitch: 1},
+                    {step: 7, velocity: 0, pitch: 1},
+                    {step: 8, velocity: 0, pitch: 1},
+                    {step: 9, velocity: 0, pitch: 1},
+                    {step: 10, velocity: 0, pitch: 1},
+                    {step: 11, velocity: 0, pitch: 1},
+                    {step: 12, velocity: 0, pitch: 1},
+                    {step: 13, velocity: 0, pitch: 1},
+                    {step: 14, velocity: 0, pitch: 1},
+                    {step: 15, velocity: 0, pitch: 1}
+                ]
+            },
+            {
+                layerId: 4,
+                name: "Hat",
+                sampleFilePath: "/DefaultSamples/Hat.wav",
+                rhythm: [
+                    {step: 0, velocity: 0, pitch: 1},
+                    {step: 1, velocity: 0, pitch: 1},
+                    {step: 2, velocity: 0, pitch: 1},
+                    {step: 3, velocity: 0, pitch: 1},
+                    {step: 4, velocity: 0, pitch: 1},
+                    {step: 5, velocity: 0, pitch: 1},
+                    {step: 6, velocity: 0, pitch: 1},
+                    {step: 7, velocity: 0, pitch: 1},
+                    {step: 8, velocity: 0, pitch: 1},
+                    {step: 9, velocity: 0, pitch: 1},
+                    {step: 10, velocity: 0, pitch: 1},
+                    {step: 11, velocity: 0, pitch: 1},
+                    {step: 12, velocity: 0, pitch: 1},
+                    {step: 13, velocity: 0, pitch: 1},
+                    {step: 14, velocity: 0, pitch: 1},
+                    {step: 15, velocity: 0, pitch: 1}
+                ]
+            },
+            {
+                layerId: 5,
+                name: "Crash",
+                sampleFilePath: "/DefaultSamples/Crash.wav",
+                rhythm: [
+                    {step: 0, velocity: 0, pitch: 0},
+                    {step: 1, velocity: 0, pitch: 0},
+                    {step: 2, velocity: 0, pitch: 0},
+                    {step: 3, velocity: 0, pitch: 0},
+                    {step: 4, velocity: 0, pitch: 0},
+                    {step: 5, velocity: 0, pitch: 0},
+                    {step: 6, velocity: 0, pitch: 0},
+                    {step: 7, velocity: 0, pitch: 0},
+                    {step: 8, velocity: 0, pitch: 0},
+                    {step: 9, velocity: 0, pitch: 0},
+                    {step: 10, velocity: 0, pitch: 0},
+                    {step: 11, velocity: 0, pitch: 0},
+                    {step: 12, velocity: 0, pitch: 0},
+                    {step: 13, velocity: 0, pitch: 0},
+                    {step: 14, velocity: 0, pitch: 0},
+                    {step: 15, velocity: 0, pitch: 0}
+                ]
+            },
+            {
+                layerId: 6,
+                name: "Voc",
+                sampleFilePath: "/DefaultSamples/ayy.wav",
+                rhythm: [
+                    {step: 0, velocity: 0, pitch: 0},
+                    {step: 1, velocity: 0, pitch: 0},
+                    {step: 2, velocity: 0, pitch: 0},
+                    {step: 3, velocity: 0, pitch: 0},
+                    {step: 4, velocity: 0, pitch: 0},
+                    {step: 5, velocity: 0, pitch: 0},
+                    {step: 6, velocity: 0, pitch: 0},
+                    {step: 7, velocity: 0, pitch: 0},
+                    {step: 8, velocity: 0, pitch: 0},
+                    {step: 9, velocity: 0, pitch: 0},
+                    {step: 10, velocity: 0, pitch: 0},
+                    {step: 11, velocity: 0, pitch: 0},
+                    {step: 12, velocity: 0, pitch: 0},
+                    {step: 13, velocity: 0, pitch: 0},
+                    {step: 14, velocity: 0, pitch: 0},
+                    {step: 15, velocity: 0, pitch: 0}
+                ]
+            }
+        ]
     }
 
-    /**
-     * Loads Presets
-     * @param preset name of the preset
-     */
-    loadPreset = (preset) => {
-        fetch('Presets/' + preset)
-            .then(response => response.json())
-            .then(json => this.setState(json, this.initLayers))
+    componentDidMount() {
+        this.initLayers();
+    }
+
+    setPreset = (preset) => {
+        this.setState(preset, () => this.initLayers)
     }
 
     /**
@@ -45,7 +179,7 @@ class Sequencer extends React.Component {
     /**
      * Loads a sample to a layer which is selected in the File input next to a layer
      * @param e event in which the sample is contained
-     * @param input the file input which contains the id of the layer to which the sample should be loaded
+     * @param layerId the file input which contains the id of the layer to which the sample should be loaded
      */
     loadSample = (e, layerId) => {
         let layers = this.state.layers
@@ -143,7 +277,7 @@ class Sequencer extends React.Component {
         return (
             this.state ?
                 <div className="sequencer">
-                    <PresetBrowser setting={this.state} loadPreset={this.loadPreset} savePreset={this.savePreset}/>
+                    <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
 
                     <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
