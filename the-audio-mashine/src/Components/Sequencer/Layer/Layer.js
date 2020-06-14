@@ -16,6 +16,10 @@ class Layer extends Component {
     render() {
         return (
             <div>
+                {/*<SamplePicker
+                    layer={this.props.layer}
+                    loadSample={this.props.loadSample}/>
+*/}
                 {
                     this.props.layer.rhythm.map((trigger, i) =>
                         <Trigger key={trigger.step}
