@@ -8,7 +8,7 @@ import Sequence from "./Layer/Sequence";
 class Sequencer extends React.Component {
 
     state = {
-        bpm: 127,
+        bpm: 120,
         layers: [
             {
                 layerId: 1,
@@ -107,45 +107,45 @@ class Sequencer extends React.Component {
                 name: "Crash",
                 sampleFilePath: "/DefaultSamples/Crash.wav",
                 rhythm: [
-                    {step: 0, velocity: 0, pitch: 0},
-                    {step: 1, velocity: 0, pitch: 0},
-                    {step: 2, velocity: 0, pitch: 0},
-                    {step: 3, velocity: 0, pitch: 0},
-                    {step: 4, velocity: 0, pitch: 0},
-                    {step: 5, velocity: 0, pitch: 0},
-                    {step: 6, velocity: 0, pitch: 0},
-                    {step: 7, velocity: 0, pitch: 0},
-                    {step: 8, velocity: 0, pitch: 0},
-                    {step: 9, velocity: 0, pitch: 0},
-                    {step: 10, velocity: 0, pitch: 0},
-                    {step: 11, velocity: 0, pitch: 0},
-                    {step: 12, velocity: 0, pitch: 0},
-                    {step: 13, velocity: 0, pitch: 0},
-                    {step: 14, velocity: 0, pitch: 0},
-                    {step: 15, velocity: 0, pitch: 0}
+                    {step: 0, velocity: 0, pitch: 1},
+                    {step: 1, velocity: 0, pitch: 1},
+                    {step: 2, velocity: 0, pitch: 1},
+                    {step: 3, velocity: 0, pitch: 1},
+                    {step: 4, velocity: 0, pitch: 1},
+                    {step: 5, velocity: 0, pitch: 1},
+                    {step: 6, velocity: 0, pitch: 1},
+                    {step: 7, velocity: 0, pitch: 1},
+                    {step: 8, velocity: 0, pitch: 1},
+                    {step: 9, velocity: 0, pitch: 1},
+                    {step: 10, velocity: 0, pitch: 1},
+                    {step: 11, velocity: 0, pitch: 1},
+                    {step: 12, velocity: 0, pitch: 1},
+                    {step: 13, velocity: 0, pitch: 1},
+                    {step: 14, velocity: 0, pitch: 1},
+                    {step: 15, velocity: 0, pitch: 1}
                 ]
             },
             {
                 layerId: 6,
                 name: "Voc",
-                sampleFilePath: "/DefaultSamples/ayy.wav",
+                sampleFilePath: "/DefaultSamples/Ayy.wav",
                 rhythm: [
-                    {step: 0, velocity: 0, pitch: 0},
-                    {step: 1, velocity: 0, pitch: 0},
-                    {step: 2, velocity: 0, pitch: 0},
-                    {step: 3, velocity: 0, pitch: 0},
-                    {step: 4, velocity: 0, pitch: 0},
-                    {step: 5, velocity: 0, pitch: 0},
-                    {step: 6, velocity: 0, pitch: 0},
-                    {step: 7, velocity: 0, pitch: 0},
-                    {step: 8, velocity: 0, pitch: 0},
-                    {step: 9, velocity: 0, pitch: 0},
-                    {step: 10, velocity: 0, pitch: 0},
-                    {step: 11, velocity: 0, pitch: 0},
-                    {step: 12, velocity: 0, pitch: 0},
-                    {step: 13, velocity: 0, pitch: 0},
-                    {step: 14, velocity: 0, pitch: 0},
-                    {step: 15, velocity: 0, pitch: 0}
+                    {step: 0, velocity: 0, pitch: 1},
+                    {step: 1, velocity: 0, pitch: 1},
+                    {step: 2, velocity: 0, pitch: 1},
+                    {step: 3, velocity: 0, pitch: 1},
+                    {step: 4, velocity: 0, pitch: 1},
+                    {step: 5, velocity: 0, pitch: 1},
+                    {step: 6, velocity: 0, pitch: 1},
+                    {step: 7, velocity: 0, pitch: 1},
+                    {step: 8, velocity: 0, pitch: 1},
+                    {step: 9, velocity: 0, pitch: 1},
+                    {step: 10, velocity: 0, pitch: 1},
+                    {step: 11, velocity: 0, pitch: 1},
+                    {step: 12, velocity: 0, pitch: 1},
+                    {step: 13, velocity: 0, pitch: 1},
+                    {step: 14, velocity: 0, pitch: 1},
+                    {step: 15, velocity: 0, pitch: 1}
                 ]
             }
         ]
@@ -156,7 +156,7 @@ class Sequencer extends React.Component {
     }
 
     setPreset = (preset) => {
-        this.setState(preset, () => this.initLayers)
+        this.setState(preset, () => this.initLayers())
     }
 
     /**
@@ -164,7 +164,6 @@ class Sequencer extends React.Component {
      */
     initLayers = () => {
         let layers = this.state.layers
-
         layers = layers.map(item => {
             this.loadWaveFile(item.sampleFilePath)
                 .then(sample => {

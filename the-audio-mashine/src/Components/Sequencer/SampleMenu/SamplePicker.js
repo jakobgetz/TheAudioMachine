@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import AudioLoader from "../Layer/AudioLoader"
 
 class SamplePicker extends Component {
 

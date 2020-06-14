@@ -94,7 +94,6 @@ class Player extends Component {
      */
     setPitch = i => {
         this.samplePlayer[i].playbackRate.value = this.props.layers[i].rhythm[this.playHeadPosition].pitch
-
     }
 
     /**
