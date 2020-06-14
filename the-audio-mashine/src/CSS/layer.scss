@@ -1,6 +1,4 @@
-$sequencerSize: 50%;
-$triggerSize: 30px;
-$colors: #f26c4f, #f7941d, #ed145b, #2587ac, #39b54a, #8560a8;
+@import 'variables';
 
 @mixin trigger($color, $layer) {
   top: ($layer * 5%);
