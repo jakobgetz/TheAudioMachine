@@ -41,11 +41,10 @@ class PresetBrowser extends Component {
      * initializes the preset Browser
      */
     initPresets = () => {
-        if (localStorage.getItem('presets') === undefined) {
+        if (localStorage.getItem('presets') === null) {
             localStorage.setItem('presets', JSON.stringify(this.state.presets))
         }
-        //this.setState({presets: JSON.parse(localStorage.getItem('presets'))})
-
+        this.setState({presets: JSON.parse(localStorage.getItem('presets'))})
     }
 
     /**
