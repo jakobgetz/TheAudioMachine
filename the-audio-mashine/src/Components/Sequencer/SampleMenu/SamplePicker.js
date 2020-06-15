@@ -16,7 +16,8 @@ class SamplePicker extends Component {
                 </div>
                 {isShown ?
                     <ul className="sampleFeatures">
-                        <li><input type="file" onChange={(e) => loadSample(e, layer.layerId)}/>
+                        <li>
+                            <input type="file" onChange={(e) => loadSample(e, layer.layerId)}/>
                         </li>
                         <li>Solo</li>
                         <li>Mute</li>

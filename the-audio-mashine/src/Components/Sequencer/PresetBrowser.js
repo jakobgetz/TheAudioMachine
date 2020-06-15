@@ -44,7 +44,8 @@ class PresetBrowser extends Component {
         if (localStorage.getItem('presets') === undefined) {
             localStorage.setItem('presets', JSON.stringify(this.state.presets))
         }
-        this.setState({presets: JSON.parse(localStorage.getItem('presets'))})
+        //this.setState({presets: JSON.parse(localStorage.getItem('presets'))})
+
     }
 
     /**
