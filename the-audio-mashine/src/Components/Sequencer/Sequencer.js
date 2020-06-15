@@ -14,6 +14,7 @@ class Sequencer extends React.Component {
                 layerId: 1,
                 name: 'Kick',
                 sampleFilePath: '/DefaultSamples/Kick.wav',
+                layerGain: 80,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -37,6 +38,7 @@ class Sequencer extends React.Component {
                 layerId: 2,
                 name: "Snare",
                 sampleFilePath: "/DefaultSamples/Snare.wav",
+                layerGain: 80,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -60,6 +62,7 @@ class Sequencer extends React.Component {
                 layerId: 3,
                 name: "Clap",
                 sampleFilePath: "/DefaultSamples/Clap.wav",
+                layerGain: 80,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -83,6 +86,7 @@ class Sequencer extends React.Component {
                 layerId: 4,
                 name: "Hat",
                 sampleFilePath: "/DefaultSamples/Hat.wav",
+                layerGain: 80,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -106,6 +110,7 @@ class Sequencer extends React.Component {
                 layerId: 5,
                 name: "Crash",
                 sampleFilePath: "/DefaultSamples/Crash.wav",
+                layerGain: 80,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -129,6 +134,7 @@ class Sequencer extends React.Component {
                 layerId: 6,
                 name: "Voc",
                 sampleFilePath: "/DefaultSamples/Ayy.wav",
+                layerGain: 80,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -157,6 +163,22 @@ class Sequencer extends React.Component {
 
     setPreset = (preset) => {
         this.setState(preset, () => this.initLayers())
+    }
+
+    /**
+     * sets layer gain of layer knob to specific layer
+     * @param volume
+     * @param layerId
+     */
+    setLayerGain = (volume, layerId) => {
+        let layers = this.state.layers
+        layers = layers.map((layer, i) => {
+            if (layerId === i) {
+                layer.layerGain = volume;
+            }
+            return layer
+        })
+        this.setState({layers: layers});
     }
 
     /**
@@ -280,11 +302,13 @@ class Sequencer extends React.Component {
 
                     <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
-                    <SampleMenu layers={this.state.layers} loadSample={this.loadSample}/>
+                    <SampleMenu layers={this.state.layers} loadSample={this.loadSample}
+                                setLayerGain={this.setLayerGain}/>
 
                     <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
 
                     <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
+
                 </div>
                 : null
         )

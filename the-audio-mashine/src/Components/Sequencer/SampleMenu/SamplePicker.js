@@ -7,7 +7,7 @@ class SamplePicker extends Component {
     }
 
     render() {
-        const {layer, openPicker, loadSample, isShown} = this.props
+        const {layer, openPicker, loadSample, isShown, setLayerGain} = this.props
 
         return (
             <div>
@@ -20,7 +20,10 @@ class SamplePicker extends Component {
                         </li>
                         <li>Solo</li>
                         <li>Mute</li>
-                        <li>Gain</li>
+                        <li>Gain
+                            <input type="range" onChange={(e) => setLayerGain(parseInt(e.target.value), layer.layerId)}
+                                   min="0"
+                                   max="100"/></li>
                         <li>...</li>
                     </ul>
                     : null}
