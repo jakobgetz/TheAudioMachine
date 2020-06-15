@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 
 class PresetBrowser extends Component {
-    static userTag = 'user';
+    userTag = 'user';
+    selectedPresetName;
     state = {
         presets: [
             [
@@ -40,7 +41,7 @@ class PresetBrowser extends Component {
      * initializes the preset Browser
      */
     initPresets = () => {
-        if (localStorage.getItem('presets') == undefined) {
+        if (localStorage.getItem('presets') === undefined) {
             localStorage.setItem('presets', JSON.stringify(this.state.presets))
         }
         this.setState({presets: JSON.parse(localStorage.getItem('presets'))})
@@ -53,7 +54,7 @@ class PresetBrowser extends Component {
         let name = prompt("Name your preset");
         let presets = this.state.presets;
         presets = presets.map(category => {
-                if (category[0] === PresetBrowser.userTag) {
+                if (category[0] === this.userTag) {
                     category.push(name);
                 }
                 return category;
@@ -71,12 +72,13 @@ class PresetBrowser extends Component {
      */
     loadPreset = async (presetName, categoryName) => {
         let preset;
-        if (categoryName === PresetBrowser.userTag) {
+        if (categoryName === this.userTag) {
             preset = JSON.parse(localStorage.getItem(presetName));
         } else {
             const response = await fetch('Presets/' + presetName + '.json')
             preset = await response.json();
         }
+        this.selectedPresetName = presetName
         this.props.setPreset(preset)
     }
 
@@ -85,7 +87,7 @@ class PresetBrowser extends Component {
             this.state ?
                 <div className="PresetBrowser">
                     <ul className="PresetDropdown">
-                        <label>Presets</label>
+                        <label>Preset: {this.selectedPresetName}</label>
                         {
                             this.state.presets.map(category =>
                                 <li key={category[0]}>
