@@ -33,7 +33,7 @@ class Player extends Component {
     }
 
     /**
-     *
+     * Create an Array of length of the
      */
     fillLayerGainArray() {
         this.layerGains = new Array(this.props.layers.length)
@@ -82,9 +82,11 @@ class Player extends Component {
                 this.samplePlayer[i] = this.ctx.createBufferSource()
                 this.sampleGain[i] = this.ctx.createGain()
                 this.samplePlayer[i].connect(this.sampleGain[i])
-                this.sampleGain[i].connect(this.masterGain)
+                this.sampleGain[i].connect(this.layerGains[i])
+                this.layerGains[i].connect(this.masterGain)
                 this.setVelocity(i)
                 this.setPitch(i)
+                this.setLayerGain(i)
                 this.samplePlayer[i].buffer = this.props.layers[i].sample
             }
         }
@@ -105,6 +107,14 @@ class Player extends Component {
      */
     setPitch = i => {
         this.samplePlayer[i].playbackRate.value = this.props.layers[i].rhythm[this.playHeadPosition].pitch
+    }
+
+    /**
+     * Sets the Gain of a Layer
+     * @param i index of the current layer
+     */
+    setLayerGain = i => {
+        this.layerGains[i].gain.setValueAtTime((this.props.layers[i + 1].layerGain / 100), this.ctx.currentTime)
     }
 
     /**
