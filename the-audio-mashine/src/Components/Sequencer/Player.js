@@ -11,6 +11,7 @@ class Player extends Component {
     isPlaying = false
     ctx
     masterGain
+    layerGains
     audioBuffer = 0.01
     samplePlayer
     sampleGain
@@ -27,6 +28,16 @@ class Player extends Component {
         this.ctx = new AudioContext();
         this.masterGain = this.ctx.createGain()
         this.masterGain.gain.setValueAtTime(this.state.currentVolume, this.ctx.currentTime)
+        this.fillLayerGainArray();
+        console.log(this.layerGains)
+    }
+
+    /**
+     *
+     */
+    fillLayerGainArray() {
+        this.layerGains = new Array(this.props.layers.length)
+        this.layerGains.fill(this.ctx.createGain())
     }
 
     /**

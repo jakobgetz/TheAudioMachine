@@ -35,7 +35,8 @@ class SampleMenu extends Component {
                                           layer={layer}
                                           isShown={this.state.isShown[i]}
                                           openPicker={this.openPicker}
-                                          loadSample={this.props.loadSample}/>
+                                          loadSample={this.props.loadSample}
+                                          setLayerGain={this.props.setLayerGain}/>
                         )
                     }
                 </div>
