@@ -4,7 +4,7 @@
     {
       "layerId": 1,
       "name": "Voc",
-      "sampleFilePath": "/DefaultSamples/Ayy.wav",
+      "sampleFilePath": "./DefaultSamples/Ayy.wav",
       "layerGain": 80,
       "isMute": false,
       "rhythm": [
