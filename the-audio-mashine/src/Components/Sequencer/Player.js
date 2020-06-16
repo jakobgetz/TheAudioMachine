@@ -87,6 +87,7 @@ class Player extends Component {
                 this.setVelocity(i)
                 this.setPitch(i)
                 this.setLayerGain(i)
+                this.setLayerMute(i)
                 this.samplePlayer[i].buffer = this.props.layers[i].sample
             }
         }
@@ -109,12 +110,22 @@ class Player extends Component {
         this.samplePlayer[i].playbackRate.value = this.props.layers[i].rhythm[this.playHeadPosition].pitch
     }
 
+//TODO: Unterstes Layer gibt Gain für alle darüberliegenden Layer vor, weswegen man einzelne Layer nicht über die Gainfader regulieren kann
+
     /**
      * Sets the Gain of a Layer
      * @param i index of the current layer
      */
     setLayerGain = i => {
         this.layerGains[i].gain.setValueAtTime((this.props.layers[i + 1].layerGain / 100), this.ctx.currentTime)
+    }
+
+    setLayerMute = i => {
+        if (this.props.layers[i].isMute) {
+            this.layerGains[i].disconnect();
+        } else {
+            this.layerGains[i].connect(this.masterGain);
+        }
     }
 
     /**
