@@ -13,7 +13,7 @@ class Sequencer extends React.Component {
             {
                 layerId: 1,
                 name: 'Kick',
-                sampleFilePath: '/DefaultSamples/Kick.wav',
+                sampleFilePath: './DefaultSamples/Kick.wav',
                 layerGain: 80,
                 isMute: false,
                 rhythm: [
@@ -191,12 +191,7 @@ class Sequencer extends React.Component {
         let layers = this.state.layers;
         layers = layers.map((layer, i) => {
             if (layerId - 1 === i) {
-                  if (layer.isMute) {
-                      layer.isMute = false
-                  } else {
-                      layer.isMute = true
-                  }
-                console.log(layer)
+                layer.isMute = !layer.isMute;
             }
             return layer;
         })
