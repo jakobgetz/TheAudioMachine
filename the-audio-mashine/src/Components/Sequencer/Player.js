@@ -87,6 +87,7 @@ class Player extends Component {
                 this.setVelocity(i)
                 this.setPitch(i)
                 this.setLayerGain(i)
+                this.setLayerMute(i)
                 this.samplePlayer[i].buffer = this.props.layers[i].sample
             }
         }
@@ -109,12 +110,29 @@ class Player extends Component {
         this.samplePlayer[i].playbackRate.value = this.props.layers[i].rhythm[this.playHeadPosition].pitch
     }
 
+//TODO: Unterstes Layer gibt Gain für alle darüberliegenden Layer vor, weswegen man einzelne Layer nicht über die Gainfader regulieren kann
+
     /**
      * Sets the Gain of a Layer
      * @param i index of the current layer
      */
     setLayerGain = i => {
         this.layerGains[i].gain.setValueAtTime((this.props.layers[i + 1].layerGain / 100), this.ctx.currentTime)
+    }
+
+//TODO: Funktioniert noch nicht, da "TypeError: Cannot read property 'map' of undefined
+// Layer.render
+// src/Components/Sequencer/Layer/Layer.js:17" Noch unklar, ob disconnect()-Methode richtig ist.
+// Vermutung: Stateänderung (isMute) funktioniert mit den Layern nicht mehr.
+
+
+    setLayerMute = i => {
+        if (this.props.layers[i].isMute) {
+            //disconnect(this.layerGains[i])
+        } else {
+            // this.layerGains[i].connect()
+            console.log("hallo")
+        }
     }
 
     /**
