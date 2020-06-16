@@ -15,6 +15,7 @@ class Sequencer extends React.Component {
                 name: 'Kick',
                 sampleFilePath: '/DefaultSamples/Kick.wav',
                 layerGain: 80,
+                isMute: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -39,6 +40,7 @@ class Sequencer extends React.Component {
                 name: "Snare",
                 sampleFilePath: "/DefaultSamples/Snare.wav",
                 layerGain: 80,
+                isMute: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -63,6 +65,7 @@ class Sequencer extends React.Component {
                 name: "Clap",
                 sampleFilePath: "/DefaultSamples/Clap.wav",
                 layerGain: 80,
+                isMute: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -87,6 +90,7 @@ class Sequencer extends React.Component {
                 name: "Hat",
                 sampleFilePath: "/DefaultSamples/Hat.wav",
                 layerGain: 80,
+                isMute: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -111,6 +115,7 @@ class Sequencer extends React.Component {
                 name: "Crash",
                 sampleFilePath: "/DefaultSamples/Crash.wav",
                 layerGain: 80,
+                isMute: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -135,6 +140,7 @@ class Sequencer extends React.Component {
                 name: "Voc",
                 sampleFilePath: "/DefaultSamples/Ayy.wav",
                 layerGain: 80,
+                isMute: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -177,6 +183,22 @@ class Sequencer extends React.Component {
                 layer.layerGain = volume;
             }
             return layer
+        })
+        this.setState({layers: layers});
+    }
+
+    setLayerMute = (layerId) => {
+        let layers = this.state.layers;
+        layers = layers.map((layer, i) => {
+            if (layerId - 1 === i) {
+                  if (layer.isMute) {
+                      layer.isMute = false
+                  } else {
+                      layer.isMute = true
+                  }
+                console.log(layer)
+            }
+            return layer;
         })
         this.setState({layers: layers});
     }
@@ -302,8 +324,10 @@ class Sequencer extends React.Component {
 
                     <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
-                    <SampleMenu layers={this.state.layers} loadSample={this.loadSample}
-                                setLayerGain={this.setLayerGain}/>
+                    <SampleMenu layers={this.state.layers}
+                                loadSample={this.loadSample}
+                                setLayerGain={this.setLayerGain}
+                                setLayerMute={this.setLayerMute}/>
 
                     <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
 
