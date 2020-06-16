@@ -120,18 +120,11 @@ class Player extends Component {
         this.layerGains[i].gain.setValueAtTime((this.props.layers[i + 1].layerGain / 100), this.ctx.currentTime)
     }
 
-//TODO: Funktioniert noch nicht, da "TypeError: Cannot read property 'map' of undefined
-// Layer.render
-// src/Components/Sequencer/Layer/Layer.js:17" Noch unklar, ob disconnect()-Methode richtig ist.
-// Vermutung: Stateänderung (isMute) funktioniert mit den Layern nicht mehr.
-
-
     setLayerMute = i => {
         if (this.props.layers[i].isMute) {
-            //disconnect(this.layerGains[i])
+            this.layerGains[i].disconnect();
         } else {
-            // this.layerGains[i].connect()
-            console.log("hallo")
+            this.layerGains[i].connect(this.masterGain);
         }
     }
 

@@ -188,17 +188,17 @@ class Sequencer extends React.Component {
     }
 
     setLayerMute = (layerId) => {
-        let layers = this.state.layers
+        let layers = this.state.layers;
         layers = layers.map((layer, i) => {
-            if (layerId === i) {
-                /*  if (layer.isMute) {
+            if (layerId - 1 === i) {
+                  if (layer.isMute) {
                       layer.isMute = false
                   } else {
                       layer.isMute = true
-                  }*/
+                  }
                 console.log(layer)
             }
-            return layers
+            return layer;
         })
         this.setState({layers: layers});
     }
@@ -324,7 +324,8 @@ class Sequencer extends React.Component {
 
                     <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
-                    <SampleMenu layers={this.state.layers} loadSample={this.loadSample}
+                    <SampleMenu layers={this.state.layers}
+                                loadSample={this.loadSample}
                                 setLayerGain={this.setLayerGain}
                                 setLayerMute={this.setLayerMute}/>
 
