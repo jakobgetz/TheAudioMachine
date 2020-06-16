@@ -1,7 +1,6 @@
 {
   "name": "TheAudioMachine",
   "short_name": "AudioMachine",
-  "start_url": "~TheAudioMachine/",
   "display": "standalone",
   "description": "A nice and smooth sequencer for creating awesome sounds and loops."
 }

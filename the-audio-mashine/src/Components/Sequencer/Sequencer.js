@@ -13,7 +13,7 @@ class Sequencer extends React.Component {
             {
                 layerId: 1,
                 name: 'Kick',
-                sampleFilePath: './DefaultSamples/Kick.wav',
+                sampleFilePath: '/DefaultSamples/Kick.wav',
                 layerGain: 80,
                 isMute: false,
                 rhythm: [
