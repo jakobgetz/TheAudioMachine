@@ -29,7 +29,6 @@ class Player extends Component {
         this.masterGain = this.ctx.createGain()
         this.masterGain.gain.setValueAtTime(this.state.currentVolume, this.ctx.currentTime)
         this.fillLayerGainArray();
-        console.log(this.layerGains)
     }
 
     /**

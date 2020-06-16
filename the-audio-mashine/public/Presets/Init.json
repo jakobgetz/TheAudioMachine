@@ -5,6 +5,8 @@
       "layerId": 1,
       "name": "Kick",
       "sampleFilePath": "/DefaultSamples/Kick.wav",
+      "layerGain": 80,
+      "isMute": false,
       "rhythm": [
         {"step": 0, "velocity": 0, "pitch": 1},
         {"step": 1, "velocity": 0, "pitch": 1},
@@ -28,6 +30,8 @@
       "layerId": 2,
       "name": "Snare",
       "sampleFilePath": "/DefaultSamples/Snare.wav",
+      "layerGain": 80,
+      "isMute": false,
       "rhythm": [
         {"step": 0, "velocity": 0, "pitch": 1},
         {"step": 1, "velocity": 0, "pitch": 1},
@@ -51,6 +55,8 @@
       "layerId": 3,
       "name": "Clap",
       "sampleFilePath": "/DefaultSamples/Clap.wav",
+      "layerGain": 80,
+      "isMute": false,
       "rhythm": [
         {"step": 0, "velocity": 0, "pitch": 1},
         {"step": 1, "velocity": 0, "pitch": 1},
@@ -74,6 +80,8 @@
       "layerId": 4,
       "name": "Hat",
       "sampleFilePath": "/DefaultSamples/Hat.wav",
+      "layerGain": 80,
+      "isMute": false,
       "rhythm": [
         {"step": 0, "velocity": 0, "pitch": 1},
         {"step": 1, "velocity": 0, "pitch": 1},
@@ -97,6 +105,8 @@
       "layerId": 5,
       "name": "Crash",
       "sampleFilePath": "/DefaultSamples/Crash.wav",
+      "layerGain": 80,
+      "isMute": false,
       "rhythm": [
         {"step": 0, "velocity": 0, "pitch": 1},
         {"step": 1, "velocity": 0, "pitch": 1},
@@ -120,6 +130,8 @@
       "layerId": 6,
       "name": "Voc",
       "sampleFilePath": "/DefaultSamples/Ayy.wav",
+      "layerGain": 80,
+      "isMute": false,
       "rhythm": [
         {"step": 0, "velocity": 0, "pitch": 1},
         {"step": 1, "velocity": 0, "pitch": 1},
