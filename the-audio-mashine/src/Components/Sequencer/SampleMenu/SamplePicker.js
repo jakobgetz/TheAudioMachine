@@ -20,9 +20,9 @@ class SamplePicker extends Component {
                             <input type="file" onChange={(e) => loadSample(e, layer.layerId)}/>
                         </li>
                         <li>Solo</li>
-                        <li>Mute
+                        <li>
                             <input type="button"
-                                   onClick={() => setLayerMute(layer.layerId)}/></li>
+                                   onClick={() => setLayerMute(layer.layerId)} value="Mute"/></li>
                         <li>Gain
                             <input type="range" onChange={(e) => setLayerGain(parseInt(e.target.value), layer.layerId)}
                                    min="0"
