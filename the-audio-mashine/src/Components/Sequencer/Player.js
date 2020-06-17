@@ -121,9 +121,9 @@ class Player extends Component {
 
     setLayerMute = i => {
         if (this.props.layers[i].isMute) {
-            this.layerGains[i].disconnect();
+            this.samplePlayer[i].disconnect();
         } else {
-            this.layerGains[i].connect(this.masterGain);
+            this.samplePlayer[i].connect(this.masterGain);
         }
     }
 
