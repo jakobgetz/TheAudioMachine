@@ -2,6 +2,7 @@
 @import "presetBrowser";
 @import "player";
 @import "sampleMenu";
+@import "bpm";
 
 * {
   font-family: "Lucida Grande", sans-serif;
@@ -18,37 +19,4 @@
   width: 100%;
   position: absolute;
   background: #67bb74;
-}
-
-.BPM {
-  background: #333;
-  top: 80px;
-  left: 30px;
-  height: 30px;
-  width: 20%;
-  position: absolute;
-  border-radius: 3px;
-  color: #aaa;
-
-  input {
-    position: absolute;
-    background: #222;
-    margin: 5px;
-    color: #aaa;
-    &:hover {
-      background: #555;
-    }
-  }
-  label {
-    font-size: 20px;
-    position: absolute;
-    top: 10%;
-    left: 70%;
-    margin-left: 5px;
-  }
-}
-
-
-.Library {
-  margin: 20px;
 }
