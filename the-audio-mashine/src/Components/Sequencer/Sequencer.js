@@ -313,24 +313,23 @@ class Sequencer extends React.Component {
 
     render() {
         return (
-            this.state ?
-                <div className="sequencer">
-                    <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
+        this.state ?
+            <div className="sequencer">
+                <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
 
-                    <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
+                <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
-                    <SampleMenu layers={this.state.layers}
-                                loadSample={this.loadSample}
-                                setLayerGain={this.setLayerGain}
-                                setLayerMute={this.setLayerMute}/>
+                <SampleMenu layers={this.state.layers}
+                            loadSample={this.loadSample}
+                            setLayerGain={this.setLayerGain}
+                            setLayerMute={this.setLayerMute}/>
 
-                    <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
+                <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
 
-                    <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
-
-                </div>
-                : null
-        )
+                <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
+            </div>
+            : null
+    )
     }
 }
 

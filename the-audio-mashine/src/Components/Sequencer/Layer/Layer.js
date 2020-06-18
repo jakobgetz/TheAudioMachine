@@ -21,7 +21,7 @@ class Layer extends Component {
                                  layerId={this.props.layer.layerId}
                                  checked={this.isChecked(i)}
                                  trigger={trigger}
-                                 setTrigger={this.props.setTrigger}/>
+                                 setTriggit ger={this.props.setTrigger}/>
                     )
                 }
             </div>
