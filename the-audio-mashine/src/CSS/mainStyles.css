@@ -3669,20 +3669,6 @@
   top: 200px;
   left: 100px; }
 
-* {
-  font-family: "Lucida Grande", sans-serif;
-  padding: 0;
-  margin: 0; }
-
-.Header {
-  margin: 20px; }
-
-.sequencer {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background: #67bb74; }
-
 .BPM {
   background: #333;
   top: 80px;
@@ -3706,7 +3692,18 @@
     left: 70%;
     margin-left: 5px; }
 
-.Library {
+* {
+  font-family: "Lucida Grande", sans-serif;
+  padding: 0;
+  margin: 0; }
+
+.Header {
   margin: 20px; }
+
+.sequencer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #67bb74; }
 
 /*# sourceMappingURL=mainStyles.css.map */
