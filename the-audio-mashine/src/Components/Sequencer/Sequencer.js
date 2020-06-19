@@ -16,6 +16,7 @@ class Sequencer extends React.Component {
                 sampleFilePath: '/DefaultSamples/Kick.wav',
                 layerGain: 80,
                 isMute: false,
+                isSolo: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -41,6 +42,7 @@ class Sequencer extends React.Component {
                 sampleFilePath: "/DefaultSamples/Snare.wav",
                 layerGain: 80,
                 isMute: false,
+                isSolo: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -66,6 +68,7 @@ class Sequencer extends React.Component {
                 sampleFilePath: "/DefaultSamples/Clap.wav",
                 layerGain: 80,
                 isMute: false,
+                isSolo: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -91,6 +94,7 @@ class Sequencer extends React.Component {
                 sampleFilePath: "/DefaultSamples/Hat.wav",
                 layerGain: 80,
                 isMute: false,
+                isSolo: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -116,6 +120,7 @@ class Sequencer extends React.Component {
                 sampleFilePath: "/DefaultSamples/Crash.wav",
                 layerGain: 80,
                 isMute: false,
+                isSolo: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -141,6 +146,7 @@ class Sequencer extends React.Component {
                 sampleFilePath: "/DefaultSamples/Ayy.wav",
                 layerGain: 80,
                 isMute: false,
+                isSolo: false,
                 rhythm: [
                     {step: 0, velocity: 0, pitch: 1},
                     {step: 1, velocity: 0, pitch: 1},
@@ -187,6 +193,10 @@ class Sequencer extends React.Component {
         this.setState({layers: layers});
     }
 
+    /**
+     * Mutes or unmutes the Layer based on the layerID.
+     * @param layerId Identifies the layer to be muted.
+     */
     setLayerMute = (layerId) => {
         let layers = this.state.layers;
         layers = layers.map((layer, i) => {
@@ -195,6 +205,44 @@ class Sequencer extends React.Component {
             }
             return layer;
         })
+        this.setState({layers: layers});
+    }
+
+    /**
+     * The layer that is chosen via layerId will play in solo.
+     * Another click will "unsolo" it again.
+     * If another Layer is chosen the layers will play at the same time.
+     * If there is no longer a layer labeled as "Solo" every Layer will be unmuted.
+     * @param layerId Identifies the layer to be muted.
+     */
+    setLayerSolo = (layerId) => {
+        let layers = this.state.layers;
+        layers = layers.map((layer, i) => {
+            if (layerId - 1 === i) {
+                layer.isSolo = !layer.isSolo
+            }
+            if (layer.isSolo) {
+                layer.isMute = false
+            } else {
+                layer.isMute = true
+            }
+            return layer;
+        })
+
+        //If there are no Solo-Tracks present unmute all layers
+        let helper = 0;
+        for (let i = 0; i < layers.length ; i++) {
+            if (layers[i].isSolo) {
+                helper++
+            }
+        }
+        if (helper === 0) {
+            for (let i = 0; i < layers.length ; i++) {
+                layers[i].isSolo = false;
+                layers[i].isMute = false;
+            }
+        }
+
         this.setState({layers: layers});
     }
 
@@ -322,7 +370,8 @@ class Sequencer extends React.Component {
                 <SampleMenu layers={this.state.layers}
                             loadSample={this.loadSample}
                             setLayerGain={this.setLayerGain}
-                            setLayerMute={this.setLayerMute}/>
+                            setLayerMute={this.setLayerMute}
+                            setLayerSolo={this.setLayerSolo}/>
 
                 <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
 
