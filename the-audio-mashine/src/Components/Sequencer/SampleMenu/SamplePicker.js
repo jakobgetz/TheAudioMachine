@@ -7,7 +7,7 @@ class SamplePicker extends Component {
     }
 
     render() {
-        const {layer, openPicker, loadSample, isShown, setLayerGain, setLayerMute} = this.props
+        const {layer, openPicker, loadSample, isShown, setLayerGain, setLayerMute, setLayerSolo} = this.props
 
         return (
             <div>
@@ -19,10 +19,16 @@ class SamplePicker extends Component {
                         <li>
                             <input type="file" onChange={(e) => loadSample(e, layer.layerId)}/>
                         </li>
-                        <li>Solo</li>
                         <li>
                             <input type="button"
-                                   onClick={() => setLayerMute(layer.layerId)} value="Mute"/></li>
+                                   onClick={() => setLayerSolo(layer.layerId)}
+                                   value="Solo"/>
+                        </li>
+                        <li>
+                            <input type="button"
+                                   onClick={() => setLayerMute(layer.layerId)}
+                                   value="Mute"/>
+                        </li>
                         <li>Gain
                             <input type="range" onChange={(e) => setLayerGain(parseInt(e.target.value), layer.layerId)}
                                    min="0"

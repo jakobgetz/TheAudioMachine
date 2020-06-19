@@ -37,7 +37,8 @@ class SampleMenu extends Component {
                                           openPicker={this.openPicker}
                                           loadSample={this.props.loadSample}
                                           setLayerGain={this.props.setLayerGain}
-                                          setLayerMute={this.props.setLayerMute}/>
+                                          setLayerMute={this.props.setLayerMute}
+                                          setLayerSolo={this.props.setLayerSolo}/>
                         )
                     }
                 </div>
