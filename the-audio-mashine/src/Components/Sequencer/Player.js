@@ -25,7 +25,8 @@ class Player extends Component {
      * Initializes the AudioContext right after the Component did mount
      */
     componentDidMount() {
-        this.ctx = new AudioContext();
+        window.AudioContext = window.AudioContext || window.webkitAudioContext
+        this.ctx = new AudioContext()
         this.masterGain = this.ctx.createGain()
         this.masterGain.gain.setValueAtTime(this.state.currentVolume, this.ctx.currentTime)
         this.fillLayerGainArray();
