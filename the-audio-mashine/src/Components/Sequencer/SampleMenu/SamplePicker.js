@@ -11,7 +11,7 @@ class SamplePicker extends Component {
 
         return (
             <div>
-                <div className={this.getStyle(layer.layerId)} onClick={() => openPicker(layer.layerId)}>
+                <div className={this.getStyle(layer.layerId + 1)} onClick={() => openPicker(layer.layerId)}>
                     {layer.name}
                 </div>
                 {isShown ?
@@ -30,7 +30,8 @@ class SamplePicker extends Component {
                                    value="Mute"/>
                         </li>
                         <li>Gain
-                            <input type="range" onChange={(e) => setLayerGain(parseInt(e.target.value), layer.layerId)}
+                            <input type="range" value={layer.layerGain}
+                                   onChange={(e) => setLayerGain(parseInt(e.target.value), layer.layerId)}
                                    min="0"
                                    max="100"/></li>
                         <li>...</li>

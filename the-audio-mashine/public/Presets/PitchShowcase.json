@@ -2,17 +2,37 @@
   "bpm": 100,
   "layers": [
     {
-      "layerId": 1,
+      "layerId": 0,
       "name": "Voc",
       "sampleFilePath": "./DefaultSamples/Ayy.wav",
       "layerGain": 80,
       "isMute": false,
       "rhythm": [
-        {"step": 0, "velocity": 100, "pitch": 0.125},
-        {"step": 1, "velocity": 100, "pitch": 0.25},
-        {"step": 2, "velocity": 100, "pitch": 0.5},
-        {"step": 3, "velocity": 100, "pitch": 0.6},
-        {"step": 4, "velocity": 100, "pitch": 0.7},
+        {
+          "step": 0,
+          "velocity": 100,
+          "pitch": 0.125
+        },
+        {
+          "step": 1,
+          "velocity": 100,
+          "pitch": 0.25
+        },
+        {
+          "step": 2,
+          "velocity": 100,
+          "pitch": 0.5
+        },
+        {
+          "step": 3,
+          "velocity": 100,
+          "pitch": 0.6
+        },
+        {
+          "step": 4,
+          "velocity": 100,
+          "pitch": 0.7
+        },
         {"step": 5, "velocity": 100, "pitch": 0.8},
         {"step": 6, "velocity": 100, "pitch": 0.9},
         {"step": 7, "velocity": 100, "pitch": 1},

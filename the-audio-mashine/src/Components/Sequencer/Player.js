@@ -117,14 +117,14 @@ class Player extends Component {
      * @param i index of the current layer
      */
     setLayerGain = i => {
-        this.layerGains[i].gain.setValueAtTime((this.props.layers[i].layerGain / 100), this.ctx.currentTime)
+        this.layerGains[i].gain.value = (this.props.layers[i].layerGain / 100)
     }
 
     setLayerMute = i => {
         if (this.props.layers[i].isMute) {
             this.samplePlayer[i].disconnect();
         } else {
-            this.samplePlayer[i].connect(this.masterGain);
+            this.layerGains[i].connect(this.masterGain);
         }
     }
 
