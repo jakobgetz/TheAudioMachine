@@ -221,11 +221,7 @@ class Sequencer extends React.Component {
             if (layerId - 1 === i) {
                 layer.isSolo = !layer.isSolo
             }
-            if (layer.isSolo) {
-                layer.isMute = false
-            } else {
-                layer.isMute = true
-            }
+            layer.isMute = !layer.isSolo;
             return layer;
         })
 
