@@ -170,6 +170,7 @@ class Sequencer extends React.Component {
     }
 
     componentDidMount() {
+        window.AudioContext = window.AudioContext || window.webkitAudioContext
         this.initLayers();
     }
 
@@ -227,13 +228,13 @@ class Sequencer extends React.Component {
 
         //If there are no Solo-Tracks present unmute all layers
         let helper = 0;
-        for (let i = 0; i < layers.length ; i++) {
+        for (let i = 0; i < layers.length; i++) {
             if (layers[i].isSolo) {
                 helper++
             }
         }
         if (helper === 0) {
-            for (let i = 0; i < layers.length ; i++) {
+            for (let i = 0; i < layers.length; i++) {
                 layers[i].isSolo = false;
                 layers[i].isMute = false;
             }
@@ -357,24 +358,24 @@ class Sequencer extends React.Component {
 
     render() {
         return (
-        this.state ?
-            <div className="sequencer">
-                <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
+            this.state ?
+                <div className="sequencer">
+                    <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
 
-                <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
+                    <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
-                <SampleMenu layers={this.state.layers}
-                            loadSample={this.loadSample}
-                            setLayerGain={this.setLayerGain}
-                            setLayerMute={this.setLayerMute}
-                            setLayerSolo={this.setLayerSolo}/>
+                    <SampleMenu layers={this.state.layers}
+                                loadSample={this.loadSample}
+                                setLayerGain={this.setLayerGain}
+                                setLayerMute={this.setLayerMute}
+                                setLayerSolo={this.setLayerSolo}/>
 
-                <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
+                    <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
 
-                <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
-            </div>
-            : null
-    )
+                    <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
+                </div>
+                : null
+        )
     }
 }
 
