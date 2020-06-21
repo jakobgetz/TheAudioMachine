@@ -6,6 +6,13 @@ class PresetBrowser extends Component {
     state = {
         presets: [
             [
+                "factory",
+                "Init",
+                "HouseBeat",
+                "VelocityShowcase",
+                "PitchShowcase"
+            ],
+            [
                 "house"
             ],
             [
@@ -19,13 +26,6 @@ class PresetBrowser extends Component {
             ],
             [
                 "user"
-            ],
-            [
-                "factory",
-                "Init",
-                "HouseBeat",
-                "VelocityShowcase",
-                "PitchShowcase"
             ]
         ]
     }
