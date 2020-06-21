@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
 
- RewriteEngine on
+    RewriteEngine on
     # Don't rewrite files or directories
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
