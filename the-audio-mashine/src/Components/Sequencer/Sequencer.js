@@ -11,7 +11,7 @@ class Sequencer extends React.Component {
         bpm: 120,
         layers: [
             {
-                layerId: 1,
+                layerId: 0,
                 name: 'Kick',
                 sampleFilePath: '/DefaultSamples/Kick.wav',
                 layerGain: 80,
@@ -37,7 +37,7 @@ class Sequencer extends React.Component {
                 ]
             },
             {
-                layerId: 2,
+                layerId: 1,
                 name: "Snare",
                 sampleFilePath: "/DefaultSamples/Snare.wav",
                 layerGain: 80,
@@ -63,7 +63,7 @@ class Sequencer extends React.Component {
                 ]
             },
             {
-                layerId: 3,
+                layerId: 2,
                 name: "Clap",
                 sampleFilePath: "/DefaultSamples/Clap.wav",
                 layerGain: 80,
@@ -89,7 +89,7 @@ class Sequencer extends React.Component {
                 ]
             },
             {
-                layerId: 4,
+                layerId: 3,
                 name: "Hat",
                 sampleFilePath: "/DefaultSamples/Hat.wav",
                 layerGain: 80,
@@ -115,7 +115,7 @@ class Sequencer extends React.Component {
                 ]
             },
             {
-                layerId: 5,
+                layerId: 4,
                 name: "Crash",
                 sampleFilePath: "/DefaultSamples/Crash.wav",
                 layerGain: 80,
@@ -141,7 +141,7 @@ class Sequencer extends React.Component {
                 ]
             },
             {
-                layerId: 6,
+                layerId: 5,
                 name: "Voc",
                 sampleFilePath: "/DefaultSamples/Ayy.wav",
                 layerGain: 80,
@@ -201,7 +201,7 @@ class Sequencer extends React.Component {
     setLayerMute = (layerId) => {
         let layers = this.state.layers;
         layers = layers.map((layer, i) => {
-            if (layerId - 1 === i) {
+            if (layerId === i) {
                 layer.isMute = !layer.isMute;
             }
             return layer;
@@ -219,7 +219,7 @@ class Sequencer extends React.Component {
     setLayerSolo = (layerId) => {
         let layers = this.state.layers;
         layers = layers.map((layer, i) => {
-            if (layerId - 1 === i) {
+            if (layerId === i) {
                 layer.isSolo = !layer.isSolo
             }
             layer.isMute = !layer.isSolo;
@@ -272,7 +272,7 @@ class Sequencer extends React.Component {
         reader.onload = function () {
             new AudioContext().decodeAudioData(reader.result).then(result => {
                 layers = layers.map((item, i) => {
-                    if (i === layerId - 1) {
+                    if (i === layerId) {
                         item.sample = result
                         return item
                     } else {
@@ -288,7 +288,7 @@ class Sequencer extends React.Component {
      */
     setTrigger = currentTrigger => {
         const layers = this.state.layers
-        let newRhythm = layers[currentTrigger.props.layerId - 1].rhythm
+        let newRhythm = layers[currentTrigger.props.layerId].rhythm
         newRhythm = newRhythm.map((trigger, i) => {
             if (currentTrigger.props.trigger.step === trigger.step) {
                 if (trigger.velocity === 0) {
@@ -303,7 +303,7 @@ class Sequencer extends React.Component {
             } else {
                 return {
                     step: trigger.step,
-                    velocity: this.state.layers[currentTrigger.props.layerId - 1].rhythm[i].velocity,
+                    velocity: this.state.layers[currentTrigger.props.layerId].rhythm[i].velocity,
                     pitch: trigger.pitch
                 }
             }

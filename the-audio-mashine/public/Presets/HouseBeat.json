@@ -2,17 +2,37 @@
   "bpm": 127,
   "layers": [
     {
-      "layerId": 1,
+      "layerId": 0,
       "name": "Kick",
       "sampleFilePath": "./DefaultSamples/Kick.wav",
       "layerGain": 80,
       "isMute": false,
       "rhythm": [
-        {"step": 0, "velocity": 100, "pitch": 1},
-        {"step": 1, "velocity": 0, "pitch": 1},
-        {"step": 2, "velocity": 0, "pitch": 1},
-        {"step": 3, "velocity": 0, "pitch": 1},
-        {"step": 4, "velocity": 100, "pitch": 1},
+        {
+          "step": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
         {"step": 5, "velocity": 0, "pitch": 1},
         {"step": 6, "velocity": 0, "pitch": 1},
         {"step": 7, "velocity": 0, "pitch": 1},
@@ -27,17 +47,37 @@
       ]
     },
     {
-      "layerId": 2,
+      "layerId": 1,
       "name": "Snare",
       "sampleFilePath": "./DefaultSamples/Snare.wav",
       "layerGain": 80,
       "isMute": false,
       "rhythm": [
-        {"step": 0, "velocity": 0, "pitch": 1},
-        {"step": 1, "velocity": 0, "pitch": 1},
-        {"step": 2, "velocity": 0, "pitch": 1},
-        {"step": 3, "velocity": 0, "pitch": 1},
-        {"step": 4, "velocity": 100, "pitch": 1},
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
         {"step": 5, "velocity": 0, "pitch": 1},
         {"step": 6, "velocity": 0, "pitch": 1},
         {"step": 7, "velocity": 0, "pitch": 1},
@@ -52,17 +92,37 @@
       ]
     },
     {
-      "layerId": 3,
+      "layerId": 2,
       "name": "Clap",
       "sampleFilePath": "./DefaultSamples/Clap.wav",
       "layerGain": 80,
       "isMute": false,
       "rhythm": [
-        {"step": 0, "velocity": 0, "pitch": 1},
-        {"step": 1, "velocity": 0, "pitch": 1},
-        {"step": 2, "velocity": 0, "pitch": 1},
-        {"step": 3, "velocity": 0, "pitch": 1},
-        {"step": 4, "velocity": 0, "pitch": 1},
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
         {"step": 5, "velocity": 0, "pitch": 1},
         {"step": 6, "velocity": 0, "pitch": 1},
         {"step": 7, "velocity": 0, "pitch": 1},
@@ -77,17 +137,37 @@
       ]
     },
     {
-      "layerId": 4,
+      "layerId": 3,
       "name": "Hat",
       "sampleFilePath": "./DefaultSamples/Hat.wav",
       "layerGain": 80,
       "isMute": false,
       "rhythm": [
-        {"step": 0, "velocity": 0, "pitch": 1},
-        {"step": 1, "velocity": 0, "pitch": 1},
-        {"step": 2, "velocity": 100, "pitch": 1},
-        {"step": 3, "velocity": 0, "pitch": 1},
-        {"step": 4, "velocity": 0, "pitch": 1},
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
         {"step": 5, "velocity": 0, "pitch": 1},
         {"step": 6, "velocity": 100, "pitch": 1},
         {"step": 7, "velocity": 0, "pitch": 1},
@@ -102,17 +182,37 @@
       ]
     },
     {
-      "layerId": 5,
+      "layerId": 4,
       "name": "Crash",
       "sampleFilePath": "./DefaultSamples/Crash.wav",
       "layerGain": 80,
       "isMute": false,
       "rhythm": [
-        {"step": 0, "velocity": 100, "pitch": 1},
-        {"step": 1, "velocity": 0, "pitch": 1},
-        {"step": 2, "velocity": 0, "pitch": 1},
-        {"step": 3, "velocity": 0, "pitch": 1},
-        {"step": 4, "velocity": 0, "pitch": 1},
+        {
+          "step": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
         {"step": 5, "velocity": 0, "pitch": 1},
         {"step": 6, "velocity": 0, "pitch": 1},
         {"step": 7, "velocity": 0, "pitch": 1},
@@ -127,17 +227,37 @@
       ]
     },
     {
-      "layerId": 6,
+      "layerId": 5,
       "name": "Voc",
       "sampleFilePath": "./DefaultSamples/Ayy.wav",
       "layerGain": 80,
       "isMute": false,
       "rhythm": [
-        {"step": 0, "velocity": 0, "pitch": 1},
-        {"step": 1, "velocity": 0, "pitch": 1},
-        {"step": 2, "velocity": 0, "pitch": 1},
-        {"step": 3, "velocity": 0, "pitch": 1},
-        {"step": 4, "velocity": 0, "pitch": 1},
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
         {"step": 5, "velocity": 0, "pitch": 1},
         {"step": 6, "velocity": 0, "pitch": 1},
         {"step": 7, "velocity": 0, "pitch": 1},
