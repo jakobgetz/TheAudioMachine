@@ -16,10 +16,10 @@ class SampleMenu extends Component {
     openPicker = (layerId) => {
         let isShown = this.state.isShown;
         isShown = isShown.map(() => false);
-        if (this.state.isShown[layerId - 1]) {
-            isShown[layerId - 1] = false;
+        if (this.state.isShown[layerId]) {
+            isShown[layerId] = false;
         } else {
-            isShown[layerId - 1] = true;
+            isShown[layerId] = true;
         }
         this.setState({isShown});
     }
