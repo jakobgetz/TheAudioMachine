@@ -6,7 +6,7 @@ class Header extends Component {
             <div className="Header">
                 <h1>The Audio Machine</h1>
                 Version Info:<br/>
-                - <b>Note: </b>
+                - <b>Note: </b> In <i>componentDidMount()</i> of PresetBrowser the Preset 'Init' from the Category 'factory' gets loaded. this is hard coded at the moment<br/>
                 - Custom Samples are not saved in custom Presets yet<br/>
                 - Playhead always starts at the very top of the sequencer<br/>
             </div>
