@@ -3698,7 +3698,7 @@
   margin: 0; }
 
 .Header {
-  margin: 20px; }
+  margin: 20px 20px 20px 100px; }
 
 .sequencer {
   height: 100%;
