@@ -6,7 +6,7 @@ class Header extends Component {
             <div className="Header">
                 <h1>The Audio Machine</h1>
                 Version Info:<br/>
-                - Preset + / - not working yet<br/>
+                - <b>Note: </b>
                 - Custom Samples are not saved in custom Presets yet<br/>
                 - Playhead always starts at the very top of the sequencer<br/>
             </div>
