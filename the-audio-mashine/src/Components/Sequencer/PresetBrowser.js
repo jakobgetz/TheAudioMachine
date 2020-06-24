@@ -45,6 +45,7 @@ class PresetBrowser extends Component {
             localStorage.setItem('presets', JSON.stringify(this.state.presets))
         }
         this.setState({presets: JSON.parse(localStorage.getItem('presets'))})
+        this.loadPreset('Init', 'factory')
     }
 
     /**
@@ -63,6 +64,92 @@ class PresetBrowser extends Component {
         localStorage.setItem('presets', JSON.stringify(presets))
         localStorage.setItem(name, JSON.stringify(this.props.setting))
         this.setState({presets: presets});
+    }
+
+    /**
+     * loads previous Preset
+     */
+    loadPrevPreset = () => {
+        const presets = this.state.presets
+        let prevPresetName
+        let prevPresetCategory
+
+        OUTER_LOOP:
+        for (let i = 0; i < presets.length; i++) {
+            for (let j = 0; j < presets[i].length; j++) {
+                if (presets[i][j] == this.selectedPresetName) {
+                    j--
+                    if (j > 0) {
+                        prevPresetName = presets[i][j]
+                        prevPresetCategory = presets[i][0]
+                        break OUTER_LOOP
+                    } else {
+                        let counter = presets.length
+                        while (counter > 0) {
+                            i--
+                            if (i < 0) {
+                                i = presets.length - 1
+                            }
+                            j = presets[i].length - 1
+                            if (j > 0) {
+                                prevPresetName = presets[i][j]
+                                prevPresetCategory = presets[i][0]
+                                break OUTER_LOOP
+                            }
+                            counter--
+                        }
+                        prevPresetName = this.selectedPresetName
+                        prevPresetCategory = presets[i][0]
+                        break OUTER_LOOP
+                    }
+                }
+            }
+        }
+
+        this.loadPreset(prevPresetName, prevPresetCategory)
+    }
+
+    /**
+     * loads next Preset
+     */
+    loadNextPreset = () => {
+        const presets = this.state.presets
+        let nextPresetName
+        let nextPresetCategory
+
+        OUTER_LOOP:
+            for (let i = 0; i < presets.length; i++) {
+                for (let j = 0; j < presets[i].length; j++) {
+                    if (presets[i][j] == this.selectedPresetName) {
+                        j++
+                        if (j < presets[i].length) {
+                            nextPresetName = presets[i][j]
+                            nextPresetCategory = presets[i][0]
+                            break OUTER_LOOP
+                        } else {
+                            let counter = 0
+                            while (counter < presets.length) {
+                                i++
+                                if (i >= presets.length) {
+                                    i = 0
+                                }
+                                j = 1
+                                if (j < presets[i].length) {
+                                    nextPresetName = presets[i][j]
+                                    nextPresetCategory = presets[i][0]
+                                    break OUTER_LOOP
+                                }
+                                counter++
+                            }
+                            nextPresetName = this.selectedPresetName
+                            nextPresetCategory = presets[i][0]
+                            break OUTER_LOOP
+                        }
+                    }
+                }
+            }
+
+        this.loadPreset(nextPresetName, nextPresetCategory)
     }
 
     /**
@@ -104,8 +191,8 @@ class PresetBrowser extends Component {
                             )
                         }
                     </ul>
-                    <button>-</button>
-                    <button>+</button>
+                    <button onClick={this.loadPrevPreset}>-</button>
+                    <button onClick={this.loadNextPreset}>+</button>
                     <button onClick={() => this.savePreset()}>Save</button>
                 </div>
                 : null
