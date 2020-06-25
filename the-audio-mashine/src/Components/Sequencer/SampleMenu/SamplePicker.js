@@ -32,6 +32,7 @@ class SamplePicker extends Component {
                         <li>Gain
                             <input type="range" value={layer.layerGain}
                                    onChange={(e) => setLayerGain(parseInt(e.target.value), layer.layerId)}
+                                   onDoubleClick={() => setLayerGain(80, layer.layerId)}
                                    min="0"
                                    max="100"/></li>
                         <li>...</li>

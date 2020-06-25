@@ -7,6 +7,8 @@ import Sequence from "./Layer/Sequence";
 
 class Sequencer extends React.Component {
 
+    mouseDown = false
+
     state = {
         bpm: 120,
         layers: [
@@ -321,6 +323,26 @@ class Sequencer extends React.Component {
     }
 
     /**
+     * sets the velocity of a trigger
+     */
+    setVelocity = (layerId, step, value) => {
+        //console.log('layerId: ' + layerId + ' step: ' + step + ' value: ' + value)
+        let layers = this.state.layers.map(layer => {
+            if (layer.layerId === layerId) {
+                layer.rhythm = layer.rhythm.map(trigger => {
+                    if (trigger.step === step) {
+                        trigger.velocity = value
+                    }
+                    return trigger
+                })
+            }
+            return layer
+        })
+        console.log(layers[0].rhythm)
+        this.setState({layers: layers})
+    }
+
+    /**
      * Resets all set triggers by the user
      */
     resetTriggers = () => {
@@ -370,7 +392,7 @@ class Sequencer extends React.Component {
                                 setLayerMute={this.setLayerMute}
                                 setLayerSolo={this.setLayerSolo}/>
 
-                    <Sequence layers={this.state.layers} setTrigger={this.setTrigger}/>
+                    <Sequence layers={this.state.layers} setTrigger={this.setTrigger} setVelocity={this.setVelocity}/>
 
                     <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
                 </div>

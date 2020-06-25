@@ -144,9 +144,9 @@ class Player extends Component {
      * Sets Master Volume
      * @param e event in which the input gain is stored
      */
-    setVolume = (e) => {
-        this.masterGain.gain.setValueAtTime(e.target.value / 100, this.ctx.currentTime)
-        this.setState({currentVolume: e.target.value / 100})
+    setVolume = (volume) => {
+        this.masterGain.gain.setValueAtTime(volume / 100, this.ctx.currentTime)
+        this.setState({currentVolume: volume / 100})
     }
 
     render() {
@@ -158,7 +158,8 @@ class Player extends Component {
                                                                       alt="Play/Pause-Button"/></span>
                 <input type='range' className="volumeSlider"
                        value={Math.round(this.state.currentVolume * 100)}
-                       onChange={changeEvent => this.setVolume(changeEvent)}/>
+                       onChange={e => this.setVolume(e.target.value)}
+                onDoubleClick={() => this.setVolume(80)}/>
             </div>
         );
     }
