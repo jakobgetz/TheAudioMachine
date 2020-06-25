@@ -7,14 +7,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(1) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(1) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(1) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(1) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(1) .checked {
   top: 5%;
@@ -25,14 +25,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(1) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(1) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(1) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(1) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked {
   top: 5%;
@@ -43,14 +43,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(2) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(2) .checked {
   top: 5%;
@@ -61,14 +61,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(2) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(2) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(2) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(2) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked {
   top: 5%;
@@ -79,14 +79,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(3) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(3) .checked {
   top: 5%;
@@ -97,14 +97,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(3) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(3) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(3) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(3) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked {
   top: 5%;
@@ -115,14 +115,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(4) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(4) .checked {
   top: 5%;
@@ -133,14 +133,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(4) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(4) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(4) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(4) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked {
   top: 5%;
@@ -151,14 +151,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(5) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(5) .checked {
   top: 5%;
@@ -169,14 +169,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(5) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(5) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(5) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(5) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked {
   top: 5%;
@@ -187,14 +187,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(6) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(6) .checked {
   top: 5%;
@@ -205,14 +205,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(6) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(6) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(6) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(6) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked {
   top: 5%;
@@ -223,14 +223,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(7) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(7) .checked {
   top: 5%;
@@ -241,14 +241,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(7) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(7) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(7) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(7) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked {
   top: 5%;
@@ -259,14 +259,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(8) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(8) .checked {
   top: 5%;
@@ -277,14 +277,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(8) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(8) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(8) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(8) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked {
   top: 5%;
@@ -295,14 +295,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(9) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(9) .checked {
   top: 5%;
@@ -313,14 +313,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(9) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(9) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(9) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(9) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked {
   top: 5%;
@@ -331,14 +331,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(10) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(10) .checked {
   top: 5%;
@@ -349,14 +349,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(10) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(10) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(10) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(10) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked {
   top: 5%;
@@ -367,14 +367,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(11) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(11) .checked {
   top: 5%;
@@ -385,14 +385,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(11) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(11) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(11) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(11) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked {
   top: 5%;
@@ -403,14 +403,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(12) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(12) .checked {
   top: 5%;
@@ -421,14 +421,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(12) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(12) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(12) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(12) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked {
   top: 5%;
@@ -439,14 +439,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(13) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(13) .checked {
   top: 5%;
@@ -457,14 +457,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(13) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(13) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(13) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(13) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked {
   top: 5%;
@@ -475,14 +475,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(14) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(14) .checked {
   top: 5%;
@@ -493,14 +493,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(14) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(14) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(14) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(14) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked {
   top: 5%;
@@ -511,14 +511,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(15) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(15) .checked {
   top: 5%;
@@ -529,14 +529,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(15) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(15) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(15) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(15) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked {
   top: 5%;
@@ -547,14 +547,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked span {
+  .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f26c4f;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(16) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(1) span:nth-of-type(16) .checked {
   top: 5%;
@@ -565,14 +565,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(1) span:nth-of-type(16) .checked span {
+  .layer div:nth-of-type(1) span:nth-of-type(16) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #3d0f05;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(1) span:nth-of-type(16) .checked span:hover {
+    .layer div:nth-of-type(1) span:nth-of-type(16) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked {
   top: 10%;
@@ -583,14 +583,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(1) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(1) .checked {
   top: 10%;
@@ -601,14 +601,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(1) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(1) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(1) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(1) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked {
   top: 10%;
@@ -619,14 +619,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(2) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(2) .checked {
   top: 10%;
@@ -637,14 +637,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(2) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(2) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(2) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(2) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked {
   top: 10%;
@@ -655,14 +655,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(3) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(3) .checked {
   top: 10%;
@@ -673,14 +673,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(3) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(3) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(3) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(3) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked {
   top: 10%;
@@ -691,14 +691,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(4) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(4) .checked {
   top: 10%;
@@ -709,14 +709,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(4) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(4) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(4) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(4) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked {
   top: 10%;
@@ -727,14 +727,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(5) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(5) .checked {
   top: 10%;
@@ -745,14 +745,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(5) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(5) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(5) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(5) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked {
   top: 10%;
@@ -763,14 +763,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(6) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(6) .checked {
   top: 10%;
@@ -781,14 +781,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(6) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(6) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(6) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(6) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked {
   top: 10%;
@@ -799,14 +799,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(7) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(7) .checked {
   top: 10%;
@@ -817,14 +817,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(7) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(7) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(7) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(7) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked {
   top: 10%;
@@ -835,14 +835,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(8) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(8) .checked {
   top: 10%;
@@ -853,14 +853,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(8) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(8) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(8) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(8) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked {
   top: 10%;
@@ -871,14 +871,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(9) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(9) .checked {
   top: 10%;
@@ -889,14 +889,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(9) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(9) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(9) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(9) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked {
   top: 10%;
@@ -907,14 +907,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(10) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(10) .checked {
   top: 10%;
@@ -925,14 +925,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(10) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(10) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(10) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(10) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked {
   top: 10%;
@@ -943,14 +943,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(11) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(11) .checked {
   top: 10%;
@@ -961,14 +961,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(11) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(11) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(11) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(11) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked {
   top: 10%;
@@ -979,14 +979,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(12) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(12) .checked {
   top: 10%;
@@ -997,14 +997,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(12) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(12) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(12) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(12) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked {
   top: 10%;
@@ -1015,14 +1015,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(13) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(13) .checked {
   top: 10%;
@@ -1033,14 +1033,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(13) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(13) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(13) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(13) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked {
   top: 10%;
@@ -1051,14 +1051,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(14) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(14) .checked {
   top: 10%;
@@ -1069,14 +1069,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(14) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(14) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(14) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(14) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked {
   top: 10%;
@@ -1087,14 +1087,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(15) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(15) .checked {
   top: 10%;
@@ -1105,14 +1105,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(15) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(15) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(15) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(15) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked {
   top: 10%;
@@ -1123,14 +1123,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked span {
+  .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #f7941d;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(16) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(2) span:nth-of-type(16) .checked {
   top: 10%;
@@ -1141,14 +1141,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(2) span:nth-of-type(16) .checked span {
+  .layer div:nth-of-type(2) span:nth-of-type(16) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #140b01;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(2) span:nth-of-type(16) .checked span:hover {
+    .layer div:nth-of-type(2) span:nth-of-type(16) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked {
   top: 15%;
@@ -1159,14 +1159,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(1) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(1) .checked {
   top: 15%;
@@ -1177,14 +1177,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(1) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(1) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(1) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(1) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked {
   top: 15%;
@@ -1195,14 +1195,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(2) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(2) .checked {
   top: 15%;
@@ -1213,14 +1213,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(2) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(2) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(2) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(2) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked {
   top: 15%;
@@ -1231,14 +1231,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(3) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(3) .checked {
   top: 15%;
@@ -1249,14 +1249,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(3) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(3) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(3) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(3) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked {
   top: 15%;
@@ -1267,14 +1267,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(4) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(4) .checked {
   top: 15%;
@@ -1285,14 +1285,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(4) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(4) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(4) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(4) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked {
   top: 15%;
@@ -1303,14 +1303,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(5) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(5) .checked {
   top: 15%;
@@ -1321,14 +1321,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(5) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(5) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(5) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(5) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked {
   top: 15%;
@@ -1339,14 +1339,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(6) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(6) .checked {
   top: 15%;
@@ -1357,14 +1357,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(6) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(6) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(6) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(6) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked {
   top: 15%;
@@ -1375,14 +1375,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(7) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(7) .checked {
   top: 15%;
@@ -1393,14 +1393,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(7) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(7) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(7) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(7) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked {
   top: 15%;
@@ -1411,14 +1411,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(8) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(8) .checked {
   top: 15%;
@@ -1429,14 +1429,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(8) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(8) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(8) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(8) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked {
   top: 15%;
@@ -1447,14 +1447,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(9) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(9) .checked {
   top: 15%;
@@ -1465,14 +1465,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(9) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(9) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(9) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(9) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked {
   top: 15%;
@@ -1483,14 +1483,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(10) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(10) .checked {
   top: 15%;
@@ -1501,14 +1501,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(10) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(10) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(10) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(10) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked {
   top: 15%;
@@ -1519,14 +1519,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(11) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(11) .checked {
   top: 15%;
@@ -1537,14 +1537,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(11) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(11) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(11) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(11) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked {
   top: 15%;
@@ -1555,14 +1555,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(12) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(12) .checked {
   top: 15%;
@@ -1573,14 +1573,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(12) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(12) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(12) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(12) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked {
   top: 15%;
@@ -1591,14 +1591,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(13) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(13) .checked {
   top: 15%;
@@ -1609,14 +1609,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(13) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(13) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(13) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(13) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked {
   top: 15%;
@@ -1627,14 +1627,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(14) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(14) .checked {
   top: 15%;
@@ -1645,14 +1645,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(14) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(14) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(14) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(14) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked {
   top: 15%;
@@ -1663,14 +1663,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(15) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(15) .checked {
   top: 15%;
@@ -1681,14 +1681,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(15) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(15) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(15) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(15) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked {
   top: 15%;
@@ -1699,14 +1699,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked span {
+  .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #ed145b;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(16) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(3) span:nth-of-type(16) .checked {
   top: 15%;
@@ -1717,14 +1717,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(3) span:nth-of-type(16) .checked span {
+  .layer div:nth-of-type(3) span:nth-of-type(16) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #020001;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(3) span:nth-of-type(16) .checked span:hover {
+    .layer div:nth-of-type(3) span:nth-of-type(16) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked {
   top: 20%;
@@ -1735,14 +1735,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(1) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(1) .checked {
   top: 20%;
@@ -1753,14 +1753,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(1) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(1) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(1) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(1) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked {
   top: 20%;
@@ -1771,14 +1771,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(2) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(2) .checked {
   top: 20%;
@@ -1789,14 +1789,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(2) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(2) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(2) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(2) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked {
   top: 20%;
@@ -1807,14 +1807,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(3) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(3) .checked {
   top: 20%;
@@ -1825,14 +1825,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(3) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(3) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(3) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(3) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked {
   top: 20%;
@@ -1843,14 +1843,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(4) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(4) .checked {
   top: 20%;
@@ -1861,14 +1861,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(4) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(4) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(4) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(4) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked {
   top: 20%;
@@ -1879,14 +1879,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(5) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(5) .checked {
   top: 20%;
@@ -1897,14 +1897,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(5) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(5) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(5) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(5) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked {
   top: 20%;
@@ -1915,14 +1915,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(6) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(6) .checked {
   top: 20%;
@@ -1933,14 +1933,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(6) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(6) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(6) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(6) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked {
   top: 20%;
@@ -1951,14 +1951,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(7) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(7) .checked {
   top: 20%;
@@ -1969,14 +1969,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(7) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(7) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(7) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(7) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked {
   top: 20%;
@@ -1987,14 +1987,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(8) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(8) .checked {
   top: 20%;
@@ -2005,14 +2005,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(8) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(8) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(8) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(8) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked {
   top: 20%;
@@ -2023,14 +2023,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(9) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(9) .checked {
   top: 20%;
@@ -2041,14 +2041,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(9) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(9) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(9) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(9) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked {
   top: 20%;
@@ -2059,14 +2059,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(10) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(10) .checked {
   top: 20%;
@@ -2077,14 +2077,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(10) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(10) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(10) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(10) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked {
   top: 20%;
@@ -2095,14 +2095,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(11) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(11) .checked {
   top: 20%;
@@ -2113,14 +2113,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(11) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(11) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(11) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(11) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked {
   top: 20%;
@@ -2131,14 +2131,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(12) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(12) .checked {
   top: 20%;
@@ -2149,14 +2149,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(12) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(12) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(12) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(12) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked {
   top: 20%;
@@ -2167,14 +2167,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(13) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(13) .checked {
   top: 20%;
@@ -2185,14 +2185,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(13) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(13) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(13) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(13) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked {
   top: 20%;
@@ -2203,14 +2203,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(14) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(14) .checked {
   top: 20%;
@@ -2221,14 +2221,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(14) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(14) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(14) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(14) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked {
   top: 20%;
@@ -2239,14 +2239,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(15) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(15) .checked {
   top: 20%;
@@ -2257,14 +2257,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(15) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(15) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(15) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(15) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked {
   top: 20%;
@@ -2275,14 +2275,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked span {
+  .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #2587ac;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(16) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(4) span:nth-of-type(16) .checked {
   top: 20%;
@@ -2293,14 +2293,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(4) span:nth-of-type(16) .checked span {
+  .layer div:nth-of-type(4) span:nth-of-type(16) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(4) span:nth-of-type(16) .checked span:hover {
+    .layer div:nth-of-type(4) span:nth-of-type(16) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked {
   top: 25%;
@@ -2311,14 +2311,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(1) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(1) .checked {
   top: 25%;
@@ -2329,14 +2329,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(1) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(1) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(1) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(1) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked {
   top: 25%;
@@ -2347,14 +2347,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(2) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(2) .checked {
   top: 25%;
@@ -2365,14 +2365,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(2) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(2) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(2) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(2) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked {
   top: 25%;
@@ -2383,14 +2383,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(3) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(3) .checked {
   top: 25%;
@@ -2401,14 +2401,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(3) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(3) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(3) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(3) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked {
   top: 25%;
@@ -2419,14 +2419,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(4) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(4) .checked {
   top: 25%;
@@ -2437,14 +2437,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(4) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(4) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(4) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(4) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked {
   top: 25%;
@@ -2455,14 +2455,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(5) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(5) .checked {
   top: 25%;
@@ -2473,14 +2473,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(5) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(5) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(5) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(5) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked {
   top: 25%;
@@ -2491,14 +2491,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(6) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(6) .checked {
   top: 25%;
@@ -2509,14 +2509,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(6) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(6) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(6) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(6) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked {
   top: 25%;
@@ -2527,14 +2527,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(7) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(7) .checked {
   top: 25%;
@@ -2545,14 +2545,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(7) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(7) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(7) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(7) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked {
   top: 25%;
@@ -2563,14 +2563,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(8) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(8) .checked {
   top: 25%;
@@ -2581,14 +2581,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(8) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(8) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(8) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(8) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked {
   top: 25%;
@@ -2599,14 +2599,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(9) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(9) .checked {
   top: 25%;
@@ -2617,14 +2617,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(9) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(9) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(9) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(9) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked {
   top: 25%;
@@ -2635,14 +2635,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(10) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(10) .checked {
   top: 25%;
@@ -2653,14 +2653,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(10) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(10) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(10) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(10) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked {
   top: 25%;
@@ -2671,14 +2671,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(11) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(11) .checked {
   top: 25%;
@@ -2689,14 +2689,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(11) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(11) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(11) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(11) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked {
   top: 25%;
@@ -2707,14 +2707,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(12) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(12) .checked {
   top: 25%;
@@ -2725,14 +2725,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(12) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(12) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(12) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(12) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked {
   top: 25%;
@@ -2743,14 +2743,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(13) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(13) .checked {
   top: 25%;
@@ -2761,14 +2761,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(13) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(13) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(13) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(13) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked {
   top: 25%;
@@ -2779,14 +2779,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(14) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(14) .checked {
   top: 25%;
@@ -2797,14 +2797,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(14) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(14) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(14) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(14) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked {
   top: 25%;
@@ -2815,14 +2815,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(15) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(15) .checked {
   top: 25%;
@@ -2833,14 +2833,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(15) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(15) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(15) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(15) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked {
   top: 25%;
@@ -2851,14 +2851,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked span {
+  .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #39b54a;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(16) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(5) span:nth-of-type(16) .checked {
   top: 25%;
@@ -2869,14 +2869,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(5) span:nth-of-type(16) .checked span {
+  .layer div:nth-of-type(5) span:nth-of-type(16) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(5) span:nth-of-type(16) .checked span:hover {
+    .layer div:nth-of-type(5) span:nth-of-type(16) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked {
   top: 30%;
@@ -2887,14 +2887,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(1) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(1) .checked {
   top: 30%;
@@ -2905,14 +2905,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(0deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(1) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(1) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(1) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(1) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked {
   top: 30%;
@@ -2923,14 +2923,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(2) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(2) .checked {
   top: 30%;
@@ -2941,14 +2941,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(22.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(2) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(2) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(2) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(2) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked {
   top: 30%;
@@ -2959,14 +2959,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(3) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(3) .checked {
   top: 30%;
@@ -2977,14 +2977,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(45deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(3) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(3) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(3) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(3) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked {
   top: 30%;
@@ -2995,14 +2995,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(4) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(4) .checked {
   top: 30%;
@@ -3013,14 +3013,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(67.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(4) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(4) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(4) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(4) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked {
   top: 30%;
@@ -3031,14 +3031,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(5) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(5) .checked {
   top: 30%;
@@ -3049,14 +3049,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(90deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(5) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(5) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(5) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(5) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked {
   top: 30%;
@@ -3067,14 +3067,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(6) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(6) .checked {
   top: 30%;
@@ -3085,14 +3085,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(112.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(6) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(6) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(6) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(6) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked {
   top: 30%;
@@ -3103,14 +3103,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(7) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(7) .checked {
   top: 30%;
@@ -3121,14 +3121,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(135deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(7) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(7) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(7) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(7) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked {
   top: 30%;
@@ -3139,14 +3139,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(8) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(8) .checked {
   top: 30%;
@@ -3157,14 +3157,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(157.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(8) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(8) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(8) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(8) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked {
   top: 30%;
@@ -3175,14 +3175,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(9) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(9) .checked {
   top: 30%;
@@ -3193,14 +3193,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(180deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(9) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(9) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(9) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(9) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked {
   top: 30%;
@@ -3211,14 +3211,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(10) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(10) .checked {
   top: 30%;
@@ -3229,14 +3229,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(202.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(10) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(10) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(10) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(10) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked {
   top: 30%;
@@ -3247,14 +3247,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(11) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(11) .checked {
   top: 30%;
@@ -3265,14 +3265,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(225deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(11) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(11) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(11) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(11) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked {
   top: 30%;
@@ -3283,14 +3283,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(12) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(12) .checked {
   top: 30%;
@@ -3301,14 +3301,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(247.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(12) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(12) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(12) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(12) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked {
   top: 30%;
@@ -3319,14 +3319,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(13) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(13) .checked {
   top: 30%;
@@ -3337,14 +3337,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(270deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(13) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(13) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(13) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(13) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked {
   top: 30%;
@@ -3355,14 +3355,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(14) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(14) .checked {
   top: 30%;
@@ -3373,14 +3373,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(292.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(14) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(14) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(14) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(14) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked {
   top: 30%;
@@ -3391,14 +3391,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(15) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(15) .checked {
   top: 30%;
@@ -3409,14 +3409,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(315deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(15) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(15) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(15) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(15) .checked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked {
   top: 30%;
@@ -3427,14 +3427,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked span {
+  .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #8560a8;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(16) .unchecked input:hover {
       border: 1px black solid; }
 .layer div:nth-of-type(6) span:nth-of-type(16) .checked {
   top: 30%;
@@ -3445,14 +3445,14 @@
   position: absolute;
   pointer-events: none;
   transform: rotate(337.5deg); }
-  .layer div:nth-of-type(6) span:nth-of-type(16) .checked span {
+  .layer div:nth-of-type(6) span:nth-of-type(16) .checked input {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #050306;
     position: absolute;
     pointer-events: all; }
-    .layer div:nth-of-type(6) span:nth-of-type(16) .checked span:hover {
+    .layer div:nth-of-type(6) span:nth-of-type(16) .checked input:hover {
       border: 1px black solid; }
 
 .PresetBrowser {

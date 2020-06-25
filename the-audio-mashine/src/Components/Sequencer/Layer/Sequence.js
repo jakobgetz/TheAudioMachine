@@ -9,7 +9,8 @@ class Sequence extends Component {
                         this.props.layers.map(layer =>
                             <Layer key={layer.layerId}
                                    layer={layer}
-                                   setTrigger={this.props.setTrigger}/>)
+                                   setTrigger={this.props.setTrigger}
+                            setVelocity={this.props.setVelocity}/>)
                     }
                 </div>
         );
