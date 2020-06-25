@@ -13,16 +13,22 @@ class PresetBrowser extends Component {
                 "PitchShowcase"
             ],
             [
-                "house"
+                "Acoustic"
             ],
             [
-                "techno"
+                "Classic 808"
             ],
             [
-                "hipHop"
+                "Drum n Bass"
             ],
             [
-                "dubstep"
+                "Dubstep"
+            ],
+            [
+                "Techno"
+            ],
+            [
+                "Trap"
             ],
             [
                 "user"
