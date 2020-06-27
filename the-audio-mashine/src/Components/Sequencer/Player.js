@@ -15,21 +15,43 @@ class Player extends Component {
     audioBuffer = 0.01
     samplePlayer
     sampleGain
+    limiter
 
     state = {
         currentVolume: 0.8,
         playingIcon: playIcon
     }
+    export
+    default
+    Player;
 
     /**
      * Initializes the AudioContext right after the Component did mount
+     * creates Mastergain
+     * creates a Limiter with the Web Audio DynamicsCompressorNode
+     * document.addEventListener listens to the spacebar of the user and plays the sequence
      */
     componentDidMount() {
         window.AudioContext = window.AudioContext || window.webkitAudioContext
         this.ctx = new AudioContext()
         this.masterGain = this.ctx.createGain()
+        this.limiter = this.ctx.createDynamicsCompressor();
+        this.setLimiter();
+        this.masterGain.connect(this.limiter)
         this.masterGain.gain.setValueAtTime(this.state.currentVolume, this.ctx.currentTime)
         this.fillLayerGainArray();
+
+    }
+
+    /**
+     * Sets the Values of the Compressor, which is routed as a limiter between master and ctx.destination
+     * */
+    setLimiter() {
+        this.limiter.threshold.setValueAtTime(-6, this.ctx.currentTime);
+        this.limiter.knee.setValueAtTime(0, this.ctx.currentTime);
+        this.limiter.ratio.setValueAtTime(10, this.ctx.currentTime);
+        this.limiter.attack.setValueAtTime(0, this.ctx.currentTime);
+        this.limiter.release.setValueAtTime(0.25, this.ctx.currentTime);
     }
 
     /**
@@ -110,8 +132,6 @@ class Player extends Component {
         this.samplePlayer[i].playbackRate.value = this.props.layers[i].rhythm[this.playHeadPosition].pitch
     }
 
-//TODO: Unterstes Layer gibt Gain für alle darüberliegenden Layer vor, weswegen man einzelne Layer nicht über die Gainfader regulieren kann
-
     /**
      * Sets the Gain of a Layer
      * @param i index of the current layer
@@ -149,17 +169,19 @@ class Player extends Component {
         this.setState({currentVolume: volume / 100})
     }
 
+
     render() {
         return (<div className="Player">
                 <Button className="trashButton" onClick={this.props.resetTriggers}><img src={binIcon}
                                                                                         alt="Erase triggers "/></Button>
-                <span className="playButton" onClick={this.play}><img src={this.state.playingIcon}
-                                                                      className="playIcon"
-                                                                      alt="Play/Pause-Button"/></span>
+                <span className="playButton" onClick={this.play}><img
+                    src={this.state.playingIcon}
+                    className="playIcon"
+                    alt="Play/Pause-Button"/></span>
                 <input type='range' className="volumeSlider"
                        value={Math.round(this.state.currentVolume * 100)}
                        onChange={e => this.setVolume(e.target.value)}
-                onDoubleClick={() => this.setVolume(80)}/>
+                       onDoubleClick={() => this.setVolume(80)}/>
             </div>
         );
     }
