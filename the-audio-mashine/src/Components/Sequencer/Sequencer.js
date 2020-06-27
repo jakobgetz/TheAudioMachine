@@ -174,7 +174,9 @@ class Sequencer extends React.Component {
     componentDidMount() {
         window.AudioContext = window.AudioContext || window.webkitAudioContext
         this.initLayers();
+
     }
+
 
     setPreset = (preset) => {
         this.setState(preset, () => this.initLayers())
@@ -338,7 +340,6 @@ class Sequencer extends React.Component {
             }
             return layer
         })
-        console.log(layers[0].rhythm)
         this.setState({layers: layers})
     }
 
@@ -381,7 +382,7 @@ class Sequencer extends React.Component {
     render() {
         return (
             this.state ?
-                <div className="sequencer">
+                <div className="sequencer" tabIndex={0}>
                     <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
 
                     <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>

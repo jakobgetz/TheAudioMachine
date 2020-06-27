@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Knob from 'react-canvas-knob';
 
 class Trigger extends Component {
 
