@@ -27,7 +27,7 @@ class Bpm extends Component {
             <div className="BPM">
                 <input type='number' value={this.state.displayedBPM} onChange={(e) => this.handleChange(e)}
                        onKeyDown={(e) => this.update(e)}/>
-                       <label>BPM</label>
+                <label>BPM</label>
             </div>
         );
     }

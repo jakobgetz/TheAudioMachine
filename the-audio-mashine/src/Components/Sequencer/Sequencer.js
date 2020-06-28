@@ -173,10 +173,8 @@ class Sequencer extends React.Component {
 
     componentDidMount() {
         window.AudioContext = window.AudioContext || window.webkitAudioContext
-        this.initLayers();
-
+        this.initLayers()
     }
-
 
     setPreset = (preset) => {
         this.setState(preset, () => this.initLayers())
@@ -382,21 +380,24 @@ class Sequencer extends React.Component {
     render() {
         return (
             this.state ?
-                <div className="sequencer" tabIndex={0}>
-                    <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
 
-                    <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
+                    <div className="sequencer">
+                        <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
 
-                    <SampleMenu layers={this.state.layers}
-                                loadSample={this.loadSample}
-                                setLayerGain={this.setLayerGain}
-                                setLayerMute={this.setLayerMute}
-                                setLayerSolo={this.setLayerSolo}/>
+                        <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
-                    <Sequence layers={this.state.layers} setTrigger={this.setTrigger} setVelocity={this.setVelocity}/>
+                        <SampleMenu layers={this.state.layers}
+                                    loadSample={this.loadSample}
+                                    setLayerGain={this.setLayerGain}
+                                    setLayerMute={this.setLayerMute}
+                                    setLayerSolo={this.setLayerSolo}/>
 
-                    <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
-                </div>
+                        <Sequence layers={this.state.layers} setTrigger={this.setTrigger}
+                                  setVelocity={this.setVelocity}/>
+
+                        <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}
+                                isPlaying={this.state.isPlaying} setPlaying={this.setPlaying}/>
+                    </div>
                 : null
         )
     }

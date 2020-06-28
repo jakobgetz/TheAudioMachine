@@ -4,9 +4,9 @@ import pauseIcon from '../../Assets/pause.svg';
 import playIcon from '../../Assets/play.svg';
 import binIcon from '../../Assets/bin.svg';
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
+import {GlobalHotKeys} from "react-hotkeys";
 
 class Player extends Component {
-
     playHeadPosition = 0
     isPlaying = false
     ctx
@@ -21,15 +21,15 @@ class Player extends Component {
         currentVolume: 0.8,
         playingIcon: playIcon
     }
-    export
-    default
-    Player;
+    keyMap = {
+        PLAY: "space",
+        RESET_PLAYHEAD_POSITION: "escape"
+    };
 
     /**
      * Initializes the AudioContext right after the Component did mount
      * creates Mastergain
      * creates a Limiter with the Web Audio DynamicsCompressorNode
-     * document.addEventListener listens to the spacebar of the user and plays the sequence
      */
     componentDidMount() {
         window.AudioContext = window.AudioContext || window.webkitAudioContext
@@ -40,7 +40,6 @@ class Player extends Component {
         this.masterGain.connect(this.limiter)
         this.masterGain.gain.setValueAtTime(this.state.currentVolume, this.ctx.currentTime)
         this.fillLayerGainArray();
-
     }
 
     /**
@@ -62,6 +61,10 @@ class Player extends Component {
         this.layerGains.fill(this.ctx.createGain())
     }
 
+    resetPlayHeadPosition = () => {
+        this.playHeadPosition = 0
+    }
+
     /**
      * Starts/Stops the Playback
      */
@@ -69,7 +72,7 @@ class Player extends Component {
         if (this.isPlaying) {
             this.isPlaying = false
             this.masterGain.disconnect()
-            this.playHeadPosition = 0
+            this.resetPlayHeadPosition()
             this.setState({playingIcon: playIcon})
         } else {
             this.isPlaying = true
@@ -78,6 +81,15 @@ class Player extends Component {
             this.playSequence()
         }
     }
+
+    /**
+     *
+     * @type {{PLAY: (function(): void), RESET_PLAYHEAD_POSITION: (function(): void)}}
+     */
+    handleKeyboardInput = {
+        PLAY: () => this.play(),
+        RESET_PLAYHEAD_POSITION: () => this.resetPlayHeadPosition()
+    };
 
     /**
      * Plays the Sequence
@@ -161,28 +173,30 @@ class Player extends Component {
     }
 
     /**
-     * Sets Master Volume
-     * @param e event in which the input gain is stored
+     * Sets master volume
+     * @param volume is the parameter for the output volume
      */
     setVolume = (volume) => {
         this.masterGain.gain.setValueAtTime(volume / 100, this.ctx.currentTime)
         this.setState({currentVolume: volume / 100})
     }
 
-
     render() {
-        return (<div className="Player">
-                <Button className="trashButton" onClick={this.props.resetTriggers}><img src={binIcon}
-                                                                                        alt="Erase triggers "/></Button>
-                <span className="playButton" onClick={this.play}><img
-                    src={this.state.playingIcon}
-                    className="playIcon"
-                    alt="Play/Pause-Button"/></span>
-                <input type='range' className="volumeSlider"
-                       value={Math.round(this.state.currentVolume * 100)}
-                       onChange={e => this.setVolume(e.target.value)}
-                       onDoubleClick={() => this.setVolume(80)}/>
-            </div>
+        return (
+            <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
+                <div className="Player">
+                    <Button className="trashButton" onClick={this.props.resetTriggers}><img src={binIcon}
+                                                                                            alt="Erase triggers"/></Button>
+                    <span className="playButton" onClick={this.play}><img
+                        src={this.state.playingIcon}
+                        className="playIcon"
+                        alt="Play/Pause-Button"/></span>
+                    <input type='range' className="volumeSlider"
+                           value={Math.round(this.state.currentVolume * 100)}
+                           onChange={e => this.setVolume(e.target.value)}
+                           onDoubleClick={() => this.setVolume(80)}/>
+                </div>
+            </GlobalHotKeys>
         );
     }
 }
