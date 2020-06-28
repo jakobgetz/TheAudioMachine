@@ -6,6 +6,7 @@
       "name": "Kick",
       "sampleFilePath": "./DefaultSamples/Kick.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -51,6 +52,7 @@
       "name": "Snare",
       "sampleFilePath": "./DefaultSamples/Snare.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -96,6 +98,7 @@
       "name": "Clap",
       "sampleFilePath": "./DefaultSamples/Clap.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -141,6 +144,7 @@
       "name": "Hat",
       "sampleFilePath": "./DefaultSamples/Hat.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -186,6 +190,7 @@
       "name": "Crash",
       "sampleFilePath": "./DefaultSamples/Crash.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -231,6 +236,7 @@
       "name": "Voc",
       "sampleFilePath": "./DefaultSamples/Ayy.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {

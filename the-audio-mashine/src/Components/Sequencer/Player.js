@@ -12,6 +12,7 @@ class Player extends Component {
     ctx
     masterGain
     layerGains
+    layerPans
     audioBuffer = 0.01
     samplePlayer
     sampleGain
@@ -40,6 +41,7 @@ class Player extends Component {
         this.masterGain.connect(this.limiter)
         this.masterGain.gain.setValueAtTime(this.state.currentVolume, this.ctx.currentTime)
         this.fillLayerGainArray();
+        this.fillLayerPanArray()
     }
 
     /**
@@ -59,6 +61,11 @@ class Player extends Component {
     fillLayerGainArray() {
         this.layerGains = new Array(this.props.layers.length)
         this.layerGains.fill(this.ctx.createGain())
+    }
+
+    fillLayerPanArray() {
+        this.layerPans = new Array(this.props.layers.length)
+        this.layerPans.fill(this.ctx.createStereoPanner())
     }
 
     resetPlayHeadPosition = () => {
@@ -116,11 +123,13 @@ class Player extends Component {
                 this.samplePlayer[i] = this.ctx.createBufferSource()
                 this.sampleGain[i] = this.ctx.createGain()
                 this.samplePlayer[i].connect(this.sampleGain[i])
-                this.sampleGain[i].connect(this.layerGains[i])
+                this.sampleGain[i].connect(this.layerPans[i])
+                this.layerPans[i].connect(this.layerGains[i])
                 this.layerGains[i].connect(this.masterGain)
                 this.setVelocity(i)
                 this.setPitch(i)
                 this.setLayerGain(i)
+                this.setLayerPan(i)
                 this.setLayerMute(i)
                 this.samplePlayer[i].buffer = this.props.layers[i].sample
             }
@@ -151,6 +160,10 @@ class Player extends Component {
     setLayerGain = i => {
         this.layerGains[i].gain.value = (this.props.layers[i].layerGain / 100)
     }
+
+    setLayerPan = i => {
+        this.layerPans[i].pan.setValueAtTime(this.props.layers[i].layerPan / 50, this.ctx.currentTime)
+}
 
     setLayerMute = i => {
         if (this.props.layers[i].isMute) {

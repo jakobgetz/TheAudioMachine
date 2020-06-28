@@ -10,7 +10,6 @@ class Trigger extends Component {
 
     }
 
-    /*
     startChangeVelocity = (e) => {
         //console.log(e)
         this.prevMousePosition = e.screenY
@@ -31,7 +30,6 @@ class Trigger extends Component {
         this.isPressed = false
         console.log(this.isPressed)
     }
-    */
 
 
     render() {
@@ -44,17 +42,18 @@ class Trigger extends Component {
                            value={this.props.trigger.velocity}
                            onChange={e => this.props.setVelocity(this.props.layerId, this.props.trigger.step, e.target.value)}
                            onDoubleClick={() => this.props.setTrigger(this)}/>
-                    {/*<span>
-                        <Knob value={this.props.trigger.velocity}
-                        onChange={this.changeVelocity}/>
-                    </span>
                     {/*
+                    <span>
+                        <Knob value={this.props.trigger.velocity}
+                              onChange={this.changeVelocity}/>
+                    </span>
+
                     <span onClick={() => this.props.setTrigger(this)}
                           onMouseDown={e => this.startChangeVelocity(e)}
                           onMouseMove={this.changeVelocity}
                           onMouseUp={this.stopChangeVelocity}>
                     </span>
-                    */}
+*/}
                 </span>
             </span>
         );
