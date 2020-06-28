@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {GlobalHotKeys} from 'react-hotkeys';
 
 class PresetBrowser extends Component {
     userTag = 'user';
@@ -36,6 +37,10 @@ class PresetBrowser extends Component {
             ]
         ]
     }
+    keyMap = {
+        NEXT_PRESET: "+",
+        PREV_PRESET: '-'
+    };
 
     /**
      * sets up the PresetBrowser
@@ -82,36 +87,36 @@ class PresetBrowser extends Component {
         let prevPresetCategory
 
         OUTER_LOOP:
-        for (let i = 0; i < presets.length; i++) {
-            for (let j = 0; j < presets[i].length; j++) {
-                if (presets[i][j] === this.selectedPresetName) {
-                    j--
-                    if (j > 0) {
-                        prevPresetName = presets[i][j]
-                        prevPresetCategory = presets[i][0]
-                        break OUTER_LOOP
-                    } else {
-                        let counter = presets.length
-                        while (counter > 0) {
-                            i--
-                            if (i < 0) {
-                                i = presets.length - 1
+            for (let i = 0; i < presets.length; i++) {
+                for (let j = 0; j < presets[i].length; j++) {
+                    if (presets[i][j] === this.selectedPresetName) {
+                        j--
+                        if (j > 0) {
+                            prevPresetName = presets[i][j]
+                            prevPresetCategory = presets[i][0]
+                            break OUTER_LOOP
+                        } else {
+                            let counter = presets.length
+                            while (counter > 0) {
+                                i--
+                                if (i < 0) {
+                                    i = presets.length - 1
+                                }
+                                j = presets[i].length - 1
+                                if (j > 0) {
+                                    prevPresetName = presets[i][j]
+                                    prevPresetCategory = presets[i][0]
+                                    break OUTER_LOOP
+                                }
+                                counter--
                             }
-                            j = presets[i].length - 1
-                            if (j > 0) {
-                                prevPresetName = presets[i][j]
-                                prevPresetCategory = presets[i][0]
-                                break OUTER_LOOP
-                            }
-                            counter--
+                            prevPresetName = this.selectedPresetName
+                            prevPresetCategory = presets[i][0]
+                            break OUTER_LOOP
                         }
-                        prevPresetName = this.selectedPresetName
-                        prevPresetCategory = presets[i][0]
-                        break OUTER_LOOP
                     }
                 }
             }
-        }
 
         this.loadPreset(prevPresetName, prevPresetCategory)
     }
@@ -176,32 +181,43 @@ class PresetBrowser extends Component {
         this.props.setPreset(preset)
     }
 
+    /**
+     *
+     * @type {{NEXT_PRESET: (function(): void), PREV_PRESET: (function(): void)}}
+     */
+    handleKeyboardInput = {
+        NEXT_PRESET: () => this.loadNextPreset(),
+        PREV_PRESET: () => this.loadPrevPreset()
+    };
+
     render() {
         return (
             this.state ?
-                <div className="PresetBrowser">
-                    <ul className="PresetDropdown">
-                        <label>Preset: {this.selectedPresetName}</label>
-                        {
-                            this.state.presets.map(category =>
-                                <li key={category[0]}>
-                                    <ul>
-                                        {category[0]} >
-                                        {
-                                            category.slice(1).map(preset =>
-                                                <li key={preset}
-                                                    onClick={() => this.loadPreset(preset, category[0])}>{preset}</li>
-                                            )
-                                        }
-                                    </ul>
-                                </li>
-                            )
-                        }
-                    </ul>
-                    <button onClick={this.loadPrevPreset}>-</button>
-                    <button onClick={this.loadNextPreset}>+</button>
-                    <button onClick={() => this.savePreset()}>Save</button>
-                </div>
+                <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
+                    <div className="PresetBrowser">
+                        <ul className="PresetDropdown">
+                            <label>Preset: {this.selectedPresetName}</label>
+                            {
+                                this.state.presets.map(category =>
+                                    <li key={category[0]}>
+                                        <ul>
+                                            {category[0]} >
+                                            {
+                                                category.slice(1).map(preset =>
+                                                    <li key={preset}
+                                                        onClick={() => this.loadPreset(preset, category[0])}>{preset}</li>
+                                                )
+                                            }
+                                        </ul>
+                                    </li>
+                                )
+                            }
+                        </ul>
+                        <button onClick={this.loadPrevPreset}>-</button>
+                        <button onClick={this.loadNextPreset}>+</button>
+                        <button onClick={() => this.savePreset()}>Save</button>
+                    </div>
+                </GlobalHotKeys>
                 : null
         );
     }

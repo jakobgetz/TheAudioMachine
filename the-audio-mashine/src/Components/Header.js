@@ -11,7 +11,7 @@ class Header extends Component {
                 - <b>Note: </b> In <i>componentDidMount()</i> of PresetBrowser the Preset 'Init' from the Category
                 'factory' gets loaded. this is hard coded at the moment<br/>
                 - Custom Samples are not saved in custom Presets yet<br/>
-                - Playhead always starts at the very top of the sequencer<br/>
+                - Playhead starts at 0 when pressing Esc key<br/>
                 - Added Velocity functionality, triggers are temporary replaced through range inputs<br/>
                 - Added gentle Compressor as a <b> limiter </b> on Masterchain<br/>
                 - Added Play/Pause on Spacekey<br/>
