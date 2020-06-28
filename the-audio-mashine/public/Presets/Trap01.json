@@ -6,6 +6,7 @@
       "name": "Kick",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_BD.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -95,6 +96,7 @@
       "name": "Snare",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_SD.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -184,6 +186,7 @@
       "name": "Clap",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_Clap.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -273,6 +276,7 @@
       "name": "HiHat Closed",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_CHH.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -362,6 +366,7 @@
       "name": "HiHat Open",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_OHH.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
@@ -451,6 +456,7 @@
       "name": "Ride",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_Ride.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {

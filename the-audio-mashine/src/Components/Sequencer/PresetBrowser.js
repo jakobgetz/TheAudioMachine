@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {GlobalHotKeys} from 'react-hotkeys';
+import {GlobalHotKeys} from "react-hotkeys";
 
 class PresetBrowser extends Component {
     userTag = 'user';
@@ -10,7 +10,6 @@ class PresetBrowser extends Component {
                 "factory",
                 "Init",
                 "HouseBeat",
-                "Trap01",
                 "VelocityShowcase",
                 "PitchShowcase"
             ],
@@ -30,7 +29,7 @@ class PresetBrowser extends Component {
                 "Techno"
             ],
             [
-                "Trap02"
+                "Trap"
             ],
             [
                 "user"
@@ -89,7 +88,7 @@ class PresetBrowser extends Component {
         OUTER_LOOP:
             for (let i = 0; i < presets.length; i++) {
                 for (let j = 0; j < presets[i].length; j++) {
-                    if (presets[i][j] === this.selectedPresetName) {
+                    if (presets[i][j] == this.selectedPresetName) {
                         j--
                         if (j > 0) {
                             prevPresetName = presets[i][j]
@@ -132,7 +131,7 @@ class PresetBrowser extends Component {
         OUTER_LOOP:
             for (let i = 0; i < presets.length; i++) {
                 for (let j = 0; j < presets[i].length; j++) {
-                    if (presets[i][j] === this.selectedPresetName) {
+                    if (presets[i][j] == this.selectedPresetName) {
                         j++
                         if (j < presets[i].length) {
                             nextPresetName = presets[i][j]

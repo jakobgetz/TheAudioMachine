@@ -6,6 +6,7 @@
       "name": "Voc",
       "sampleFilePath": "./DefaultSamples/Ayy.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {

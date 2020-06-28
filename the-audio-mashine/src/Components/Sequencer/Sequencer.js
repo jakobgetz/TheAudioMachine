@@ -17,6 +17,7 @@ class Sequencer extends React.Component {
                 name: 'Kick',
                 sampleFilePath: '/DefaultSamples/Kick.wav',
                 layerGain: 80,
+                layerPan: 0,
                 isMute: false,
                 isSolo: false,
                 rhythm: [
@@ -43,6 +44,7 @@ class Sequencer extends React.Component {
                 name: "Snare",
                 sampleFilePath: "/DefaultSamples/Snare.wav",
                 layerGain: 80,
+                layerPan: 0,
                 isMute: false,
                 isSolo: false,
                 rhythm: [
@@ -69,6 +71,7 @@ class Sequencer extends React.Component {
                 name: "Clap",
                 sampleFilePath: "/DefaultSamples/Clap.wav",
                 layerGain: 80,
+                layerPan: 0,
                 isMute: false,
                 isSolo: false,
                 rhythm: [
@@ -95,6 +98,7 @@ class Sequencer extends React.Component {
                 name: "Hat",
                 sampleFilePath: "/DefaultSamples/Hat.wav",
                 layerGain: 80,
+                layerPan: 0,
                 isMute: false,
                 isSolo: false,
                 rhythm: [
@@ -121,6 +125,7 @@ class Sequencer extends React.Component {
                 name: "Crash",
                 sampleFilePath: "/DefaultSamples/Crash.wav",
                 layerGain: 80,
+                layerPan: 0,
                 isMute: false,
                 isSolo: false,
                 rhythm: [
@@ -147,6 +152,7 @@ class Sequencer extends React.Component {
                 name: "Voc",
                 sampleFilePath: "/DefaultSamples/Ayy.wav",
                 layerGain: 80,
+                layerPan: 0,
                 isMute: false,
                 isSolo: false,
                 rhythm: [
@@ -173,7 +179,7 @@ class Sequencer extends React.Component {
 
     componentDidMount() {
         window.AudioContext = window.AudioContext || window.webkitAudioContext
-        this.initLayers()
+        this.initLayers();
     }
 
     setPreset = (preset) => {
@@ -194,6 +200,22 @@ class Sequencer extends React.Component {
             return layer
         })
         this.setState({layers: layers});
+    }
+
+    /**
+     * sets layer pan of specific layer
+     * @param pan
+     * @param layerId
+     */
+    setLayerPan = (pan, layerId) => {
+        let layers = this.state.layers
+        layers = layers.map((layer, i) => {
+            if (layerId === i) {
+                layer.layerPan = pan
+            }
+            return layer
+        })
+        this.setState({layers: layers})
     }
 
     /**
@@ -338,6 +360,7 @@ class Sequencer extends React.Component {
             }
             return layer
         })
+        console.log(layers[0].rhythm)
         this.setState({layers: layers})
     }
 
@@ -380,24 +403,22 @@ class Sequencer extends React.Component {
     render() {
         return (
             this.state ?
+                <div className="sequencer">
+                    <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
 
-                    <div className="sequencer">
-                        <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
+                    <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
-                        <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
+                    <SampleMenu layers={this.state.layers}
+                                loadSample={this.loadSample}
+                                setLayerGain={this.setLayerGain}
+                                setLayerPan={this.setLayerPan}
+                                setLayerMute={this.setLayerMute}
+                                setLayerSolo={this.setLayerSolo}/>
 
-                        <SampleMenu layers={this.state.layers}
-                                    loadSample={this.loadSample}
-                                    setLayerGain={this.setLayerGain}
-                                    setLayerMute={this.setLayerMute}
-                                    setLayerSolo={this.setLayerSolo}/>
+                    <Sequence layers={this.state.layers} setTrigger={this.setTrigger} setVelocity={this.setVelocity}/>
 
-                        <Sequence layers={this.state.layers} setTrigger={this.setTrigger}
-                                  setVelocity={this.setVelocity}/>
-
-                        <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}
-                                isPlaying={this.state.isPlaying} setPlaying={this.setPlaying}/>
-                    </div>
+                    <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
+                </div>
                 : null
         )
     }

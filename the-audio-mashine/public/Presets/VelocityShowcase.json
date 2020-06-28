@@ -6,6 +6,7 @@
       "name": "Kick",
       "sampleFilePath": "./DefaultSamples/Kick.wav",
       "layerGain": 80,
+      "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
