@@ -18,6 +18,9 @@ class Player extends Component {
     sampleGain
     limiter
 
+    mediaRecorder
+    doRecordSequence = false
+    recordedSequences = [];
     state = {
         currentVolume: 0.8,
         playingIcon: playIcon
@@ -35,13 +38,19 @@ class Player extends Component {
     componentDidMount() {
         window.AudioContext = window.AudioContext || window.webkitAudioContext
         this.ctx = new AudioContext()
+        // First Node
         this.masterGain = this.ctx.createGain()
+        // Second Node
         this.limiter = this.ctx.createDynamicsCompressor();
         this.setLimiter();
         this.masterGain.connect(this.limiter)
         this.masterGain.gain.setValueAtTime(this.state.currentVolume, this.ctx.currentTime)
         this.fillLayerGainArray();
         this.fillLayerPanArray()
+
+        let dest = this.ctx.createMediaStreamDestination()
+        this.mediaRecorder = new MediaRecorder(dest.stream)
+        this.limiter.connect(dest)
     }
 
     /**
@@ -72,19 +81,42 @@ class Player extends Component {
         this.playHeadPosition = 0
     }
 
+    recordSequence = () => {
+        this.doRecordSequence = true
+    }
+
+    stopRecording = () => {
+        this.doRecordSequence = false
+        this.mediaRecorder.ondataavailable = (evt) => {
+            this.recordedSequences.push(evt.data);
+        }
+        this.mediaRecorder.onstop = (event) => {
+            // Make blob out of our blobs, and open it.
+            let blob = new Blob(this.recordedSequences, {'type': 'audio/wav; codecs=0'});
+            document.querySelector("audio").src = URL.createObjectURL(blob);
+        }
+    }
+
     /**
      * Starts/Stops the Playback
      */
     play = () => {
         if (this.isPlaying) {
             this.isPlaying = false
-            this.masterGain.disconnect()
+            this.limiter.disconnect()
             this.resetPlayHeadPosition()
             this.setState({playingIcon: playIcon})
+            if (this.mediaRecorder.state === "recording") {
+                this.mediaRecorder.stop()
+                this.stopRecording()
+            }
         } else {
             this.isPlaying = true
             this.setState({playingIcon: pauseIcon})
-            this.masterGain.connect(this.ctx.destination)
+            this.limiter.connect(this.ctx.destination)
+            if (this.mediaRecorder.state === "inactive") {
+                this.mediaRecorder.start()
+            }
             this.playSequence()
         }
     }
@@ -163,7 +195,7 @@ class Player extends Component {
 
     setLayerPan = i => {
         this.layerPans[i].pan.setValueAtTime(this.props.layers[i].layerPan / 50, this.ctx.currentTime)
-}
+    }
 
     setLayerMute = i => {
         if (this.props.layers[i].isMute) {
@@ -208,6 +240,8 @@ class Player extends Component {
                            value={Math.round(this.state.currentVolume * 100)}
                            onChange={e => this.setVolume(e.target.value)}
                            onDoubleClick={() => this.setVolume(80)}/>
+                    <button onClick={() => this.recordSequence()}>Record</button>
+                    <audio controls className="audioControl">Player</audio>
                 </div>
             </GlobalHotKeys>
         );
