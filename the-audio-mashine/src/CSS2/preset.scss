@@ -1,0 +1,73 @@
+@import "variables";
+@import "header";
+
+.preset-button {
+  @include button-top();
+  float: right;
+  margin-right: 20px;
+  .fas:hover {
+    font-size: 30px;
+  }
+}
+
+.preset-button:hover {
+  border-color: color(accent);
+  background-color: color(accent);
+  color: color(primary);
+}
+
+// provisional search bar
+
+.search-box {
+  position: relative;
+  float: right;
+  width: 250px;
+  height: 50px;
+  background-color: color(primary);
+  border-radius: 100vh;
+  border: 5px solid color(nav);
+  color: color(nav);
+  padding-left: 20px;
+  line-height: 40px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+.search-box:hover {
+  border-color: color(accent);
+  background-color: color(accent);
+  color: color(primary);
+  .fas:hover {
+    font-size: 30px;
+  }
+}
+
+.search-button {
+  position: relative;
+  float: right;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: color(nav);
+  margin: -5px;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: 35px;
+  color: color(primary);
+}
+
+.search-button:hover {
+  border: 3px solid color(accent);
+  background-color: color(primary);
+  color: color(accent);
+}
+
+.fa-chevron-down {
+  position: absolute;
+
+  letter-spacing: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}

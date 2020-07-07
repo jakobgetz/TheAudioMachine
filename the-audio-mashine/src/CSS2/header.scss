@@ -1,0 +1,31 @@
+@import "variables";
+
+// mixin for header buttons
+
+@mixin button-top {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: color(primary);
+  border: 5px solid color(nav);
+  border-radius: 50%;
+  margin-right: 30px;
+  cursor: pointer;
+  color: color(nav);
+}
+
+// header buttons
+
+.header-button {
+  @include button-top();
+  float: left;
+}
+
+.header-button:hover {
+  border-color: color(accent);
+  background-color: color(accent);
+  color: color(primary);
+  .fas:hover {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,65 @@
+@import "variables";
+
+// mixin sequencer notes
+
+@mixin wrapper($rotate, $color, $width) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate($rotate);
+
+  .note {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $color;
+    top: 50%;
+    left: $width;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .note:hover {
+    width: 45px;
+    height: 45px;
+    background-color: lighten($color: $color, $amount: 30);
+  }
+}
+
+// Notes
+
+// values for loops
+
+$distance: 110px, 165px, 220px, 275px, 330px, 385px;
+$fix: 110px;
+$elements: 16;
+$deg: 360;
+
+// for loop notes
+
+@for $i from 1 through 6 {
+  .sequence__layer-#{$i} {
+    @for $j from 1 through 16 {
+      .wrapper-#{$j} {
+        @include wrapper(
+          ($j / ($elements)) * $deg + deg,
+          nth($inactive-colors, $i),
+          nth($distance, $i)
+        );
+      }
+    }
+  }
+  .sequence__layer-selected-#{$i} {
+    @for $j from 1 through 16 {
+      .wrapper-selected-#{$j} {
+        @include wrapper(
+          ($j / ($elements)) * $deg + deg,
+          nth($active-colors, $i),
+          nth($distance, $i)
+        );
+      }
+    }
+  }
+}
