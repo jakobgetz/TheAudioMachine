@@ -1,0 +1,48 @@
+//Colors
+
+$colors: (
+  //Background Colors
+    primary: #252525,
+  primary-light: #3e3c3c,
+  accent: #eae4dd,
+  nav: #c7c2bc,
+  //Colors Active
+    one: #f26c4f,
+  two: #f7941d,
+  three: #ed145b,
+  four: #2587ac,
+  five: #39b54a,
+  six: #6c4f87,
+  //Colors Inactive
+    //Sequencer Notes
+    one-in: #5b281d,
+  two-in: #764a14,
+  three-in: #5e0b26,
+  four-in: #0e3442,
+  five-in: #133e1a,
+  six-in: #32243f,
+  //Beatsound Colors
+    kick: #402721,
+  snare: #4e381c,
+  clap: #421826,
+  hat1: #192d34,
+  hat2: #1c321f,
+  cymb: #2c2432
+);
+
+// Function for colors
+
+@function color($colors_name) {
+  @return map-get($colors, $colors_name);
+}
+
+// For-Loop Colors
+
+$beat-colors: color(kick), color(snare), color(clap), color(hat1), color(hat2),
+  color(cymb);
+
+$inactive-colors: color(one-in), color(two-in), color(three-in), color(four-in),
+  color(five-in), color(six-in);
+
+$active-colors: color(one), color(two), color(three), color(four), color(five),
+  color(six);
