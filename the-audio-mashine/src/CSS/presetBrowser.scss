@@ -2,13 +2,13 @@ $height: 30px;
 
 .PresetBrowser {
   top: 30px;
-  left: 30px;
+  right: 30px;
   background: #333;
   color: #fff;
   width: 20%;
   height: $height;
   border-radius: 3px;
-  position: relative;
+  position: absolute;
 
   button {
     height: 80%;
@@ -46,7 +46,7 @@ $height: 30px;
   display: block;
   list-style: none;
   float: left;
-  border-radius: 0px 0px 3px 3px;
+  border-radius: 0 0 3px 3px;
   z-index: 1;
   color: #aaa;
 

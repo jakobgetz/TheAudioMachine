@@ -30,7 +30,7 @@ html {
 }
 
 .sequencer {
-  position: relative;
+  position: absolute; //Todo change to relative after removing header
   display: inline-block;
   width: 98%;
   height: 98%;
