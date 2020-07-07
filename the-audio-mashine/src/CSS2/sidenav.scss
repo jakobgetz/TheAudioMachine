@@ -56,6 +56,7 @@
       color: $color;
       cursor: pointer;
     }
+
     .extra:hover {
       border-color: lighten($color: $color, $amount: 30);
       color: lighten($color: $color, $amount: 30);
@@ -104,6 +105,7 @@
         border-color: color(nav);
         background-color: darken(nth($active-colors, $i), $amount: 10);
       }
+
       .sidenav__box {
         @for $i from 1 through 6 {
           .active-selected-#{$i} {
@@ -129,7 +131,6 @@
   .fas {
     position: absolute;
     color: color(nav);
-    font-size: 20px;
     top: 50%;
     left: 50%;
     margin-right: -50%;

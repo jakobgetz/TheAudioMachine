@@ -6,7 +6,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   transform: rotate($rotate);
 
   .note {
@@ -44,9 +43,9 @@ $deg: 360;
     @for $j from 1 through 16 {
       .wrapper-#{$j} {
         @include wrapper(
-          ($j / ($elements)) * $deg + deg,
-          nth($inactive-colors, $i),
-          nth($distance, $i)
+                        ($j / ($elements)) * $deg + deg,
+                        nth($inactive-colors, $i),
+                        nth($distance, $i)
         );
       }
     }
@@ -55,9 +54,9 @@ $deg: 360;
     @for $j from 1 through 16 {
       .wrapper-selected-#{$j} {
         @include wrapper(
-          ($j / ($elements)) * $deg + deg,
-          nth($active-colors, $i),
-          nth($distance, $i)
+                        ($j / ($elements)) * $deg + deg,
+                        nth($active-colors, $i),
+                        nth($distance, $i)
         );
       }
     }
