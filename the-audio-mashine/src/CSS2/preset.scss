@@ -5,6 +5,7 @@
   @include button-top();
   float: right;
   margin-right: 20px;
+
   .fas:hover {
     font-size: 30px;
   }
@@ -37,6 +38,7 @@
   border-color: color(accent);
   background-color: color(accent);
   color: color(primary);
+
   .fas:hover {
     font-size: 30px;
   }
@@ -50,7 +52,6 @@
   border-radius: 50%;
   background-color: color(nav);
   margin: -5px;
-  font-size: 20px;
   cursor: pointer;
   font-size: 35px;
   color: color(primary);
