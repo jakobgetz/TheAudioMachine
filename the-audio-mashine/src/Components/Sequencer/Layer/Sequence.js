@@ -4,7 +4,7 @@ import Layer from "./Layer";
 class Sequence extends Component {
     render() {
         return (
-                <div className="layer">
+                <div className="sequence">
                     {
                         this.props.layers.map(layer =>
                             <Layer key={layer.layerId}
