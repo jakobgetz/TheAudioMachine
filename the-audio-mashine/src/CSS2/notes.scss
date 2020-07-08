@@ -2,7 +2,7 @@
 
 // mixin sequencer notes
 
-@mixin wrapper($rotate, $color, $width) {
+@mixin wrapper($rotate, $color, $height) {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -13,8 +13,8 @@
     height: 40px;
     border-radius: 50%;
     background-color: $color;
-    top: 50%;
-    left: $width;
+    top: $height;
+    left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     cursor: pointer;
@@ -31,33 +31,36 @@
 
 // values for loops
 
-$distance: 110px, 165px, 220px, 275px, 330px, 385px;
+$distance:  -385px, -330px, -275px, -220px, -165px, -110px;
 $fix: 110px;
 $elements: 16;
 $deg: 360;
 
 // for loop notes
 
-@for $i from 1 through 6 {
+@for $i from 0 through 5 {
   .sequence__layer-#{$i} {
-    @for $j from 1 through 16 {
+    @for $j from 0 through 15 {
       .wrapper-#{$j} {
         @include wrapper(
-                        ($j / ($elements)) * $deg + deg,
-                        nth($inactive-colors, $i),
-                        nth($distance, $i)
+                        ($j / $elements) * $deg + deg,
+                        nth($inactive-colors, ($i + 1)),
+                        nth($distance, ($i + 1))
         );
       }
-    }
-  }
-  .sequence__layer-selected-#{$i} {
-    @for $j from 1 through 16 {
+
       .wrapper-selected-#{$j} {
         @include wrapper(
-                        ($j / ($elements)) * $deg + deg,
-                        nth($active-colors, $i),
-                        nth($distance, $i)
+                        ($j / $elements) * $deg + deg,
+                        nth($active-colors, ($i + 1)),
+                        nth($distance, ($i + 1))
         );
+    }
+  }
+
+  .sequence__layer-selected-#{$i} {
+    @for $j from 0 through 15 {
+
       }
     }
   }

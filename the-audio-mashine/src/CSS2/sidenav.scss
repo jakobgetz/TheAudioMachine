@@ -70,18 +70,18 @@
   position: relative;
   margin: 100px 0 0 20px;
 
-  @for $i from 1 through 6 {
+  @for $i from 0 through 5 {
     .sidenav__button-#{$i} {
-      @include sidenav-button(nth($beat-colors, $i));
+      @include sidenav-button(nth($beat-colors, ($i + 1)));
 
       .sidenav__box {
-        @for $i from 1 through 6 {
+        @for $i from 0 through 5 {
           .inactive-selected-#{$i} {
-            background-color: (nth($beat-colors, $i));
+            background-color: (nth($beat-colors, ($i + 1)));
             color: black;
           }
           .inactive-selected-#{$i}:hover {
-            background-color: lighten(nth($beat-colors, $i), $amount: 30);
+            background-color: lighten(nth($beat-colors, ($i + 1)), $amount: 30);
             color: black;
           }
         }
@@ -89,7 +89,7 @@
     }
 
     .sidenav__button-selected-#{$i} {
-      @include sidenav-button(nth($active-colors, $i));
+      @include sidenav-button(nth($active-colors, ($i + 1)));
       color: color(accent);
       border-color: color(accent);
 
@@ -103,26 +103,26 @@
 
       .symbol:hover {
         border-color: color(nav);
-        background-color: darken(nth($active-colors, $i), $amount: 10);
+        background-color: darken(nth($active-colors, ($i + 1)), $amount: 10);
       }
 
       .sidenav__box {
-        @for $i from 1 through 6 {
+        @for $i from 0 through 5 {
           .active-selected-#{$i} {
-            background-color: (nth($active-colors, $i));
+            background-color: (nth($active-colors, ($i + 1)));
             color: black;
           }
         }
 
         .sidenav__extra-#{$i}:hover {
-          border-color: darken(nth($active-colors, $i), $amount: 10);
-          color: darken(nth($active-colors, $i), $amount: 10);
+          border-color: darken(nth($active-colors, ($i + 1)), $amount: 10);
+          color: darken(nth($active-colors, ($i + 1)), $amount: 10);
         }
 
         .active-selected-#{$i}:hover {
-          background-color: darken(nth($active-colors, $i), $amount: 10);
+          background-color: darken(nth($active-colors, ($i + 1)), $amount: 10);
           color: black;
-          border-color: darken(nth($active-colors, $i), $amount: 10);
+          border-color: darken(nth($active-colors, ($i + 1)), $amount: 10);
         }
       }
     }

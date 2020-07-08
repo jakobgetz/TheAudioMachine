@@ -39,7 +39,7 @@ class SampleMenu extends Component {
         return (
             this.state ?
                 <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
-                    <div className="sampleMenu">
+                    <div className="sidenav">
                         {
                             this.props.layers.map((layer, i) =>
                                 <SamplePicker key={layer.layerId}

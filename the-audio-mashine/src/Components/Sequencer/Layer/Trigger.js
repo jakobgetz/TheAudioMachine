@@ -6,7 +6,7 @@ class Trigger extends Component {
     prevMousePosition
 
     getStyle = () => {
-        return this.props.checked ? "checked" : "unchecked"
+        return this.props.checked ? "wrapper-selected-" + this.props.trigger.step : "wrapper-" + this.props.trigger.step
 
     }
 
@@ -34,28 +34,15 @@ class Trigger extends Component {
 
     render() {
         return (
-            <span>
-                <span className={this.getStyle()}>
-                    <input type='range'
-                           min={0}
-                           max={127}
-                           value={this.props.trigger.velocity}
-                           onChange={e => this.props.setVelocity(this.props.layerId, this.props.trigger.step, e.target.value)}
-                           onDoubleClick={() => this.props.setTrigger(this)}/>
-                    {/*
-                    <span>
-                        <Knob value={this.props.trigger.velocity}
-                              onChange={this.changeVelocity}/>
-                    </span>
+            <div className={this.getStyle()}>
+                <div className={"note"}
+                     onClick={() => this.props.setTrigger(this)}
+                     onMouseDown={e => this.startChangeVelocity(e)}
+                     /*onMouseMove={this.changeVelocity}
+                     onMouseUp={this.stopChangeVelocity}*/>
+                </div>
+            </div>
 
-                    <span onClick={() => this.props.setTrigger(this)}
-                          onMouseDown={e => this.startChangeVelocity(e)}
-                          onMouseMove={this.changeVelocity}
-                          onMouseUp={this.stopChangeVelocity}>
-                    </span>
-*/}
-                </span>
-            </span>
         );
     }
 }

@@ -10,9 +10,10 @@ class SamplePicker extends Component {
         const {layer, openPicker, loadSample, isShown, setLayerGain, setLayerPan, setLayerMute, setLayerSolo} = this.props
 
         return (
-            <div>
+            <div className={"sidenav__button-" + layer.layerId + " sidenav__box"}>
                 <div className={this.getStyle(layer.layerId + 1)} onClick={() => openPicker(layer.layerId)}>
                     {layer.name}
+                    <div className={"symbol"}></div>
                 </div>
                 {isShown ?
                     <ul className="sampleFeatures">
