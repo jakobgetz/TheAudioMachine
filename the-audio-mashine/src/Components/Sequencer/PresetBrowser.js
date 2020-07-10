@@ -11,7 +11,8 @@ class PresetBrowser extends Component {
                 "Init",
                 "HouseBeat",
                 "VelocityShowcase",
-                "PitchShowcase"
+                "PitchShowcase",
+                "Trap02 (105Bpm)"
             ],
             [
                 "Acoustic"
