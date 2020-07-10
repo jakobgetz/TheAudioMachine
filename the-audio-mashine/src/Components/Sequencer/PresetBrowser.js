@@ -193,7 +193,29 @@ class PresetBrowser extends Component {
         return (
             this.state ?
                 <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
-                    <div className="PresetBrowser">
+
+                    <div className="search-box">
+                        {this.selectedPresetName}
+                        <div className="search-button">
+                            <i className="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+
+                    <div className="preset-browser__buttons">
+                        <div className="preset-button preset-browser__button-save" onClick={() => this.savePreset()}>
+                            <i className="fas left fa-save"></i>
+                        </div>
+
+                        <div className="preset-button preset-browser__button-minus" onClick={this.loadPrevPreset}>
+                            <i className="fas fa-chevron-right"></i>
+                        </div>
+
+                        <div className="preset-button preset-browser__button-plus" onClick={this.loadNextPreset}>
+                            <i className="fas fa-chevron-left"></i>
+                        </div>
+                    </div>
+
+                    {/*<div className="PresetBrowser">
                         <ul className="PresetDropdown">
                             <label>Preset: {this.selectedPresetName}</label>
                             {
@@ -215,7 +237,7 @@ class PresetBrowser extends Component {
                         <button onClick={this.loadPrevPreset}>-</button>
                         <button onClick={this.loadNextPreset}>+</button>
                         <button onClick={() => this.savePreset()}>Save</button>
-                    </div>
+                    </div>*/}
                 </GlobalHotKeys>
                 : null
         );
