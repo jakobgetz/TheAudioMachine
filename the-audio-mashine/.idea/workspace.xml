@@ -24,8 +24,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de9b6437-1caa-464c-90c2-5da8c479730e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/PresetBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/PresetBrowser.js" afterDir="false" />
+    <list default="true" id="de9b6437-1caa-464c-90c2-5da8c479730e" name="Default Changelist" comment="updated libraries and added responsive attr for sequencer + op graph first attempt">
+      <change afterPath="$PROJECT_DIR$/public/Assests/preview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS2/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS2/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS2/notes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS2/notes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/Player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +72,10 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\P.Esch\WebstormProjects\The Audio Machine\the-audio-mashine\public\Assests" />
+      <recent name="C:\Users\P.Esch\WebstormProjects\The Audio Machine\the-audio-mashine\src\Assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/Presets" />
     </key>
@@ -83,6 +95,13 @@
       <workItem from="1591102845306" duration="671000" />
       <workItem from="1591104793908" duration="197000" />
       <workItem from="1591105005051" duration="10000" />
+      <workItem from="1594156330311" duration="263000" />
+      <workItem from="1594313191864" duration="11000" />
+      <workItem from="1594313251004" duration="207000" />
+      <workItem from="1594461613553" duration="5824000" />
+      <workItem from="1594568213599" duration="1024000" />
+      <workItem from="1594569250965" duration="512000" />
+      <workItem from="1594570163347" duration="4677000" />
     </task>
     <task id="LOCAL-00001" summary="add necessary libraries and change buttons on player&#10;&#10;(cherry picked from commit 17f5266e1d6beb37b02876b70ae9871068038a61)">
       <created>1590853549452</created>
@@ -91,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590853549452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implemented umuts css styles">
+      <created>1594145882833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594145882833</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added record button + player">
+      <created>1594155999273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594155999273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +144,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add necessary libraries and change buttons on player&#10;&#10;(cherry picked from commit 17f5266e1d6beb37b02876b70ae9871068038a61)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add necessary libraries and change buttons on player&#10;&#10;(cherry picked from commit 17f5266e1d6beb37b02876b70ae9871068038a61)" />
+    <MESSAGE value="implemented umuts css styles" />
+    <MESSAGE value="added record button + player" />
+    <MESSAGE value="updated libraries and added responsive attr for sequencer + op graph first attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated libraries and added responsive attr for sequencer + op graph first attempt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="868" y="347" key="#File_Watchers" timestamp="1590833886035">
@@ -130,10 +166,15 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="733" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1590833944913" />
-    <state x="123" y="34" key="CommitChangelistDialog2" timestamp="1590853549309">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="109" y="0" key="CommitChangelistDialog2" timestamp="1594574835146">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="109" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1594574835146" />
     <state x="123" y="34" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1590853549309" />
+    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1594313458259">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1594313458259" />
     <state x="648" y="247" width="695" height="627" key="EditFileWatcherDialog" timestamp="1590833735767">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -146,18 +187,31 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="615" y="335" width="510" height="270" key="MultipleFileMergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1591023865232" />
+    <state x="252" y="64" key="RollbackChangesDialog" timestamp="1594145810400">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="252" y="64" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1594145810400" />
     <state x="313" y="82" key="SettingsEditor" timestamp="1590848002434">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="313" y="82" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590848002434" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1594156001018">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1594156001018" />
     <state x="615" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590831070651">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="615" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1590831070651" />
-    <state x="515" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591023856278">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="458" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594573680110">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="458" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1594573680110" />
     <state x="515" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1591023856278" />
+    <state x="351" y="100" width="579" height="598" key="find.popup" timestamp="1594572023715">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="351" y="100" width="579" height="598" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1594572023715" />
     <state x="320" y="181" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590839290699">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -166,6 +220,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="356" y="257" key="git4idea.merge.GitMergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1590852985169" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1594573822380">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1594573822380" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
