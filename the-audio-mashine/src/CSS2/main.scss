@@ -54,8 +54,8 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 850px;
-  width: 850px;
+  height: 90vh;
+  width: 90vh;
   background-color: color(accent);
   border-radius: 50%;
 }
@@ -66,8 +66,8 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 850px;
-  width: 850px;
+  height: 90vh;
+  width: 90vh;
   border: 15px solid color(primary-light);
   border-radius: 50%;
 }
@@ -83,8 +83,8 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 120px;
-  width: 120px;
+  height: 18vh;
+  width: 18vh;
   cursor: pointer;
   color: color(accent);
 }

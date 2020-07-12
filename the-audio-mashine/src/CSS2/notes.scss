@@ -9,8 +9,8 @@
   transform: rotate($rotate);
 
   .note {
-    width: 40px;
-    height: 40px;
+    width: 4vh;
+    height: 4vh;
     border-radius: 50%;
     background-color: $color;
     top: $height;
@@ -21,8 +21,8 @@
   }
 
   .note:hover {
-    width: 45px;
-    height: 45px;
+    width: 4vh;
+    height: 4vh;
     background-color: lighten($color: $color, $amount: 30);
   }
 }
@@ -30,9 +30,9 @@
 // Notes
 
 // values for loops
-
-$distance:  -385px, -330px, -275px, -220px, -165px, -110px;
-$fix: 110px;
+// -315px, -270px, -225px, -180px, -135px, -90px;
+$distance:  -40.18vh, -34.44vh, -28.70vh, -22.96vh, -17.22vh, -11.48vh;
+$fix: 50vh;
 $elements: 16;
 $deg: 360;
 
