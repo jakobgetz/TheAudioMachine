@@ -4,6 +4,8 @@ import Player from "./Player";
 import PresetBrowser from "./PresetBrowser";
 import SampleMenu from "./SampleMenu/SampleMenu";
 import Sequence from "./Layer/Sequence";
+import HeaderButtons from "./HeaderButtons";
+import Footer from "./Footer";
 
 class Sequencer extends React.Component {
 
@@ -404,9 +406,10 @@ class Sequencer extends React.Component {
         return (
             this.state ?
                 <div className="sequencer">
+                    <HeaderButtons/>
                     <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
 
-                    <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
+                    {/*<BPM bpm={this.state.bpm} setBPM={this.setBPM}/>*/}
 
                     <SampleMenu layers={this.state.layers}
                                 loadSample={this.loadSample}
@@ -418,6 +421,8 @@ class Sequencer extends React.Component {
                     <Sequence layers={this.state.layers} setTrigger={this.setTrigger} setVelocity={this.setVelocity}/>
 
                     <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
+
+                    <Footer/>
                 </div>
                 : null
         )

@@ -23,7 +23,7 @@ class Player extends Component {
     recordedSequences = [];
     state = {
         currentVolume: 0.8,
-        playingIcon: playIcon
+        playingIcon: "fas fa-play"
     }
     keyMap = {
         PLAY: "space",
@@ -105,14 +105,14 @@ class Player extends Component {
             this.isPlaying = false
             this.limiter.disconnect()
             this.resetPlayHeadPosition()
-            this.setState({playingIcon: playIcon})
+            this.setState({playingIcon: "fas fa-play"})
             if (this.mediaRecorder.state === "recording") {
                 this.mediaRecorder.stop()
                 this.stopRecording()
             }
         } else {
             this.isPlaying = true
-            this.setState({playingIcon: pauseIcon})
+            this.setState({playingIcon: "fas fa-pause"})
             this.limiter.connect(this.ctx.destination)
             if (this.mediaRecorder.state === "inactive") {
                 this.mediaRecorder.start()
@@ -229,18 +229,21 @@ class Player extends Component {
     render() {
         return (
             <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
-                <div className="Player">
-                    <Button className="trashButton" onClick={this.props.resetTriggers}><img src={binIcon}
-                                                                                            alt="Erase triggers"/></Button>
-                    <span className="playButton" onClick={this.play}><img
-                        src={this.state.playingIcon}
-                        className="playIcon"
-                        alt="Play/Pause-Button"/></span>
+                <div className="player">
+                    <div className="player__play-button" onClick={this.play}>
+                        <i className={this.state.playingIcon}></i>
+                    </div>
+
+                    <div className="player__trash-button" onClick={this.props.resetTriggers}></div>
+                    <div className="player__volume-knob"></div>
+
+                    {/*
                     <input type='range' className="volumeSlider"
                            value={Math.round(this.state.currentVolume * 100)}
                            onChange={e => this.setVolume(e.target.value)}
                            onDoubleClick={() => this.setVolume(80)}/>
                     <button onClick={() => this.recordSequence()}>Record</button>
+                    */}
                     <audio controls className="audioControl">Player</audio>
                 </div>
             </GlobalHotKeys>
