@@ -1,5 +1,5 @@
 {
-  "bpm": 130,
+  "bpm": 140,
   "layers": [
     {
       "layerId": 0,
@@ -41,7 +41,7 @@
         },
         {
           "step": 6,
-          "velocity": 0,
+          "velocity": 100,
           "pitch": 1
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "step": 4,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -141,7 +141,7 @@
         },
         {
           "step": 8,
-          "velocity": 0,
+          "velocity": 100,
           "pitch": 1
         },
         {
@@ -161,7 +161,7 @@
         },
         {
           "step": 12,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -206,7 +206,7 @@
         },
         {
           "step": 3,
-          "velocity": 0,
+          "velocity": 70,
           "pitch": 1
         },
         {
@@ -246,7 +246,7 @@
         },
         {
           "step": 11,
-          "velocity": 0,
+          "velocity": 70,
           "pitch": 1
         },
         {
@@ -261,19 +261,19 @@
         },
         {
           "step": 14,
-          "velocity": 40,
+          "velocity": 0,
           "pitch": 1
         },
         {
           "step": 15,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         }
       ]
     },
     {
       "layerId": 3,
-      "name": "HiHat Closed",
+      "name": "Hat 1",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_CHH.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -281,7 +281,7 @@
       "rhythm": [
         {
           "step": 0,
-          "velocity": 0,
+          "velocity": 80,
           "pitch": 1
         },
         {
@@ -291,7 +291,7 @@
         },
         {
           "step": 2,
-          "velocity": 100,
+          "velocity": 70,
           "pitch": 1
         },
         {
@@ -301,7 +301,7 @@
         },
         {
           "step": 4,
-          "velocity": 0,
+          "velocity": 80,
           "pitch": 1
         },
         {
@@ -311,7 +311,7 @@
         },
         {
           "step": 6,
-          "velocity": 100,
+          "velocity": 75,
           "pitch": 1
         },
         {
@@ -321,7 +321,7 @@
         },
         {
           "step": 8,
-          "velocity": 0,
+          "velocity": 80,
           "pitch": 1
         },
         {
@@ -331,7 +331,7 @@
         },
         {
           "step": 10,
-          "velocity": 100,
+          "velocity": 70,
           "pitch": 1
         },
         {
@@ -341,7 +341,7 @@
         },
         {
           "step": 12,
-          "velocity": 0,
+          "velocity": 80,
           "pitch": 1
         },
         {
@@ -351,19 +351,19 @@
         },
         {
           "step": 14,
-          "velocity": 100,
+          "velocity": 70,
           "pitch": 1
         },
         {
           "step": 15,
-          "velocity": 0,
+          "velocity": 75,
           "pitch": 1
         }
       ]
     },
     {
       "layerId": 4,
-      "name": "HiHat Open",
+      "name": "Hat 2",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_OHH.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -371,7 +371,7 @@
       "rhythm": [
         {
           "step": 0,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -391,7 +391,7 @@
         },
         {
           "step": 4,
-          "velocity": 0,
+          "velocity": 70,
           "pitch": 1
         },
         {
@@ -441,7 +441,7 @@
         },
         {
           "step": 14,
-          "velocity": 0,
+          "velocity": 90,
           "pitch": 1
         },
         {
@@ -461,7 +461,7 @@
       "rhythm": [
         {
           "step": 0,
-          "velocity": 0,
+          "velocity": 85,
           "pitch": 1
         },
         {
@@ -481,7 +481,7 @@
         },
         {
           "step": 4,
-          "velocity": 0,
+          "velocity": 85,
           "pitch": 1
         },
         {
@@ -501,7 +501,7 @@
         },
         {
           "step": 8,
-          "velocity": 0,
+          "velocity": 85,
           "pitch": 1
         },
         {
@@ -521,7 +521,7 @@
         },
         {
           "step": 12,
-          "velocity": 0,
+          "velocity": 85,
           "pitch": 1
         },
         {

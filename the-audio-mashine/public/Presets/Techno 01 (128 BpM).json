@@ -1,0 +1,281 @@
+{
+  "bpm": 130,
+  "layers": [
+    {
+      "layerId": 0,
+      "name": "Kick",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_BD.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {"step": 5, "velocity": 0, "pitch": 1},
+        {"step": 6, "velocity": 0, "pitch": 1},
+        {"step": 7, "velocity": 0, "pitch": 1},
+        {"step": 8, "velocity": 100, "pitch": 1},
+        {"step": 9, "velocity": 0, "pitch": 1},
+        {"step": 10, "velocity": 0, "pitch": 1},
+        {"step": 11, "velocity": 0, "pitch": 1},
+        {"step": 12, "velocity": 100, "pitch": 1},
+        {"step": 13, "velocity": 0, "pitch": 1},
+        {"step": 14, "velocity": 0, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "layerId": 1,
+      "name": "Snare",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_SD01.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"step": 5, "velocity": 0, "pitch": 1},
+        {"step": 6, "velocity": 0, "pitch": 1},
+        {"step": 7, "velocity": 95, "pitch": 1},
+        {"step": 8, "velocity": 0, "pitch": 1},
+        {"step": 9, "velocity": 0, "pitch": 1},
+        {"step": 10, "velocity": 0, "pitch": 1},
+        {"step": 11, "velocity": 0, "pitch": 1},
+        {"step": 12, "velocity": 80, "pitch": 1},
+        {"step": 13, "velocity": 0, "pitch": 1},
+        {"step": 14, "velocity": 0, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "layerId": 2,
+      "name": "Clap",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_Clap.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 88,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 85,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"step": 5, "velocity": 0, "pitch": 1},
+        {"step": 6, "velocity": 0, "pitch": 1},
+        {"step": 7, "velocity": 0, "pitch": 1},
+        {"step": 8, "velocity": 0, "pitch": 1},
+        {"step": 9, "velocity": 0, "pitch": 1},
+        {"step": 10, "velocity": 0, "pitch": 1},
+        {"step": 11, "velocity": 0, "pitch": 1},
+        {"step": 12, "velocity": 0, "pitch": 1},
+        {"step": 13, "velocity": 0, "pitch": 1},
+        {"step": 14, "velocity": 0, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "layerId": 3,
+      "name": "Hat 1",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_CHH.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 95,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 80,
+          "pitch": 1
+        },
+        {"step": 5, "velocity": 0, "pitch": 1},
+        {"step": 6, "velocity": 90, "pitch": 1},
+        {"step": 7, "velocity": 0, "pitch": 1},
+        {"step": 8, "velocity": 80, "pitch": 1},
+        {"step": 9, "velocity": 85, "pitch": 1},
+        {"step": 10, "velocity": 90, "pitch": 1},
+        {"step": 11, "velocity": 88, "pitch": 1},
+        {"step": 12, "velocity": 85, "pitch": 1},
+        {"step": 13, "velocity": 0, "pitch": 1},
+        {"step": 14, "velocity": 90, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "layerId": 4,
+      "name": "Hat 2",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_OHH.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"step": 5, "velocity": 0, "pitch": 1},
+        {"step": 6, "velocity": 100, "pitch": 1},
+        {"step": 7, "velocity": 0, "pitch": 1},
+        {"step": 8, "velocity": 0, "pitch": 1},
+        {"step": 9, "velocity": 0, "pitch": 1},
+        {"step": 10, "velocity": 100, "pitch": 1},
+        {"step": 11, "velocity": 0, "pitch": 1},
+        {"step": 12, "velocity": 0, "pitch": 1},
+        {"step": 13, "velocity": 0, "pitch": 1},
+        {"step": 14, "velocity": 100, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "layerId": 5,
+      "name": "Ride",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_Ride.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 60,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 95,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"step": 5, "velocity": 85, "pitch": 1},
+        {"step": 6, "velocity": 100, "pitch": 1},
+        {"step": 7, "velocity": 0, "pitch": 1},
+        {"step": 8, "velocity": 0, "pitch": 1},
+        {"step": 9, "velocity": 85, "pitch": 1},
+        {"step": 10, "velocity": 100, "pitch": 1},
+        {"step": 11, "velocity": 0, "pitch": 1},
+        {"step": 12, "velocity": 0, "pitch": 1},
+        {"step": 13, "velocity": 85, "pitch": 1},
+        {"step": 14, "velocity": 100, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    }
+  ]
+}

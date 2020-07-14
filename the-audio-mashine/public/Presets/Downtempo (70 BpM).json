@@ -177,7 +177,7 @@
         },
         {
           "step": 15,
-          "velocity": 0,
+          "velocity": 100,
           "pitch": 1
         }
       ],
@@ -511,7 +511,7 @@
         },
         {
           "step": 9,
-          "velocity": 0,
+          "velocity": 100,
           "pitch": 1
         },
         {
@@ -526,12 +526,12 @@
         },
         {
           "step": 12,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
           "step": 13,
-          "velocity": 0,
+          "velocity": 100,
           "pitch": 1
         },
         {
