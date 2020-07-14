@@ -8,7 +8,7 @@ import BurgerMenu from "./Components/BurgerMenu"
 function App() {
     return (
         <div>
-            <Header/>
+            {/*<Header/>*/}
             <BurgerMenu/>
         </div>
     );

@@ -44,6 +44,7 @@ class PresetBrowser extends Component {
             ]
         ]
     }
+
     keyMap = {
         NEXT_PRESET: "+",
         PREV_PRESET: '-'
@@ -210,16 +211,20 @@ class PresetBrowser extends Component {
                     </div>
 
                     <div className="preset-browser__buttons">
-                        <div className="preset-button preset-browser__button-save" onClick={() => this.savePreset()}>
+                        <div className="preset-button" onClick={() => this.savePreset()}>
                             <i className="fas left fa-save"></i>
                         </div>
 
-                        <div className="preset-button preset-browser__button-minus" onClick={this.loadPrevPreset}>
+                        <div className="preset-button" onClick={this.loadPrevPreset}>
                             <i className="fas fa-chevron-right"></i>
                         </div>
 
-                        <div className="preset-button preset-browser__button-plus" onClick={this.loadNextPreset}>
+                        <div className="preset-button" onClick={this.loadNextPreset}>
                             <i className="fas fa-chevron-left"></i>
+                        </div>
+
+                        <div className="preset-button" onClick={this.props.resetTriggers}>
+                            <i className={"fas fa-trash-alt"}></i>
                         </div>
                     </div>
 

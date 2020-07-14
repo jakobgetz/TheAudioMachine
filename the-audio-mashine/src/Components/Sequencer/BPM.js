@@ -25,10 +25,18 @@ class Bpm extends Component {
     render() {
         return (
             <div className="BPM">
+                {/*
                 <input type='number' value={this.state.displayedBPM} onChange={(e) => this.handleChange(e)}
                        onKeyDown={(e) => this.update(e)}/>
                 <label>BPM</label>
+                */}
+                <div>
+                    BPM
+                    <input type={"range"} value={this.props.bpm} onChange={(e) => this.props.setBPM(e)}/>
+                </div>
             </div>
+
+
         );
     }
 }
