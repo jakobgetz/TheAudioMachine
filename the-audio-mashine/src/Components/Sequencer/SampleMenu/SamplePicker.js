@@ -41,24 +41,25 @@ class SamplePicker extends Component {
                 </div>
 
                 {isShown ?
-                    <ul className="sampleFeatures">
-                        <li>
+                    <div className="sampleFeatures">
+                        <div>
                             <input type="file" onChange={(e) => loadSample(e, layer.layerId)}/>
-                        </li>
-                        <li>Gain
+                        </div>
+                        <div>Gain
                             <input type="range" value={layer.layerGain}
                                    onChange={e => setLayerGain(parseInt(e.target.value), layer.layerId)}
                                    onDoubleClick={() => setLayerGain(80, layer.layerId)}
                                    min="0"
-                                   max="100"/></li>
-                        <li>Pan
+                                   max="100"/>
+                        </div>
+                        <div>Pan
                             <input type="range" value={layer.layerPan}
                                    onChange={e => setLayerPan(parseInt(e.target.value), layer.layerId)}
                                    onDoubleClick={() => setLayerPan(0, layer.layerId)}
                                    min="-50"
-                                   max="50"/></li>
-                        <li>...</li>
-                    </ul>
+                                   max="50"/>
+                        </div>
+                    </div>
                     : null}
             </div>
         );

@@ -407,9 +407,9 @@ class Sequencer extends React.Component {
             this.state ?
                 <div className="sequencer">
                     <HeaderButtons/>
-                    <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset}/>
+                    <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset} resetTriggers={this.resetTriggers}/>
 
-                    {/*<BPM bpm={this.state.bpm} setBPM={this.setBPM}/>*/}
+                    <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 
                     <SampleMenu layers={this.state.layers}
                                 loadSample={this.loadSample}

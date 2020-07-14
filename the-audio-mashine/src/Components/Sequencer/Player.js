@@ -229,14 +229,16 @@ class Player extends Component {
                         <i className={this.state.playingIcon}/>
                     </div>
 
-                    <div className="player__trash-button" onClick={this.props.resetTriggers}/>
+                    {/*<div className="player__trash-button" onClick={this.props.resetTriggers}/>
                     <div className="player__volume-knob"/>
+                    */}
 
-                    {/*<input type='range' className="volumeSlider"
+                    Volume
+                    <input type='range' className="volumeSlider"
                            value={Math.round(this.state.currentVolume * 100)}
                            onChange={e => this.setVolume(e.target.value)}
                            onDoubleClick={() => this.setVolume(80)}/>
-                     */}
+
                     <button onClick={() => this.recordSequence()}>Record</button>
 
                     <audio controls className="audioControl">Player</audio>
