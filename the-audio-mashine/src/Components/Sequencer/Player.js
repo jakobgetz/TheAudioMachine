@@ -214,7 +214,7 @@ class Player extends Component {
 
     /**
      * Sets master volume
-     * @param volume is the parameter for the output volum
+     * @param volume is the parameter for the output volume
      */
     setVolume = (volume) => {
         this.masterGain.gain.setValueAtTime(volume / 100, this.ctx.currentTime)
