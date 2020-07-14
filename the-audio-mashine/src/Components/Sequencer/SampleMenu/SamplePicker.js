@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class SamplePicker extends Component {
 
-    symbols = ["fas fa-shoe-prints", "fas fa-shoe-prints", "fas fa-shoe-prints", "fas fa-shoe-prints", "fas fa-shoe-prints", "fas fa-shoe-prints"]
+    symbols = ["fas fa-shoe-prints", "fas fa-drum", "fas fa-hands-wash", "fas fa-hat-cowboy", "fas fa-hard-hat", "fas fa-music"]
 
     getStyle = layerId => {
         return this.props.isShown ? "sidenav__button-selected-" + layerId : "sidenav__button-" + layerId
