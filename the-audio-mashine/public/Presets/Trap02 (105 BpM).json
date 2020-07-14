@@ -1,17 +1,17 @@
 {
-  "bpm": 140,
+  "bpm": 105,
   "layers": [
     {
       "layerId": 0,
       "name": "Kick",
-      "sampleFilePath": "./DefaultSamples/Dubstep/Dubstep01_BD.wav",
+      "sampleFilePath": "./DefaultSamples/Trap/Trap02_BD.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
           "step": 0,
-          "velocity": 100,
+          "velocity": 95,
           "pitch": 1
         },
         {
@@ -26,7 +26,7 @@
         },
         {
           "step": 3,
-          "velocity": 0,
+          "velocity": 95,
           "pitch": 1
         },
         {
@@ -41,7 +41,7 @@
         },
         {
           "step": 6,
-          "velocity": 100,
+          "velocity": 95,
           "pitch": 1
         },
         {
@@ -81,12 +81,12 @@
         },
         {
           "step": 14,
-          "velocity": 0,
+          "velocity": 20,
           "pitch": 1
         },
         {
           "step": 15,
-          "velocity": 0,
+          "velocity": 45,
           "pitch": 1
         }
       ],
@@ -95,7 +95,7 @@
     {
       "layerId": 1,
       "name": "Snare",
-      "sampleFilePath": "./DefaultSamples/Dubstep/Dubstep01_SD.wav",
+      "sampleFilePath": "./DefaultSamples/Trap/Trap02_SD.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -122,7 +122,7 @@
         },
         {
           "step": 4,
-          "velocity": 0,
+          "velocity": 90,
           "pitch": 1
         },
         {
@@ -142,7 +142,7 @@
         },
         {
           "step": 8,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -162,7 +162,7 @@
         },
         {
           "step": 12,
-          "velocity": 0,
+          "velocity": 90,
           "pitch": 1
         },
         {
@@ -186,7 +186,7 @@
     {
       "layerId": 2,
       "name": "Clap",
-      "sampleFilePath": "./DefaultSamples/Dubstep/Dubstep01_Clap.wav",
+      "sampleFilePath": "./DefaultSamples/Trap/Trap02_Clap.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -198,7 +198,7 @@
         },
         {
           "step": 1,
-          "velocity": 0,
+          "velocity": 95,
           "pitch": 1
         },
         {
@@ -243,7 +243,7 @@
         },
         {
           "step": 10,
-          "velocity": 0,
+          "velocity": 66,
           "pitch": 1
         },
         {
@@ -253,7 +253,7 @@
         },
         {
           "step": 12,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -277,14 +277,14 @@
     {
       "layerId": 3,
       "name": "Hat 1",
-      "sampleFilePath": "./DefaultSamples/Dubstep/Dubstep01_CHH.wav",
+      "sampleFilePath": "./DefaultSamples/Trap/Trap02_CHH.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
           "step": 0,
-          "velocity": 100,
+          "velocity": 65,
           "pitch": 1
         },
         {
@@ -294,7 +294,7 @@
         },
         {
           "step": 2,
-          "velocity": 100,
+          "velocity": 60,
           "pitch": 1
         },
         {
@@ -304,7 +304,7 @@
         },
         {
           "step": 4,
-          "velocity": 100,
+          "velocity": 63,
           "pitch": 1
         },
         {
@@ -314,17 +314,17 @@
         },
         {
           "step": 6,
-          "velocity": 0,
+          "velocity": 60,
           "pitch": 1
         },
         {
           "step": 7,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
           "step": 8,
-          "velocity": 0,
+          "velocity": 67,
           "pitch": 1
         },
         {
@@ -334,17 +334,17 @@
         },
         {
           "step": 10,
-          "velocity": 100,
+          "velocity": 60,
           "pitch": 1
         },
         {
           "step": 11,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
           "step": 12,
-          "velocity": 0,
+          "velocity": 61,
           "pitch": 1
         },
         {
@@ -354,12 +354,12 @@
         },
         {
           "step": 14,
-          "velocity": 100,
+          "velocity": 30,
           "pitch": 1
         },
         {
           "step": 15,
-          "velocity": 0,
+          "velocity": 50,
           "pitch": 1
         }
       ],
@@ -368,7 +368,7 @@
     {
       "layerId": 4,
       "name": "Hat 2",
-      "sampleFilePath": "./DefaultSamples/Dubstep/Dubstep01_OHH.wav",
+      "sampleFilePath": "./DefaultSamples/Trap/Trap02_OHH.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -390,12 +390,12 @@
         },
         {
           "step": 3,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
           "step": 4,
-          "velocity": 0,
+          "velocity": 80,
           "pitch": 1
         },
         {
@@ -425,7 +425,7 @@
         },
         {
           "step": 10,
-          "velocity": 0,
+          "velocity": 85,
           "pitch": 1
         },
         {
@@ -445,7 +445,7 @@
         },
         {
           "step": 14,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -486,7 +486,7 @@
         },
         {
           "step": 4,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -501,7 +501,7 @@
         },
         {
           "step": 7,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -531,7 +531,7 @@
         },
         {
           "step": 13,
-          "velocity": 100,
+          "velocity": 0,
           "pitch": 1
         },
         {

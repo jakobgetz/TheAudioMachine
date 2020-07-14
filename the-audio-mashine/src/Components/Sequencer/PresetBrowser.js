@@ -9,10 +9,17 @@ class PresetBrowser extends Component {
             [
                 "factory",
                 "Init",
-                "HouseBeat",
-                "VelocityShowcase",
-                "PitchShowcase",
-                "Trap02 (105Bpm)"
+                "Downtempo (70 BpM)",
+                "Urban (95 BpM)",
+                "808 Pattern (115 BpM)",
+                "Drum n' Bass (170 BpM)",
+                "Trap 01 (140 BpM)",
+                "Trap02 (105 Bpm)",
+                "Techno 01 (128 BpM)",
+                "Techno 02 (128 BpM)",
+                "House (123 BpM)",
+                "Dubstep 01 (140 BpM)",
+                "Dubstep 02 (141 BpM)"
             ],
             [
                 "Acoustic"
