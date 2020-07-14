@@ -1,9 +1,4 @@
 import React, {Component} from 'react';
-import Button from 'react-bootstrap/Button';
-import pauseIcon from '../../Assets/pause.svg';
-import playIcon from '../../Assets/play.svg';
-import binIcon from '../../Assets/bin.svg';
-import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 import {GlobalHotKeys} from "react-hotkeys";
 
 class Player extends Component {
@@ -90,7 +85,7 @@ class Player extends Component {
         this.mediaRecorder.ondataavailable = (evt) => {
             this.recordedSequences.push(evt.data);
         }
-        this.mediaRecorder.onstop = (event) => {
+        this.mediaRecorder.onstop = () => {
             // Make blob out of our blobs, and open it.
             let blob = new Blob(this.recordedSequences, {'type': 'audio/wav; codecs=0'});
             document.querySelector("audio").src = URL.createObjectURL(blob);
@@ -231,19 +226,19 @@ class Player extends Component {
             <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
                 <div className="player">
                     <div className="player__play-button" onClick={this.play}>
-                        <i className={this.state.playingIcon}></i>
+                        <i className={this.state.playingIcon}/>
                     </div>
 
-                    <div className="player__trash-button" onClick={this.props.resetTriggers}></div>
-                    <div className="player__volume-knob"></div>
+                    <div className="player__trash-button" onClick={this.props.resetTriggers}/>
+                    <div className="player__volume-knob"/>
 
-                    {/*
-                    <input type='range' className="volumeSlider"
+                    {/*<input type='range' className="volumeSlider"
                            value={Math.round(this.state.currentVolume * 100)}
                            onChange={e => this.setVolume(e.target.value)}
                            onDoubleClick={() => this.setVolume(80)}/>
+                     */}
                     <button onClick={() => this.recordSequence()}>Record</button>
-                    */}
+
                     <audio controls className="audioControl">Player</audio>
                 </div>
             </GlobalHotKeys>
