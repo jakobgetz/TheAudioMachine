@@ -11,14 +11,17 @@ class HeaderButtons extends Component {
             this.isrecording = true;
         }
     }
+
+    menu() {
+    }
     render() {
         return (
                 <div className="header-buttons">
-                    {/*
-                    <div className="header-button burger">
-                        <i className="fas left fa-bars"></i>
-                    </div>
 
+                    <div className="header-button burger">
+                        <i className="fas left fa-bars" onClick={(e) => this.menu()}></i>
+                    </div>
+                    {/*
                     <div className="header-button share">
                         <i className="fas left fa-share-alt"></i>
                     </div>

@@ -96,13 +96,12 @@ class Player extends Component {
 
     stopRecording = () => {
         this.doRecordSequence = false
-
+        document.getElementById("rec").style.backgroundColor = "#252525";
         this.mediaRecorder.ondataavailable = (evt) => {
-
-            this.recordedSequences.push(evt.data);
+                console.log(evt.data)
+                this.recordedSequences.push(evt.data);
         }
         this.mediaRecorder.onstop = () => {
-            console.log(this.recordedSequences)
             // Make blob out of our blobs, and open it.
             let blob = new Blob(this.recordedSequences, {'type':'audio/wav; codecs=0'});
             this.recordedSequences = [];
