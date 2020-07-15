@@ -410,8 +410,10 @@ class Sequencer extends React.Component {
         this.refs.exprt.recordSequence();
     }
     stopRecord = () => {
-        document.getElementById("rec").style.backgroundColor = "blue";
-        this.refs.exprt.stopRecording();
+        if(!this.refs.exprt.isPlaying) {
+            document.getElementById("rec").style.backgroundColor = "#252525";
+            this.refs.exprt.stopRecording();
+        }
     }
 
     render() {
