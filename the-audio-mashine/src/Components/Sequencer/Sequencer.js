@@ -403,15 +403,22 @@ class Sequencer extends React.Component {
     }
 
     exportStart = (e) => {
-        console.log("entered")
         this.refs.exprt.recordOnce();
+    }
+    record = () => {
+        document.getElementById("rec").style.backgroundColor = "red";
+        this.refs.exprt.recordSequence();
+    }
+    stopRecord = () => {
+        document.getElementById("rec").style.backgroundColor = "blue";
+        this.refs.exprt.stopRecording();
     }
 
     render() {
         return (
             this.state ?
                 <div className="sequencer">
-                    <HeaderButtons export={this.exportStart}/>
+                    <HeaderButtons export={this.exportStart} recordStart={this.record} recordEnd={this.stopRecord}/>
                     <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset} resetTriggers={this.resetTriggers}/>
 
                     <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>

@@ -1,8 +1,16 @@
 import React, {Component} from 'react';
 
 class HeaderButtons extends Component {
-
-
+    isrecording = false;
+    recording(){
+        if(this.isrecording){
+            this.props.recordEnd();
+            this.isrecording = false;
+        } else {
+            this.props.recordStart();
+            this.isrecording = true;
+        }
+    }
     render() {
         return (
                 <div className="header-buttons">
@@ -22,11 +30,9 @@ class HeaderButtons extends Component {
                     <div className="header-button export">
                         <i className="fas left fa-download" onClick={(e) => this.props.export()}></i>
                     </div>
-                    {/*
-                    <div className="header-button night-mode">
-                        <i className="fas left fa-moon"></i>
+                    <div className="header-button night-mode" id={"rec"}>
+                        <i className="fas left fa-moon" onClick={(e) => this.recording()}></i>
                     </div>
-                    */}
             </div>
         );
     }
