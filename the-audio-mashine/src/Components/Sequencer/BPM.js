@@ -32,7 +32,8 @@ class Bpm extends Component {
                 */}
                 <div>
                     BPM
-                    <input type={"range"} value={this.props.bpm} onChange={(e) => this.props.setBPM(e)}/>
+                    <input type={"range"} min={"50"} max={"200"} step={"1"} value={this.props.bpm} onChange={(e) => this.props.setBPM(e)}/>
+                    {this.props.bpm}
                 </div>
             </div>
 
