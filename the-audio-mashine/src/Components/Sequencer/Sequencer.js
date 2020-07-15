@@ -402,11 +402,16 @@ class Sequencer extends React.Component {
         this.setState({bpm: event.target.value})
     }
 
+    exportStart = (e) => {
+        console.log("entered")
+        this.refs.exprt.recordOnce();
+    }
+
     render() {
         return (
             this.state ?
                 <div className="sequencer">
-                    <HeaderButtons/>
+                    <HeaderButtons export={this.exportStart}/>
                     <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset} resetTriggers={this.resetTriggers}/>
 
                     <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
@@ -420,7 +425,8 @@ class Sequencer extends React.Component {
 
                     <Sequence layers={this.state.layers} setTrigger={this.setTrigger} setVelocity={this.setVelocity}/>
 
-                    <Player bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
+                    <Player ref="exprt" bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
+
 
                     <Footer/>
                 </div>

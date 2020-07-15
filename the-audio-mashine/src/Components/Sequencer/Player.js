@@ -12,10 +12,12 @@ class Player extends Component {
     samplePlayer
     sampleGain
     limiter
+    isRecordingOnce = false;
+    isExporting = this.props.isExporting
 
     mediaRecorder
     doRecordSequence = false
-    recordedSequences = [];
+    recordedSequences = []
     state = {
         currentVolume: 0.8,
         playingIcon: "fas fa-play"
@@ -80,15 +82,40 @@ class Player extends Component {
         this.doRecordSequence = true
     }
 
+    recordOnce = () => {
+            this.isRecordingOnce = true;
+            this.doRecordSequence = true;
+            if (this.isPlaying) {
+                this.resetPlayHeadPosition()
+                this.recordSequence()
+            } else {
+                this.play()
+                this.recordSequence()
+            }
+    }
+
     stopRecording = () => {
         this.doRecordSequence = false
+
         this.mediaRecorder.ondataavailable = (evt) => {
+
             this.recordedSequences.push(evt.data);
         }
         this.mediaRecorder.onstop = () => {
+            console.log(this.recordedSequences)
             // Make blob out of our blobs, and open it.
-            let blob = new Blob(this.recordedSequences, {'type': 'audio/wav; codecs=0'});
-            document.querySelector("audio").src = URL.createObjectURL(blob);
+            let blob = new Blob(this.recordedSequences, {'type':'audio/wav; codecs=0'});
+            this.recordedSequences = [];
+
+            //old implementation:
+            //document.querySelector("audio").src = URL.createObjectURL(blob);
+            var link = window.document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            //set to link.download
+            link.download = 'TheAudioMachine.wav';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
     }
 
@@ -109,7 +136,7 @@ class Player extends Component {
             this.isPlaying = true
             this.setState({playingIcon: "fas fa-pause"})
             this.limiter.connect(this.ctx.destination)
-            if (this.mediaRecorder.state === "inactive") {
+            if (this.mediaRecorder.state === "inactive" && this.doRecordSequence) {
                 this.mediaRecorder.start()
             }
             this.playSequence()
@@ -132,6 +159,12 @@ class Player extends Component {
         this.samplePlayer = Array(this.props.layers.length)
         this.sampleGain = Array(this.props.layers.length)
         if (this.isPlaying) {
+            if(this.playHeadPosition === 16 && this.isRecordingOnce){
+                this.isRecordingOnce = false;
+                this.mediaRecorder.stop()
+                this.stopRecording()
+                this.play()
+            }
             this.playHeadPosition %= this.props.layers[0].rhythm.length
             this.setUpNodes()
             this.playBackSamples()
@@ -158,7 +191,11 @@ class Player extends Component {
                 this.setLayerGain(i)
                 this.setLayerPan(i)
                 this.setLayerMute(i)
-                this.samplePlayer[i].buffer = this.props.layers[i].sample
+                try{
+                    this.samplePlayer[i].buffer = this.props.layers[i].sample
+                } catch (e) {
+                    //handles the error so that the site does not crash when you skip through the presets
+                }
             }
         }
 
@@ -239,9 +276,7 @@ class Player extends Component {
                            onChange={e => this.setVolume(e.target.value)}
                            onDoubleClick={() => this.setVolume(80)}/>
 
-                    <button onClick={() => this.recordSequence()}>Record</button>
-
-                    <audio controls className="audioControl">Player</audio>
+                    {/*<button onClick={() => this.recordSequence()}>Record</button>*/}
                 </div>
             </GlobalHotKeys>
         );

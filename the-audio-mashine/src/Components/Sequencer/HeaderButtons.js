@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
 class HeaderButtons extends Component {
+
+
     render() {
         return (
                 <div className="header-buttons">
@@ -18,7 +20,7 @@ class HeaderButtons extends Component {
                     </div>
 */}
                     <div className="header-button export">
-                        <i className="fas left fa-download"></i>
+                        <i className="fas left fa-download" onClick={(e) => this.props.export()}></i>
                     </div>
                     {/*
                     <div className="header-button night-mode">
