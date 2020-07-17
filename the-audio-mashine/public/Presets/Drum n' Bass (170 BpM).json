@@ -276,7 +276,7 @@
     },
     {
       "layerId": 3,
-      "name": "Closed Hat",
+      "name": "Hat 1",
       "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass01_CHH.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -367,7 +367,7 @@
     },
     {
       "layerId": 4,
-      "name": "Open Hat",
+      "name": "Hat 2",
       "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass01_OHH.wav",
       "layerGain": 80,
       "layerPan": 0,
