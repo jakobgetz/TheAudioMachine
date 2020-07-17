@@ -1,0 +1,551 @@
+{
+  "bpm": 160,
+  "layers": [
+    {
+      "layerId": 0,
+      "name": "Kick",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_BD.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 8,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 14,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "layerId": 1,
+      "name": "Snare",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_SD.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 30,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 7,
+          "velocity": 30,
+          "pitch": 1
+        },
+        {
+          "step": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 10,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 13,
+          "velocity": 30,
+          "pitch": 1
+        },
+        {
+          "step": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "layerId": 2,
+      "name": "Clap",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_Clap.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "step": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 10,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "step": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "layerId": 3,
+      "name": "Hat 1",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_CHH.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 6,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 12,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "layerId": 4,
+      "name": "Hat 2",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_OHH.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "layerId": 5,
+      "name": "Tambourin",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_Tambourin.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 23,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 35,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 50,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 33,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 21,
+          "pitch": 1
+        },
+        {
+          "step": 5,
+          "velocity": 34,
+          "pitch": 1
+        },
+        {
+          "step": 6,
+          "velocity": 51,
+          "pitch": 1
+        },
+        {
+          "step": 7,
+          "velocity": 31,
+          "pitch": 1
+        },
+        {
+          "step": 8,
+          "velocity": 19,
+          "pitch": 1
+        },
+        {
+          "step": 9,
+          "velocity": 29,
+          "pitch": 1
+        },
+        {
+          "step": 10,
+          "velocity": 48,
+          "pitch": 1
+        },
+        {
+          "step": 11,
+          "velocity": 30,
+          "pitch": 1
+        },
+        {
+          "step": 12,
+          "velocity": 22,
+          "pitch": 1
+        },
+        {
+          "step": 13,
+          "velocity": 35,
+          "pitch": 1
+        },
+        {
+          "step": 14,
+          "velocity": 50,
+          "pitch": 1
+        },
+        {
+          "step": 15,
+          "velocity": 31,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    }
+  ]
+}
