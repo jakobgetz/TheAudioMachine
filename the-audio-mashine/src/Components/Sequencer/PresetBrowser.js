@@ -14,7 +14,7 @@ class PresetBrowser extends Component {
                 "808 Pattern (115 BpM)",
                 "Drum n' Bass (170 BpM)",
                 "Trap 01 (140 BpM)",
-                "Trap02 (105 Bpm)",
+                "Trap 02 (105 Bpm)",
                 "Techno 01 (128 BpM)",
                 "Techno 02 (128 BpM)",
                 "House (123 BpM)",
