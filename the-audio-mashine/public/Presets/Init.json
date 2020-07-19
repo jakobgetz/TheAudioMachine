@@ -4,7 +4,7 @@
     {
       "layerId": 0,
       "name": "KICK",
-      "sampleFilePath": "./DefaultSamples/Kick.wav",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_BD.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -50,7 +50,7 @@
     {
       "layerId": 1,
       "name": "SNARE",
-      "sampleFilePath": "./DefaultSamples/Snare.wav",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_SD02.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -96,7 +96,7 @@
     {
       "layerId": 2,
       "name": "CLAP",
-      "sampleFilePath": "./DefaultSamples/Clap.wav",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_Clap.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -142,7 +142,7 @@
     {
       "layerId": 3,
       "name": "HAT",
-      "sampleFilePath": "./DefaultSamples/Hat.wav",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_CHH.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -187,8 +187,8 @@
     },
     {
       "layerId": 4,
-      "name": "CRASH",
-      "sampleFilePath": "./DefaultSamples/Crash.wav",
+      "name": "HAT 2",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_OHH.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -233,8 +233,8 @@
     },
     {
       "layerId": 5,
-      "name": "VOC",
-      "sampleFilePath": "./DefaultSamples/Ayy.wav",
+      "name": "RIDE",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_Ride.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
