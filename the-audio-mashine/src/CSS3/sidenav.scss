@@ -1,0 +1,152 @@
+@import "variables";
+
+// mixin for sidenav buttons
+
+@mixin sidenav-button($color) {
+  margin: 3.5vh 0 0 0;
+  width: 22vh;
+  height: 9vh;
+  border-radius: 100vh;
+  border: 0.5vh solid color(nav);
+  background-color: color(primary);
+  padding: 0 0 0 1.8vh;
+  color: color(nav);
+  font-size: 2.3vh;
+  pointer-events: all;
+  transition-duration: 0.25s;
+
+  .sidenav__name {
+    display: inline-block;
+    margin: 0.7vh 0 0 0;
+  }
+
+  .sidenav__name:hover {
+    color: color(accent);
+  }
+
+  .symbol {
+    position: absolute;
+    // float: right;
+    width: 9vh;
+    height: 9vh;
+    border: 0.5vh solid color(nav);
+    background-color: $color;
+    border-radius: 50%;
+    margin: -3.9vh 0 0 11vh;
+    // margin: -5px;
+    cursor: pointer;
+  }
+
+  .symbol:hover {
+    border-color: color(accent);
+    background-color: lighten($color: $color, $amount: 30);
+  }
+
+  .sidenav__box {
+    margin: 0.7vh 0 0 0.2vh;
+    line-height: 2.3vh;
+
+    .extra {
+      display: inline-block;
+      height: 3vh;
+      width: 3vh;
+      border-radius: 50%;
+      border: 0.3vh solid $color;
+      background-color: color(primary);
+      margin-right: 1.5vh;
+      font-size: 1.5vh;
+      text-align: center;
+      color: $color;
+      cursor: pointer;
+    }
+
+    .extra:hover {
+      border-color: lighten($color: $color, $amount: 30);
+      color: lighten($color: $color, $amount: 30);
+      box-shadow: 0 0 0.9vh 0.3vh $color;
+    }
+  }
+}
+
+// Sidenav
+
+.sidenav {
+  position: relative;
+  margin: 10vh 0 0 2vh;
+
+  @for $i from 0 through 5 {
+    .sidenav__button-#{$i} {
+      @include sidenav-button(nth($beat-colors, ($i + 1)));
+
+      .sidenav__box {
+        @for $i from 0 through 5 {
+          .inactive-selected-#{$i} {
+            background-color: (nth($beat-colors, ($i + 1)));
+            color: black;
+          }
+          .inactive-selected-#{$i}:hover {
+            background-color: lighten(nth($beat-colors, ($i + 1)), $amount: 30);
+            color: black;
+          }
+        }
+      }
+    }
+
+    .sidenav__button-#{$i}:hover {
+      box-shadow: 0 0 0.9vh 0.75vh (nth($beat-colors, ($i + 1)));
+    }
+
+    .sidenav__button-selected-#{$i} {
+      @include sidenav-button(nth($active-colors, ($i + 1)));
+      color: color(accent);
+      border-color: color(accent);
+
+      .symbol {
+        border-color: color(accent);
+
+        .fas {
+          color: color(accent);
+        }
+      }
+
+      .symbol:hover {
+        border-color: color(nav);
+        background-color: darken(nth($active-colors, ($i + 1)), $amount: 10);
+      }
+
+      .sidenav__box {
+        @for $i from 0 through 5 {
+          .active-selected-#{$i} {
+            background-color: (nth($active-colors, ($i + 1)));
+            color: black;
+          }
+        }
+
+        .sidenav__extra-#{$i}:hover {
+          border-color: darken(nth($active-colors, ($i + 1)), $amount: 10);
+          color: darken(nth($active-colors, ($i + 1)), $amount: 10);
+        }
+
+        .active-selected-#{$i}:hover {
+          background-color: darken(nth($active-colors, ($i + 1)), $amount: 10);
+          color: black;
+          border-color: darken(nth($active-colors, ($i + 1)), $amount: 10);
+        }
+      }
+    }
+
+    .sidenav__button-selected-#{$i}:hover {
+      box-shadow: 0 0 0.9vh 0.5vh (nth($active-colors, ($i + 1)));
+    }
+  }
+
+  .fas {
+    position: absolute;
+    color: color(nav);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5vh;
+  }
+}

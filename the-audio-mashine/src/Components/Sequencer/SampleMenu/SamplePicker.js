@@ -35,29 +35,34 @@ class SamplePicker extends Component {
                 </div>
 
                 <div className="sidenav__box">
-                    <div className={this.getMuteStyle(layer.layerId)} onClick={() => setLayerMute(layer.layerId)}>M</div>
+                    <div className={this.getMuteStyle(layer.layerId)} onClick={() => setLayerMute(layer.layerId)}>M
+                    </div>
 
-                    <div className={this.getSoloStyle(layer.layerId)} onClick={() => setLayerSolo(layer.layerId)}>S</div>
+                    <div className={this.getSoloStyle(layer.layerId)} onClick={() => setLayerSolo(layer.layerId)}>S
+                    </div>
                 </div>
 
                 {isShown ?
-                    <div className="sampleFeatures">
-                        <div>
-                            <input type="file" onChange={(e) => loadSample(e, layer.layerId)}/>
-                        </div>
-                        <div>Gain
+                    <div>
+                        <div className={"sliderVolume-" + layer.layerId + " volume"}>
                             <input type="range" value={layer.layerGain}
                                    onChange={e => setLayerGain(parseInt(e.target.value), layer.layerId)}
                                    onDoubleClick={() => setLayerGain(80, layer.layerId)}
                                    min="0"
-                                   max="100"/>
+                                   max="100"
+                                   className={"slider"}/>
+                            <i className={"fas fa-volume-off vol1"}></i>
+                            <i className={"fas fa-volume-up vol2"}></i>
                         </div>
-                        <div>Pan
+                        <div className={"sliderPan-" + layer.layerId + " pan"}>
                             <input type="range" value={layer.layerPan}
                                    onChange={e => setLayerPan(parseInt(e.target.value), layer.layerId)}
                                    onDoubleClick={() => setLayerPan(0, layer.layerId)}
                                    min="-50"
-                                   max="50"/>
+                                   max="50"
+                                   className={"slider"}/>
+                            <i className={"fas fa-arrow-alt-circle-left pan1"}></i>
+                            <i className={"fas fa-arrow-alt-circle-right pan2"}></i>
                         </div>
                     </div>
                     : null}

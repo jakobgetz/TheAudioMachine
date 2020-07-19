@@ -1,0 +1,107 @@
+@import "variables";
+
+@mixin sliders($color, $marginTop) {
+  /*
+   position: absolute;
+   margin-top: 20vh;
+   margin-left: 180vh;
+   z-index: 1000;
+  */
+  position: relative;
+  clear: both;
+  float: right;
+  margin: $marginTop 0 0 0;
+  pointer-events: all;
+
+
+
+  .slider {
+    -webkit-appearance: none;
+    width: 35vh;
+    height: 6vh;
+    //background: linear-gradient(90deg, $color 60%, color(primary) 60%);
+    background: color(primary);
+    outline: none;
+    border-radius: 100vh;
+    border: 0.5vh solid $color;
+    pointer-events: all;
+    transition-duration: 0.25s;
+
+    //   opacity: 0.7;
+    //   box-shadow: ;
+  }
+
+  .slider:hover {
+    box-shadow: 0 0 0.9vh 0.5vh darken($color: $color, $amount: 20);
+  }
+
+  // for chrome
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 4vh;
+    height: 4vh;
+    background-color: $color;
+    border: 1vh solid $color;
+    border-radius: 100vh;
+    cursor: pointer;
+    pointer-events: all;
+  }
+
+  // for firefox
+
+  .slider::-moz-range-thumb {
+    width: 2.5vh;
+    height: 2.5vh;
+    background-color: color(primary);
+    border: 5px solid color(nav);
+    border-radius: 100vh;
+    cursor: pointer;
+    pointer-events: all;
+  }
+
+  .vol1,
+  .bpm1,
+  .pan1 {
+    font-size: 2.5vh;
+    color: $color;
+    top: 50%;
+    left: 3.2vh;
+    pointer-events: none;
+  }
+
+  .vol2,
+  .bpm2,
+  .pan2 {
+    font-size: 2.5vh;
+    color: $color;
+    top: 50%;
+    left: 32vh;
+    pointer-events: none;
+  }
+}
+
+.sliderVolume {
+  @include sliders(color(nav), -62vh);
+}
+
+.sliderBPM {
+  @include sliders(color(nav), 25vh);
+}
+
+@for $i from 0 through 5 {
+  .sliderVolume-#{$i} {
+    @include sliders(nth($active-colors, ($i + 1)), 0vh);
+    position: absolute;
+    right: 0vh;
+    top: 40vh;
+  }
+
+  .sliderPan-#{$i} {
+    @include sliders(nth($active-colors, ($i + 1)), 0vh);
+    position: absolute;
+    right: 0vh;
+    top: 51vh;
+  }
+}
