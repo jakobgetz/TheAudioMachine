@@ -16,7 +16,7 @@ class Sequencer extends React.Component {
         layers: [
             {
                 layerId: 0,
-                name: 'Kick',
+                name: 'KICK',
                 sampleFilePath: '/DefaultSamples/Kick.wav',
                 layerGain: 80,
                 layerPan: 0,
@@ -43,7 +43,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 1,
-                name: "Snare",
+                name: "SNARE",
                 sampleFilePath: "/DefaultSamples/Snare.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -70,7 +70,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 2,
-                name: "Clap",
+                name: "CLAP",
                 sampleFilePath: "/DefaultSamples/Clap.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -97,7 +97,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 3,
-                name: "Hat",
+                name: "HAT",
                 sampleFilePath: "/DefaultSamples/Hat.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -124,7 +124,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 4,
-                name: "Crash",
+                name: "CRASH",
                 sampleFilePath: "/DefaultSamples/Crash.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -151,7 +151,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 5,
-                name: "Voc",
+                name: "VOC",
                 sampleFilePath: "/DefaultSamples/Ayy.wav",
                 layerGain: 80,
                 layerPan: 0,
