@@ -36,8 +36,8 @@ class HeaderButtons extends Component {
                 <div className="header-button export">
                     <i className="fas left fa-download" onClick={(e) => this.props.export()}></i>
                 </div>
-                <div className="header-button night-mode" id={"rec"}>
-                    <i className="fas left fa-circle" onClick={(e) => this.recording()}></i>
+                <div className="header-button" id={"rec"}>
+                    <i className="fas left fa-circle rec "onClick={(e) => this.recording()}></i>
                 </div>
             </div>
         );

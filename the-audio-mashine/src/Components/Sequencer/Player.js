@@ -27,6 +27,8 @@ class Player extends Component {
         RESET_PLAYHEAD_POSITION: "escape"
     };
 
+    animation = {}
+
     /**
      * Initializes the AudioContext right after the Component did mount
      * creates Mastergain
@@ -83,27 +85,27 @@ class Player extends Component {
     }
 
     recordOnce = () => {
-            this.isRecordingOnce = true;
-            this.doRecordSequence = true;
-            if (this.isPlaying) {
-                this.resetPlayHeadPosition()
-                this.recordSequence()
-            } else {
-                this.play()
-                this.recordSequence()
-            }
+        this.isRecordingOnce = true;
+        this.doRecordSequence = true;
+        if (this.isPlaying) {
+            this.resetPlayHeadPosition()
+            this.recordSequence()
+        } else {
+            this.play()
+            this.recordSequence()
+        }
     }
 
     stopRecording = () => {
         this.doRecordSequence = false
         document.getElementById("rec").style.backgroundColor = "#252525";
         this.mediaRecorder.ondataavailable = (evt) => {
-                console.log(evt.data)
-                this.recordedSequences.push(evt.data);
+            console.log(evt.data)
+            this.recordedSequences.push(evt.data);
         }
         this.mediaRecorder.onstop = () => {
             // Make blob out of our blobs, and open it.
-            let blob = new Blob(this.recordedSequences, {'type':'audio/wav; codecs=0'});
+            let blob = new Blob(this.recordedSequences, {'type': 'audio/wav; codecs=0'});
             this.recordedSequences = [];
 
             //old implementation:
@@ -126,6 +128,7 @@ class Player extends Component {
             this.isPlaying = false
             this.limiter.disconnect()
             this.resetPlayHeadPosition()
+            this.animation = {}
             this.setState({playingIcon: "fas fa-play"})
             if (this.mediaRecorder.state === "recording") {
                 this.mediaRecorder.stop()
@@ -133,6 +136,8 @@ class Player extends Component {
             }
         } else {
             this.isPlaying = true
+            this.animation = {animation: "animate " + 60 / this.props.bpm * 4 + "s linear infinite"}
+            console.log(this.animation)
             this.setState({playingIcon: "fas fa-pause"})
             this.limiter.connect(this.ctx.destination)
             if (this.mediaRecorder.state === "inactive" && this.doRecordSequence) {
@@ -158,7 +163,7 @@ class Player extends Component {
         this.samplePlayer = Array(this.props.layers.length)
         this.sampleGain = Array(this.props.layers.length)
         if (this.isPlaying) {
-            if(this.playHeadPosition === 16 && this.isRecordingOnce){
+            if (this.playHeadPosition === 16 && this.isRecordingOnce) {
                 this.isRecordingOnce = false;
                 this.mediaRecorder.stop()
                 this.stopRecording()
@@ -190,7 +195,7 @@ class Player extends Component {
                 this.setLayerGain(i)
                 this.setLayerPan(i)
                 this.setLayerMute(i)
-                try{
+                try {
                     this.samplePlayer[i].buffer = this.props.layers[i].sample
                 } catch (e) {
                     //handles the error so that the site does not crash when you skip through the presets
@@ -260,6 +265,15 @@ class Player extends Component {
     render() {
         return (
             <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
+                <div className={"playhead "} style={this.animation}></div>
+                <div className={"sliderVolume volume"}>
+                    <input type='range' className="slider"
+                           value={Math.round(this.state.currentVolume * 100)}
+                           onChange={e => this.setVolume(e.target.value)}
+                           onDoubleClick={() => this.setVolume(80)}/>
+                    <i className={"fas fa-volume-off vol1"}></i>
+                    <i className={"fas fa-volume-up vol2"}></i>
+                </div>
                 <div className="player">
                     <div className="player__play-button" onClick={this.play}>
                         <i className={this.state.playingIcon}/>
@@ -268,12 +282,6 @@ class Player extends Component {
                     {/*<div className="player__trash-button" onClick={this.props.resetTriggers}/>
                     <div className="player__volume-knob"/>
                     */}
-
-                    Volume
-                    <input type='range' className="volumeSlider"
-                           value={Math.round(this.state.currentVolume * 100)}
-                           onChange={e => this.setVolume(e.target.value)}
-                           onDoubleClick={() => this.setVolume(80)}/>
 
                     {/*<button onClick={() => this.recordSequence()}>Record</button>*/}
                 </div>

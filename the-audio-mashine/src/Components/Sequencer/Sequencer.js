@@ -420,6 +420,7 @@ class Sequencer extends React.Component {
         return (
             this.state ?
                 <div className="sequencer">
+
                     <HeaderButtons export={this.exportStart} recordStart={this.record} recordEnd={this.stopRecord}/>
                     <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset} resetTriggers={this.resetTriggers}/>
 
@@ -435,7 +436,6 @@ class Sequencer extends React.Component {
                     <Sequence layers={this.state.layers} setTrigger={this.setTrigger} setVelocity={this.setVelocity}/>
 
                     <Player ref="exprt" bpm={this.state.bpm} layers={this.state.layers} resetTriggers={this.resetTriggers}/>
-
 
                     <Footer/>
                 </div>

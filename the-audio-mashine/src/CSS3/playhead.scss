@@ -1,0 +1,36 @@
+@import "variables";
+
+.playhead {
+  position: absolute;
+  height: 45vh;
+  width: 4.1vh;
+  background-color: blue;
+  left: 50%;
+  z-index: 2;
+  margin-left: -2.05vh;
+  margin-top: -81.8vh;
+  background-color: color(primary-light);
+  transform-origin: 50% 100% 0;
+  //animation: animate 3s linear infinite;
+  opacity: 55%;
+}
+
+.playhead::before {
+  content: "";
+  width: 5vh;
+  height: 1.5vh;
+  border-radius: 10px;
+  background-color: red;
+  position: absolute;
+  top: -1.4vh;
+  left: -0.4vh;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
