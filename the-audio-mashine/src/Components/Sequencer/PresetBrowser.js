@@ -3,7 +3,7 @@ import {GlobalHotKeys} from "react-hotkeys";
 
 class PresetBrowser extends Component {
     userTag = 'user';
-    selectedPresetName;
+    selectedPresetName = "Init";
     state = {
         presets: [
             [
@@ -207,13 +207,17 @@ class PresetBrowser extends Component {
         PREV_PRESET: () => this.loadPrevPreset()
     };
 
+    printPresetName = () => {
+        return this.selectedPresetName.substring(0, 13)
+    }
+
     render() {
         return (
             this.state ?
                 <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
 
                     <div className="search-box">
-                        {this.selectedPresetName}
+                        {this.printPresetName()}
                         <div className="search-button">
                             <i className="fas fa-chevron-down"></i>
                         </div>
