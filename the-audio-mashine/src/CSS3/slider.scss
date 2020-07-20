@@ -14,7 +14,6 @@
   pointer-events: all;
 
 
-
   .slider {
     -webkit-appearance: none;
     width: 35vh;
@@ -104,4 +103,59 @@
     right: 0vh;
     top: 51vh;
   }
+
+  .loadSample-#{$i} {
+
+    .load-sample-button {
+      &::-webkit-file-upload-button {
+        visibility: hidden;
+      }
+
+      display: inline-block;
+      //background: linear-gradient(top, #f9f9f9, #e3e3e3);
+      //border: 1px solid #999;
+      //border-radius: 3px;
+      //padding: 5px 8px;
+      //outline: none;
+      cursor: pointer;
+
+
+      &:before {
+        content: 'UPLOAD FILE';
+        //text-shadow: 1px 1px #fff;
+        //font-weight: 700;
+        font-size: 3.2vh;
+        color: nth($active-colors, $i + 1);
+        padding: 0 0vh 0 0vh;
+        background: color(primary);
+        position: absolute;
+        border-bottom-right-radius: 100vh;
+        border-top-right-radius: 100vh;
+        left: 7.5vh;
+        top: 1.3vh;
+        width: 26.9vh;
+        //height: 6vh;
+      }
+
+      //webkit-appearance: none;
+      //width: 35vh;
+      //height: 6vh;
+      //background: linear-gradient(90deg, $color 60%, color(primary) 60%);
+      background: color(primary);
+      //outline: none;
+      border-radius: 100vh;
+      width: 35vh;
+      height: 6vh;
+      border: 0.5vh solid nth($active-colors, $i + 1);
+      pointer-events: all;
+      transition-duration: 0.25s;
+    }
+
+    position: absolute;
+    right: 0vh;
+    top: 62vh;
+  }
 }
+
+
+
