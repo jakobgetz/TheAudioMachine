@@ -14,7 +14,8 @@ class HeaderButtons extends Component {
         }
     }
 
-    menu() {
+    clearLocalStorage() {
+        localStorage.removeItem("presets");
     }
 
     render() {
@@ -22,7 +23,7 @@ class HeaderButtons extends Component {
             <div className="header-buttons">
                 {/*
                 <div className="header-button burger">
-                    <i className="fas left fa-bars" onClick={(e) => this.menu()}></i>
+                    <i className="fas left fa-bars" onClick={(e) => this.clearLocalStorage()}></i>
                 </div>
 
                     <div className="header-button share">
