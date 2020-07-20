@@ -24,20 +24,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de9b6437-1caa-464c-90c2-5da8c479730e" name="Default Changelist" comment="adjusted presets layer names, removed old assets, added project description for sharing">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="de9b6437-1caa-464c-90c2-5da8c479730e" name="Default Changelist" comment="adjusted presets layer names again (KilperKit 01, 02), removed old presets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Presets/Init.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Presets/Init.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Presets/Kilper 01 (84 BpM).json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Presets/KilperKit 01 (120 BpM).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Presets/Kilper 02.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Presets/KilperKit 02 (85 BpM).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Presets/Techno 01 (128 BpM).json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Presets/Techno 01 (128 BpM).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/bin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/pause.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/play.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/stepback.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Presets/KilperKit 02 (85 BpM).json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Presets/KilperKit 02 (85 BpM).json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/Player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/PresetBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/PresetBrowser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/Sequencer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/Sequencer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +39,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Steffen Marquardt &lt;sm188@hdm-stuttgart.de&gt;" />
         <option value="P.Esch &lt;jeschers@googlemail.com&gt;" />
       </list>
     </option>
@@ -171,6 +163,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="add necessary libraries and change buttons on player&#10;&#10;(cherry picked from commit 17f5266e1d6beb37b02876b70ae9871068038a61)" />
     <MESSAGE value="implemented umuts css styles" />
     <MESSAGE value="added record button + player" />
@@ -179,7 +172,11 @@
     <MESSAGE value="changed image url" />
     <MESSAGE value="removed z-indices, fixed bug with playhead, added public env file for public folder" />
     <MESSAGE value="adjusted presets layer names, removed old assets, added project description for sharing" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted presets layer names, removed old assets, added project description for sharing" />
+    <MESSAGE value="adjusted presets layer names again (KilperKit 01, 02), removed old presets" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted presets layer names again (KilperKit 01, 02), removed old presets" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="868" y="347" key="#File_Watchers" timestamp="1590833886035">
@@ -199,11 +196,12 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="733" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1590833944913" />
-    <state x="109" y="0" width="1147" height="720" key="CommitChangelistDialog2" timestamp="1595282776728">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="143" y="23" width="1147" height="720" key="CommitChangelistDialog2" timestamp="1595288349500">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="109" y="0" width="1147" height="720" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1595282776728" />
     <state x="123" y="34" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1590853549309" />
+    <state x="143" y="23" key="CommitChangelistDialog2/0.23.1680.977@0.23.1680.977" timestamp="1595288349500" />
     <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1595274998216">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -257,9 +255,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="356" y="257" key="git4idea.merge.GitMergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1590852985169" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1595281689836">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="398" y="79" width="882" height="921" key="search.everywhere.popup" timestamp="1595286499430">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1595281689836" />
+    <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.977@0.23.1680.977" timestamp="1595286499430" />
+    <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1595284510060" />
   </component>
 </project>

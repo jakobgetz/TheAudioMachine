@@ -60,7 +60,7 @@ class Player extends Component {
         this.limiter.threshold.setValueAtTime(-2, this.ctx.currentTime);
         this.limiter.knee.setValueAtTime(0, this.ctx.currentTime);
         this.limiter.ratio.setValueAtTime(10, this.ctx.currentTime);
-        this.limiter.attack.setValueAtTime(4, this.ctx.currentTime);
+        this.limiter.attack.setValueAtTime(0.004, this.ctx.currentTime);
         this.limiter.release.setValueAtTime(0.25, this.ctx.currentTime);
     }
 

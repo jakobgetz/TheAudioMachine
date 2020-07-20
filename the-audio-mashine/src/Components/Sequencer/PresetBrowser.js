@@ -9,8 +9,8 @@ class PresetBrowser extends Component {
             [
                 "factory",
                 "Init",
-                "Kilper 02",
-                "Kilper 01 (84 BpM)",
+                "KilperKit 02 (85 BpM)",
+                "KilperKit 01 (120 BpM)",
                 "Drum n' Bass 02 (160 BpM)",
                 "Drum n' Bass (170 BpM)",
                 "808 Pattern (115 BpM)",
@@ -25,27 +25,6 @@ class PresetBrowser extends Component {
                 "Downtempo 02 (70 BpM)",
                 "Downtempo (70 BpM)",
                 "Urban (95 BpM)",
-            ],
-            [
-                "Acoustic"
-            ],
-            [
-                "Classic 808"
-            ],
-            [
-                "Drum n Bass"
-            ],
-            [
-                "Dubstep"
-            ],
-            [
-                "Techno"
-            ],
-            [
-                "Trap"
-            ],
-            [
-                "user"
             ]
         ]
     }
@@ -132,7 +111,6 @@ class PresetBrowser extends Component {
                     }
                 }
             }
-
         this.loadPreset(prevPresetName, prevPresetCategory)
     }
 
@@ -176,10 +154,17 @@ class PresetBrowser extends Component {
                     }
                 }
             }
-
         this.loadPreset(nextPresetName, nextPresetCategory)
     }
 
+    /**
+     *
+     * @type {{NEXT_PRESET: (function(): void), PREV_PRESET: (function(): void)}}
+     */
+    handleKeyboardInput = {
+        NEXT_PRESET: () => this.loadNextPreset(),
+        PREV_PRESET: () => this.loadPrevPreset()
+    };
 
     /**
      *
@@ -197,15 +182,6 @@ class PresetBrowser extends Component {
         this.selectedPresetName = presetName
         this.props.setPreset(preset)
     }
-
-    /**
-     *
-     * @type {{NEXT_PRESET: (function(): void), PREV_PRESET: (function(): void)}}
-     */
-    handleKeyboardInput = {
-        NEXT_PRESET: () => this.loadNextPreset(),
-        PREV_PRESET: () => this.loadPrevPreset()
-    };
 
     printPresetName = () => {
         return this.selectedPresetName.substring(0, 16)

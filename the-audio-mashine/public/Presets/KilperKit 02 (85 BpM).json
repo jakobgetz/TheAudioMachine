@@ -5,7 +5,7 @@
       "layerId": 0,
       "name": "Kick",
       "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_BD03.wav",
-      "layerGain": 33,
+      "layerGain": 100,
       "layerPan": 0,
       "isMute": false,
       "rhythm": [
