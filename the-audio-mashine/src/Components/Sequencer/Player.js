@@ -14,6 +14,7 @@ class Player extends Component {
     limiter
     isRecordingOnce = false;
     isExporting = this.props.isExporting
+    dest
 
     mediaRecorder
     doRecordSequence = false
@@ -46,9 +47,9 @@ class Player extends Component {
         this.fillLayerGainArray();
         this.fillLayerPanArray()
 
-        let dest = this.ctx.createMediaStreamDestination()
-        this.mediaRecorder = new MediaRecorder(dest.stream)
-        this.limiter.connect(dest)
+        this.dest = this.ctx.createMediaStreamDestination()
+        this.mediaRecorder = new MediaRecorder(this.dest.stream)
+        this.limiter.connect(this.dest)
     }
 
     /**
@@ -85,11 +86,12 @@ class Player extends Component {
 
     recordSequence = () => {
         this.doRecordSequence = true
+        this.limiter.connect(this.dest)
     }
 
     recordOnce = () => {
         this.isRecordingOnce = true;
-        this.doRecordSequence = true;
+        this.doRecordSequence = true
         if (this.isPlaying) {
             this.resetPlayHeadPosition()
             this.recordSequence()
@@ -269,7 +271,7 @@ class Player extends Component {
     render() {
         return (
             <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
-                <div className={"playhead "} id="animation" style={this.animation}></div>
+                <div className={"playhead "} style={this.animation}></div>
                 <div className={"sliderVolume volume"}>
                     <input type='range' className="slider"
                            value={Math.round(this.state.currentVolume * 100)}
