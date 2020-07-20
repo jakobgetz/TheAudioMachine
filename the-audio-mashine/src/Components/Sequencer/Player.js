@@ -56,10 +56,10 @@ class Player extends Component {
      * Sets the Values of the Compressor, which is routed as a limiter between master and ctx.destination
      * */
     setLimiter() {
-        this.limiter.threshold.setValueAtTime(-6, this.ctx.currentTime);
+        this.limiter.threshold.setValueAtTime(-2, this.ctx.currentTime);
         this.limiter.knee.setValueAtTime(0, this.ctx.currentTime);
         this.limiter.ratio.setValueAtTime(10, this.ctx.currentTime);
-        this.limiter.attack.setValueAtTime(0, this.ctx.currentTime);
+        this.limiter.attack.setValueAtTime(4, this.ctx.currentTime);
         this.limiter.release.setValueAtTime(0.25, this.ctx.currentTime);
     }
 

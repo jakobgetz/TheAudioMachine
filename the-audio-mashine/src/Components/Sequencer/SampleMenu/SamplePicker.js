@@ -64,6 +64,12 @@ class SamplePicker extends Component {
                             <i className={"fas fa-arrow-alt-circle-left pan1"}></i>
                             <i className={"fas fa-arrow-alt-circle-right pan2"}></i>
                         </div>
+                        <div className={"loadSample-" + layer.layerId}>
+                            <input type={"file"}
+                                   onChange={e => loadSample(e, layer.layerId)}
+                                   className={"load-sample-button"}
+                                   title=" "/>
+                        </div>
                     </div>
                     : null}
             </div>

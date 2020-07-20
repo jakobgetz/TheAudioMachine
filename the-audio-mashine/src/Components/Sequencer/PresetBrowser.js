@@ -208,7 +208,7 @@ class PresetBrowser extends Component {
     };
 
     printPresetName = () => {
-        return this.selectedPresetName.substring(0, 13)
+        return this.selectedPresetName.substring(0, 16)
     }
 
     render() {
@@ -218,15 +218,15 @@ class PresetBrowser extends Component {
 
                     <div className="search-box">
                         {this.printPresetName()}
+                        {/*
                         <div className="search-button">
                             <i className="fas fa-chevron-down"></i>
                         </div>
+                        */}
                     </div>
 
                     <div className="preset-browser__buttons">
-                        <div className="preset-button" onClick={() => this.savePreset()}>
-                            <i className="fas left fa-save"></i>
-                        </div>
+
 
                         <div className="preset-button" onClick={this.loadPrevPreset}>
                             <i className="fas fa-chevron-right"></i>
@@ -234,6 +234,10 @@ class PresetBrowser extends Component {
 
                         <div className="preset-button" onClick={this.loadNextPreset}>
                             <i className="fas fa-chevron-left"></i>
+                        </div>
+
+                        <div className="preset-button" onClick={() => this.savePreset()}>
+                            <i className="fas left fa-save"></i>
                         </div>
 
                         <div className="preset-button" onClick={this.props.resetTriggers}>
