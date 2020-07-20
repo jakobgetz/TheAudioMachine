@@ -64,7 +64,7 @@ class Player extends Component {
     }
 
     /**
-     * Create an Array of length of the
+     * Create an Array and fill it with one Gain Node per Layer
      */
     fillLayerGainArray() {
         this.layerGains = new Array(this.props.layers.length)
@@ -73,6 +73,9 @@ class Player extends Component {
         }
     }
 
+    /**
+     * Create an Array and fill it with one StereoPan Node per Layer
+     */
     fillLayerPanArray() {
         this.layerPans = new Array(this.props.layers.length)
         for (let i = 0; i < this.props.layers.length ; i++) {
@@ -80,15 +83,24 @@ class Player extends Component {
         }
     }
 
+    /**
+     * Resets the playhead position to 0
+     */
     resetPlayHeadPosition = () => {
         this.playHeadPosition = 0
     }
 
+    /**
+     * sets the boolean for the recording to true and connects the limiter to the MediaStreamDestination
+     */
     recordSequence = () => {
         this.doRecordSequence = true
         this.limiter.connect(this.dest)
     }
 
+    /**
+     * Starts a recording, that lasts one length of the loop
+     */
     recordOnce = () => {
         this.isRecordingOnce = true;
         this.doRecordSequence = true
@@ -101,6 +113,9 @@ class Player extends Component {
         }
     }
 
+    /**
+     * Stops the current recording and initiates the download of the generated .wav file
+     */
     stopRecording = () => {
         this.doRecordSequence = false
         document.getElementById("rec").style.backgroundColor = "#252525";
@@ -112,8 +127,6 @@ class Player extends Component {
             let blob = new Blob(this.recordedSequences, {'type': 'audio/wav; codecs=0'});
             this.recordedSequences = [];
 
-            //old implementation:
-            //document.querySelector("audio").src = URL.createObjectURL(blob);
 
             let link = window.document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
@@ -235,10 +248,18 @@ class Player extends Component {
         this.layerGains[i].gain.value = (this.props.layers[i].layerGain / 100)
     }
 
+    /**
+     * Sets the Pan of a Layer
+     * @param i index of the current layer
+     */
     setLayerPan = i => {
         this.layerPans[i].pan.setValueAtTime(this.props.layers[i].layerPan / 50, this.ctx.currentTime)
     }
 
+    /**
+     * Sets the isMute boolean of a Layer
+     * @param i index of the current layer
+     */
     setLayerMute = i => {
         if (this.props.layers[i].isMute) {
             this.samplePlayer[i].disconnect();
