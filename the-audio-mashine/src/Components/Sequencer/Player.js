@@ -80,7 +80,8 @@ class Player extends Component {
     fillLayerPanArray() {
         this.layerPans = new Array(this.props.layers.length)
         for (let i = 0; i < this.props.layers.length; i++) {
-            this.layerPans[i] = this.ctx.createStereoPanner()
+            if (this.ctx.createStereoPanner)
+                this.layerPans[i] = this.ctx.createStereoPanner()
         }
     }
 

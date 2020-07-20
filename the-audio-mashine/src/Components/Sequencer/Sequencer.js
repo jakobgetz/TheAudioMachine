@@ -16,7 +16,7 @@ class Sequencer extends React.Component {
         layers: [
             {
                 layerId: 0,
-                name: 'KICK',
+                name: 'Kick',
                 sampleFilePath: '/DefaultSamples/Kick.wav',
                 layerGain: 80,
                 layerPan: 0,
@@ -43,7 +43,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 1,
-                name: "SNARE",
+                name: "Snare",
                 sampleFilePath: "/DefaultSamples/Snare.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -70,7 +70,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 2,
-                name: "CLAP",
+                name: "Clap",
                 sampleFilePath: "/DefaultSamples/Clap.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -97,7 +97,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 3,
-                name: "HAT",
+                name: "Hat",
                 sampleFilePath: "/DefaultSamples/Hat.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -124,7 +124,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 4,
-                name: "CRASH",
+                name: "Crash",
                 sampleFilePath: "/DefaultSamples/Crash.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -151,7 +151,7 @@ class Sequencer extends React.Component {
             },
             {
                 layerId: 5,
-                name: "VOC",
+                name: "Voc",
                 sampleFilePath: "/DefaultSamples/Ayy.wav",
                 layerGain: 80,
                 layerPan: 0,
@@ -401,7 +401,7 @@ class Sequencer extends React.Component {
         this.setState({bpm: event.target.value})
     }
 
-    exportStart = (e) => {
+    exportStart = () => {
         this.refs.exprt.recordOnce();
     }
     record = () => {
