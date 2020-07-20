@@ -362,7 +362,6 @@ class Sequencer extends React.Component {
             }
             return layer
         })
-        console.log(layers[0].rhythm)
         this.setState({layers: layers})
     }
 
@@ -416,13 +415,17 @@ class Sequencer extends React.Component {
         }
     }
 
+    next = () => {
+        this.refs.exprt.resetPlayHeadPosition()
+    }
+
     render() {
         return (
             this.state ?
                 <div className="sequencer">
 
                     <HeaderButtons export={this.exportStart} recordStart={this.record} recordEnd={this.stopRecord}/>
-                    <PresetBrowser setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset} resetTriggers={this.resetTriggers}/>
+                    <PresetBrowser next={this.next} setting={this.state} setPreset={this.setPreset} savePreset={this.savePreset} resetTriggers={this.resetTriggers}/>
 
                     <BPM bpm={this.state.bpm} setBPM={this.setBPM}/>
 

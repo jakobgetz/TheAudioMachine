@@ -28,7 +28,6 @@ class Player extends Component {
     };
 
     animation = {}
-
     /**
      * Initializes the AudioContext right after the Component did mount
      * creates Mastergain
@@ -68,12 +67,16 @@ class Player extends Component {
      */
     fillLayerGainArray() {
         this.layerGains = new Array(this.props.layers.length)
-        this.layerGains.fill(this.ctx.createGain())
+        for (let i = 0; i < this.props.layers.length ; i++) {
+            this.layerGains[i] = this.ctx.createGain()
+        }
     }
 
     fillLayerPanArray() {
         this.layerPans = new Array(this.props.layers.length)
-        this.layerPans.fill(this.ctx.createStereoPanner())
+        for (let i = 0; i < this.props.layers.length ; i++) {
+            this.layerPans[i] = this.ctx.createStereoPanner()
+        }
     }
 
     resetPlayHeadPosition = () => {
@@ -100,7 +103,6 @@ class Player extends Component {
         this.doRecordSequence = false
         document.getElementById("rec").style.backgroundColor = "#252525";
         this.mediaRecorder.ondataavailable = (evt) => {
-            console.log(evt.data)
             this.recordedSequences.push(evt.data);
         }
         this.mediaRecorder.onstop = () => {
@@ -110,13 +112,15 @@ class Player extends Component {
 
             //old implementation:
             //document.querySelector("audio").src = URL.createObjectURL(blob);
-            var link = window.document.createElement('a');
+
+            let link = window.document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
             //set to link.download
             link.download = 'TheAudioMachine.wav';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
+
         }
     }
 
@@ -124,6 +128,8 @@ class Player extends Component {
      * Starts/Stops the Playback
      */
     play = () => {
+        console.log(this.mediaRecorder.state)
+        console.log(this.doRecordSequence)
         if (this.isPlaying) {
             this.isPlaying = false
             this.limiter.disconnect()
@@ -137,7 +143,6 @@ class Player extends Component {
         } else {
             this.isPlaying = true
             this.animation = {animation: "animate " + 60 / this.props.bpm * 4 + "s linear infinite"}
-            console.log(this.animation)
             this.setState({playingIcon: "fas fa-pause"})
             this.limiter.connect(this.ctx.destination)
             if (this.mediaRecorder.state === "inactive" && this.doRecordSequence) {
@@ -174,6 +179,8 @@ class Player extends Component {
             this.playBackSamples()
             const timeout = 1000 / (this.props.bpm / 60 * 4)
             this.playHeadPosition++;
+            console.log(this.playHeadPosition)
+
             setTimeout(this.playSequence, timeout)
         }
     }
@@ -265,7 +272,7 @@ class Player extends Component {
     render() {
         return (
             <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
-                <div className={"playhead "} style={this.animation}></div>
+                <div className={"playhead "} id="animation" style={this.animation}></div>
                 <div className={"sliderVolume volume"}>
                     <input type='range' className="slider"
                            value={Math.round(this.state.currentVolume * 100)}

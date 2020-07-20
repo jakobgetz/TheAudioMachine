@@ -98,6 +98,7 @@ class PresetBrowser extends Component {
         const presets = this.state.presets
         let prevPresetName
         let prevPresetCategory
+        this.props.next()
 
         OUTER_LOOP:
             for (let i = 0; i < presets.length; i++) {
@@ -141,6 +142,7 @@ class PresetBrowser extends Component {
         const presets = this.state.presets
         let nextPresetName
         let nextPresetCategory
+        this.props.next()
 
         OUTER_LOOP:
             for (let i = 0; i < presets.length; i++) {
