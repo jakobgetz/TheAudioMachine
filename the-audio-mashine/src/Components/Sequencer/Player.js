@@ -128,8 +128,6 @@ class Player extends Component {
      * Starts/Stops the Playback
      */
     play = () => {
-        console.log(this.mediaRecorder.state)
-        console.log(this.doRecordSequence)
         if (this.isPlaying) {
             this.isPlaying = false
             this.limiter.disconnect()
@@ -179,7 +177,6 @@ class Player extends Component {
             this.playBackSamples()
             const timeout = 1000 / (this.props.bpm / 60 * 4)
             this.playHeadPosition++;
-            console.log(this.playHeadPosition)
 
             setTimeout(this.playSequence, timeout)
         }
