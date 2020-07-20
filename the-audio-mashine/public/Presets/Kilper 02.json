@@ -5,7 +5,7 @@
       "layerId": 0,
       "name": "Kick",
       "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_BD03.wav",
-      "layerGain": 100,
+      "layerGain": 33,
       "layerPan": 0,
       "isMute": false,
       "rhythm": [
@@ -189,7 +189,7 @@
       "layerId": 4,
       "name": "Hat 2",
       "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_OHH.wav",
-      "layerGain": 80,
+      "layerGain": 50,
       "layerPan": 0,
       "isMute": false,
       "rhythm": [
