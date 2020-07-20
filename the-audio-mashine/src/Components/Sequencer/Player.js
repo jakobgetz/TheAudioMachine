@@ -29,6 +29,7 @@ class Player extends Component {
     };
 
     animation = {}
+
     /**
      * Initializes the AudioContext right after the Component did mount
      * creates Mastergain
@@ -68,7 +69,7 @@ class Player extends Component {
      */
     fillLayerGainArray() {
         this.layerGains = new Array(this.props.layers.length)
-        for (let i = 0; i < this.props.layers.length ; i++) {
+        for (let i = 0; i < this.props.layers.length; i++) {
             this.layerGains[i] = this.ctx.createGain()
         }
     }
@@ -78,7 +79,7 @@ class Player extends Component {
      */
     fillLayerPanArray() {
         this.layerPans = new Array(this.props.layers.length)
-        for (let i = 0; i < this.props.layers.length ; i++) {
+        for (let i = 0; i < this.props.layers.length; i++) {
             this.layerPans[i] = this.ctx.createStereoPanner()
         }
     }
@@ -126,7 +127,6 @@ class Player extends Component {
             // Make blob out of our blobs, and open it.
             let blob = new Blob(this.recordedSequences, {'type': 'audio/wav; codecs=0'});
             this.recordedSequences = [];
-
 
             let link = window.document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
@@ -292,14 +292,14 @@ class Player extends Component {
     render() {
         return (
             <GlobalHotKeys keyMap={this.keyMap} handlers={this.handleKeyboardInput}>
-                <div className={"playhead "} style={this.animation}></div>
+                <div className={"playhead"} style={this.animation}/>
                 <div className={"sliderVolume volume"}>
                     <input type='range' className="slider"
                            value={Math.round(this.state.currentVolume * 100)}
                            onChange={e => this.setVolume(e.target.value)}
                            onDoubleClick={() => this.setVolume(80)}/>
-                    <i className={"fas fa-volume-off vol1"}></i>
-                    <i className={"fas fa-volume-up vol2"}></i>
+                    <i className={"fas fa-volume-off vol1"}/>
+                    <i className={"fas fa-volume-up vol2"}/>
                 </div>
                 <div className="player">
                     <div className="player__play-button" onClick={this.play}>

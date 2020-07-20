@@ -6,13 +6,12 @@
   width: 4.1vh;
   background-color: blue;
   left: 50%;
-  z-index: 2;
   margin-left: -2.05vh;
   margin-top: -81.8vh;
   background-color: color(primary-light);
   transform-origin: 50% 100% 0;
   //animation: animate 3s linear infinite;
-  opacity: 55%;
+  opacity: 0.55;
 }
 
 .playhead::before {
