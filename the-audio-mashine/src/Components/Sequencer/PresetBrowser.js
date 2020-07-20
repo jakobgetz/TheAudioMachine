@@ -59,7 +59,7 @@ class PresetBrowser extends Component {
      * sets up the PresetBrowser
      */
     componentDidMount() {
-        localStorage.removeItem("presets");
+        //localStorage.removeItem("presets");
         this.initPresets()
     }
 
