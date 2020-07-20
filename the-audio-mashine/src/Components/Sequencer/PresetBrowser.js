@@ -22,7 +22,9 @@ class PresetBrowser extends Component {
                 "House (123 BpM)",
                 "House 02 (120 BpM)",
                 "Dubstep 01 (140 BpM)",
-                "Dubstep 02 (141 BpM)"
+                "Dubstep 02 (141 BpM)",
+                "Kilper 01 (84 BpM)",
+                "Kilper 02"
             ],
             [
                 "Acoustic"

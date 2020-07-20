@@ -1,17 +1,63 @@
 {
-  "bpm": 128,
+  "bpm": 85,
   "layers": [
     {
       "layerId": 0,
       "name": "Kick",
-      "sampleFilePath": "./DefaultSamples/Techno/Techno02_BD.wav",
-      "layerGain": 90,
+      "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_BD03.wav",
+      "layerGain": 100,
       "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
           "step": 0,
           "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"step": 5, "velocity": 0, "pitch": 1},
+        {"step": 6, "velocity": 0, "pitch": 1},
+        {"step": 7, "velocity": 80, "pitch": 1},
+        {"step": 8, "velocity": 100, "pitch": 1},
+        {"step": 9, "velocity": 0, "pitch": 1},
+        {"step": 10, "velocity": 0, "pitch": 1},
+        {"step": 11, "velocity": 90, "pitch": 1},
+        {"step": 12, "velocity": 0, "pitch": 1},
+        {"step": 13, "velocity": 0, "pitch": 1},
+        {"step": 14, "velocity": 0, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "layerId": 1,
+      "name": "Snare",
+      "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_SD02.wav",
+      "layerGain": 100,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -37,7 +83,7 @@
         {"step": 5, "velocity": 0, "pitch": 1},
         {"step": 6, "velocity": 0, "pitch": 1},
         {"step": 7, "velocity": 0, "pitch": 1},
-        {"step": 8, "velocity": 100, "pitch": 1},
+        {"step": 8, "velocity": 0, "pitch": 1},
         {"step": 9, "velocity": 0, "pitch": 1},
         {"step": 10, "velocity": 0, "pitch": 1},
         {"step": 11, "velocity": 0, "pitch": 1},
@@ -48,9 +94,9 @@
       ]
     },
     {
-      "layerId": 1,
-      "name": "Snare",
-      "sampleFilePath": "./DefaultSamples/Techno/Techno02_SD01.wav",
+      "layerId": 2,
+      "name": "CLAP",
+      "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_Rim01.wav",
       "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
@@ -67,7 +113,7 @@
         },
         {
           "step": 2,
-          "velocity": 90,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -94,16 +140,62 @@
       ]
     },
     {
-      "layerId": 2,
-      "name": "Clap",
-      "sampleFilePath": "./DefaultSamples/Techno/Techno02_Clap.wav",
+      "layerId": 3,
+      "name": "Hat 1",
+      "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_CHH01.wav",
       "layerGain": 40,
       "layerPan": 0,
       "isMute": false,
       "rhythm": [
         {
           "step": 0,
-          "velocity": 88,
+          "velocity": 80,
+          "pitch": 1
+        },
+        {
+          "step": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 2,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "step": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "step": 4,
+          "velocity": 70,
+          "pitch": 1
+        },
+        {"step": 5, "velocity": 0, "pitch": 1},
+        {"step": 6, "velocity": 80, "pitch": 1},
+        {"step": 7, "velocity": 0, "pitch": 1},
+        {"step": 8, "velocity": 90, "pitch": 1},
+        {"step": 9, "velocity": 0, "pitch": 1},
+        {"step": 10, "velocity": 80, "pitch": 1},
+        {"step": 11, "velocity": 0, "pitch": 1},
+        {"step": 12, "velocity": 85, "pitch": 1},
+        {"step": 13, "velocity": 0, "pitch": 1},
+        {"step": 14, "velocity": 0, "pitch": 1},
+        {"step": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "layerId": 4,
+      "name": "Hat 2",
+      "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_OHH.wav",
+      "layerGain": 80,
+      "layerPan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "step": 0,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -118,7 +210,7 @@
         },
         {
           "step": 3,
-          "velocity": 85,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -132,98 +224,6 @@
         {"step": 8, "velocity": 0, "pitch": 1},
         {"step": 9, "velocity": 0, "pitch": 1},
         {"step": 10, "velocity": 0, "pitch": 1},
-        {"step": 11, "velocity": 0, "pitch": 1},
-        {"step": 12, "velocity": 0, "pitch": 1},
-        {"step": 13, "velocity": 0, "pitch": 1},
-        {"step": 14, "velocity": 0, "pitch": 1},
-        {"step": 15, "velocity": 90, "pitch": 1}
-      ]
-    },
-    {
-      "layerId": 3,
-      "name": "Hat 1",
-      "sampleFilePath": "./DefaultSamples/Techno/Techno02_CHH.wav",
-      "layerGain": 80,
-      "layerPan": 0,
-      "isMute": false,
-      "rhythm": [
-        {
-          "step": 0,
-          "velocity": 70,
-          "pitch": 1
-        },
-        {
-          "step": 1,
-          "velocity": 80,
-          "pitch": 1
-        },
-        {
-          "step": 2,
-          "velocity": 95,
-          "pitch": 1
-        },
-        {
-          "step": 3,
-          "velocity": 90,
-          "pitch": 1
-        },
-        {
-          "step": 4,
-          "velocity": 80,
-          "pitch": 1
-        },
-        {"step": 5, "velocity": 70, "pitch": 1},
-        {"step": 6, "velocity": 90, "pitch": 1},
-        {"step": 7, "velocity": 75, "pitch": 1},
-        {"step": 8, "velocity": 80, "pitch": 1},
-        {"step": 9, "velocity": 85, "pitch": 1},
-        {"step": 10, "velocity": 90, "pitch": 1},
-        {"step": 11, "velocity": 88, "pitch": 1},
-        {"step": 12, "velocity": 85, "pitch": 1},
-        {"step": 13, "velocity": 70, "pitch": 1},
-        {"step": 14, "velocity": 90, "pitch": 1},
-        {"step": 15, "velocity": 80, "pitch": 1}
-      ]
-    },
-    {
-      "layerId": 4,
-      "name": "Hat 2",
-      "sampleFilePath": "./DefaultSamples/Techno/Techno02_OHH.wav",
-      "layerGain": 20,
-      "layerPan": 0,
-      "isMute": false,
-      "rhythm": [
-        {
-          "step": 0,
-          "velocity": 0,
-          "pitch": 1
-        },
-        {
-          "step": 1,
-          "velocity": 0,
-          "pitch": 1
-        },
-        {
-          "step": 2,
-          "velocity": 100,
-          "pitch": 1
-        },
-        {
-          "step": 3,
-          "velocity": 0,
-          "pitch": 1
-        },
-        {
-          "step": 4,
-          "velocity": 0,
-          "pitch": 1
-        },
-        {"step": 5, "velocity": 0, "pitch": 1},
-        {"step": 6, "velocity": 100, "pitch": 1},
-        {"step": 7, "velocity": 0, "pitch": 1},
-        {"step": 8, "velocity": 0, "pitch": 1},
-        {"step": 9, "velocity": 0, "pitch": 1},
-        {"step": 10, "velocity": 100, "pitch": 1},
         {"step": 11, "velocity": 0, "pitch": 1},
         {"step": 12, "velocity": 0, "pitch": 1},
         {"step": 13, "velocity": 0, "pitch": 1},
@@ -233,9 +233,9 @@
     },
     {
       "layerId": 5,
-      "name": "Ride",
-      "sampleFilePath": "./DefaultSamples/Techno/Techno02_Ride.wav",
-      "layerGain": 70,
+      "name": "RIDE",
+      "sampleFilePath": "./DefaultSamples/Kilperkit/Kilperkit_Ride.wav",
+      "layerGain": 80,
       "layerPan": 0,
       "isMute": false,
       "rhythm": [
@@ -251,7 +251,7 @@
         },
         {
           "step": 2,
-          "velocity": 95,
+          "velocity": 0,
           "pitch": 1
         },
         {
@@ -265,15 +265,15 @@
           "pitch": 1
         },
         {"step": 5, "velocity": 0, "pitch": 1},
-        {"step": 6, "velocity": 100, "pitch": 1},
+        {"step": 6, "velocity": 0, "pitch": 1},
         {"step": 7, "velocity": 0, "pitch": 1},
         {"step": 8, "velocity": 0, "pitch": 1},
         {"step": 9, "velocity": 0, "pitch": 1},
-        {"step": 10, "velocity": 100, "pitch": 1},
+        {"step": 10, "velocity": 0, "pitch": 1},
         {"step": 11, "velocity": 0, "pitch": 1},
         {"step": 12, "velocity": 0, "pitch": 1},
         {"step": 13, "velocity": 0, "pitch": 1},
-        {"step": 14, "velocity": 100, "pitch": 1},
+        {"step": 14, "velocity": 0, "pitch": 1},
         {"step": 15, "velocity": 0, "pitch": 1}
       ]
     }
