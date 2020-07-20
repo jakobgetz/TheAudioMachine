@@ -1,11 +1,12 @@
 # TheAudioMachine
 
-This is a first functional Prototype of The Audio Machine
+This is the first functional prototype of The Audio Machine
 
-Features contained in this Prototype:
-	- Loading Presets
-	- Set Tempo
-	- Loading different Samples
-	- Making custom Rhythms
-	- Play and Pause
-	- Set Playhead back to start
+Features contained in this prototype:
+- Loading presets
+- Set tempo
+- Loading different samples
+- Making custom rhythms
+- Play and pause
+- Set playhead back to start
+- record a sequence
