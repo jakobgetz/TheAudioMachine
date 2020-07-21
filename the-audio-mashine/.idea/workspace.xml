@@ -26,7 +26,10 @@
   <component name="ChangeListManager">
     <list default="true" id="de9b6437-1caa-464c-90c2-5da8c479730e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/PresetBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/PresetBrowser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS3/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS3/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS3/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS3/slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/BPM.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/BPM.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,10 +260,10 @@
     <state x="515" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1591023856278" />
     <state x="601" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.976@0.23.1680.976" timestamp="1595349752608" />
     <state x="601" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.977@0.23.1680.977" timestamp="1595314752760" />
-    <state x="351" y="100" width="579" height="598" key="find.popup" timestamp="1595281862464">
+    <state x="351" y="100" width="579" height="598" key="find.popup" timestamp="1595355935200">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="351" y="100" width="579" height="598" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1595281862464" />
+    <state x="351" y="100" width="579" height="598" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1595355935200" />
     <state x="320" y="181" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590839290699">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -269,10 +272,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="356" y="257" key="git4idea.merge.GitMergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1590852985169" />
-    <state x="398" y="79" width="882" height="921" key="search.everywhere.popup" timestamp="1595350564426">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1595358052720">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1595281689836" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1595358052720" />
     <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1595350564426" />
     <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.977@0.23.1680.977" timestamp="1595286499430" />
     <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1595284510060" />

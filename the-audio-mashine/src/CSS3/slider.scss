@@ -78,6 +78,13 @@
     left: 32vh;
     pointer-events: none;
   }
+
+  .sliderValue {
+    letter-spacing: 0.3vh;
+    font-size: 2vh;
+    color: $color;
+    top: 8vh;
+  }
 }
 
 .sliderVolume {
@@ -92,16 +99,17 @@
   .sliderVolume-#{$i} {
     @include sliders(nth($active-colors, ($i + 1)), 0vh);
     position: absolute;
-    right: 0vh;
+    right: 0;
     top: 40vh;
   }
 
   .sliderPan-#{$i} {
     @include sliders(nth($active-colors, ($i + 1)), 0vh);
     position: absolute;
-    right: 0vh;
+    right: 0;
     top: 51vh;
   }
+
 
   .loadSample-#{$i} {
 
@@ -126,7 +134,7 @@
         //font-weight: 700;
         font-size: 3.2vh;
         color: nth($active-colors, $i + 1);
-        padding: 0 0vh 0 0vh;
+        padding: 0 0 0 0;
         background: color(primary);
         position: absolute;
         border-bottom-right-radius: 100vh;
@@ -152,7 +160,7 @@
     }
 
     position: absolute;
-    right: 0vh;
+    right: 0;
     top: 62vh;
   }
 }

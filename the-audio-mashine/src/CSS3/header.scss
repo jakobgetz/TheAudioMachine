@@ -21,6 +21,10 @@
 .header-button {
   @include button-top();
   float: left;
+
+  &.export {
+    margin-left: 2vh;
+  }
 }
 
 .header-button:hover {
@@ -28,6 +32,7 @@
   background-color: color(accent);
   color: color(primary);
   transition-duration: 0.25s;
+
   .fas:hover {
     font-size: 3vh;
   }
