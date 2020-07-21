@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
 class Bpm extends Component {
-
     state = {displayedBPM: this.props.bpm}
+    minSliderValue = 50
 
     /**
      * updates the global bpm when the enter is pressed
@@ -30,13 +30,16 @@ class Bpm extends Component {
                        onKeyDown={(e) => this.update(e)}/>
                 <label>BPM</label>
                 */}
-                <input type={"range"} min={"50"}
+                <input type={"range"} min={this.minSliderValue}
                        max={"200"}
                        step={"1"}
                        value={this.props.bpm} onChange={(e) => this.props.setBPM(e)}
                        className={"slider"}/>
-                <i className={"fas fa-heart bpm1"}></i>
-                <i className={"fas fa-heartbeat bpm2"}></i>
+                <i className={"fas fa-heart bpm1"}/>
+                <i className={"fas fa-heartbeat bpm2"}/>
+                <div className={"fas sliderValue"}
+                     style={{left: (this.props.bpm) + 'px'}}>{this.props.bpm} BPM
+                </div>
             </div>
 
 
