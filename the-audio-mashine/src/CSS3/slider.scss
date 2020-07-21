@@ -108,6 +108,7 @@
     .load-sample-button {
       &::-webkit-file-upload-button {
         visibility: hidden;
+        margin-top: 1vh;
       }
 
       display: inline-block;

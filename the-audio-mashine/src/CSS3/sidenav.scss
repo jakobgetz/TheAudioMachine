@@ -32,7 +32,7 @@
     border: 0.5vh solid color(nav);
     background-color: $color;
     border-radius: 50%;
-    margin: -3.8vh 0 0 11vh;
+    margin: -3.82vh 0 0 11vh;
     // margin: -5px;
     cursor: pointer;
   }
@@ -100,6 +100,7 @@
       @include sidenav-button(nth($active-colors, ($i + 1)));
       color: color(accent);
       border-color: color(accent);
+      box-shadow: 0 0 0.9vh 0.5vh (nth($active-colors, ($i + 1)));
 
       .symbol {
         border-color: color(accent);
@@ -136,7 +137,7 @@
     }
 
     .sidenav__button-selected-#{$i}:hover {
-      box-shadow: 0 0 0.9vh 0.5vh (nth($active-colors, ($i + 1)));
+      box-shadow: 0 0 0.9vh 0.5vh darken(nth($active-colors, ($i + 1)), $amount: 30);
     }
   }
 
