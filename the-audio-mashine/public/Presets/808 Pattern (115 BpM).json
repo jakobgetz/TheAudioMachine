@@ -3,7 +3,7 @@
   "layers": [
     {
       "layerId": 0,
-      "name": "Kick",
+      "name": "KICK",
       "sampleFilePath": "./DefaultSamples/Classic 808/808 Kit01_BD.wav",
       "layerGain": 100,
       "layerPan": 0,
@@ -95,7 +95,7 @@
     },
     {
       "layerId": 1,
-      "name": "Snare",
+      "name": "SNARE",
       "sampleFilePath": "./DefaultSamples/Classic 808/808 Kit01_SD01.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -187,7 +187,7 @@
     },
     {
       "layerId": 2,
-      "name": "Clap",
+      "name": "CLAP",
       "sampleFilePath": "./DefaultSamples/Classic 808/808 Kit01_Clap.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -279,7 +279,7 @@
     },
     {
       "layerId": 3,
-      "name": "Hat 1",
+      "name": "HAT 1",
       "sampleFilePath": "./DefaultSamples/Classic 808/808 Kit01_CHH.wav",
       "layerGain": 76,
       "layerPan": 0,
@@ -371,7 +371,7 @@
     },
     {
       "layerId": 4,
-      "name": "Hat 2",
+      "name": "HAT 2",
       "sampleFilePath": "./DefaultSamples/Classic 808/808 Kit01_OHH.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -463,7 +463,7 @@
     },
     {
       "layerId": 5,
-      "name": "Cowbell",
+      "name": "COWBELL",
       "sampleFilePath": "./DefaultSamples/Classic 808/808 Kit01_Cowbell.wav",
       "layerGain": 4,
       "layerPan": 0,

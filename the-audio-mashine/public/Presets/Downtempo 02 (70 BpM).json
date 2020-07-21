@@ -3,7 +3,7 @@
   "layers": [
     {
       "layerId": 0,
-      "name": "Kick",
+      "name": "KICK",
       "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo02_BD.wav",
       "layerGain": 90,
       "layerPan": 0,
@@ -94,7 +94,7 @@
     },
     {
       "layerId": 1,
-      "name": "Snare",
+      "name": "SNARE",
       "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo02_SD.wav",
       "layerGain": 70,
       "layerPan": 0,
@@ -185,7 +185,7 @@
     },
     {
       "layerId": 2,
-      "name": "Perc 1",
+      "name": "PERC 1",
       "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo02_Perc01.wav",
       "layerGain": 100,
       "layerPan": 0,
@@ -276,7 +276,7 @@
     },
     {
       "layerId": 3,
-      "name": "Hat 1",
+      "name": "HAT 1",
       "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo02_OHH.wav",
       "layerGain": 70,
       "layerPan": 0,
@@ -367,7 +367,7 @@
     },
     {
       "layerId": 4,
-      "name": "Hat 2",
+      "name": "HAT 2",
       "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo02_CHH.wav",
       "layerGain": 20,
       "layerPan": 0,
@@ -458,7 +458,7 @@
     },
     {
       "layerId": 5,
-      "name": "Perc 2",
+      "name": "PERC 2",
       "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo02_Perc02.wav",
       "layerGain": 30,
       "layerPan": 0,

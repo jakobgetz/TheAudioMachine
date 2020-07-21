@@ -3,7 +3,7 @@
   "layers": [
     {
       "layerId": 0,
-      "name": "Kick",
+      "name": "KICK",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_BD.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -93,7 +93,7 @@
     },
     {
       "layerId": 1,
-      "name": "Snare",
+      "name": "SNARE",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_SD.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -183,7 +183,7 @@
     },
     {
       "layerId": 2,
-      "name": "Clap",
+      "name": "CLAP",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_Clap.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -273,7 +273,7 @@
     },
     {
       "layerId": 3,
-      "name": "Hat 1",
+      "name": "HAT 1",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_CHH.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -363,7 +363,7 @@
     },
     {
       "layerId": 4,
-      "name": "Hat 2",
+      "name": "HAT 2",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_OHH.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -453,7 +453,7 @@
     },
     {
       "layerId": 5,
-      "name": "Ride",
+      "name": "RIDE",
       "sampleFilePath": "./DefaultSamples/Trap/Trap01_Ride.wav",
       "layerGain": 80,
       "layerPan": 0,

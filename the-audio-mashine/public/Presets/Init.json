@@ -3,7 +3,7 @@
   "layers": [
     {
       "layerId": 0,
-      "name": "Kick",
+      "name": "KICK",
       "sampleFilePath": "./DefaultSamples/Urban/Urban01_BD.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -49,7 +49,7 @@
     },
     {
       "layerId": 1,
-      "name": "Snare",
+      "name": "SNARE",
       "sampleFilePath": "./DefaultSamples/Urban/Urban01_SD02.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -95,7 +95,7 @@
     },
     {
       "layerId": 2,
-      "name": "Clap",
+      "name": "CLAP",
       "sampleFilePath": "./DefaultSamples/Techno/Techno01_Clap.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -141,7 +141,7 @@
     },
     {
       "layerId": 3,
-      "name": "Hat",
+      "name": "HAT 1",
       "sampleFilePath": "./DefaultSamples/Urban/Urban01_CHH.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -187,7 +187,7 @@
     },
     {
       "layerId": 4,
-      "name": "Hat 2",
+      "name": "HAT 2",
       "sampleFilePath": "./DefaultSamples/Urban/Urban01_OHH.wav",
       "layerGain": 80,
       "layerPan": 0,
@@ -233,7 +233,7 @@
     },
     {
       "layerId": 5,
-      "name": "Ride",
+      "name": "RIDE",
       "sampleFilePath": "./DefaultSamples/Urban/Urban01_Ride.wav",
       "layerGain": 80,
       "layerPan": 0,
