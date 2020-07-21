@@ -25,7 +25,8 @@ class PresetBrowser extends Component {
                 "Downtempo 02 (70 BpM)",
                 "Downtempo (70 BpM)",
                 "Urban (95 BpM)",
-            ]
+            ],
+            ["user"]
         ]
     }
 

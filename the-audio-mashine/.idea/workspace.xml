@@ -24,12 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de9b6437-1caa-464c-90c2-5da8c479730e" name="Default Changelist" comment="adjusted presets layer names again (KilperKit 01, 02), removed old presets">
+    <list default="true" id="de9b6437-1caa-464c-90c2-5da8c479730e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Presets/KilperKit 02 (85 BpM).json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Presets/KilperKit 02 (85 BpM).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/Player.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/PresetBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/PresetBrowser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/Sequencer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/Sequencer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/Presets" />
@@ -101,6 +99,7 @@
       <workItem from="1594570163347" duration="5176000" />
       <workItem from="1595187865927" duration="936000" />
       <workItem from="1595273636617" duration="8326000" />
+      <workItem from="1595312372755" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="add necessary libraries and change buttons on player&#10;&#10;(cherry picked from commit 17f5266e1d6beb37b02876b70ae9871068038a61)">
       <created>1590853549452</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595279028295</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adjusted preset layer names again (KilperKit 01, 02), removed old presets">
+      <created>1595288570291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595288570291</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,12 +179,17 @@
     <MESSAGE value="removed z-indices, fixed bug with playhead, added public env file for public folder" />
     <MESSAGE value="adjusted presets layer names, removed old assets, added project description for sharing" />
     <MESSAGE value="adjusted presets layer names again (KilperKit 01, 02), removed old presets" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted presets layer names again (KilperKit 01, 02), removed old presets" />
+    <MESSAGE value="adjusted preset layer names again (KilperKit 01, 02), removed old presets" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted preset layer names again (KilperKit 01, 02), removed old presets" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="235" y="113" key="#Deployment" timestamp="1595288460443">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="235" y="113" key="#Deployment/0.23.1680.977@0.23.1680.977" timestamp="1595288460443" />
     <state x="868" y="347" key="#File_Watchers" timestamp="1590833886035">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -196,12 +207,12 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="733" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1590833944913" />
-    <state x="143" y="23" width="1147" height="720" key="CommitChangelistDialog2" timestamp="1595288349500">
+    <state x="143" y="23" width="1147" height="720" key="CommitChangelistDialog2" timestamp="1595288570040">
       <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="109" y="0" width="1147" height="720" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1595282776728" />
     <state x="123" y="34" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1590853549309" />
-    <state x="143" y="23" key="CommitChangelistDialog2/0.23.1680.977@0.23.1680.977" timestamp="1595288349500" />
+    <state x="143" y="23" key="CommitChangelistDialog2/0.23.1680.977@0.23.1680.977" timestamp="1595288570040" />
     <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1595274998216">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -230,19 +241,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="352" y="60" key="VCS.ChangeListViewerDialog/0.0.1280.720@0.0.1280.720" timestamp="1595274688030" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1595279031456">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="306" y="151" key="Vcs.Push.Dialog.v2" timestamp="1595288579138">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
     <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1595279031456" />
+    <state x="306" y="151" key="Vcs.Push.Dialog.v2/0.23.1680.977@0.23.1680.977" timestamp="1595288579138" />
     <state x="615" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590831070651">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="615" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1590831070651" />
-    <state x="458" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595278758601">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="601" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595349752608">
+      <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="458" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1595278758601" />
     <state x="515" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1591023856278" />
+    <state x="601" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.976@0.23.1680.976" timestamp="1595349752608" />
+    <state x="601" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.977@0.23.1680.977" timestamp="1595314752760" />
     <state x="351" y="100" width="579" height="598" key="find.popup" timestamp="1595281862464">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -255,10 +269,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="356" y="257" key="git4idea.merge.GitMergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1590852985169" />
-    <state x="398" y="79" width="882" height="921" key="search.everywhere.popup" timestamp="1595286499430">
-      <screen x="0" y="23" width="1680" height="977" />
+    <state x="398" y="79" width="882" height="921" key="search.everywhere.popup" timestamp="1595350564426">
+      <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1595281689836" />
+    <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1595350564426" />
     <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.977@0.23.1680.977" timestamp="1595286499430" />
     <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1595284510060" />
   </component>
