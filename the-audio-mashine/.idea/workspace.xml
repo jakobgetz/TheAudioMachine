@@ -25,11 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de9b6437-1caa-464c-90c2-5da8c479730e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Assets/preview.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Assests/preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/BPM.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/BPM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sequencer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sequencer/Footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +102,8 @@
       <workItem from="1595187865927" duration="936000" />
       <workItem from="1595273636617" duration="8326000" />
       <workItem from="1595312372755" duration="2079000" />
+      <workItem from="1595363884971" duration="6000" />
+      <workItem from="1595405400697" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="add necessary libraries and change buttons on player&#10;&#10;(cherry picked from commit 17f5266e1d6beb37b02876b70ae9871068038a61)">
       <created>1590853549452</created>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595359552076</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change og properties and added new preview image">
+      <created>1595363820562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595363820562</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +199,8 @@
     <MESSAGE value="adjusted presets layer names again (KilperKit 01, 02), removed old presets" />
     <MESSAGE value="adjusted preset layer names again (KilperKit 01, 02), removed old presets" />
     <MESSAGE value="added bpm value to slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bpm value to slider" />
+    <MESSAGE value="change og properties and added new preview image" />
+    <option name="LAST_COMMIT_MESSAGE" value="change og properties and added new preview image" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -218,10 +227,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="733" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1590833944913" />
-    <state x="109" y="0" width="1147" height="720" key="CommitChangelistDialog2" timestamp="1595359551392">
+    <state x="109" y="0" width="1147" height="720" key="CommitChangelistDialog2" timestamp="1595363819368">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="109" y="0" width="1147" height="720" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1595359551392" />
+    <state x="109" y="0" width="1147" height="720" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1595363819368" />
     <state x="123" y="34" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1590853549309" />
     <state x="143" y="23" key="CommitChangelistDialog2/0.23.1680.977@0.23.1680.977" timestamp="1595288570040" />
     <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1595274998216">
@@ -252,10 +261,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="352" y="60" key="VCS.ChangeListViewerDialog/0.0.1280.720@0.0.1280.720" timestamp="1595274688030" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1595359553396">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1595363822882">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1595359553396" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1595363822882" />
     <state x="306" y="151" key="Vcs.Push.Dialog.v2/0.23.1680.977@0.23.1680.977" timestamp="1595288579138" />
     <state x="615" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590831070651">
       <screen x="0" y="23" width="1440" height="877" />
@@ -268,10 +277,10 @@
     <state x="515" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1591023856278" />
     <state x="601" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.976@0.23.1680.976" timestamp="1595349752608" />
     <state x="601" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.977@0.23.1680.977" timestamp="1595314752760" />
-    <state x="351" y="100" width="579" height="598" key="find.popup" timestamp="1595355935200">
+    <state x="351" y="100" width="579" height="598" key="find.popup" timestamp="1595405862935">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="351" y="100" width="579" height="598" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1595355935200" />
+    <state x="351" y="100" width="579" height="598" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1595405862935" />
     <state x="320" y="181" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590839290699">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -280,10 +289,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="356" y="257" key="git4idea.merge.GitMergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1590852985169" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1595361781698">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1595405530934">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1595361781698" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1595405530934" />
     <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.976@0.23.1680.976" timestamp="1595350564426" />
     <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.977@0.23.1680.977" timestamp="1595286499430" />
     <state x="398" y="79" width="882" height="921" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1595284510060" />
