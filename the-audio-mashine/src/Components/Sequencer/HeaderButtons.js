@@ -35,10 +35,10 @@ class HeaderButtons extends Component {
                     </div>
 */}
                 <div className="header-button export">
-                    <i className="fas left fa-download" onClick={(e) => this.props.export()}></i>
+                    <i className="fas left fa-download" onClick={(e) => this.props.export()}/>
                 </div>
                 <div className="header-button" id={"rec"}>
-                    <i className="fas left fa-circle rec "onClick={(e) => this.recording()}></i>
+                    <i className="fas left fa-circle rec " onClick={(e) => this.recording()}/>
                 </div>
             </div>
         );

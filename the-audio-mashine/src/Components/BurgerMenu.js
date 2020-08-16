@@ -3,7 +3,7 @@ import About from "./About/About";
 import Contact from "./Contact/Contact";
 // More info: https://github.com/negomi/react-burger-menu
 import {slide as Menu} from 'react-burger-menu';
-import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Link, Route, Switch, withRouter} from "react-router-dom";
 import Sequencer from "./Sequencer/Sequencer";
 
 import '../CSS/burgerMenu.scss'
@@ -16,7 +16,7 @@ class BurgerMenu extends Component {
 
     render() {
         return (
-            <Router>
+            <BrowserRouter>
                 <div>
                     <div>
                         <Menu>
@@ -38,19 +38,13 @@ class BurgerMenu extends Component {
                             </nav>
                         </Menu>
                         <Switch>
-                            <Route path="/about">
-                                <About/>
-                            </Route>
-                            <Route path="/contact">
-                                <Contact/>
-                            </Route>
-                            <Route path="/">
-                                <Sequencer/>
-                            </Route>
+                            <Route path="/about" component={withRouter(About)}/>
+                            <Route path="/contact" component={withRouter(Contact)}/>
+                            <Route exact path="/" component={withRouter(Sequencer)}/>
                         </Switch>
                     </div>
                 </div>
-            </Router>
+            </BrowserRouter>
         );
     }
 }
