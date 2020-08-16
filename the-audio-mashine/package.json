@@ -31,7 +31,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "transfer": "rsync -avz --delete --progress --chmod=ugo=rwX -e 'ssh -i ~/.ssh/id_rsa -p 22222' build/ TheAudioMachine@im-prod.hdm-stuttgart.de:www/",
-    "deploy": "npm run build && npm run transfer"
+    "win-transfer": "rsync -avz --delete --progress --chmod=ugo=rwX -e 'ssh -i %homepath%\\.ssh\\id_rsa -p 22222' build/ TheAudioMachine@im-prod.hdm-stuttgart.de:www/",
+    "deploy": "npm run build && npm run transfer",
+    "win-deploy": "npm run build && npm run win-transfer"
   },
   "scriptsComments": {
     "transfer": "Transfers the build folder to the remote www folder on the server. rsync arguments: a=archive mode, v=increase verbosity, z=compress data during the transfer"

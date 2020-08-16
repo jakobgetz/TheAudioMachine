@@ -1,4 +1,4 @@
-//VAriables
+//Variables
 
 @import "variables";
 @import "header";
@@ -121,4 +121,16 @@ html {
 
 .fa-play:hover {
   font-size: 7vh;
+}
+
+.contact {
+  color: white;
+
+  .person {
+
+    img {
+      width: 15vh;
+      border-radius: 50%;
+    }
+  }
 }
