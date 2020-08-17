@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Person from "../About/Person";
+import Person from "../about/Person";
 
 class Contact extends Component {
     render() {

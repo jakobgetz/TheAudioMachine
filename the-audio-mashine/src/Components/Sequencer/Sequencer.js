@@ -2,8 +2,8 @@ import * as React from 'react';
 import BPM from "./BPM";
 import Player from "./Player";
 import PresetBrowser from "./PresetBrowser";
-import SampleMenu from "./SampleMenu/SampleMenu";
-import Sequence from "./Layer/Sequence";
+import SampleMenu from "./sampleMenu/SampleMenu";
+import Sequence from "./layer/Sequence";
 import HeaderButtons from "./HeaderButtons";
 import Footer from "./Footer";
 
