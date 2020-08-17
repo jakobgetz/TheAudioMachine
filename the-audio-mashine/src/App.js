@@ -1,8 +1,8 @@
 import React from 'react'
-import BurgerMenu from "./Components/BurgerMenu"
-import Sequencer from "./Components/Sequencer/Sequencer";
-import "./CSS3/main.scss"
-import "./CSS2/fontawesome-free-5.13.0-web/css/all.min.css"
+import BurgerMenu from "./components/BurgerMenu"
+import Sequencer from "./components/sequencer/Sequencer";
+import "./css/main.scss"
+import "./css/fontawesome-free-5.13.0-web/css/all.min.css"
 
 function App() {
     return (

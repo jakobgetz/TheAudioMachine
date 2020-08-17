@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import About from "./About/About";
-import Contact from "./Contact/Contact";
+import About from "./about/About";
+import Contact from "./contact/Contact";
 // More info: https://github.com/negomi/react-burger-menu
 import {slide as Menu} from 'react-burger-menu';
 import {BrowserRouter, Link, Route, Switch, withRouter} from "react-router-dom";
-import Sequencer from "./Sequencer/Sequencer";
+import Sequencer from "./sequencer/Sequencer";
 
-import '../CSS/burgerMenu.scss'
+//import '../css/burgerMenu.scss'
 
 class BurgerMenu extends Component {
     menuOpen = false;
