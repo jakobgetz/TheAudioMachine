@@ -59,8 +59,15 @@ export const TEAM_IMAGE_CROPPER = styled.div`
   display: inline-block;
 `;
 
+interface ImageProps {
+  theme: Theme;
+  push: number;
+}
+
 export const TEAM_IMAGE = styled.img`
   height: ${15 * scale}vw;
+  position: relative;
+  right: ${(p: ImageProps) => p.push * scale}vw;
 `;
 
 export const TEAM_TEXT = styled.div`
