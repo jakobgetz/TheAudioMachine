@@ -1,0 +1,551 @@
+{
+  "bpm": 70,
+  "layers": [
+    {
+      "id": 0,
+      "name": "KICK",
+      "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo01_BD.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 1,
+      "name": "SNARE",
+      "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo01_SD01.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 100,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 2,
+      "name": "CLAP",
+      "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo01_Clap.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 3,
+      "name": "HAT 1",
+      "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo01_OHH.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 4,
+      "name": "HAT 2",
+      "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo01_CHH.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 5,
+      "name": "PERC",
+      "sampleFilePath": "./DefaultSamples/Downtempo/Downtempo01_SD02.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    }
+  ]
+}
