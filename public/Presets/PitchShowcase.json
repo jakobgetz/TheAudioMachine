@@ -1,0 +1,51 @@
+{
+  "bpm": 100,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Voc",
+      "sampleFilePath": "./DefaultSamples/Ayy.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 100,
+          "pitch": 0.125
+        },
+        {
+          "id": 1,
+          "velocity": 100,
+          "pitch": 0.25
+        },
+        {
+          "id": 2,
+          "velocity": 100,
+          "pitch": 0.5
+        },
+        {
+          "id": 3,
+          "velocity": 100,
+          "pitch": 0.6
+        },
+        {
+          "id": 4,
+          "velocity": 100,
+          "pitch": 0.7
+        },
+        {"id": 5, "velocity": 100, "pitch": 0.8},
+        {"id": 6, "velocity": 100, "pitch": 0.9},
+        {"id": 7, "velocity": 100, "pitch": 1},
+        {"id": 8, "velocity": 100, "pitch": 1.2},
+        {"id": 9, "velocity": 100, "pitch": 1.5},
+        {"id": 10, "velocity": 100, "pitch": 1.75},
+        {"id": 11, "velocity": 100, "pitch": 2},
+        {"id": 12, "velocity": 100, "pitch": 3},
+        {"id": 13, "velocity": 100, "pitch": 4},
+        {"id": 14, "velocity": 100, "pitch": 8},
+        {"id": 15, "velocity": 100, "pitch": 16}
+      ]
+    }
+  ]
+}

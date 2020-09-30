@@ -1,0 +1,8 @@
+export const SET_SETTINGS = 'SET-SETTINGS'
+export const SET_BPM = 'SET_BPM'
+export const SET_VOLUME = 'SET_VOLUME'
+export const SET_TRIGGER = 'SET_TRIGGER'
+export const SET_LAYER_VOLUME = 'SET_LAYER_VOLUME'
+export const SET_LAYER_PAN = 'SET_LAYER_PAN'
+export const SET_MUTE = 'SET_MUTE'
+export const SET_SOLO = 'SET_SOLO'
