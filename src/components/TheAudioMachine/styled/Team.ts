@@ -49,14 +49,15 @@ export const TEAM_CONTENT = styled.div`
 export const TEAM_HEADING = styled.div`
   grid-column: 1 / -1;
   font-size: ${3 * scale}vw;
-  margin: ${1 * scale}vw ${3 * scale}vw ${0 * scale}vw ${2 * scale}vw;
+  margin: ${1 * scale}vw ${3 * scale}vw ${1 * scale}vw ${2 * scale}vw;
 `;
 
 export const TEAM_IMAGE_CROPPER = styled.div`
   height: ${15 * scale}vw;
-  width: ${12.5 * scale}vw;
+  width: ${15 * scale}vw;
   overflow: hidden;
   display: inline-block;
+  border-radius: 50%;
 `;
 
 interface ImageProps {
@@ -73,6 +74,8 @@ export const TEAM_IMAGE = styled.img`
 export const TEAM_TEXT = styled.div`
   display: flex;
   flex-direction: column;
+  align-self: center;
+  margin-left: 2vw;
 `;
 
 export const TEAM_NAME = styled.div`

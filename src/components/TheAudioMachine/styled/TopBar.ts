@@ -49,6 +49,7 @@ float: left;
 export const RECORD = styled.div`
 ${topButton}
 float: left;
+color: red;
 
 &::before {
   content: "\f111";

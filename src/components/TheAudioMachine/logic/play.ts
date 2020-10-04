@@ -4,8 +4,9 @@ import { samples } from './samples'
 
 let settings: Settings = store.getState().tam.settings
 let isPlaying: boolean = false
-// window.AudioContext = window.AudioContext || window.webkitAudioContext
+let isRecording: boolean = false
 let playHeadPosition: number = 0
+// window.AudioContext = window.AudioContext || window.webkitAudioContext
 let ctx: AudioContext = new AudioContext()
 let masterGain: GainNode = ctx.createGain()
 let volumes: GainNode[]
@@ -13,8 +14,13 @@ let layerPans: StereoPannerNode[]
 let audioBuffer: number = 0.01
 let samplePlayer: AudioBufferSourceNode[]
 let sampleGain: GainNode[]
-
 let delay: number
+
+//Audio recording
+let mediaRecorder: MediaRecorder
+let audioChunks: BlobPart[];
+const audioType = 'audio/wav';
+let downloadButton = document.querySelector("DOWNLOAD");
 
 masterGain.gain.setValueAtTime(settings.volume, ctx.currentTime)
 masterGain.connect(ctx.destination)
@@ -46,15 +52,26 @@ const fillLayerPanArray = () => {
 fillvolumeArray()
 fillLayerPanArray()
 
+export const toggleRecording = () => {
+    isRecording = !isRecording
+}
+
 export const play = () => {
     if (isPlaying) {
         store.dispatch(togglePlay())
         playHeadPosition = 0
         isPlaying = false
+        if (isRecording) {
+            isRecording = false
+            stopRecording()
+        }
         masterGain.disconnect()
     } else {
         store.dispatch(togglePlay())
         isPlaying = true
+        if (isRecording) {
+            startRecording()
+        }
         masterGain.connect(ctx.destination)
         playSequence()
     }
@@ -87,7 +104,7 @@ const setUpNodes = () => {
             volumes[i].connect(masterGain)
             setVelocity(i)
             setPitch(i)
-            setvolume(i)
+            setVolume(i)
             setLayerPan(i)
             setLayerMute(i)
             if (samples[i] !== null)
@@ -104,7 +121,7 @@ const setPitch = (i: number) => {
     samplePlayer[i].playbackRate.value = settings.layers[i].rhythm[playHeadPosition].pitch
 }
 
-const setvolume = (i: number) => {
+const setVolume = (i: number) => {
     volumes[i].gain.value = settings.layers[i].volume / 100
 }
 
@@ -126,5 +143,29 @@ const playBackSamples = () => {
         if (settings.layers[i].rhythm[playHeadPosition].velocity !== 0) {
             samplePlayer[i].start(playTime);
         }
+    }
+}
+
+const startRecording = () => {
+    var dest = ctx.createMediaStreamDestination();
+    mediaRecorder = new MediaRecorder(dest.stream);
+    mediaRecorder.ondataavailable = e => {
+        if (e.data && e.data.size > 0) {
+            audioChunks.push(e.data);
+        }
+    };
+    audioChunks = [];
+    mediaRecorder.start(10);
+}
+
+const stopRecording = () => {
+    mediaRecorder.stop();
+    saveAudio();
+}
+
+const saveAudio = () => {
+    const blob = new Blob(audioChunks, { type: audioType });
+    if (blob != undefined) {
+
     }
 }
