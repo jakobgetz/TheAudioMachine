@@ -27,7 +27,7 @@ export const Team = () => {
           <TEAM_IMAGE
             src="/assets/images/team/pascal_escher_portrait.jpg"
             alt="Pascal Escher"
-            push={1}
+            push={0}
           />
         </TEAM_IMAGE_CROPPER>
         <TEAM_TEXT>
@@ -36,7 +36,7 @@ export const Team = () => {
         </TEAM_TEXT>
         <TEAM_IMAGE_CROPPER>
           <TEAM_IMAGE
-            src="/assets/images/team/unbekannt_portrait.jpeg"
+            src="/assets/images/team/unbekannt_portrait.jpg"
             alt="Joris Kaufmann"
             push={0}
           />
@@ -47,7 +47,7 @@ export const Team = () => {
         </TEAM_TEXT>
         <TEAM_IMAGE_CROPPER>
           <TEAM_IMAGE
-            src="/assets/images/team/steffen_marquardt_portrait.JPG"
+            src="/assets/images/team/steffen_marquardt_portrait.jpg"
             alt="Steffen Marquardt"
             push={5}
           />
@@ -58,7 +58,7 @@ export const Team = () => {
         </TEAM_TEXT>
         <TEAM_IMAGE_CROPPER>
           <TEAM_IMAGE
-            src="/assets/images/team/jakob_getz_portrait.jpeg"
+            src="/assets/images/team/jakob_getz_portrait.jpg"
             alt="Jakob Getz"
             push={0}
           />
@@ -69,7 +69,7 @@ export const Team = () => {
         </TEAM_TEXT>
         <TEAM_IMAGE_CROPPER>
           <TEAM_IMAGE
-            src="/assets/images/team/unbekannt_portrait.jpeg"
+            src="/assets/images/team/unbekannt_portrait.jpg"
             alt="Umut Cocak"
             push={0}
           />
@@ -80,7 +80,7 @@ export const Team = () => {
         </TEAM_TEXT>
         <TEAM_IMAGE_CROPPER>
           <TEAM_IMAGE
-            src="/assets/images/team/unbekannt_portrait.jpeg"
+            src="/assets/images/team/unbekannt_portrait.jpg"
             alt="Benedikt Ludwig"
             push={0}
           />

@@ -15,6 +15,10 @@ import {
 } from '../logic'
 
 import {
+   toggleRecording
+} from '../logic/play'
+
+import {
     TOP_BAR,
     DOWNLOAD,
     RECORD,
@@ -35,7 +39,7 @@ export const TopBar = () => {
     return (
         <TOP_BAR>
             <DOWNLOAD />
-            <RECORD />
+            <RECORD onClick={toggleRecording}/>
             <TOGGLE_THEME onClick={() => dispatch(toggleTheme())} />
             <ABOUT onClick={() => dispatch(toggleAbout())} />
             <DELETE onClick={resetTriggers} />

@@ -34,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "transfer": "rsync -avz --delete --progress --chmod=ugo=rwX -e 'ssh -i ~/.ssh/id_rsa -p 22222' build/ TheAudioMachine@im-prod.hdm-stuttgart.de:www/",
+    "deploy": "npm run build && npm run transfer"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@types/dom-mediacapture-record": "^1.0.7",
     "@types/styled-components": "^5.1.3"
   }
 }
