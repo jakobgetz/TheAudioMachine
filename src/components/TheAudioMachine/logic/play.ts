@@ -17,10 +17,9 @@ let sampleGain: GainNode[]
 let delay: number
 
 //Audio recording
-let mediaRecorder: MediaRecorder
+let mediaRecorder = new MediaRecorder(ctx.createMediaStreamDestination().stream);
 let audioChunks: BlobPart[];
-const audioType = 'audio/wav';
-let downloadButton = document.querySelector("DOWNLOAD");
+const audioType = { 'type': 'audio/wav; codecs=0' };
 
 masterGain.gain.setValueAtTime(settings.volume, ctx.currentTime)
 masterGain.connect(ctx.destination)
@@ -147,25 +146,36 @@ const playBackSamples = () => {
 }
 
 const startRecording = () => {
-    var dest = ctx.createMediaStreamDestination();
-    mediaRecorder = new MediaRecorder(dest.stream);
-    mediaRecorder.ondataavailable = e => {
-        if (e.data && e.data.size > 0) {
-            audioChunks.push(e.data);
-        }
-    };
-    audioChunks = [];
-    mediaRecorder.start(10);
+    if (mediaRecorder.state === "inactive") {
+        audioChunks = [];
+        mediaRecorder.start();
+    }
 }
 
 const stopRecording = () => {
-    mediaRecorder.stop();
-    saveAudio();
+    if (mediaRecorder.state === "recording") {
+        mediaRecorder.stop();
+    }
 }
 
 const saveAudio = () => {
-    const blob = new Blob(audioChunks, { type: audioType });
-    if (blob != undefined) {
-
+    const blob = new Blob(audioChunks, audioType);
+    if (blob !== undefined) {
+        let link = window.document.createElement('a');
+        link.href = window.URL.createObjectURL(blob);
+        link.download = 'TheAudioMachine.wav';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     }
+}
+
+mediaRecorder.ondataavailable = (e) => {
+    if (e.data && e.data.size > 0) {
+        audioChunks.push(e.data);
+    }
+}
+
+mediaRecorder.onstop = () => {
+    saveAudio();
 }
