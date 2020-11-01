@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components'
+import styled, {css} from 'styled-components'
 
-import { scale, borderSize } from './TheAudioMachine'
+import {borderSize, scale} from './TheAudioMachine'
 
 export const TOP_BAR = styled.div`
 grid-column: 1 / -1;
@@ -21,7 +21,7 @@ display: inline-block;
   pointer-events: all;
   transition-duration: 0.25s;
   overflow: hidden;
-  padding-top: ${0.7 * scale}vw;
+  padding-top: ${0.5 * scale}vw;
 
   &::before {
     display: flex;
@@ -110,6 +110,6 @@ export const PRESET = styled.div`
 ${topButton}
 width: ${13 * scale}vw;
 text-align: left;
-padding-left: ${1 * scale}vw;
+padding-left: ${scale}vw;
 font-size: ${1.5 * scale}vw;
 `
