@@ -64,7 +64,7 @@ export const SLIDER = styled.div`
       pointer-events: all;
     }
     &::-moz-range-thumb {
-       appearance: none;
+      appearance: none;
       width: ${2 * scale}vw;
       height: ${2 * scale}vw;
       background-color: ${(p: Props) =>

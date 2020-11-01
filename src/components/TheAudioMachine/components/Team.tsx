@@ -35,9 +35,9 @@ export const Team = () => {
                     <TEAM_NAME>Pascal Escher</TEAM_NAME>
                     <TEAM_DEPARTMENT>Coding</TEAM_DEPARTMENT>
                     <TEAM_LINK>
-                        <a href={"https://www.xing.com/profile/Pascal_Escher"}>
+                        <a href={"https://www.xing.com/profile/Pascal_Escher"} title="Xing-Profil">
                             <i className="fab fa-xing"/></a>
-                        <a href={"https://handicraft-band.de/"}>
+                        <a href={"https://handicraft-band.de/"} title="Handicraft-Band">
                             <i className="fas fa-music"/></a>
                     </TEAM_LINK>
                 </TEAM_TEXT>
