@@ -27,13 +27,13 @@ display: inline-block;
     display: flex;
     justify-content: center;
     font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: ${1.3 * scale}vw;
+    font-weight: 900;
+    font-size: ${1.3 * scale}vw;
   }
 
   &:hover {
-background-color: ${p => p.theme.nav};
-color: ${p => p.theme.primary};
+    background-color: ${p => p.theme.nav};
+    color: ${p => p.theme.primary};
   }
 `
 
