@@ -90,14 +90,14 @@ export const TEAM_DEPARTMENT = styled.div`
 export const TEAM_LINK = styled.div`
 
   i {
-    font-size: ${2.0 * scale}vw;
-    color: ${(p) => p.theme.primary};
+    font-size: ${1.5 * scale}vw;
+    color: ${(p) => p.theme.nav};
     margin-right: 1vw;
     font-weight: 900;
     position: relative;
     
     &:hover::before {
-    color: ${(p) => p.theme.accent};
+    color: ${(p) => p.theme.primary};
     }
   } 
 `;
