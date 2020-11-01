@@ -1,8 +1,8 @@
-import styled, { css } from "styled-components";
+import styled, {css} from "styled-components";
 
 import Theme from "../../../themes";
 
-import { scale, borderSize } from "./TheAudioMachine";
+import {borderSize, scale} from "./TheAudioMachine";
 
 export const SETTINGS = styled.div`
   display: flex;
@@ -27,9 +27,9 @@ export const LAYER_SETTINGS = styled.div`
 `;
 
 interface Props {
-  theme: Theme;
-  layerId: number;
-  slider: number;
+    theme: Theme;
+    layerId: number;
+    slider: number;
 }
 
 export const SLIDER = styled.div`
@@ -48,20 +48,34 @@ export const SLIDER = styled.div`
     border-radius: 100vw;
     border: ${borderSize * scale}vw solid
       ${(p: Props) =>
-        p.layerId === -1 ? p.theme.nav : p.theme.layerColorsActive[p.layerId]};
+    p.layerId === -1 ? p.theme.nav : p.theme.layerColorsActive[p.layerId]};
     pointer-events: all;
     transition-duration: 0.25s;
 
     &::-webkit-slider-thumb {
       -webkit-appearance: none;
       appearance: none;
-      width: ${2.5 * scale}vw;
-      height: ${2.5 * scale}vw;
+      width: ${2 * scale}vw;
+      height: ${2 * scale}vw;
       background-color: ${(p: Props) =>
-        p.layerId === -1 ? p.theme.nav : p.theme.layerColorsActive[p.layerId]};
+    p.layerId === -1 ? p.theme.nav : p.theme.layerColorsActive[p.layerId]};
       border-radius: 100vh;
       cursor: pointer;
       pointer-events: all;
+    }
+    &::-moz-range-thumb {
+       appearance: none;
+      width: ${2 * scale}vw;
+      height: ${2 * scale}vw;
+      background-color: ${(p: Props) =>
+    p.layerId === -1 ? p.theme.nav : p.theme.layerColorsActive[p.layerId]};
+      border-radius: 100vh;
+      cursor: pointer;
+      pointer-events: all;
+    }
+    
+    &:hover {
+    box-shadow: 0 0 .9vh .5vh #998f84;
     }
   }
   color: ${(p: Props) =>
@@ -70,53 +84,54 @@ export const SLIDER = styled.div`
 
   &::before {
     ${(p: Props) => {
-      switch (p.slider) {
+    switch (p.slider) {
         case 0:
-          return css`
+            return css`
             content: "\f026";
           `;
         case 1:
-          return css`
+            return css`
             content: "\f004";
           `;
         case 2:
-          return css`
+            return css`
             content: "\f026";
           `;
         case 3:
-          return css`
+            return css`
             content: "\f359";
           `;
-      }
-    }};
+    }
+}};
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     position: relative;
     left: ${2.4 * scale}vw;
     pointer-events: none;
   }
-
+  
   &::after {
     ${(p: Props) => {
-      switch (p.slider) {
+    switch (p.slider) {
         case 0:
-          return css`
+            return css`
             content: "\f028";
           `;
         case 1:
-          return css`
+            return css`
             content: "\f21e";
           `;
         case 2:
-          return css`
+            return css`
             content: "\f028";
           `;
         case 3:
-          return css`
+            return css`
             content: "\f35a";
           `;
-      }
-    }};
+    }
+
+}};
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     position: absolute;
@@ -124,9 +139,10 @@ export const SLIDER = styled.div`
     pointer-events: none;
   }
 `;
+
 interface UploadProps {
-  layerId: number;
-  theme: Theme;
+    layerId: number;
+    theme: Theme;
 }
 
 export const UPLOAD_SAMPLE = styled.div`
@@ -144,7 +160,7 @@ export const UPLOAD_SAMPLE = styled.div`
     border-radius: 100vw;
     border: ${borderSize * scale}vw solid
       ${(p: UploadProps) =>
-        p.layerId === -1 ? p.theme.nav : p.theme.layerColorsActive[p.layerId]};
+    p.layerId === -1 ? p.theme.nav : p.theme.layerColorsActive[p.layerId]};
     cursor: pointer;
     display: flex;
     align-items: center;

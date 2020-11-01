@@ -1,8 +1,8 @@
-import styled, { css } from 'styled-components'
+import styled, {css} from 'styled-components'
 
 import store from '../../../redux'
 
-import { scale } from './TheAudioMachine'
+import {scale} from './TheAudioMachine'
 
 export const PLAY_BUTTON = styled.div`
     position: absolute;
@@ -29,8 +29,11 @@ font-size: ${4 * scale}vw;
   font-weight: 900;
   ${() => {
     if (!store.getState().tam.graphics.isPlaying)
-      return css`padding-left: ${0.5 * scale}vw`
+        return css`padding-left: ${0.5 * scale}vw`
+}
+}
   }
-  }
+  &:hover {
+     box-shadow: 0 0 .9vh .5vh #998f84;
   }
 `

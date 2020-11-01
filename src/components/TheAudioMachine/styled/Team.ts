@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import Theme from "../../../themes";
 
-import { scale } from "./TheAudioMachine";
+import {scale} from "./TheAudioMachine";
 
 export const TEAM = styled.div`
   position: absolute;
@@ -12,10 +12,10 @@ export const TEAM = styled.div`
   height: 90%;
   left: 10%;
   top: 5%;
-  border: ${0.5 * scale}vw solid ${(p) => p.theme.nav};
   color: ${(p) => p.theme.nav};
   font-size: ${2 * scale}vw;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding: 0 0 0 0;
 `;
 
@@ -49,7 +49,7 @@ export const TEAM_CONTENT = styled.div`
 export const TEAM_HEADING = styled.div`
   grid-column: 1 / -1;
   font-size: ${3 * scale}vw;
-  margin: ${1 * scale}vw ${3 * scale}vw ${1 * scale}vw ${2 * scale}vw;
+  margin: ${scale}vw ${3 * scale}vw ${scale}vw ${2 * scale}vw;
 `;
 
 export const TEAM_IMAGE_CROPPER = styled.div`
@@ -61,8 +61,8 @@ export const TEAM_IMAGE_CROPPER = styled.div`
 `;
 
 interface ImageProps {
-  theme: Theme;
-  push: number;
+    theme: Theme;
+    push: number;
 }
 
 export const TEAM_IMAGE = styled.img`
@@ -83,6 +83,21 @@ export const TEAM_NAME = styled.div`
 `;
 
 export const TEAM_DEPARTMENT = styled.div`
-  font-size: ${1.3 * scale}vw;
-  margin: ${1 * scale}vw 0 ${1 * scale}vw 0;
+  font-size: ${1.5 * scale}vw;
+  margin: ${scale}vw 0 ${scale}vw 0;
+`;
+
+export const TEAM_LINK = styled.div`
+
+  i {
+    font-size: ${2.0 * scale}vw;
+    color: ${(p) => p.theme.primary};
+    margin-right: 1vw;
+    font-weight: 900;
+    position: relative;
+    
+    &:hover::before {
+    color: ${(p) => p.theme.accent};
+    }
+  } 
 `;
