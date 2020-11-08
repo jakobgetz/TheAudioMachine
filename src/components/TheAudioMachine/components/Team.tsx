@@ -1,7 +1,7 @@
 import React from "react";
-import { useDispatch } from "react-redux";
+import {useDispatch} from "react-redux";
 
-import { toggleAbout } from "../../../redux";
+import {toggleAbout} from "../../../redux";
 
 import {
   CLOSE_TEAM,
@@ -35,22 +35,20 @@ export const Team = () => {
           <TEAM_NAME>Pascal Escher</TEAM_NAME>
           <TEAM_DEPARTMENT>Coding</TEAM_DEPARTMENT>
           <TEAM_LINK>
-            <a
-              href={"https://www.xing.com/profile/Pascal_Escher"}
-              title="Xing-Profil"
-            >
-              <i className="fab fa-xing" />
+            <a href={"https://www.xing.com/profile/Pascal_Escher"}
+               title="Xing-Profil">
+              <i className="fab fa-xing"/>
             </a>
             <a href={"https://handicraft-band.de/"} title="Handicraft-Band">
-              <i className="fas fa-music" />
+              <i className="fas fa-music"/>
             </a>
           </TEAM_LINK>
         </TEAM_TEXT>
         <TEAM_IMAGE_CROPPER>
           <TEAM_IMAGE
-            src="/assets/images/team/unbekannt_portrait.jpg"
-            alt="Joris Kaufmann"
-            push={0}
+              src="/assets/images/team/joris_kaufmann_portrait.jpg"
+              alt="Joris Kaufmann"
+              push={0}
           />
         </TEAM_IMAGE_CROPPER>
         <TEAM_TEXT>
@@ -78,9 +76,9 @@ export const Team = () => {
         </TEAM_TEXT>
         <TEAM_IMAGE_CROPPER>
           <TEAM_IMAGE
-            src="/assets/images/team/jakob_getz_portrait.jpg"
-            alt="Jakob Getz"
-            push={0}
+              src="/assets/images/team/jakob_getz_portrait.jpg"
+              alt="Jakob Getz"
+              push={1}
           />
         </TEAM_IMAGE_CROPPER>
         <TEAM_TEXT>
