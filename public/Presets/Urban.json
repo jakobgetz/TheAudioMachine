@@ -458,7 +458,7 @@
     },
     {
       "id": 5,
-      "name": "Tambourin",
+      "name": "TAMBOURINE",
       "sampleFilePath": "./DefaultSamples/Urban/Urban01_Tambourin.wav",
       "volume": 80,
       "pan": 0,
