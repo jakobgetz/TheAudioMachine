@@ -10,7 +10,7 @@ export const THE_AUDIO_MACHINE = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 5fr 1fr;
   height: ${((100 * 9) / 16) * scale}vw;
-  width: ${98 * scale}vw;
+  width: ${100 * scale}vw;
   background-color: ${(p) => p.theme.primary};
   border: ${0.3 * scale}vw solid ${(p) => p.theme.accent};
   border-radius: ${2 * scale}vw;

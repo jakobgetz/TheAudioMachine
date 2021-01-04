@@ -5,5 +5,5 @@ export default createStore
 // RootState type
 export type { RootState } from './store'
 
-// The Audo Machine Interfaces / Actions
+// The Audio Machine Interfaces / Actions
 export * from './theAudioMachine'
