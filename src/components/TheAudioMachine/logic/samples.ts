@@ -1,6 +1,7 @@
-import store, { Layer, Settings } from '../../../redux'
+import store, {Layer} from '../../../redux'
 
 export let samples: any[] = []
+let AudioContext = window.AudioContext || (window as any).webkitAudioContext
 
 export const loadSamples = () => {
     const layers = store.getState().tam.settings.layers as Layer[]
@@ -19,16 +20,16 @@ export const uploadSample = (file: File, layerId: number) => {
     const reader = new FileReader();
     reader.readAsArrayBuffer(file);
     reader.onload = () => {
-            new AudioContext().decodeAudioData(reader.result as ArrayBuffer)
-                .then(result => {
-                    samples = samples.map((sample, i) => {
-                        if (i === layerId) {
-                            return result
-                        } else {
-                            return sample
-                        }
-                    })
-                    console.log(samples)
+        new AudioContext().decodeAudioData(reader.result as ArrayBuffer)
+            .then(result => {
+                samples = samples.map((sample, i) => {
+                    if (i === layerId) {
+                        return result
+                    } else {
+                        return sample
+                    }
                 })
+                console.log(samples)
+            })
     }
 }

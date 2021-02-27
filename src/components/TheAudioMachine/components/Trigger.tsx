@@ -1,14 +1,9 @@
-import React, { useRef/*, useEffect*/ } from 'react'
-import { /*useSelector,*/ useDispatch } from 'react-redux'
+import React, {useRef} from 'react'
+import {useDispatch} from 'react-redux'
 
-import {
-    /*RootState,*/
-    setTrigger
-} from '../../../redux'
+import {setTrigger} from '../../../redux'
 
-import {
-    TRIGGER
-} from '../styled'
+import {TRIGGER} from '../styled'
 
 // import gsap from 'gsap'
 
@@ -18,15 +13,10 @@ interface Props {
     velocity: number
 }
 
-// let timeline: TimelineLite
-
 export const Trigger: React.FC<Props> = props => {
 
-    const { layerId, triggerId, velocity } = props
-
-    // const { isPlaying, playHeadPosition } = useSelector((state: RootState) => state.tam.graphics)
+    const {layerId, triggerId, velocity} = props
     const dispatch = useDispatch()
-
     let note = useRef(null)
 
     // useEffect(() => {
@@ -42,7 +32,7 @@ export const Trigger: React.FC<Props> = props => {
 
     return (
         <TRIGGER layerId={layerId} triggerId={triggerId} velocity={velocity}>
-            <div onClick={() => dispatch(setTrigger(layerId, triggerId))} ref={note}></div>
+            <div onClick={() => dispatch(setTrigger(layerId, triggerId))} ref={note}/>
         </TRIGGER>
     )
 }
