@@ -1,12 +1,12 @@
-import store, { Settings, togglePlay, incrementPlayHeadPosition } from '../../../redux'
-import { samples } from './samples'
+import store, {incrementPlayHeadPosition, Settings, togglePlay} from '../../../redux'
+import {samples} from './samples'
 
 
 let settings: Settings = store.getState().tam.settings
 let isPlaying: boolean = false
 let isRecording: boolean = false
 let playHeadPosition: number = 0
-// window.AudioContext = window.AudioContext || window.webkitAudioContext
+let AudioContext = window.AudioContext || (window as any).webkitAudioContext
 let ctx: AudioContext = new AudioContext()
 let masterGain: GainNode = ctx.createGain()
 let volumes: GainNode[]
