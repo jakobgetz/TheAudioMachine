@@ -1,7 +1,7 @@
 {
   "name": "the-audio-machine",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://jakobgetz.github.io/TheAudioMachine",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "@testing-library/jest-dom": "^4.2.4",
