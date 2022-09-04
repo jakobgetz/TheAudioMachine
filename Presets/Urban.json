@@ -1,0 +1,551 @@
+{
+  "bpm": 95,
+  "layers": [
+    {
+      "id": 0,
+      "name": "KICK",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_BD.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 1,
+      "name": "SNARE",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_SD02.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 2,
+      "name": "SHAKER",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_CHH.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 60,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 59,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 55,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 57,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 55,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 58,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 61,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 59,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 55,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 57,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 61,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 63,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 60,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 56,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 55,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 53,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 3,
+      "name": "HAT",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_OHH.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 85,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 88,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 4,
+      "name": "RIDE",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_Ride.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 5,
+      "name": "TAMBOURINE",
+      "sampleFilePath": "./DefaultSamples/Urban/Urban01_Tambourin.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 82,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 75,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 83,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 91,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 80,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 85,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 77,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    }
+  ]
+}

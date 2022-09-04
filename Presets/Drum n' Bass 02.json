@@ -1,0 +1,551 @@
+{
+  "bpm": 160,
+  "layers": [
+    {
+      "id": 0,
+      "name": "KICK",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_BD.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 1,
+      "name": "SNARE",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_SD.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 30,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 30,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 30,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 2,
+      "name": "CLAP",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_Clap.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 3,
+      "name": "HAT 1",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_CHH.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 4,
+      "name": "HAT 2",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_OHH.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 0,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    },
+    {
+      "id": 5,
+      "name": "TAMBOURINE",
+      "sampleFilePath": "./DefaultSamples/Drum n Bass/Drum n Bass02_Tambourin.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 23,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 35,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 50,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 33,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 21,
+          "pitch": 1
+        },
+        {
+          "id": 5,
+          "velocity": 34,
+          "pitch": 1
+        },
+        {
+          "id": 6,
+          "velocity": 51,
+          "pitch": 1
+        },
+        {
+          "id": 7,
+          "velocity": 31,
+          "pitch": 1
+        },
+        {
+          "id": 8,
+          "velocity": 19,
+          "pitch": 1
+        },
+        {
+          "id": 9,
+          "velocity": 29,
+          "pitch": 1
+        },
+        {
+          "id": 10,
+          "velocity": 48,
+          "pitch": 1
+        },
+        {
+          "id": 11,
+          "velocity": 30,
+          "pitch": 1
+        },
+        {
+          "id": 12,
+          "velocity": 22,
+          "pitch": 1
+        },
+        {
+          "id": 13,
+          "velocity": 35,
+          "pitch": 1
+        },
+        {
+          "id": 14,
+          "velocity": 50,
+          "pitch": 1
+        },
+        {
+          "id": 15,
+          "velocity": 31,
+          "pitch": 1
+        }
+      ],
+      "sample": {}
+    }
+  ]
+}
