@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/static/js/main.50d9fc1e.chunk.js",
-    "main.js.map": "/static/js/main.50d9fc1e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4a99b49b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4a99b49b.js.map",
-    "static/css/2.dcc89689.chunk.css": "/static/css/2.dcc89689.chunk.css",
-    "static/js/2.8fd72737.chunk.js": "/static/js/2.8fd72737.chunk.js",
-    "static/js/2.8fd72737.chunk.js.map": "/static/js/2.8fd72737.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5122810e5563d9c06f49db7a05c9ee48.js": "/precache-manifest.5122810e5563d9c06f49db7a05c9ee48.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.dcc89689.chunk.css.map": "/static/css/2.dcc89689.chunk.css.map",
-    "static/js/2.8fd72737.chunk.js.LICENSE.txt": "/static/js/2.8fd72737.chunk.js.LICENSE.txt",
-    "static/media/all.min.css": "/static/media/fa-solid-900.ee09ad75.woff"
+    "main.js": "/TheAudioMachine/static/js/main.50d9fc1e.chunk.js",
+    "main.js.map": "/TheAudioMachine/static/js/main.50d9fc1e.chunk.js.map",
+    "runtime-main.js": "/TheAudioMachine/static/js/runtime-main.2c424837.js",
+    "runtime-main.js.map": "/TheAudioMachine/static/js/runtime-main.2c424837.js.map",
+    "static/css/2.90ab9dc4.chunk.css": "/TheAudioMachine/static/css/2.90ab9dc4.chunk.css",
+    "static/js/2.5cabb244.chunk.js": "/TheAudioMachine/static/js/2.5cabb244.chunk.js",
+    "static/js/2.5cabb244.chunk.js.map": "/TheAudioMachine/static/js/2.5cabb244.chunk.js.map",
+    "index.html": "/TheAudioMachine/index.html",
+    "precache-manifest.45eec9d7247b16db71778b7115fa4cfe.js": "/TheAudioMachine/precache-manifest.45eec9d7247b16db71778b7115fa4cfe.js",
+    "service-worker.js": "/TheAudioMachine/service-worker.js",
+    "static/css/2.90ab9dc4.chunk.css.map": "/TheAudioMachine/static/css/2.90ab9dc4.chunk.css.map",
+    "static/js/2.5cabb244.chunk.js.LICENSE.txt": "/TheAudioMachine/static/js/2.5cabb244.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/TheAudioMachine/static/media/fa-solid-900.ee09ad75.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a99b49b.js",
-    "static/css/2.dcc89689.chunk.css",
-    "static/js/2.8fd72737.chunk.js",
+    "static/js/runtime-main.2c424837.js",
+    "static/css/2.90ab9dc4.chunk.css",
+    "static/js/2.5cabb244.chunk.js",
     "static/js/main.50d9fc1e.chunk.js"
   ]
 }
