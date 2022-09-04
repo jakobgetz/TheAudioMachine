@@ -36,7 +36,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "transfer": "rsync -avz --delete --progress --chmod=ugo=rwX -e 'ssh -i ~/.ssh/id_rsa -p 22222' build/ TheAudioMachine@im-prod.hdm-stuttgart.de:www/",
-    "deploy": "npm run build && npm run transfer"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -55,6 +56,7 @@
   },
   "devDependencies": {
     "@types/dom-mediacapture-record": "^1.0.7",
-    "@types/styled-components": "^5.1.3"
+    "@types/styled-components": "^5.1.3",
+    "gh-pages": "^4.0.0"
   }
 }
