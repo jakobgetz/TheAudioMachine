@@ -1,0 +1,281 @@
+{
+  "bpm": 128,
+  "layers": [
+    {
+      "id": 0,
+      "name": "KICK",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_BD.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {"id": 5, "velocity": 0, "pitch": 1},
+        {"id": 6, "velocity": 0, "pitch": 1},
+        {"id": 7, "velocity": 0, "pitch": 1},
+        {"id": 8, "velocity": 100, "pitch": 1},
+        {"id": 9, "velocity": 0, "pitch": 1},
+        {"id": 10, "velocity": 0, "pitch": 1},
+        {"id": 11, "velocity": 0, "pitch": 1},
+        {"id": 12, "velocity": 100, "pitch": 1},
+        {"id": 13, "velocity": 0, "pitch": 1},
+        {"id": 14, "velocity": 0, "pitch": 1},
+        {"id": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "id": 1,
+      "name": "SNARE",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_SD01.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"id": 5, "velocity": 0, "pitch": 1},
+        {"id": 6, "velocity": 0, "pitch": 1},
+        {"id": 7, "velocity": 95, "pitch": 1},
+        {"id": 8, "velocity": 0, "pitch": 1},
+        {"id": 9, "velocity": 0, "pitch": 1},
+        {"id": 10, "velocity": 0, "pitch": 1},
+        {"id": 11, "velocity": 0, "pitch": 1},
+        {"id": 12, "velocity": 80, "pitch": 1},
+        {"id": 13, "velocity": 0, "pitch": 1},
+        {"id": 14, "velocity": 0, "pitch": 1},
+        {"id": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "CLAP",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_Clap.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 88,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 85,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"id": 5, "velocity": 0, "pitch": 1},
+        {"id": 6, "velocity": 0, "pitch": 1},
+        {"id": 7, "velocity": 0, "pitch": 1},
+        {"id": 8, "velocity": 0, "pitch": 1},
+        {"id": 9, "velocity": 0, "pitch": 1},
+        {"id": 10, "velocity": 0, "pitch": 1},
+        {"id": 11, "velocity": 0, "pitch": 1},
+        {"id": 12, "velocity": 0, "pitch": 1},
+        {"id": 13, "velocity": 0, "pitch": 1},
+        {"id": 14, "velocity": 0, "pitch": 1},
+        {"id": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "HAT 1",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_CHH.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 95,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 90,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 80,
+          "pitch": 1
+        },
+        {"id": 5, "velocity": 0, "pitch": 1},
+        {"id": 6, "velocity": 90, "pitch": 1},
+        {"id": 7, "velocity": 0, "pitch": 1},
+        {"id": 8, "velocity": 80, "pitch": 1},
+        {"id": 9, "velocity": 85, "pitch": 1},
+        {"id": 10, "velocity": 90, "pitch": 1},
+        {"id": 11, "velocity": 88, "pitch": 1},
+        {"id": 12, "velocity": 85, "pitch": 1},
+        {"id": 13, "velocity": 0, "pitch": 1},
+        {"id": 14, "velocity": 90, "pitch": 1},
+        {"id": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "HAT 2",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_OHH.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 100,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"id": 5, "velocity": 0, "pitch": 1},
+        {"id": 6, "velocity": 100, "pitch": 1},
+        {"id": 7, "velocity": 0, "pitch": 1},
+        {"id": 8, "velocity": 0, "pitch": 1},
+        {"id": 9, "velocity": 0, "pitch": 1},
+        {"id": 10, "velocity": 100, "pitch": 1},
+        {"id": 11, "velocity": 0, "pitch": 1},
+        {"id": 12, "velocity": 0, "pitch": 1},
+        {"id": 13, "velocity": 0, "pitch": 1},
+        {"id": 14, "velocity": 100, "pitch": 1},
+        {"id": 15, "velocity": 0, "pitch": 1}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "RIDE",
+      "sampleFilePath": "./DefaultSamples/Techno/Techno01_Ride.wav",
+      "volume": 80,
+      "pan": 0,
+      "isMute": false,
+      "rhythm": [
+        {
+          "id": 0,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 1,
+          "velocity": 60,
+          "pitch": 1
+        },
+        {
+          "id": 2,
+          "velocity": 95,
+          "pitch": 1
+        },
+        {
+          "id": 3,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {
+          "id": 4,
+          "velocity": 0,
+          "pitch": 1
+        },
+        {"id": 5, "velocity": 85, "pitch": 1},
+        {"id": 6, "velocity": 100, "pitch": 1},
+        {"id": 7, "velocity": 0, "pitch": 1},
+        {"id": 8, "velocity": 0, "pitch": 1},
+        {"id": 9, "velocity": 85, "pitch": 1},
+        {"id": 10, "velocity": 100, "pitch": 1},
+        {"id": 11, "velocity": 0, "pitch": 1},
+        {"id": 12, "velocity": 0, "pitch": 1},
+        {"id": 13, "velocity": 85, "pitch": 1},
+        {"id": 14, "velocity": 100, "pitch": 1},
+        {"id": 15, "velocity": 0, "pitch": 1}
+      ]
+    }
+  ]
+}
