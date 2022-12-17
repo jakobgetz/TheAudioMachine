@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.js": "/TheAudioMachine/static/js/main.50d9fc1e.chunk.js",
-    "main.js.map": "/TheAudioMachine/static/js/main.50d9fc1e.chunk.js.map",
-    "runtime-main.js": "/TheAudioMachine/static/js/runtime-main.2c424837.js",
-    "runtime-main.js.map": "/TheAudioMachine/static/js/runtime-main.2c424837.js.map",
-    "static/css/2.90ab9dc4.chunk.css": "/TheAudioMachine/static/css/2.90ab9dc4.chunk.css",
-    "static/js/2.5cabb244.chunk.js": "/TheAudioMachine/static/js/2.5cabb244.chunk.js",
-    "static/js/2.5cabb244.chunk.js.map": "/TheAudioMachine/static/js/2.5cabb244.chunk.js.map",
+    "main.css": "/TheAudioMachine/static/css/main.c89073ae.css",
+    "main.js": "/TheAudioMachine/static/js/main.820eb3f0.js",
+    "static/media/fa-solid-900.ttf": "/TheAudioMachine/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/TheAudioMachine/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/TheAudioMachine/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/TheAudioMachine/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/TheAudioMachine/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/TheAudioMachine/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/TheAudioMachine/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/TheAudioMachine/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/TheAudioMachine/index.html",
-    "precache-manifest.45eec9d7247b16db71778b7115fa4cfe.js": "/TheAudioMachine/precache-manifest.45eec9d7247b16db71778b7115fa4cfe.js",
-    "service-worker.js": "/TheAudioMachine/service-worker.js",
-    "static/css/2.90ab9dc4.chunk.css.map": "/TheAudioMachine/static/css/2.90ab9dc4.chunk.css.map",
-    "static/js/2.5cabb244.chunk.js.LICENSE.txt": "/TheAudioMachine/static/js/2.5cabb244.chunk.js.LICENSE.txt",
-    "static/media/all.min.css": "/TheAudioMachine/static/media/fa-solid-900.ee09ad75.woff"
+    "main.c89073ae.css.map": "/TheAudioMachine/static/css/main.c89073ae.css.map",
+    "main.820eb3f0.js.map": "/TheAudioMachine/static/js/main.820eb3f0.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c424837.js",
-    "static/css/2.90ab9dc4.chunk.css",
-    "static/js/2.5cabb244.chunk.js",
-    "static/js/main.50d9fc1e.chunk.js"
+    "static/css/main.c89073ae.css",
+    "static/js/main.820eb3f0.js"
   ]
 }

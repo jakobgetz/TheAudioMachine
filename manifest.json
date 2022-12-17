@@ -1,6 +1,13 @@
 {
-  "name": "TheAudioMachine",
   "short_name": "AudioMachine",
+  "name": "TheAudioMachine",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
   "display": "standalone",
   "description": "A nice and smooth sequencer for creating awesome sounds and loops."
 }
