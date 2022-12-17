@@ -18,7 +18,7 @@ const initialState: Settings = {
         {
             id: 0,
             name: 'KICK',
-            sampleFilePath: '/DefaultSamples/Kick.wav',
+            sampleFilePath: './DefaultSamples/Kick.wav',
             volume: 80,
             pan: 0,
             isMute: false,
@@ -45,7 +45,7 @@ const initialState: Settings = {
         {
             id: 1,
             name: "SNARE",
-            sampleFilePath: "/DefaultSamples/Snare.wav",
+            sampleFilePath: "./DefaultSamples/Snare.wav",
             volume: 80,
             pan: 0,
             isMute: false,
@@ -72,7 +72,7 @@ const initialState: Settings = {
         {
             id: 2,
             name: "CLAP",
-            sampleFilePath: "/DefaultSamples/Clap.wav",
+            sampleFilePath: "./DefaultSamples/Clap.wav",
             volume: 80,
             pan: 0,
             isMute: false,
@@ -99,7 +99,7 @@ const initialState: Settings = {
         {
             id: 3,
             name: "HAT",
-            sampleFilePath: "/DefaultSamples/Hat.wav",
+            sampleFilePath: "./DefaultSamples/Hat.wav",
             volume: 80,
             pan: 0,
             isMute: false,
@@ -126,7 +126,7 @@ const initialState: Settings = {
         {
             id: 4,
             name: "CRASH",
-            sampleFilePath: "/DefaultSamples/Crash.wav",
+            sampleFilePath: "./DefaultSamples/Crash.wav",
             volume: 80,
             pan: 0,
             isMute: false,
@@ -153,7 +153,7 @@ const initialState: Settings = {
         {
             id: 5,
             name: "VOC",
-            sampleFilePath: "/DefaultSamples/Ayy.wav",
+            sampleFilePath: "./DefaultSamples/Ayy.wav",
             volume: 80,
             pan: 0,
             isMute: false,

@@ -33,7 +33,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "transfer": "rsync -avz --delete --progress --chmod=ugo=rwX -e 'ssh -i ~/.ssh/id_rsa -p 22222' build/ TheAudioMachine@im-prod.hdm-stuttgart.de:www/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
