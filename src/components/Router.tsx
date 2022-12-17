@@ -8,8 +8,7 @@ const Router: React.FC = () => {
         <BrowserRouter>
             {/* <Header /> */}
             <Routes>
-                {/* TODO: Fix this: https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html */}
-                <Route path='/*' element={<TheAudioMachine/>}></Route>
+                <Route path="/" element={<TheAudioMachine />} />
             </Routes>
         </BrowserRouter>
     )

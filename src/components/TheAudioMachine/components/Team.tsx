@@ -26,7 +26,7 @@ export const Team = () => {
                 <TEAM_HEADING>TEAM</TEAM_HEADING>
                 <TEAM_IMAGE_CROPPER>
                     <TEAM_IMAGE
-                        src="/assets/images/team/pascal_escher_portrait.jpg"
+                        src="assets/images/team/pascal_escher_portrait.jpg"
                         alt="Pascal Escher"
                         push={0}
                     />
@@ -46,7 +46,7 @@ export const Team = () => {
                 </TEAM_TEXT>
                 <TEAM_IMAGE_CROPPER>
                     <TEAM_IMAGE
-                        src="/assets/images/team/joris_kaufmann_portrait.jpg"
+                        src="assets/images/team/joris_kaufmann_portrait.jpg"
                         alt="Joris Kaufmann"
                         push={0}
                     />
@@ -57,7 +57,7 @@ export const Team = () => {
                 </TEAM_TEXT>
                 <TEAM_IMAGE_CROPPER>
                     <TEAM_IMAGE
-                        src="/assets/images/team/steffen_marquardt_portrait.jpg"
+                        src="assets/images/team/steffen_marquardt_portrait.jpg"
                         alt="Steffen Marquardt"
                         push={4}
                     />
@@ -79,7 +79,7 @@ export const Team = () => {
                 </TEAM_TEXT>
                 <TEAM_IMAGE_CROPPER>
                     <TEAM_IMAGE
-                        src="/assets/images/team/jakob_getz_portrait.jpg"
+                        src="assets/images/team/jakob_getz_portrait.jpg"
                         alt="Jakob Getz"
                         push={0.75}
                     />
@@ -98,7 +98,7 @@ export const Team = () => {
                 </TEAM_TEXT>
                 <TEAM_IMAGE_CROPPER>
                     <TEAM_IMAGE
-                        src="/assets/images/team/unbekannt_portrait.jpg"
+                        src="assets/images/team/unbekannt_portrait.jpg"
                         alt="Umut Cocak"
                         push={0}
                     />
@@ -117,7 +117,7 @@ export const Team = () => {
                 </TEAM_TEXT>
                 <TEAM_IMAGE_CROPPER>
                     <TEAM_IMAGE
-                        src="/assets/images/team/benedikt_ludwig_portrait.jpg"
+                        src="assets/images/team/benedikt_ludwig_portrait.jpg"
                         alt="Benedikt Ludwig"
                         push={0.5}
                     />

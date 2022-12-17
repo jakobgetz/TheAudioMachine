@@ -182,7 +182,6 @@ const initialState: Settings = {
 
 // type Action = { type: string, payload: number | Settings | { layerId: number, value: number } | AudioBuffer | { layerId: number, triggerId: number } }
 type Action = { type: string, payload: any }
-type Reducer = (state: Settings, action: Action) => Settings
 
 const reducer = (state: Settings = initialState, action: Action) => {
     switch (action.type) {

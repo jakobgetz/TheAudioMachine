@@ -1,11 +1,7 @@
 import React, { useRef, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import gsap from 'gsap'
-
-import {
-    RootState
-} from '../../../redux'
-
+import {RootState} from '../../../redux'
 import { PLAY_HEAD } from '../styled'
 
 let timeline: TimelineLite

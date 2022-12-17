@@ -16,7 +16,7 @@ const loadWaveFile = async (sampleFilePath: string) => {
 }
 
 export const uploadSample = (file: File, layerId: number) => {
-    // let { layers } = store.getState().tam.settings as Settings
+    //let { layers } = store.getState().tam.settings as Settings
     const reader = new FileReader();
     reader.readAsArrayBuffer(file);
     reader.onload = () => {
