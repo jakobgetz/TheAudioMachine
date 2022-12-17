@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TheAudioMachine/static/css/main.c89073ae.css",
-    "main.js": "/TheAudioMachine/static/js/main.be08c3c1.js",
+    "main.js": "/TheAudioMachine/static/js/main.46ed8b07.js",
     "static/media/fa-solid-900.ttf": "/TheAudioMachine/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/fa-brands-400.ttf": "/TheAudioMachine/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
     "static/media/fa-solid-900.woff2": "/TheAudioMachine/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/TheAudioMachine/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/TheAudioMachine/index.html",
     "main.c89073ae.css.map": "/TheAudioMachine/static/css/main.c89073ae.css.map",
-    "main.be08c3c1.js.map": "/TheAudioMachine/static/js/main.be08c3c1.js.map"
+    "main.46ed8b07.js.map": "/TheAudioMachine/static/js/main.46ed8b07.js.map"
   },
   "entrypoints": [
     "static/css/main.c89073ae.css",
-    "static/js/main.be08c3c1.js"
+    "static/js/main.46ed8b07.js"
   ]
 }
